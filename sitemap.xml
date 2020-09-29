@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.molipre.com/2020/09/29/demo/</loc>
+    <loc>http://blog.molipre.com/2020/09/29/demo/</loc>
     
     <lastmod>2020-09-29</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.molipre.com/music/index.html</loc>
+    <loc>http://blog.molipre.com/music/index.html</loc>
     
     <lastmod>2020-09-27</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.molipre.com/2020/09/27/hello-world/</loc>
+    <loc>http://blog.molipre.com/2020/09/27/hello-world/</loc>
     
     <lastmod>2020-09-27</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.molipre.com/tags/index.html</loc>
+    <loc>http://blog.molipre.com/tags/index.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.molipre.com/messageboard/index.html</loc>
+    <loc>http://blog.molipre.com/messageboard/index.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.molipre.com/link/index.html</loc>
+    <loc>http://blog.molipre.com/link/index.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.molipre.com/images/index.html</loc>
+    <loc>http://blog.molipre.com/images/index.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.molipre.com/categories/index.html</loc>
+    <loc>http://blog.molipre.com/categories/index.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.molipre.com/about/index.html</loc>
+    <loc>http://blog.molipre.com/about/index.html</loc>
     
     <lastmod>2020-09-25</lastmod>
     
@@ -66,7 +66,7 @@
   
 
   <url>
-    <loc>http://www.molipre.com/</loc>
+    <loc>http://blog.molipre.com/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -74,7 +74,7 @@
 
   
   <url>
-    <loc>http://www.molipre.com/tags/highlight/</loc>
+    <loc>http://blog.molipre.com/tags/highlight/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -83,7 +83,7 @@
 
   
   <url>
-    <loc>http://www.molipre.com/categories/Demo/</loc>
+    <loc>http://blog.molipre.com/categories/Demo/</loc>
     <lastmod>2020-09-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

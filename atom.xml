@@ -3,11 +3,11 @@
   <title>一川·MOLIPRE·BLOG</title>
   <icon>https://www.gravatar.com/avatar/313fee614a2feb83f1f78d54aca36e10</icon>
   <subtitle>生活&amp;学习&amp;恋爱の记录</subtitle>
-  <link href="http://www.molipre.com/atom.xml" rel="self"/>
+  <link href="http://blog.molipre.com/atom.xml" rel="self"/>
   
-  <link href="http://www.molipre.com/"/>
+  <link href="http://blog.molipre.com/"/>
   <updated>2020-09-29T06:49:07.255Z</updated>
-  <id>http://www.molipre.com/</id>
+  <id>http://blog.molipre.com/</id>
   
   <author>
     <name>一川</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>demo</title>
-    <link href="http://www.molipre.com/2020/09/29/demo/"/>
-    <id>http://www.molipre.com/2020/09/29/demo/</id>
+    <link href="http://blog.molipre.com/2020/09/29/demo/"/>
+    <id>http://blog.molipre.com/2020/09/29/demo/</id>
     <published>2020-09-29T06:45:53.000Z</published>
     <updated>2020-09-29T06:49:07.255Z</updated>
     
@@ -30,17 +30,17 @@
     
     
     
-    <category term="Demo" scheme="http://www.molipre.com/categories/Demo/"/>
+    <category term="Demo" scheme="http://blog.molipre.com/categories/Demo/"/>
     
     
-    <category term="highlight" scheme="http://www.molipre.com/tags/highlight/"/>
+    <category term="highlight" scheme="http://blog.molipre.com/tags/highlight/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.molipre.com/2020/09/27/hello-world/"/>
-    <id>http://www.molipre.com/2020/09/27/hello-world/</id>
+    <link href="http://blog.molipre.com/2020/09/27/hello-world/"/>
+    <id>http://blog.molipre.com/2020/09/27/hello-world/</id>
     <published>2020-09-27T01:37:49.302Z</published>
     <updated>2020-09-27T01:37:49.302Z</updated>
     
