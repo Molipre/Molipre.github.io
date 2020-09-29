@@ -6,7 +6,7 @@
   <link href="http://www.molipre.com/atom.xml" rel="self"/>
   
   <link href="http://www.molipre.com/"/>
-  <updated>2020-09-27T01:37:49.302Z</updated>
+  <updated>2020-09-29T06:49:07.255Z</updated>
   <id>http://www.molipre.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>demo</title>
+    <link href="http://www.molipre.com/2020/09/29/demo/"/>
+    <id>http://www.molipre.com/2020/09/29/demo/</id>
+    <published>2020-09-29T06:45:53.000Z</published>
+    <updated>2020-09-29T06:49:07.255Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.</p><p>作者: 一川<br>链接: <a href="http://localhost:4000/2020/09/27/hello-world/">http://localhost:4000/2020/09/27/hello-world/</a><br>来源: 一川·MOLIPRE·BLOG<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>]]></content>
+    
+    
+    <summary type="html">A collection of Hello World applications from helloworld.org.</summary>
+    
+    
+    
+    <category term="Demo" scheme="http://www.molipre.com/categories/Demo/"/>
+    
+    
+    <category term="highlight" scheme="http://www.molipre.com/tags/highlight/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
