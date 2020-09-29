@@ -5378,6 +5378,7 @@ blockquote.pullquote.right {
   padding: 1rem;
   width: 30rem;
   background: var(--search-bg);
+  border-radius: 5px;
 }
 @media screen and (max-width: 768px) {
   .search-dialog {
@@ -5443,6 +5444,7 @@ blockquote.pullquote.right {
   border-radius: 2rem;
   background: var(--search-bg);
   color: var(--search-input-color);
+  border-radius: 5px;
 }
 #algolia-search .ais-hits--item.algolia-hit-item {
   position: relative;

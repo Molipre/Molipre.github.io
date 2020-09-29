@@ -109,7 +109,7 @@ $(function () {
             '<hr>' +
             stats +
             '<span class="algolia-logo pull-right">' +
-            '  <img src="' + GLOBAL_CONFIG.root + 'img/algolia.svg" alt="搜索" />' +
+            '  <img src="' + GLOBAL_CONFIG.root + 'img/algolia.svg" alt="Algolia" />' +
             '</span>'
           )
         }
