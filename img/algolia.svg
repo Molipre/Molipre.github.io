@@ -1,7 +1,12 @@
-<svg width="815" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="835" height="300" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="302" width="837" y="-1" x="-1"/>
+ </g>
  <g>
   <title>Layer 1</title>
-  <text font-style="italic" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="245" id="svg_1" y="217.130536" x="11.18845" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#535F75">Molipre</text>
+  <text font-weight="bold" font-style="italic" fill="#426373" stroke="#000" stroke-width="0" stroke-opacity="null" x="11.840318" y="218.738749" id="svg_1" font-size="250" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve">Molipre</text>
  </g>
 </svg>
