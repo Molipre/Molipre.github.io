@@ -2,98 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.molipre.com/desktop/</loc>
+    <loc>https://blog.molipre.com/desktop/</loc>
     
     <lastmod>2020-10-12</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/daily/</loc>
+    <loc>https://blog.molipre.com/daily/</loc>
     
     <lastmod>2020-10-12</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/wallpaper/</loc>
+    <loc>https://blog.molipre.com/wallpaper/</loc>
     
     <lastmod>2020-10-12</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/learn/</loc>
+    <loc>https://blog.molipre.com/learn/</loc>
     
     <lastmod>2020-10-12</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/images/</loc>
+    <loc>https://blog.molipre.com/images/</loc>
     
     <lastmod>2020-10-12</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/tourism/</loc>
+    <loc>https://blog.molipre.com/tourism/</loc>
     
     <lastmod>2020-10-10</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/link/</loc>
+    <loc>https://blog.molipre.com/link/</loc>
     
     <lastmod>2020-10-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/posts/4a17b156.html</loc>
+    <loc>https://blog.molipre.com/posts/4a17b156.html</loc>
     
     <lastmod>2020-10-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/posts/b016f2f1.html</loc>
+    <loc>https://blog.molipre.com/posts/b016f2f1.html</loc>
     
     <lastmod>2020-10-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/about/</loc>
+    <loc>https://blog.molipre.com/about/</loc>
     
     <lastmod>2020-10-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/tags/</loc>
+    <loc>https://blog.molipre.com/tags/</loc>
     
     <lastmod>2020-10-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/music/</loc>
+    <loc>https://blog.molipre.com/music/</loc>
     
     <lastmod>2020-10-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/messageboard/</loc>
+    <loc>https://blog.molipre.com/messageboard/</loc>
     
     <lastmod>2020-10-09</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/categories/</loc>
+    <loc>https://blog.molipre.com/categories/</loc>
     
     <lastmod>2020-10-09</lastmod>
     
@@ -101,23 +101,23 @@
   
 
   <url>
-    <loc>http://blog.molipre.com/</loc>
-    <lastmod>2020-10-12</lastmod>
+    <loc>https://blog.molipre.com/</loc>
+    <lastmod>2020-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://blog.molipre.com/tags/hexo/</loc>
-    <lastmod>2020-10-12</lastmod>
+    <loc>https://blog.molipre.com/tags/hexo/</loc>
+    <lastmod>2020-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-10-12</lastmod>
+    <loc>https://blog.molipre.com/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2020-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -125,22 +125,22 @@
 
   
   <url>
-    <loc>http://blog.molipre.com/categories/Hexo/</loc>
-    <lastmod>2020-10-12</lastmod>
+    <loc>https://blog.molipre.com/categories/Hexo/</loc>
+    <lastmod>2020-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/categories/Hexo/Hello-World/</loc>
-    <lastmod>2020-10-12</lastmod>
+    <loc>https://blog.molipre.com/categories/Hexo/Hello-World/</loc>
+    <lastmod>2020-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://blog.molipre.com/categories/Hexo/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-10-12</lastmod>
+    <loc>https://blog.molipre.com/categories/Hexo/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2020-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
