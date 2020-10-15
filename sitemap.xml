@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.molipre.com/link/</loc>
+    <loc>https://blog.molipre.com/messageboard/</loc>
     
-    <lastmod>2020-10-14</lastmod>
+    <lastmod>2020-10-15</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.molipre.com/about/</loc>
     
-    <lastmod>2020-10-13</lastmod>
+    <lastmod>2020-10-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/link/</loc>
+    
+    <lastmod>2020-10-14</lastmod>
     
   </url>
   
@@ -86,13 +93,6 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/messageboard/</loc>
-    
-    <lastmod>2020-10-09</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.molipre.com/categories/</loc>
     
     <lastmod>2020-10-09</lastmod>
@@ -102,7 +102,7 @@
 
   <url>
     <loc>https://blog.molipre.com/</loc>
-    <lastmod>2020-10-14</lastmod>
+    <lastmod>2020-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -110,14 +110,14 @@
   
   <url>
     <loc>https://blog.molipre.com/tags/hexo/</loc>
-    <lastmod>2020-10-14</lastmod>
+    <lastmod>2020-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.molipre.com/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-10-14</lastmod>
+    <lastmod>2020-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -126,21 +126,21 @@
   
   <url>
     <loc>https://blog.molipre.com/categories/Hexo/</loc>
-    <lastmod>2020-10-14</lastmod>
+    <lastmod>2020-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.molipre.com/categories/Hexo/Hello-World/</loc>
-    <lastmod>2020-10-14</lastmod>
+    <lastmod>2020-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.molipre.com/categories/Hexo/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-10-14</lastmod>
+    <lastmod>2020-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
