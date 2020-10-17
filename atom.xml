@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2020-10-09T08:27:01.278Z</updated>
+  <updated>2020-10-17T06:42:33.365Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -17,11 +17,86 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>你好呀</title>
+    <title>分类测试4</title>
+    <link href="https://blog.molipre.com/posts/44cc8d35.html"/>
+    <id>https://blog.molipre.com/posts/44cc8d35.html</id>
+    <published>2020-10-17T03:42:21.344Z</published>
+    <updated>2020-10-17T06:42:33.365Z</updated>
+    
+    <content type="html"><![CDATA[<p>分类测试4</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;分类测试4&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="测试1" scheme="https://blog.molipre.com/tags/%E6%B5%8B%E8%AF%951/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分类测试3</title>
+    <link href="https://blog.molipre.com/posts/daa81896.html"/>
+    <id>https://blog.molipre.com/posts/daa81896.html</id>
+    <published>2020-10-17T03:37:46.656Z</published>
+    <updated>2020-10-17T05:05:43.815Z</updated>
+    
+    <content type="html"><![CDATA[<p>分类测试3</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;分类测试3&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="评测" scheme="https://blog.molipre.com/categories/%E8%AF%84%E6%B5%8B/"/>
+    
+    
+    <category term="测试1" scheme="https://blog.molipre.com/tags/%E6%B5%8B%E8%AF%951/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分类测试1</title>
+    <link href="https://blog.molipre.com/posts/34a679ba.html"/>
+    <id>https://blog.molipre.com/posts/34a679ba.html</id>
+    <published>2020-10-17T03:32:05.391Z</published>
+    <updated>2020-10-17T06:42:32.477Z</updated>
+    
+    <content type="html"><![CDATA[<p>分类测试1</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;分类测试1&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="测试1" scheme="https://blog.molipre.com/tags/%E6%B5%8B%E8%AF%951/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试</title>
     <link href="https://blog.molipre.com/posts/b016f2f1.html"/>
     <id>https://blog.molipre.com/posts/b016f2f1.html</id>
     <published>2020-10-09T08:24:40.051Z</published>
-    <updated>2020-10-09T08:27:01.278Z</updated>
+    <updated>2020-10-17T05:05:31.504Z</updated>
     
     <content type="html"><![CDATA[<p>测试子分类</p>]]></content>
     
@@ -34,9 +109,7 @@
     
     
     
-    <category term="Hexo" scheme="https://blog.molipre.com/categories/Hexo/"/>
-    
-    <category term="测试" scheme="https://blog.molipre.com/categories/Hexo/%E6%B5%8B%E8%AF%95/"/>
+    <category term="博客的修改&amp;教程" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%BF%AE%E6%94%B9-%E6%95%99%E7%A8%8B/"/>
     
     
     <category term="测试" scheme="https://blog.molipre.com/tags/%E6%B5%8B%E8%AF%95/"/>
@@ -48,7 +121,7 @@
     <link href="https://blog.molipre.com/posts/4a17b156.html"/>
     <id>https://blog.molipre.com/posts/4a17b156.html</id>
     <published>2020-09-27T01:37:49.302Z</published>
-    <updated>2020-10-09T08:27:40.391Z</updated>
+    <updated>2020-10-17T05:05:53.718Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -60,9 +133,7 @@
     
     
     
-    <category term="Hexo" scheme="https://blog.molipre.com/categories/Hexo/"/>
-    
-    <category term="Hello World" scheme="https://blog.molipre.com/categories/Hexo/Hello-World/"/>
+    <category term="博客的修改&amp;教程" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%BF%AE%E6%94%B9-%E6%95%99%E7%A8%8B/"/>
     
     
     <category term="hexo" scheme="https://blog.molipre.com/tags/hexo/"/>
