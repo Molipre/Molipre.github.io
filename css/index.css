@@ -4782,14 +4782,16 @@ mjx-container[jax='CHTML'][display='true'] {
 #article-container .aplayer ul li:before {
   content: none;
 }
-#color-card {
-  width: 32%;
-  height: 180px;
+.color-card {
+  width: 24% !important;
+  height: 180px !important;
+  margin: 0.3rem 0.5% !important;
 }
 @media screen and (max-width: 650px) {
-  #color-card {
-    width: 47%;
-    height: 150px;
+  .color-card {
+    width: 48% !important;
+    height: 150px !important;
+    margin: 0.3rem 1% !important;
   }
 }
 #article-container .btn-center {
