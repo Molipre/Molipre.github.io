@@ -15,8 +15,8 @@ const catalogMagnet = new Vue({
 		describe:[
 			"各种有趣的评测",
 			"主题Butterfly以及Hexo的修改",
-			"学习心得以及教程分享",
-			"PC,笔记本,软硬路由器以及NAS",
+			"所学所得以及所学所想",
+			"手机,PC,笔记本,软硬路由器以及NAS",
 		],
 		//这里是磁贴的文字颜色
 		figLetColor: {color:'white'},
