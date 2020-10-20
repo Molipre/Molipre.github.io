@@ -7,14 +7,14 @@ const catalogMagnet = new Vue({
 		//这里是磁贴背景图片
 		img:[
 			"https://i.loli.net/2020/10/19/iUqcaLhtZl5fe1K.jpg",
+			"https://i.loli.net/2020/10/20/HmL9x2n4jpb5iKl.jpg",
 			"https://i.loli.net/2020/10/09/tPRQZDTyEOW6JnX.jpg",
-			"https://i.loli.net/2020/10/09/tPRQZDTyEOW6JnX.jpg",
-			"https://i.loli.net/2020/10/09/tPRQZDTyEOW6JnX.jpg",
+			"https://i.loli.net/2020/10/20/KJHpZ78C2m94XsP.png",
 		],
 		//这里是磁贴描述信息
 		describe:[
 			"各种有趣的评测",
-			"主题Betterfly以及Hexo的修改",
+			"主题Butterfly以及Hexo的修改",
 			"学习心得以及教程分享",
 			"PC,笔记本,软硬路由器以及NAS",
 		],

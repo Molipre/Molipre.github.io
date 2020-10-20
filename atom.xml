@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2020-10-19T08:33:54.928Z</updated>
+  <updated>2020-10-20T02:02:29.003Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.molipre.com/posts/74231343.html"/>
     <id>https://blog.molipre.com/posts/74231343.html</id>
     <published>2020-10-19T08:31:42.896Z</published>
-    <updated>2020-10-19T08:33:54.928Z</updated>
+    <updated>2020-10-20T02:02:29.003Z</updated>
     
     <content type="html"><![CDATA[<p>测试子分类<br><kbd>Ctrl</kbd>+<kbd>C</kbd>、<kbd>Ctrl</kbd>+<kbd>V</kbd></p>]]></content>
     
@@ -36,10 +36,10 @@
     
     <category term="博客の美化" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/"/>
     
-    <category term="Betterfly" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Betterfly/"/>
+    <category term="Butterfly" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Butterfly/"/>
     
     
-    <category term="Betterfly" scheme="https://blog.molipre.com/tags/Betterfly/"/>
+    <category term="Butterfly" scheme="https://blog.molipre.com/tags/Butterfly/"/>
     
   </entry>
   
