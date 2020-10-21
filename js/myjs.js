@@ -45,12 +45,12 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
         $('[rel="icon"]').attr('href', "/img/funny.ico");
-        document.title = '(っ °Д °;)っ 别走别走！再看看呀！';
+        document.title = '🥺(っ °Д °;)っ🥺别走别走！再看看呀！';
         clearTimeout(titleTime);
     }
     else {
         $('[rel="icon"]').attr('href', "/img/favicon.ico");
-        document.title = '(●\'◡\'●)你回来啦！ ~' + OriginTitle;
+        document.title = '🥰(●\'◡\'●)🥰你回来啦！ ~' + OriginTitle;
         titleTime = setTimeout(function () {
             document.title = OriginTitle;
         }, 2000);
