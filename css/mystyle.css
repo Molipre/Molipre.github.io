@@ -978,13 +978,13 @@ kbd {
 } */
 
 /* a标签颜色改变 */
-#article-container p a {
+/* #article-container p a {
   color: #49b1f5;
 }
 
 [data-theme="dark"] #article-container p a {
   filter: brightness(0.7);
-}
+} */
 /* a标签颜色改变END */
 
 /*note标签 https://lovelijunyi.gitee.io/posts/c898.html*/
@@ -1123,7 +1123,7 @@ div.note.blue {
 /*note标签结束*/
 
 /* 标签显影 */
-#article-container psw:hover {
+/* #article-container psw:hover {
   color: #333;
   background: none;
 }
@@ -1141,11 +1141,11 @@ div.note.blue {
 [data-theme="dark"] #article-container psw:hover {
   color: #fff;
   filter: brightness(0.7);
-}
+} */
 /* 标签显影END */
 
 /* tip开始  https://www.antmoe.com/posts/3b43914f/#渐变背景标签*/
-.tip {
+/* .tip {
   position: relative;
   color: #fff;
   background: #20a0ff;
@@ -1524,5 +1524,5 @@ div.note.blue {
 
 [data-theme="dark"] .tip {
   filter: brightness(0.7);
-}
+} */
 /* tip 结束 */
