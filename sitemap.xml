@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.molipre.com/link/</loc>
+    <loc>https://blog.molipre.com/about/</loc>
     
     <lastmod>2020-10-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/about/</loc>
+    <loc>https://blog.molipre.com/images/</loc>
+    
+    <lastmod>2020-10-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/link/</loc>
     
     <lastmod>2020-10-22</lastmod>
     
@@ -191,13 +198,6 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/images/</loc>
-    
-    <lastmod>2020-10-12</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.molipre.com/tourism/</loc>
     
     <lastmod>2020-10-10</lastmod>
@@ -235,14 +235,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/Hexo/</loc>
+    <loc>https://blog.molipre.com/tags/Linux/</loc>
     <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/Linux/</loc>
+    <loc>https://blog.molipre.com/tags/Hexo/</loc>
     <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -286,14 +286,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/</loc>
+    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/</loc>
     <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/</loc>
+    <loc>https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -307,14 +307,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Hexo/</loc>
+    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Hexo/</loc>
     <lastmod>2020-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
