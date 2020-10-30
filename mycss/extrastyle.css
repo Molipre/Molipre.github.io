@@ -1,0 +1,5 @@
+div.code-lang {
+    left: 50%!important;
+    transform: translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+}
