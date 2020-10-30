@@ -21,10 +21,14 @@
   height: 100%;/*图片高度*/
 }
 
-
 /* #recent-posts > .recent-post-item >.recent-post-info > .content {
 display:none;/*隐藏文章详情
 } */
+
+#recent-posts > .recent-post-item >.recent-post-info > .content {
+padding:-10px 0px;
+}
+
 #recent-posts > .recent-post-item {
 
   -webkit-flex-direction: column; /*容器内部纵向排列*/

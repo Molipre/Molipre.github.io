@@ -2,14 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.molipre.com/posts/b016f2f1.html</loc>
-    
-    <lastmod>2020-10-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.molipre.com/link/</loc>
+    <loc>https://blog.molipre.com/posts/74231343.html</loc>
     
     <lastmod>2020-10-30</lastmod>
     
@@ -23,9 +16,16 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/posts/74231343.html</loc>
+    <loc>https://blog.molipre.com/posts/b016f2f1.html</loc>
     
-    <lastmod>2020-10-29</lastmod>
+    <lastmod>2020-10-30</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/link/</loc>
+    
+    <lastmod>2020-10-30</lastmod>
     
   </url>
   
@@ -235,7 +235,7 @@
 
   
   <url>
-    <loc>https://blog.molipre.com/tags/Hexo/</loc>
+    <loc>https://blog.molipre.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2020-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -249,7 +249,7 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://blog.molipre.com/tags/Win10/</loc>
     <lastmod>2020-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -257,13 +257,6 @@
   
   <url>
     <loc>https://blog.molipre.com/tags/MacOS/</loc>
-    <lastmod>2020-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.molipre.com/tags/Win10/</loc>
     <lastmod>2020-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
