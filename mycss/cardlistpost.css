@@ -25,9 +25,9 @@
 display:none;/*隐藏文章详情
 } */
 
-#recent-posts > .recent-post-item >.recent-post-info > .content {
-padding:-10px 0px;
-}
+/* #recent-posts > .recent-post-item >.recent-post-info > .content {
+font-weight:bold;
+} */
 
 #recent-posts > .recent-post-item {
 
@@ -59,10 +59,10 @@ padding:-10px 0px;
     color: var(--text-highlight-color);
     font-size: 1.2em; /*控制标题的字体大小*/
     line-height: 1.4;/*控制标题的行高*/
-
+		font-weight:bold;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
-	margin-bottom: 1rem;/*控制标题meta信息的底部间距*/
+	margin-bottom: auto;/*控制标题meta信息的底部间距*/
 }
 @media screen and (max-width: 768px) {
 #recent-posts > .recent-post-item {
