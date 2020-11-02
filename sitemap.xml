@@ -79,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/daily/</loc>
+    <loc>https://blog.molipre.com/desktop/</loc>
     
     <lastmod>2020-10-30</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/desktop/</loc>
+    <loc>https://blog.molipre.com/daily/</loc>
     
     <lastmod>2020-10-30</lastmod>
     
@@ -256,14 +256,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/Win10/</loc>
+    <loc>https://blog.molipre.com/tags/MacOS/</loc>
     <lastmod>2020-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/MacOS/</loc>
+    <loc>https://blog.molipre.com/tags/Win10/</loc>
     <lastmod>2020-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -284,14 +284,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/Linux/</loc>
+    <loc>https://blog.molipre.com/tags/%E6%96%90%E8%AE%AFN1/</loc>
     <lastmod>2020-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/%E6%96%90%E8%AE%AFN1/</loc>
+    <loc>https://blog.molipre.com/tags/Linux/</loc>
     <lastmod>2020-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -328,7 +328,7 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2020-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -342,7 +342,7 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/</loc>
+    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/</loc>
     <lastmod>2020-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -356,14 +356,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E6%96%90%E8%AE%AFN1/</loc>
     <lastmod>2020-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E6%96%90%E8%AE%AFN1/</loc>
+    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/</loc>
     <lastmod>2020-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
