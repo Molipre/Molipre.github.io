@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2020-11-02T02:20:50.957Z</updated>
+  <updated>2020-11-04T09:22:46.098Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux命令合集</title>
+    <link href="https://blog.molipre.com/posts/34a679ba.html"/>
+    <id>https://blog.molipre.com/posts/34a679ba.html</id>
+    <published>2020-10-21T03:13:55.000Z</published>
+    <updated>2020-11-04T09:22:46.098Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Linux常用命令记录"><a href="#Linux常用命令记录" class="headerlink" title="Linux常用命令记录"></a>Linux常用命令记录</h1><h2 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h2><ol><li><strong>grep</strong><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">grep <span class="string">&#x27;组名&#x27;</span> /etc/group</span><br><span class="line"><span class="comment">#获得组号</span></span><br><span class="line">grep <span class="string">&#x27;组号&#x27;</span> /etc/passwd</span><br><span class="line"><span class="comment">#获得组下所有用户</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#用户在/etc/passwd</span></span><br><span class="line"><span class="comment">#组 在/etc/group</span></span><br></pre></td></tr></table></figure></li><li><strong>chgrp</strong><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">chgrp group1 /home/user1</span><br><span class="line"><span class="comment">#修改home下的user1文件夹所属组为group1</span></span><br><span class="line">chgrp group1 /home/user1.log</span><br><span class="line"><span class="comment">#修改home下的user1.log文件所属组为group1</span></span><br><span class="line"><span class="comment">#-c或--changes 效果类似&quot;-v&quot;参数，但仅回报更改的部分</span></span><br><span class="line"><span class="comment">#-f或--quiet或--silent 不显示错误信息。</span></span><br><span class="line"><span class="comment">#-h或--no-dereference 只对符号连接的文件作修改，而不更动其他任何相关文件。</span></span><br><span class="line"><span class="comment">#-R或--recursive 递归处理，将指定目录下的所有文件及子目录一并处理。</span></span><br><span class="line"><span class="comment">#-v或--verbose 显示指令执行过程。</span></span><br><span class="line"><span class="comment">#--help 在线帮助。</span></span><br><span class="line"><span class="comment">#--reference=&lt;参考文件或目录&gt; 把指定文件或目录的所属群组全部设成和参考文件或目录的所属群组相同。</span></span><br><span class="line"><span class="comment">#--version 显示版本信息。</span></span><br></pre></td></tr></table></figure><h2 id="文档编辑"><a href="#文档编辑" class="headerlink" title="文档编辑"></a>文档编辑</h2><h2 id="文件传输"><a href="#文件传输" class="headerlink" title="文件传输"></a>文件传输</h2><h2 id="磁盘管理"><a href="#磁盘管理" class="headerlink" title="磁盘管理"></a>磁盘管理</h2><h2 id="磁盘维护"><a href="#磁盘维护" class="headerlink" title="磁盘维护"></a>磁盘维护</h2><h2 id="网络通讯"><a href="#网络通讯" class="headerlink" title="网络通讯"></a>网络通讯</h2><h2 id="系统管理"><a href="#系统管理" class="headerlink" title="系统管理"></a>系统管理</h2></li><li><strong>usermod</strong><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">usermod -a -G group1 user1</span><br><span class="line"><span class="comment">#添加用户user1到组group1里</span></span><br><span class="line"><span class="comment">#-a 在原来的所属组的基础上增加</span></span><br><span class="line"><span class="comment">#-c&lt;备注&gt; 修改用户帐号的备注文字。</span></span><br><span class="line"><span class="comment">#-d登入目录&gt; 修改用户登入时的目录。</span></span><br><span class="line"><span class="comment">#-e&lt;有效期限&gt; 修改帐号的有效期限。</span></span><br><span class="line"><span class="comment">#-f&lt;缓冲天数&gt; 修改在密码过期后多少天即关闭该帐号。</span></span><br><span class="line"><span class="comment">#-g&lt;群组&gt; 修改用户所属的群组。</span></span><br><span class="line"><span class="comment">#-G&lt;群组&gt; 修改用户所属的附加群组。</span></span><br><span class="line"><span class="comment">#-l&lt;帐号名称&gt; 修改用户帐号名称。</span></span><br><span class="line"><span class="comment">#-L 锁定用户密码，使密码无效。</span></span><br><span class="line"><span class="comment">#-s&lt;shell&gt; 修改用户登入后所使用的shell。</span></span><br><span class="line"><span class="comment">#-u&lt;uid&gt; 修改用户ID。</span></span><br><span class="line"><span class="comment">#-U 解除密码锁定。</span></span><br></pre></td></tr></table></figure><h2 id="系统设置"><a href="#系统设置" class="headerlink" title="系统设置"></a>系统设置</h2><h2 id="备份压缩"><a href="#备份压缩" class="headerlink" title="备份压缩"></a>备份压缩</h2></li></ol><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p><strong>记录一些自己平时会用到的命令，避免忘记后查资料麻烦。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">记录自己常用的Linux命令，以便往后使用查询</summary>
+    
+    
+    
+    <category term="学习&amp;随想" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/"/>
+    
+    <category term="学习📖" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/"/>
+    
+    <category term="Linux" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
+    
+    <category term="Linux常用命令" scheme="https://blog.molipre.com/tags/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
   
   <entry>
     <title>分类测试5</title>
@@ -103,36 +130,6 @@
   </entry>
   
   <entry>
-    <title>分类测试1</title>
-    <link href="https://blog.molipre.com/posts/34a679ba.html"/>
-    <id>https://blog.molipre.com/posts/34a679ba.html</id>
-    <published>2020-10-17T03:32:05.391Z</published>
-    <updated>2020-11-02T02:21:01.735Z</updated>
-    
-    <content type="html"><![CDATA[<p>分类测试1</p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;分类测试1&lt;/p&gt;
-&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;center&gt;如有问题请点击&lt;a href=&quot;mailto:819591739@qq.com&quot;&gt;邮件&lt;/a&gt;或在底下评论与我联系&lt;/center&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="学习&amp;随想" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/"/>
-    
-    <category term="学习📖" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/"/>
-    
-    <category term="Linux" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/Linux/"/>
-    
-    
-    <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>使用Jsdelivr加快博客的访问速度</title>
     <link href="https://blog.molipre.com/posts/facd24db.html"/>
     <id>https://blog.molipre.com/posts/facd24db.html</id>
@@ -184,9 +181,9 @@
     
     <category term="Github" scheme="https://blog.molipre.com/tags/Github/"/>
     
-    <category term="Gitee" scheme="https://blog.molipre.com/tags/Gitee/"/>
-    
     <category term="博客搭建" scheme="https://blog.molipre.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Gitee" scheme="https://blog.molipre.com/tags/Gitee/"/>
     
     <category term="多终端" scheme="https://blog.molipre.com/tags/%E5%A4%9A%E7%BB%88%E7%AB%AF/"/>
     
