@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2020-11-04T09:22:46.098Z</updated>
+  <updated>2020-11-05T01:43:47.985Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>斐讯N1刷OpenWrt系统做旁路由</title>
+    <link href="https://blog.molipre.com/posts/4a17b156.html"/>
+    <id>https://blog.molipre.com/posts/4a17b156.html</id>
+    <published>2020-10-27T01:27:34.000Z</published>
+    <updated>2020-11-05T01:43:47.985Z</updated>
+    
+    <content type="html"><![CDATA[<p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">斐讯N1盒子刷OpenWrt固件至eMMC当做旁路由使用</summary>
+    
+    
+    
+    <category term="硬件相关" scheme="https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/"/>
+    
+    <category term="斐讯N1" scheme="https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E6%96%90%E8%AE%AFN1/"/>
+    
+    
+    <category term="斐讯N1" scheme="https://blog.molipre.com/tags/%E6%96%90%E8%AE%AFN1/"/>
+    
+    <category term="旁路由" scheme="https://blog.molipre.com/tags/%E6%97%81%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="OpenWrt" scheme="https://blog.molipre.com/tags/OpenWrt/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux命令合集</title>
@@ -181,9 +208,9 @@
     
     <category term="Github" scheme="https://blog.molipre.com/tags/Github/"/>
     
-    <category term="博客搭建" scheme="https://blog.molipre.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
     <category term="Gitee" scheme="https://blog.molipre.com/tags/Gitee/"/>
+    
+    <category term="博客搭建" scheme="https://blog.molipre.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     <category term="多终端" scheme="https://blog.molipre.com/tags/%E5%A4%9A%E7%BB%88%E7%AB%AF/"/>
     
@@ -244,29 +271,6 @@
     <category term="博客搭建" scheme="https://blog.molipre.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     <category term="Win10" scheme="https://blog.molipre.com/tags/Win10/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://blog.molipre.com/posts/4a17b156.html"/>
-    <id>https://blog.molipre.com/posts/4a17b156.html</id>
-    <published>2020-09-27T01:37:49.302Z</published>
-    <updated>2020-11-02T02:20:29.459Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">测试description的显示</summary>
-    
-    
-    
-    <category term="硬件相关" scheme="https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/"/>
-    
-    <category term="斐讯N1" scheme="https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E6%96%90%E8%AE%AFN1/"/>
-    
-    
-    <category term="斐讯N1" scheme="https://blog.molipre.com/tags/%E6%96%90%E8%AE%AFN1/"/>
     
   </entry>
   
