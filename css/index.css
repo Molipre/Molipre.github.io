@@ -1321,7 +1321,7 @@ body {
   min-height: 100%;
   background: var(--global-bg);
   color: var(--font-color);
-  font-size: 14px;
+  font-size: 15px;
   font-family: PingFang SC;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -1616,6 +1616,15 @@ figure.highlight pre .tag .attr,
 figure.highlight pre .javascript .function {
   color: #c792ea;
 }
+#article-container figure.highlight .line:before {
+  display: inline-block;
+  padding: 0 0.3rem 0 0;
+  min-width: 1.6rem;
+  color: rgba(238,255,255,0.5);
+  content: counter(line);
+  counter-increment: line;
+  text-align: left;
+}
 #article-container figure.highlight .line.marked {
   background-color: rgba(97,97,97,0.314);
 }
@@ -1648,6 +1657,8 @@ figure.highlight pre .javascript .function {
   background: #212121;
   color: #eff;
   line-height: 1.6;
+  counter-reset: line;
+  white-space: pre-wrap;
 }
 blockquote {
   margin: 0 0 1rem;
@@ -1672,7 +1683,7 @@ blockquote footer cite:before {
 }
 #article-container pre,
 #article-container code {
-  font-size: 14px;
+  font-size: 15px;
   font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
 }
 #article-container code {
@@ -1703,7 +1714,7 @@ blockquote footer cite:before {
 #article-container figure.highlight figcaption,
 #article-container figure.highlight .caption {
   padding: 0.3rem 0 0.1rem 0.7rem;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1em;
 }
 #article-container figure.highlight figcaption a,
@@ -1735,7 +1746,7 @@ blockquote footer cite:before {
   height: 2.15em;
   background: #1c1c1c;
   color: rgba(238,255,255,0.8);
-  font-size: 14px;
+  font-size: 15px;
 }
 #article-container .highlight-tools.closed + table {
   display: none;
