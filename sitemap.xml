@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.molipre.com/posts/741a6cf1.html</loc>
+    
+    <lastmod>2020-11-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/posts/daa81896.html</loc>
     
     <lastmod>2020-11-13</lastmod>
@@ -72,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/desktop/</loc>
+    <loc>https://blog.molipre.com/daily/</loc>
     
     <lastmod>2020-10-30</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/daily/</loc>
+    <loc>https://blog.molipre.com/desktop/</loc>
     
     <lastmod>2020-10-30</lastmod>
     
