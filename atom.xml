@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2020-11-16T16:00:00.000Z</updated>
+  <updated>2020-11-18T16:00:00.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Butterfly主题魔改之导航栏</title>
+    <link href="https://blog.molipre.com/posts/9197e975.html"/>
+    <id>https://blog.molipre.com/posts/9197e975.html</id>
+    <published>2020-11-18T16:00:00.000Z</published>
+    <updated>2020-11-18T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h3><p><img src="https://i.loli.net/2020/11/19/BCQbkTuw9ahWpZs.png" alt="效果展示.png"></p><h3 id="修改导航栏menu居中以及搜索居右"><a href="#修改导航栏menu居中以及搜索居右" class="headerlink" title="修改导航栏menu居中以及搜索居右"></a>修改导航栏menu居中以及搜索居右</h3><ol><li><strong>用编辑器打开 <code>themes\butterfly\source\css\_layout\head.styl</code> 文件，找到如图所示内容：</strong><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.menus_items</span></span><br><span class="line">   <span class="selector-tag">display</span>: <span class="selector-tag">inline</span></span><br></pre></td></tr></table></figure></li><li><strong>修改内容如下：</strong><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.menus_items</span></span><br><span class="line">  <span class="selector-tag">display</span>: <span class="selector-tag">inline</span></span><br><span class="line">  <span class="selector-tag">position</span>: <span class="selector-tag">absolute</span></span><br><span class="line">  <span class="selector-tag">width</span>: 400<span class="selector-tag">px</span>    </span><br><span class="line">  <span class="selector-tag">text-align</span>: <span class="selector-tag">center</span>   </span><br><span class="line">  <span class="selector-tag">left</span>: 0</span><br><span class="line">  <span class="selector-tag">right</span>: 0</span><br><span class="line">  <span class="selector-tag">margin</span>: <span class="selector-tag">auto</span></span><br></pre></td></tr></table></figure><div class="note blue quote flat"><p><strong>上述css样式方案复制于<a href="https://blog.zhheo.com/">Heo</a>，可以去关注一下<a href="https://blog.zhheo.com/">他的博客</a>，其他方案还在修改中，完善后会更新本文。</strong></p></div></li></ol><h3 id="自定义munu始终居于右边"><a href="#自定义munu始终居于右边" class="headerlink" title="自定义munu始终居于右边"></a>自定义munu始终居于右边</h3><ol><li><strong>用编辑器打开 <code>themes\butterfly\layout\includes\header\nav.pug</code> 文件，找到如图所示内容：</strong><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nav#nav</span><br><span class="line">  span#blog_name</span><br><span class="line">    a#site-name(href&#x3D;url_for(&#39;&#x2F;&#39;)) #[&#x3D;config.title]</span><br><span class="line"></span><br><span class="line">  span#menus</span><br><span class="line">    if (theme.algolia_search.enable || theme.local_search.enable)</span><br><span class="line">      #search_button</span><br><span class="line">        a.site-page.social-icon.search</span><br><span class="line">          i.fas.fa-search.fa-fw</span><br><span class="line">        span&#x3D;&#39; &#39;+_p(&#39;search&#39;)</span><br><span class="line">  !&#x3D;fragment_cache(&#39;menus&#39;, function()&#123;return partial(&#39;includes&#x2F;header&#x2F;menu_item&#39;)&#125;)</span><br><span class="line"></span><br><span class="line">  span#toggle-menu.close</span><br><span class="line">    a.site-page</span><br><span class="line">      i.fas.fa-bars.fa-fw</span><br></pre></td></tr></table></figure></li><li><strong>修改为如下所示：</strong><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nav#nav</span><br><span class="line">  span#blog_name</span><br><span class="line">    a#site-name(href&#x3D;url_for(&#39;&#x2F;&#39;)) #[&#x3D;config.title]</span><br><span class="line"></span><br><span class="line">  span#menus</span><br><span class="line">    if (theme.algolia_search.enable || theme.local_search.enable)</span><br><span class="line">      #search_button</span><br><span class="line">        a.site-page.social-icon.search</span><br><span class="line">          i.fas.fa-search.fa-fw</span><br><span class="line">        span&#x3D;&#39; &#39;+_p(&#39;search&#39;)</span><br><span class="line">      #search_button</span><br><span class="line">        a.site-page.(href&#x3D;&#39;url&#39;)</span><br><span class="line">        &#x2F;&#x2F;其中url为链接内容，如：https:&#x2F;&#x2F;blog.molipre.com或博客内嵌页面 &#x2F;about&#x2F; 等</span><br><span class="line">          i.fas.xxxxx.fa-fw</span><br><span class="line">          &#x2F;&#x2F;其中xxxxx可以为Font Awesome图标格式，如fa-search</span><br><span class="line">        span&#x3D;&#39; &#39;+&#39;xxxx&#39;</span><br><span class="line">        &#x2F;&#x2F;其中xxxx为自定义的内容，如效果图中的 &#39;个人主页&#39; 等</span><br><span class="line">  !&#x3D;fragment_cache(&#39;menus&#39;, function()&#123;return partial(&#39;includes&#x2F;header&#x2F;menu_item&#39;)&#125;)</span><br><span class="line"></span><br><span class="line">  span#toggle-menu.close</span><br><span class="line">    a.site-page</span><br><span class="line">      i.fas.fa-bars.fa-fw</span><br></pre></td></tr></table></figure></li></ol><h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><ul><li><strong>本次魔改都是根据我博客自身来修改的，建议参考修改，而不是复制，不一定所有人都适用。</strong></li><li><strong>最后祝大家魔改成功，再见👋。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">修改导航栏menu居中&lt;br&gt;修改导航栏搜索按钮始终居于右边&lt;br&gt;自定义munu始终居于右边</summary>
+    
+    
+    
+    <category term="博客の美化" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Butterfly%F0%9F%A6%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="https://blog.molipre.com/tags/Butterfly/"/>
+    
+    <category term="主题魔改" scheme="https://blog.molipre.com/tags/%E4%B8%BB%E9%A2%98%E9%AD%94%E6%94%B9/"/>
+    
+    <category term="导航栏" scheme="https://blog.molipre.com/tags/%E5%AF%BC%E8%88%AA%E6%A0%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>戴尔R740服务器安装centos7.8系统</title>
@@ -98,6 +127,8 @@
     <category term="Butterfly" scheme="https://blog.molipre.com/tags/Butterfly/"/>
     
     <category term="主题魔改" scheme="https://blog.molipre.com/tags/%E4%B8%BB%E9%A2%98%E9%AD%94%E6%94%B9/"/>
+    
+    <category term="footer" scheme="https://blog.molipre.com/tags/footer/"/>
     
   </entry>
   

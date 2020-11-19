@@ -3693,11 +3693,17 @@ _:future,
 }
 #nav .menus_items {
   display: inline;
+  position: absolute;
+  width: 400px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 #nav .menus_items .menus_item {
   position: relative;
   display: inline-block;
-  padding: 0 0 0 0.7rem;
+  padding: 0 0.4rem;
 }
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: block;
@@ -3791,9 +3797,10 @@ _:future,
 #nav .site-page {
   position: relative;
   padding-bottom: 0.3rem;
-  text-shadow: 0.05rem 0.05rem 0.1rem rgba(0,0,0,0.3);
-  font-size: 0.78em;
+  text-shadow: 0.05rem 0.05rem 0.1rem transparent;
+  font-size: 0.85em;
   cursor: pointer;
+  border-radius: 8px;
 }
 #mobile-sidebar #menu_mask {
   position: fixed;
