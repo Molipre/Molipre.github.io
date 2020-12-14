@@ -2230,6 +2230,7 @@ blockquote footer cite:before {
   -ms-transition: -ms-transform 2s ease;
   transition: transform 2s ease;
   object-fit: cover;
+  pointer-events: none;
 }
 .site-card .info {
   margin-top: 8px;
