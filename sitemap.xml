@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.molipre.com/messageboard/</loc>
+    <loc>https://blog.molipre.com/link/</loc>
     
-    <lastmod>2020-11-30</lastmod>
+    <lastmod>2020-12-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/link/</loc>
+    <loc>https://blog.molipre.com/messageboard/</loc>
     
     <lastmod>2020-11-30</lastmod>
     
@@ -424,13 +424,6 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.molipre.com/tags/MacOS/</loc>
     <lastmod>2020-12-14</lastmod>
     <changefreq>daily</changefreq>
@@ -439,6 +432,13 @@
   
   <url>
     <loc>https://blog.molipre.com/tags/Win10/</loc>
+    <lastmod>2020-12-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2020-12-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -538,13 +538,6 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/</loc>
-    <lastmod>2020-12-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/Markdown/</loc>
     <lastmod>2020-12-14</lastmod>
     <changefreq>daily</changefreq>
@@ -552,7 +545,7 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/%E6%97%A5%E8%AE%B0/</loc>
+    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/</loc>
     <lastmod>2020-12-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -567,6 +560,13 @@
   
   <url>
     <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/Linux/</loc>
+    <lastmod>2020-12-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2020-12-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
