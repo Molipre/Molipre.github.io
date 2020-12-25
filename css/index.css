@@ -3403,6 +3403,10 @@ padding-
   padding: 0 4px;
   vertical-align: text-bottom;
 }
+#footer-wrap .cdn-icon {
+  width: 60px;
+  vertical-align: text-top;
+}
 #page-header {
   position: relative;
   width: 100%;
