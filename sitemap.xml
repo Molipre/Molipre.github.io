@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.molipre.com/link/</loc>
+    
+    <lastmod>2020-12-28</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/posts/199fc2b1.html</loc>
     
     <lastmod>2020-12-28</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://blog.molipre.com/posts/cbc409b9.html</loc>
     
     <lastmod>2020-12-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.molipre.com/link/</loc>
-    
-    <lastmod>2020-12-14</lastmod>
     
   </url>
   
@@ -333,14 +333,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/valine/</loc>
+    <loc>https://blog.molipre.com/tags/%E5%AF%BC%E8%88%AA%E6%A0%8F/</loc>
     <lastmod>2020-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/%E5%AF%BC%E8%88%AA%E6%A0%8F/</loc>
+    <loc>https://blog.molipre.com/tags/valine/</loc>
     <lastmod>2020-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -580,13 +580,6 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%8E%A8%E8%8D%90%F0%9F%92%BB/</loc>
-    <lastmod>2020-12-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/</loc>
     <lastmod>2020-12-28</lastmod>
     <changefreq>daily</changefreq>
@@ -616,6 +609,13 @@
   
   <url>
     <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2020-12-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%8E%A8%E8%8D%90%F0%9F%92%BB/</loc>
     <lastmod>2020-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
