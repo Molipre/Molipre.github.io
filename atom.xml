@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2020-12-27T08:58:33.000Z</updated>
+  <updated>2020-12-31T09:51:34.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,75 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何使用又拍云CDN为博客的访问速度进行加速</title>
+    <link href="https://blog.molipre.com/posts/9449b4c3.html"/>
+    <id>https://blog.molipre.com/posts/9449b4c3.html</id>
+    <published>2020-12-31T09:51:34.000Z</published>
+    <updated>2020-12-31T09:51:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">在博客运行100天的时候，觉得放在Github访问有些许慢，于是加入又拍云联盟，准备用又拍云的CDN为博客的访问速度加个速。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="CDN" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/CDN/"/>
+    
+    
+    <category term="CDN" scheme="https://blog.molipre.com/tags/CDN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客成立100天</title>
+    <link href="https://blog.molipre.com/posts/39c42409.html"/>
+    <id>https://blog.molipre.com/posts/39c42409.html</id>
+    <published>2020-12-29T09:28:25.000Z</published>
+    <updated>2020-12-29T09:28:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2020年12月29日 星期二 天气 晴 炎热</strong></big><br>&nbsp;&emsp;&emsp;100天前，我的这个博客小站诞生了。<br>&nbsp;&emsp;&emsp;其实，按照准确的时间来说，应该还要往前推几天，100天前是第一次部署在Github的时间，而在这之前几天，是在寻找博客框架和主题，因为之前搭建的博客是WorldPress，因为某些原因闭站后，很长一段时间没有关注博客相关的了，100天前因为两条关于云服务器以及域名到期续费的短信，让我重新想起了我以前搭建的博客，也燃起了再次搭建博客的心思。<br>&nbsp;&emsp;&emsp;在这三个多月的时间，因为现在这个博客的主题，加了一个群，也认识了很多一起玩博客的小伙伴，期间也力所能及的帮助了一些小伙伴搭建博客，感觉吧，博客就像一条枢纽，链接了这样的一群人。100天，不多也不少，但对于我这个博客，那就是话费了整整100天的时间去完善它，现在，趁100天之际，我来说说和博客所发生过的一些事情。</p><p><big>&emsp;&emsp;<strong>如何折腾</strong></big><br>&nbsp;&emsp;&emsp;关于如何折腾这方面，大多数是在这个主题的原本情况下，做的一些符合自己美学理念的魔改美化，还有就是如何去优化整个博客的访问速度，可能是最终效果不是符合其他人的观感，但是自己在折腾博客的时候会学到一些只是，得到的效果也会让自己开心，算是属于瞎折腾的吧！</p><p><big>&emsp;&emsp;<strong>成本投入</strong></big><br>&nbsp;&emsp;&emsp;关于这100天对于博客的成本投入，耗费最多的肯定是时间了，以前虽然有搞过一个WorldPress，但是对于这方面的知识还是很小白的，一开始的时候耗费许多时间走了弯路，虽然没成功搭建，但也积攒了一些错误的解决办法，另一方面就是域名和云服务器的投入了，花了一百几十块钱吧，都是1年续费一次，若不是这个续费提醒，我甚至都没想要搭建博客了。</p><p><big>&emsp;&emsp;<strong>收获</strong></big><br>&nbsp;&emsp;&emsp;可以说搭建这个博客是我今年最大的收获，我把我折腾的各种东西，我的想法，我的心情，都能够完整的在我自己的博客中展现出来，当你做完一件事，其实会有一种自豪感的，尤其是以前虽然喜欢玩各种设备，但从未记录下来，现在都能在我的博客再次看到自己当时做了什么，面对相同的情况，就能一下子想到折腾这些的意义和方法，真的是好记性不如烂笔头呀。<br>&nbsp;&emsp;&emsp;在每一次折腾完后，再去用文字记录下来，其实也是对各种知识的回顾和学习，关于博文，我想说的是，没必要强求写文章的频率呀、字数呀、是否对他人有帮助什么的，有话要说的时候就写写，记录一下，当你没有想法、不想记录的时候就停下来就好了，只要是坚持写文章，你终究会受益，请一如既往的坚持吧！</p><p><big>&emsp;&emsp;<strong>最后</strong></big><br>&nbsp;&emsp;&emsp;希望下一个100天我又有更大的进步，有很多新想法，同时也在不断行动。就写到这里吧，下一个100天我再来总结一下，再见啦👋！</p>]]></content>
+    
+    
+    <summary type="html">2020年12月29日，博客建立100天，在这100天的时间，因为博客，有了些许变化。</summary>
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="随笔" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://blog.molipre.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>西安之旅</title>
+    <link href="https://blog.molipre.com/posts/bc942e57.html"/>
+    <id>https://blog.molipre.com/posts/bc942e57.html</id>
+    <published>2020-12-28T09:52:29.000Z</published>
+    <updated>2020-12-28T09:52:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">12月份和几个朋友去了一趟西安，圆了看一次兵马俑的梦，也算圆满的结束了今年的旅游。</summary>
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="旅游" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%85%E6%B8%B8/"/>
+    
+    
+    <category term="旅游" scheme="https://blog.molipre.com/tags/%E6%97%85%E6%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>20201227</title>
@@ -33,11 +102,9 @@
     
     
     
-    <category term="学习&amp;随想" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/"/>
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="随想💡" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/"/>
-    
-    <category term="日记" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/%E6%97%A5%E8%AE%B0/"/>
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
@@ -58,11 +125,9 @@
     
     
     
-    <category term="学习&amp;随想" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/"/>
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="随想💡" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/"/>
-    
-    <category term="阅读" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
     
     
     <category term="阅读" scheme="https://blog.molipre.com/tags/%E9%98%85%E8%AF%BB/"/>
@@ -83,9 +148,9 @@
     
     
     
-    <category term="博客の美化" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/"/>
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="Hexo👾" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Hexo%F0%9F%91%BE/"/>
+    <category term="博客搭建" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
     <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
@@ -131,9 +196,9 @@
     
     
     
-    <category term="博客の美化" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/"/>
+    <category term="主题の魔改" scheme="https://blog.molipre.com/categories/%E4%B8%BB%E9%A2%98%E3%81%AE%E9%AD%94%E6%94%B9/"/>
     
-    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Butterfly%F0%9F%A6%8B/"/>
+    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E4%B8%BB%E9%A2%98%E3%81%AE%E9%AD%94%E6%94%B9/Butterfly%F0%9F%A6%8B/"/>
     
     
     <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
@@ -183,9 +248,9 @@
     
     
     
-    <category term="博客の美化" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/"/>
+    <category term="主题の魔改" scheme="https://blog.molipre.com/categories/%E4%B8%BB%E9%A2%98%E3%81%AE%E9%AD%94%E6%94%B9/"/>
     
-    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Butterfly%F0%9F%A6%8B/"/>
+    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E4%B8%BB%E9%A2%98%E3%81%AE%E9%AD%94%E6%94%B9/Butterfly%F0%9F%A6%8B/"/>
     
     
     <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
@@ -244,11 +309,9 @@
     
     
     
-    <category term="学习&amp;随想" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/"/>
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="随想💡" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/"/>
-    
-    <category term="日记" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/%E6%97%A5%E8%AE%B0/"/>
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
@@ -269,9 +332,9 @@
     
     
     
-    <category term="博客の美化" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/"/>
+    <category term="主题の魔改" scheme="https://blog.molipre.com/categories/%E4%B8%BB%E9%A2%98%E3%81%AE%E9%AD%94%E6%94%B9/"/>
     
-    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Butterfly%F0%9F%A6%8B/"/>
+    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E4%B8%BB%E9%A2%98%E3%81%AE%E9%AD%94%E6%94%B9/Butterfly%F0%9F%A6%8B/"/>
     
     
     <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
@@ -302,11 +365,9 @@
     
     
     
-    <category term="学习&amp;随想" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/"/>
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="随想💡" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/"/>
-    
-    <category term="日记" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E9%9A%8F%E6%83%B3%F0%9F%92%A1/%E6%97%A5%E8%AE%B0/"/>
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
     
     
     <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
@@ -352,11 +413,9 @@
     
     
     
-    <category term="学习&amp;随想" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/"/>
+    <category term="学习" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="学习📖" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/"/>
-    
-    <category term="Markdown" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/Markdown/"/>
+    <category term="Markdown" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/Markdown/"/>
     
     
     <category term="Markdown" scheme="https://blog.molipre.com/tags/Markdown/"/>
@@ -406,11 +465,9 @@
     
     
     
-    <category term="学习&amp;随想" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/"/>
+    <category term="学习" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="学习📖" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/"/>
-    
-    <category term="Linux" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0-%E9%9A%8F%E6%83%B3/%E5%AD%A6%E4%B9%A0%F0%9F%93%96/Linux/"/>
+    <category term="Linux" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/Linux/"/>
     
     
     <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
@@ -433,9 +490,9 @@
     
     
     
-    <category term="博客の美化" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/"/>
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="Hexo👾" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Hexo%F0%9F%91%BE/"/>
+    <category term="Jsdelivr" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/Jsdelivr/"/>
     
     
     <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
@@ -462,9 +519,11 @@
     
     
     
-    <category term="博客の美化" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/"/>
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="Hexo👾" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Hexo%F0%9F%91%BE/"/>
+    <category term="博客搭建" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Hexo" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/Hexo/"/>
     
     
     <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
@@ -476,64 +535,6 @@
     <category term="博客搭建" scheme="https://blog.molipre.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     <category term="多终端" scheme="https://blog.molipre.com/tags/%E5%A4%9A%E7%BB%88%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>从零开始的个人博客搭建(MacOS篇)</title>
-    <link href="https://blog.molipre.com/posts/74231343.html"/>
-    <id>https://blog.molipre.com/posts/74231343.html</id>
-    <published>2020-10-04T16:00:00.000Z</published>
-    <updated>2020-10-04T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">MacOS系统下本地部署Hexo个人博客并上传同步到Github Pages（主要是给自己看）</summary>
-    
-    
-    
-    <category term="博客の美化" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/"/>
-    
-    <category term="Hexo👾" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Hexo%F0%9F%91%BE/"/>
-    
-    
-    <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
-    
-    <category term="Github" scheme="https://blog.molipre.com/tags/Github/"/>
-    
-    <category term="博客搭建" scheme="https://blog.molipre.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="MacOS" scheme="https://blog.molipre.com/tags/MacOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>从零开始的个人博客搭建(Win10篇)</title>
-    <link href="https://blog.molipre.com/posts/b016f2f1.html"/>
-    <id>https://blog.molipre.com/posts/b016f2f1.html</id>
-    <published>2020-09-30T16:00:00.000Z</published>
-    <updated>2020-09-30T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><div class="hide-toggle" style="border: 1px solid bg">  <div class="hide-button toggle-title" style="background-color: bg">    <i class="fas fa-caret-right fa-fw"></i><span>关于第一篇文章以及博客搭建的想法，不建议看</span>  </div>  <div class="hide-content">    <ul>      <div class="note blue paperclip flat"><p>第一次知道博客是各个平台现成的博客，例如CSDN，博客园之类的，毕竟以前查资料就会经常去别人的博客看看，自己也有一个平台博客，但是后面觉得太丑用了，再往以后的某一天，我在网上 查找关于路由器刷机的文章的时候，翻到了一个博客，样式很精美，我现在已经不记得它使用的是什么主题了，但还是记得是使用 <code>Hexo</code> 这个框架。</p></div>      <div class="note yellow paperclip flat"><p>再后来我买了个学生服务器开始搭建博客，开始查资料搭建的是WordPress，后面因为服务器负荷太大，运行几个月后就关闭了博客，今年年初的时候再想起博客这件事，又开始折腾我的服务器，因为疫情和其他事情耽搁，终于在九月份开始了博客搭建，原本是放在服务器上的，不过因为域名备案的原因，就先用着 <code>Github Pages</code>。</p></div>    </ul>  </div></div><p><strong>第一篇文章写博客搭建的原因：</strong><br><strong>第一，记录一下自己搭建博客的过程；</strong><br><strong>第二，就是给完全没有经验的小白朋友一个教程，可以跟着一步一步完成自己的Hexo博客搭建；</strong><br><strong><del>第三，装装门面，实在不知道写什么玩意</del>。</strong></p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p><strong><p style="font-size:0.8rem">这篇博文主要分为三个部分：</p></strong></p><div class="note default flat"><p><big>第一部分：环境准备与安装<br>第二部分：Hexo的安装<br>第三部分：将博客部署到Github</big></p></div><h1 id="环境准备与安装"><a href="#环境准备与安装" class="headerlink" title="环境准备与安装"></a>环境准备与安装</h1><h2 id="Node-js和Git的安装"><a href="#Node-js和Git的安装" class="headerlink" title="Node.js和Git的安装"></a>Node.js和Git的安装</h2><p><strong>关于环境，指的是Hexo框架必备的Node.js以及版本控制软件Git，我的博客下载的是当时的最新版 <code>Node.js-v12.16.3</code> 和 <code>Git version 2.26.2.windows.1</code> ，不过版本基本不影响博客的安装使用，所以只需要到官网下载最新版本即可。</strong></p><ol><li><a href="https://nodejs.org/en/"><strong>Node.js</strong></a></li><li><a href="https://git-scm.com/"><strong>Git</strong></a></li></ol><div class="note yellow idea flat"><p>下载和安装非常简单，下载完双击打开后，一直点下一步即可，不过需要注意的是两个软件需要添加环境变量，在软件安装界面可以勾选添加，如果没有添加也不需要担心，我们手动添加即可。</p></div><ol start="3"><li><p><strong>检查环境是否正确安装</strong></p><ul><li><strong>win+r输入cmd打开，在cmd输入 <code>node -v</code> 与 <code>git --version</code> ，如果能输出信息则表示成功。</strong></li></ul><p><img src="https://i.loli.net/2020/10/27/UIaXMbK3ZBvHu1l.jpg" alt="查看版本"></p></li><li><p><strong>手动配置环境变量</strong></p><ul><li><strong>我的电脑→属性→高级系统设置→环境变量→在XXX的用户变量找到Path→编辑</strong></li><li><strong>然后将Git安装目录xxx/git/bin写在里边即可，具体以你的安装情况为主。</strong></li></ul><p><img src="https://i.loli.net/2020/10/27/To1aVGYqnFQrMeu.png" alt="属性"><br><img src="https://i.loli.net/2020/10/27/EMdfzLhFRbniqkZ.png" alt="环境变量"><br><img src="https://i.loli.net/2020/10/27/CQejnWUcyP2gBuv.png" alt="在XXX的用户变量找到Path"></p></li></ol><h1 id="Hexo的安装"><a href="#Hexo的安装" class="headerlink" title="Hexo的安装"></a>Hexo的安装</h1><div class="note primary flat"><p><big><strong>关于Hexo，可以去<a href="https://hexo.io/zh-cn/">官网</a>看看，支持中文，且有详细的使用文档<br>当然，具体搭建可以看接下来的教程。</strong></big></p></div><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><div class="note blue paperclip flat"><p>多次使用npm都要等待很久，极其烦躁，换成cnpm舒服多了，具体也可以看看阿里云的<a href="https://developer.aliyun.com/mirror/NPM?from=tnpm">淘宝NPM镜像</a>，我就不说了。</p></div><p><strong>安装hexo会使用到npm，但因为npm的服务器在国外，npm安装会非常慢（使用xx上网的请忽略），甚至会出现下载安装失败，通常的解决办法是换淘宝镜像源，方法如下：</strong></p><ol><li><strong>win+r输入cmd打开，在cmd输入以下命令：</strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br><span class="line"><span class="comment"># 将npm源替换为阿里的淘宝镜像源</span></span><br></pre></td></tr></table></figure></li><li><strong>每次使用 <code>npm</code> 命令时，把 <code>npm</code> 换成 <code>cnpm</code> 即可</strong></li></ol><h2 id="Hexo的安装与初始化"><a href="#Hexo的安装与初始化" class="headerlink" title="Hexo的安装与初始化"></a>Hexo的安装与初始化</h2><ol><li><p><strong>在你的电脑某个盘建立一个文件夹命名为：<code>hexoblog</code> ，不建议为系统盘（你要放系统盘我也不阻止）</strong></p></li><li><p><strong>进入 <code>hexoblog</code> 文件夹，右键点击 <code>Git Bash Here</code> ，在 <code>Git Bash</code> 输入以下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br><span class="line"><span class="comment">#安装Hexo</span></span><br><span class="line">hexo -v</span><br><span class="line"><span class="comment">#查看Hexo版本号（判断是否安装成功）</span></span><br></pre></td></tr></table></figure><p><strong>具体如下图所示（红框内容是因为安装了butterfly主题，无需理会）</strong></p><p><img src="https://i.loli.net/2020/10/27/ArZhcSWK6glEtOG.png" alt="查看hexo版本"></p></li><li><p><strong>初始化Hexo，同样是在 <code>Git Bash</code> 输入以下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init</span><br><span class="line"><span class="comment">#初始化Hexo</span></span><br></pre></td></tr></table></figure><p><strong>看到如下图的结果就代表你已经完成了Hexo博客的初始化</strong></p><p><img src="https://i.loli.net/2020/10/27/D4yjIQRw6lSuTgO.png" alt="hexo初始化"></p><h2 id="查看Hexo博客与主题安装"><a href="#查看Hexo博客与主题安装" class="headerlink" title="查看Hexo博客与主题安装"></a>查看Hexo博客与主题安装</h2></li><li><p><strong>查看Hexo博客，在 <code>hexoblog</code> 文件夹右键点击 <code>Git Bash Here</code> ，输入以下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line"><span class="comment">#清空缓存</span></span><br><span class="line">hexo generate</span><br><span class="line">hexo g <span class="comment">#简写</span></span><br><span class="line"><span class="comment">#重新编译</span></span><br><span class="line">hexo server</span><br><span class="line">hexo s <span class="comment">#简写</span></span><br><span class="line"><span class="comment">#打开本地访问</span></span><br></pre></td></tr></table></figure><p><img src="https://i.loli.net/2020/10/27/jQZMOLIKzAxHslp.png" alt="hexo s"></p><p><strong>看到上图所示的提示，那么此时打开浏览器输入 <code>http://127.0.0.1:4000</code> 即可查看到如下图所示的博客。</strong><br><img src="https://i.loli.net/2020/10/27/TNMVfvBHiXK2Gxc.png" alt="博客主页"></p></li><li><p><strong>安装主题</strong></p><ul><li><strong>我自己使用的主题是 <code>Butterfly</code> ，你可以到主题的<a href="https://github.com/jerryc127/hexo-theme-butterfly">Github地址</a>下载，将下载好的 <code>hexo-theme-butterfly-dev.zip</code> 文件解压后重命名为 <code>butterfly</code> 并放入 <code>hexoblog\themes</code> 中即可，关于此主题的更多内容请参考<a href="https://demo.jerryc.me/">主题文档</a>。</strong></li><li><strong>当然，你也可以在 <code>hexoblog</code> 文件夹右键点击 <code>Git Bash Here</code> 输入以下命令来安装 <code>Butterfly</code> 这个主题：</strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure></li><li><strong>如果你没有选择此主题，请注意你所选用的主题是否需要放在 <code>hexoblog\themes</code> 文件里。</strong></li><li><strong>主题选择完请按照主题的官方文档进行配置。</strong></li></ul></li></ol><h1 id="将博客部署到Github"><a href="#将博客部署到Github" class="headerlink" title="将博客部署到Github"></a>将博客部署到Github</h1><h2 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册Github账号</h2><p><strong>（如有Github账号请忽视本小节内容）</strong></p><ol><li><strong>访问<a herf="https://github.com/">Github官网</a>按照提示注册即可。</strong></li><li><strong>如注册过程中遇到 <code>Unable to verify your captcha response</code> 报错，请按照以下两种方法分别尝试：</strong><div class="note default flat"><p><strong>第一种，把Github的域名添加到你的hosts文件中，操作方法自行百度。</strong><br><strong>第二种，使用XX上网，至于XX上网是什么，请自行百度。</strong></p></div></li></ol><h2 id="创建仓库和配置密钥"><a href="#创建仓库和配置密钥" class="headerlink" title="创建仓库和配置密钥"></a>创建仓库和配置密钥</h2><ol><li><strong>在Github首页右上角点击 <code>+</code> ，找到 <code>New repositories</code> 并点击，进入 <code>Create a new repository</code> ，在 <code>Repository name</code> 填写 <code>username.github.io</code> （username是你的账号名)，其他默认就行，最后点击 <code>Create repository</code> 就完成仓库创建。</strong><div class="note info flat"><p>关于为何要使用 <code>username.github.io</code> 作为仓库名，请查看Github相关资料：<a href="https://help.github.com/articles/user-organization-and-project-pages/">About GitHub Pages</a></p></div></li><li><strong>创建密钥对</strong><ul><li><strong>在 <code>hexoblog</code> 文件夹右键点击 <code>Git Bash Here</code> 输入以下命令：</strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;Your Github Name&quot;</span></span><br><span class="line"><span class="comment">#配置用户名</span></span><br><span class="line">git config --global user.email <span class="string">&quot;Your Github Email&quot;</span></span><br><span class="line"><span class="comment">#配置邮箱</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;Your Github Email&quot;</span></span><br><span class="line"><span class="comment">#生成密钥，-C后面加邮箱，是为了公钥被github认可</span></span><br></pre></td></tr></table></figure></li><li><strong>生成密钥的命令输入后只需要不断回车即可。</strong></li><li><strong>密钥生成以后，默认位置是在用户文件的 <code>.ssh</code> 文件夹内，在Windows上就在 <code>C:\Users或用户\用户名</code> 里，打开 <code>.ssh</code> 就能看到私钥：<code>id_rsa</code> 和公钥：<code>id_rsa.pub</code> 。</strong></li></ul></li><li><strong>在Github上配置公钥</strong><ul><li><strong>把上面找到的公钥：<code>id_rsa.pub</code> 用记事本或者编辑打开，复制如下图内容</strong><br><br><img src="https://i.loli.net/2020/10/28/Yv3xe98rkzwnNqK.png" alt="密钥"></li><li><strong>接着打开<a href="https://github.com/">Github</a>，点击 <code>头像</code> ，点击 <code>settings</code> ，在设置页面找到 <code>SSH and GPG keys</code> ，点击 <code>New SSH key</code> 按照下图的1、2、3操作即可。</strong><br><img src="https://i.loli.net/2020/10/28/4PJAYrQkyhCB2Hz.png" alt="添加密钥"></li><li><strong>点击完成后，在git bash测试sshkey是否添加成功，输入一下命令：</strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure></li><li><strong>得到类似下图的反馈便是成功连接：</strong><br><img src="https://i.loli.net/2020/10/28/dnSOUtGl4jo8Qhx.jpg" alt="成功连接"><div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg">  <i class="fas fa-caret-right fa-fw"></i><span>可能会遇到的BUG</span></div><div class="hide-content">  <ul>   在输入上述测试命令后出现以下报错提示：   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh: connect to host gitee.com port 22: Connection timed out</span><br></pre></td></tr></table></figure>   主要原因是默认的SSH端口号22被占用或被修改，那么只需要测试命令加上你的端口号即可，如下所示：   <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@ssh.github.com -p 端口号</span><br><span class="line"><span class="comment">#-p 端口号 可以表示为 -p 11111，端口号范围1~65535，但请避开一下默认端口</span></span><br></pre></td></tr></table></figure>  </ul></div></div></li></ul></li></ol><h2 id="配置本地站点配置文件"><a href="#配置本地站点配置文件" class="headerlink" title="配置本地站点配置文件"></a>配置本地站点配置文件</h2><ol><li><p><strong>打开你的 <code>hexoblog</code> 文件夹，找到 <code>_config.yml</code> 文件，记事本或编辑器打开，找到 <code>deploy</code> 修改内容如下所示：</strong></p><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">repo:</span></span><br><span class="line">    <span class="attr">github:</span> <span class="string">git@github.com:username/username.github.io.git</span> <span class="comment">#username为你的Github用户名</span></span><br><span class="line"><span class="attr">branch:</span> <span class="string">main</span></span><br><span class="line"><span class="comment">#2020年10月1号起创建的所有新的源代码仓库将默认被命名为 &quot;main&quot;，而不是原先的&quot;master&quot;</span></span><br><span class="line"><span class="comment">#如果是2020年10月1号前创建的源代码仓库，请用以下代码：</span></span><br><span class="line"><span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure></li></ol><h2 id="提交本地博客到Github"><a href="#提交本地博客到Github" class="headerlink" title="提交本地博客到Github"></a>提交本地博客到Github</h2><ol><li><p><strong>上述全部配置完成后，打开你的 <code>hexoblog </code>文件夹右键点击 <code>Git Bash Here</code> 输入以下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></li><li><p><strong>如无意外，浏览器输入 <code>username.github.io</code> 即可访问你的博客了。</strong></p><div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg"> <i class="fas fa-caret-right fa-fw"></i><span>如有意外，请查看是否符合以下报错：</span></div><div class="hide-content"> <ul> 在输入1中的命令后出现以下报错提示：  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ERROR Deployer not found: git</span><br></pre></td></tr></table></figure>  主要原因是是没有安装自动部署插件，那么只需要以下命令安装即可，如下所示：  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>  等待插件安装完成，然后再次输入1中的命令即可。 </ul></div></div></li></ol><h1 id="完结"><a href="#完结" class="headerlink" title="完结"></a>完结</h1><ul><li><strong>文章结束当然要写个结束语了，毫无意外，这就是我的第一篇博客文章了，当然只是Hexo这个博客搭建起来的后的第一篇博文，希望你能看的清晰，愉快的搭建起自己的博客，再见👋。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p><!-- <a class="btn-beautify button--animated blue block right larger" href="https://blog.molipre.com/posts/74231343.html"   title="从零开始的个人博客搭建(MacOS篇)"><i class="far fa-hand-point-right fa-fw"></i><span>从零开始的个人博客搭建(MacOS篇)</span></a> --><!-- <p style="font-size:1.2rem;font-weight:700"><strong>如需在MacOS部署请查看MacOS篇。</strong></p> -->]]></content>
-    
-    
-    <summary type="html">Win10系统下本地部署Hexo个人博客并上传同步到Github Pages（主要是给自己看）</summary>
-    
-    
-    
-    <category term="博客の美化" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/"/>
-    
-    <category term="Hexo👾" scheme="https://blog.molipre.com/categories/%E5%8D%9A%E5%AE%A2%E3%81%AE%E7%BE%8E%E5%8C%96/Hexo%F0%9F%91%BE/"/>
-    
-    
-    <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
-    
-    <category term="Github" scheme="https://blog.molipre.com/tags/Github/"/>
-    
-    <category term="博客搭建" scheme="https://blog.molipre.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="Win10" scheme="https://blog.molipre.com/tags/Win10/"/>
     
   </entry>
   

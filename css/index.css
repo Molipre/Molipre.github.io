@@ -3189,6 +3189,54 @@ padding-
     transform: scale(1);
   }
 }
+#catalogMagnet .category-list-count {
+  font-weight: bold;
+}
+#catalogMagnet .category-list-count:after {
+  content: ' 篇';
+}
+#catalogMagnet .fa-book {
+  padding-right: 5px;
+}
+#catalogMagnet .category-list-item {
+  list-style-type: none;
+}
+#catalogMagnet figure.gallery-group p {
+  font-weight: bold;
+}
+#catalogMagnet .color-card {
+  width: 32.3% !important;
+  height: 180px !important;
+  margin: 0.3rem 0.5% !important;
+}
+@media screen and (max-width: 650px) {
+  #catalogMagnet .color-card {
+    width: 48% !important;
+    height: 150px !important;
+    margin: 0.3rem 1% !important;
+  }
+}
+#catalogMagnet .magnetname:after {
+  background: #fff !important;
+}
+#catalogMagnet figure .gallery-group.color-card {
+  -webkit-box-shadow: rgba(50,50,50,0.4) 3px 3px 18px 0px inset;
+  box-shadow: rgba(50,50,50,0.4) 3px 3px 18px 0px inset;
+}
+#catalogMagnet figcaption {
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
+  background-image: -moz-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
+  background-image: -o-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
+  background-image: -ms-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
+  background-image: linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
+  color: #fff;
+  padding: 0.8rem;
+}
+#catalogMagnet > figure > figcaption > div > a,
+#catalogMagnet > figure > figcaption > div > span {
+  color: #fff;
+  font-size: 1rem !important;
+}
 #post-comment .comment-head {
   margin-bottom: 1rem;
 }
@@ -4853,18 +4901,6 @@ mjx-container[jax='CHTML'][display='true'] {
 #article-container .aplayer ol li:before,
 #article-container .aplayer ul li:before {
   content: none;
-}
-.color-card {
-  width: 24% !important;
-  height: 180px !important;
-  margin: 0.3rem 0.5% !important;
-}
-@media screen and (max-width: 650px) {
-  .color-card {
-    width: 48% !important;
-    height: 150px !important;
-    margin: 0.3rem 1% !important;
-  }
 }
 #article-container .btn-center {
   margin: 0 0 1rem;
