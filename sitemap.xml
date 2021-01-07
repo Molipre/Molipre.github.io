@@ -247,14 +247,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/about/</loc>
+    <loc>https://blog.molipre.com/artitalk/</loc>
     
     <lastmod>2020-11-30</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/artitalk/</loc>
+    <loc>https://blog.molipre.com/about/</loc>
     
     <lastmod>2020-11-30</lastmod>
     
@@ -529,13 +529,6 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/Jsdelivr/</loc>
-    <lastmod>2021-01-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.molipre.com/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
@@ -544,6 +537,13 @@
   
   <url>
     <loc>https://blog.molipre.com/tags/MacOS/</loc>
+    <lastmod>2021-01-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/tags/Jsdelivr/</loc>
     <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -755,6 +755,13 @@
   </url>
   
   <url>
+    <loc>https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2021-01-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/Markdown/</loc>
     <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
@@ -777,13 +784,6 @@
   
   <url>
     <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/Linux/</loc>
-    <lastmod>2021-01-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2021-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
