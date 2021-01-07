@@ -99,6 +99,6 @@ document.addEventListener('visibilitychange', function () {
 // document.getElementById("go-up").innerHTML += top_up;
 
 //footer心跳
-$(document).ready(function(e) {
-    $('.copyright').html('©2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heart"></i>  一川');
-});
+// $(document).ready(function(e) {
+//     $('.copyright').html('©2020 - 2021 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heart"></i>  一川');
+// });

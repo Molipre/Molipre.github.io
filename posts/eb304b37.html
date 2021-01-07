@@ -1,0 +1,326 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>学会搭建自己的私人图床 | 一川·MOLIPRE·BLOG</title><meta name="keywords" content="图床"><meta name="author" content="一川,819591739@qq.com"><meta name="copyright" content="一川"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="使用PicGo软件搭配Github、Gitee、又拍云、腾讯云COS四个平台搭建私人图床，以及如何使用PicGo上传图片到SM.SM">
+<meta property="og:type" content="article">
+<meta property="og:title" content="学会搭建自己的私人图床">
+<meta property="og:url" content="https://blog.molipre.com/posts/eb304b37.html">
+<meta property="og:site_name" content="一川·MOLIPRE·BLOG">
+<meta property="og:description" content="使用PicGo软件搭配Github、Gitee、又拍云、腾讯云COS四个平台搭建私人图床，以及如何使用PicGo上传图片到SM.SM">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://p.molipre.com/img/tiuchuang3.jpg">
+<meta property="article:published_time" content="2021-01-01T03:21:55.000Z">
+<meta property="article:modified_time" content="2021-01-04T03:21:55.000Z">
+<meta property="article:author" content="一川">
+<meta property="article:tag" content="图床搭建">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://p.molipre.com/img/tiuchuang3.jpg"><link rel="shortcut icon" href="https://i.loli.net/2020/10/09/6UthMu2mGABearp.png"><link rel="canonical" href="https://blog.molipre.com/posts/eb304b37.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css"><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js" defer></script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: {"appId":"ZIQLSGYOCN","apiKey":"cc332089463e9727142d145b0bedb11c","indexName":"yichuang","hits":{"per_page":10},"languages":{"input_placeholder":"输入你想要查找的内容","hits_empty":"找不到您查询的内容：${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 一川","link":"链接: ","source":"来源: 一川·MOLIPRE·BLOG","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  ClickShowText: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-01-04 11:21:55'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.0.1/blog/mycss/mystyle.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/macblack.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/plugins.min.css"><link rel="stylesheet" href="/clock/css/clock.css"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.1.1/blog/gitcalendar/css/gitcalendar.css"/><meta name="referrer" content="no-referrer-when-downgrade" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.0.6/blog/swiper/swiper.min.css"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.0.8/blog/swiper/swiperstyle.css"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.1.0/blog/mycss/custom.css"/><meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="一川·MOLIPRE·BLOG" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://i.loli.net/2020/10/09/HELKDJPFitjAxYu.jpg" onerror="onerror=null;src='https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@47410ec/butterfly/img/loading9.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">27</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">38</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">25</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文库</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-coffee"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/artitalk/"><i class="fa-fw fas fa-comment-dots"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://p.molipre.com/img/tuchuang.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">一川·MOLIPRE·BLOG</a></span><span id="menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div id="search_button"><a class="site-page home" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.molipre.com/"><i class="fas fa-home fa-fw"></i><span> 个人主页</span></a></div><div id="search_button"><a class="site-page about" href="/about/"><i class="fas fa-heart fa-fw"></i><span> 我</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文库</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-coffee"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/artitalk/"><i class="fa-fw fas fa-comment-dots"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><span class="close" id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i><span> </span></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">学会搭建自己的私人图床</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-01-01T03:21:55.000Z" title="发表于 2021-01-01 11:21:55">2021-01-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-01-04T03:21:55.000Z" title="更新于 2021-01-04 11:21:55">2021-01-04</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%99%E7%A8%8B/">教程</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%99%E7%A8%8B/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/">图床搭建</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>12分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/posts/eb304b37.html#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/posts/eb304b37.html" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><!-- &emsp;&emsp;**图床这种方式基本各个博客都会用到，不论是用别人搭建的开放图床，还是一些商业公司提供的图床，又或者是自己搭建的私人图床，方式基本都一样，只不过大多数都是要收费的，就算不收费，其中也是有各种限制的，至少数据是在别人手上嘛，我下面写到的几种图床搭建的方式，也会有一定限制，但至少数据会是由你自己掌控，当然要自己去设置一番，可能会有些许麻烦，见仁见智了。**
+&emsp;&emsp;**写下这篇博文的主要原因还是前段时间加入了[又拍云联盟](https://www.upyun.com/league)，作为宣传报酬就是又拍云会赠送每月10GB存储空间和15GB流量，因此我打算把这10GB存储空间搭建私人图床使用，于是便有了这篇图床合集的博文。** -->
+<ul>
+<li><p><strong>因为涉及到对象存储自建图床的方法，所以提前说一下相关的收费问题，可以说大部分使用各大平台提供的对象存储进行的搭建都是要收费的，这里的收费指的是用到的存储空间以及图片的请求还有访问的流量等等。</strong></p>
+</li>
+<li><p><strong>简单的说就是你上传存储100M的图片，那么收的费用就是100M的存储费（当然各大平台基本10G内免费），如果一天24H没人访问100M的图片，那么一天24H你只需要缴纳100M的存储费，如果有100个人在一天24H访问了你这100M的图片，那么一天24H的费用就会变成100人的请求费用+100人×100M的流量费，以及100M的存储费。</strong></p>
+</li>
+<li><p><strong>有一些平台可能会区分HTTP请求和HTTPS请求，两者分开计费，例如七牛云会每月赠送10GB的流量，但是不包含HTTPS。</strong></p>
+</li>
+<li><p><strong>关于Github白嫖当做图床在访问速度上对于国内的我们有些不友好，如果使用了 <code>Jsdelivr</code> 这个CDN进行加速的话，可能会违反 <code>Jsdelivr</code> 的政策。</strong></p>
+</li>
+<li><p><strong>2020年8月9日Jsdelivr更新了<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jsdelivr/jsdelivr/pull/18247/files">使用政策</a>，其中第四条 <code>## 4. Prohibited Use</code> 有一条规则 <code>running an image hosting website and using jsDelivr as a storage for all uploaded images</code>，这句话的大概意思是作为图站上传图片，这种行为不允许。</strong><br><strong>但有意思的是，规则中也没说多少张图片算是图站，也没说用在博客的算不算，因此消息一出很多人猜测jsdelivr是不是滥用过度而禁止将其作为图床使用？虽然截止这篇博文写出来的时候，我之前使用这种方式上传的图片仍然能够使用，但考虑到长久使用，我也开始了其他免费图床的尝试。</strong></p>
+<p><img src="https://p.molipre.com/img/jsd.png" alt="Jsd"></p>
+</li>
+<li><p><strong>Gitee虽然也能够像Github一样的方式搭建图床使用，但是因为没有CDN为其进行加速，虽然服务器在国内，但是访问速度一般般。</strong></p>
+</li>
+<li><p><strong>腾讯云会赠送50GB的对象存储空间但是不知道是否有赠送流量，所以我没有使用。</strong></p>
+</li>
+<li><p><strong>近期加入了又拍云联盟，会赠送一年67元代金券，建立CDN或者云存储等服务都是优先扣除代金券的钱，因此这个使用比较稳当，目前博客的图床使用是又拍云的云存储，同时也用了又拍与你的CDN为博客加速。</strong></p>
+</li>
+<li><p><strong>又拍云的云存储仅提供测试用的域名，不提供生产使用的域名，需要自己有一个已经做好域名备案的域名</strong></p>
+</li>
+<li><p><strong>各大平台的对象存储肯定是最稳定的方式，但是费用相对来说是比较高的，而且仅仅是用于博客的话，我个人觉得没必要花费这些钱（不差钱另说）。</strong></p>
+</li>
+<li><p><strong>公益图床（提供一定量的免费额度，也会有收费套餐，但是免费的额度基本满足博客使用）SM.SM虽然免费，但是访问速度时好时坏，不过也能用，我一开始用的就是SM.SM。</strong></p>
+</li>
+</ul>
+<h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p><strong><p style="font-size:0.8rem">文章会写四个平台，方式大同小异，需要点击跳转即可。</p></strong></p>
+<div class="note default flat"><p><big><a href="/posts/eb304b37.html#PicGo-Github">第一种：PicGo+Github</a><br><a href="/posts/eb304b37.html#PicGo-Gitee">第二种：PicGo+Gitee</a><br><a href="/posts/eb304b37.html#PicGo-%E5%8F%88%E6%8B%8D%E4%BA%91%E5%AD%98%E5%82%A8">第三种：PicGo+又拍云存储</a><br><a href="/posts/eb304b37.html#PicGo-%E8%85%BE%E8%AE%AF%E4%BA%91%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8">第四种：PicGo+腾讯云对象存储</a><br><a href="/posts/eb304b37.html#PicGo-SM-SM">补充：PicGo+SM.SM</a></big></p>
+</div>
+<p><strong>四种方式都是以PicGo这个软件为图床上传工具，因此在搭建图床之前先下载图床上传软件<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Molunerfinn/PicGo">PicGo</a>进行安装。</strong><br>（关于图床上传工具根据自己喜好下载软件即可，不一定必须是PicGo，我个人比较喜欢这个开发者，因为我以前搭建博客的想法就是看到了这个开发者<a target="_blank" rel="noopener external nofollow noreferrer" href="https://molunerfinn.com/">Molunerfinn</a>的博客才起了念头，这位是个真·大佬，我个人在看他的博客的时候学习到了很多，同时也推荐大佬写的Hexo主题：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Molunerfinn/hexo-theme-melody">Melody</a>）</p>
+<ol>
+<li><p><strong>Windows系统：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.4/PicGo-Setup-2.3.0-beta.4.exe">点击下载</a></strong></p>
+</li>
+<li><p><strong>macOS系统：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.4/PicGo-2.3.0-beta.4.dmg">点击下载</a></strong></p>
+</li>
+<li><p><strong>安装完成后，打开PicGo，然后：1、点击PicGo设置，2、拉到最后的选择显示的图床，勾选我们本次博文中所说的四个图床，可能第一次安装完软件没有显示Gitee图床，具体情况请看<a href="/posts/eb304b37.html#PicGo-Gitee">Gitee相关章节</a>。</strong></p>
+<p><img src="https://p.molipre.com/img/PicGo.png" alt="PicGo"></p>
+</li>
+</ol>
+<h2 id="PicGo-Github"><a href="#PicGo-Github" class="headerlink" title="PicGo+Github"></a>PicGo+Github</h2><ol>
+<li><p><strong>创建仓库</strong><br><strong>登录<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/">Github</a>（因为之前写过博客搭建博文有相关内容，这里默认注册并且配置好了），然后在Github首页右上角点击 <code>+</code> ，找到 <code>New repositories</code> 并点击，进入 <code>Create a new repository</code> ，在 <code>Repository name</code> 填写 <code>图床名称</code> （我填写的是img)，其他默认就行，最后点击 <code>Create repository</code> 就完成仓库创建。</strong></p>
+<p><img src="https://p.molipre.com/img/github.png" alt="Github图床1"></p>
+</li>
+<li><p><strong>创建Token</strong><br><strong>在Github首页右上角点击头像 ，找到 <code>Settings</code> 并点击，在页面左下找到 <code>Developer settings</code> ，点击进入，然后：1、点击 <code>Personal access tokens</code> ，2、点击 <code>Generate new token</code> 创建Token，3、Note输入名称（我输入的是仓库同名：img），4、勾选repo然后点击底部的 <code>Generate tokens</code> 即可完成Token的创建。</strong><br>（注意：创建完Token后会生成一串字符Token，这个字符串只会出现一次，请妥善保存，PicGo配置需要用到。）</p>
+<p><img src="https://p.molipre.com/img/github1.png" alt="Github图床2"><br><img src="https://p.molipre.com/img/github3.png" alt="Github图床3"></p>
+</li>
+<li><p><strong>使用PicGo上传图片</strong></p>
+<p><img src="https://p.molipre.com/img/github4.png" alt="Github图床4"></p>
+<p><big><strong>Github设置如下：</strong></big><br><strong>设定仓库名：</strong>格式为Github用户名/仓库名，例如我的：molipre/img<br><strong>设定分支名：</strong>填写：main，2020年10月1日后默认创建的仓库主分支都是main<br><strong>设定Token：</strong>步骤2中保存的字符串<br><strong>指定存储路径：</strong>在新的文件夹中储存，用 / 结尾，例如：img/<br><strong>设定自定义域名：</strong>https: //cdn.jsdelivr.net/gh/用户名/仓库名，这个能够为Github提供免费的CDN加速。</p>
+</li>
+</ol>
+<h2 id="PicGo-Gitee"><a href="#PicGo-Gitee" class="headerlink" title="PicGo+Gitee"></a>PicGo+Gitee</h2><div class="note red quote flat"><p><strong>因为国内访问Github的速度比较慢，PicGo上传图片会经常出现不成功的情况，所以有这方面困扰的朋友就可以考虑一下Gitee用作图床。</strong></p>
+</div>
+<ol>
+<li><p><strong>创建仓库</strong><br><strong>登录<a target="_blank" rel="noopener external nofollow noreferrer" href="https://gitee.com/">Gitee</a>（因为之前写过博客搭建博文有相关内容，这里默认注册并且配置好了），点击左上角的 <code>+</code> ，接着点击 <code>新建仓库</code> ，然后：1、填写仓库名称（我的是img），2、选择公开，3、勾选使用Readme文件初始化这个仓库，其他默认就行，最后点击创建即可。</strong></p>
+<p><img src="https://p.molipre.com/img/gitee.png" alt="Gitee图床"></p>
+</li>
+<li><p><strong>获取私人令牌</strong><br><strong>在Gitee首页右上角点击头像 ，找到 <code>设置</code> 并点击，在页面左下安全设置部分找到 <code>私人令牌</code> 然后：1、点击 <code>私人令牌</code> ，2、点击右上角 <code>+生成新令牌</code> ，3、输入私人令牌描述（我输入的是仓库同名：img），4、只勾选projects然后点击底部的 <code>提交</code> 即可完成私人令牌的创建。</strong><br>（注意：创建完私人令牌后会生成一串字符，这个字符串只会出现一次，请妥善保存，PicGo配置需要用到。）</p>
+<p><img src="https://p.molipre.com/img/gitee1.png" alt="Gitee图床1"><br><img src="https://p.molipre.com/img/gitee3.png" alt="Gitee图床2"><br><img src="https://p.molipre.com/img/gitee4.png" alt="Gitee图床3"></p>
+</li>
+<li><p><strong>使用PicGo上传图片</strong></p>
+<div class="note red quote flat"><p><strong>注意，该过程需要安装插件，需要你已经安装好了Node.js，这里默认已经安装好了，不懂的话可以查看博客其他文章。</strong></p>
+</div>
+<p><strong>打开PicGo软件，点击 <code>插件设置</code> ，搜索 <code>gitee</code> 然后点击安装。</strong></p>
+<p><img src="https://p.molipre.com/img/gitee6.png" alt="Gitee图床4"><br><strong>待安装成功，点击 <code>PicGo设置</code> ，拉到最后，勾选 <code>gitee</code> 。</strong></p>
+<p><img src="https://p.molipre.com/img/gitee7.png" alt="Gitee图床5"><br><strong>然后在 <code>图床设置</code> 找到 <code>gitee</code> 。</strong></p>
+<p><img src="https://p.molipre.com/img/gitee5.png" alt="Gitee图床4"></p>
+<p><big><strong>Gitee设置如下：</strong></big><br><strong>repo：</strong>用户名/仓库名<br><strong>branch：</strong>master，分支只创建了master<br><strong>token：</strong>步骤2中创建并保存好的私人令牌一串字符<br><strong>path：</strong>在新的文件夹中储存，用 / 结尾，例如：img/<br><strong>customPath：</strong>有四种可选，推荐选年月，当然也可以不选，我自己是不选的<br><strong>customUrl：</strong>自定义网址，个人用户无法更改域名，无需理会</p>
+</li>
+</ol>
+<h2 id="PicGo-又拍云存储"><a href="#PicGo-又拍云存储" class="headerlink" title="PicGo+又拍云存储"></a>PicGo+又拍云存储</h2><div class="note red quote flat"><p><strong>又拍云会有每个月10G的云存储空间，获取方式请先注册账号后加入<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.upyun.com/league">又拍云联盟</a>。</strong></p>
+</div>
+<ol>
+<li><p><strong>首先登陆<a target="_blank" rel="noopener external nofollow noreferrer" href="https://console.upyun.com/dashboard/">又拍云控制台</a></strong> ( 没有账号的小伙伴按照提示注册然后再实名认证即可 ) <strong>，接着找到<a target="_blank" rel="noopener external nofollow noreferrer" href="https://console.upyun.com/services/file/">云存储</a></strong> ( 有账号的小伙伴直接打开这个链接登录即可 )<strong>，点击下图中的创建服务。</strong></p>
+<p><img src="https://p.molipre.com/img/ypy.png" alt="又拍云图床1"></p>
+</li>
+<li><p><strong>出现下图页面，按照下面图片中步骤：1、服务名称处输入服务名称（例如我输入是img），2、点击新建授权操作员，3、输入操作员用户名，4、点击生成密码，然后复制密码待用，5,、勾选三个权限，其他默认然后点击创建即可。</strong></p>
+<p><img src="https://p.molipre.com/img/ypy1.png" alt="又拍云图床2"></p>
+</li>
+<li><p><strong>防盗链设置</strong>（该步骤主要是防止你的流量被恶意程序使用图床链接盗刷）<br><strong>按照下面图片中步骤：1、点击图1红框中配置进入云存储配置，2、点击图2中红框访问控制，3、找到Referer防盗链，点击红框中的管理，4、选择白名单，选择禁止Referer为空，在Referer框内输入要用图床链接的域名，7、点击确定即可。</strong></p>
+<p><img src="https://p.molipre.com/img/ypy6.png" alt="又拍云图床3"><br><img src="https://p.molipre.com/img/ypy7.png" alt="又拍云图床4"><br><img src="https://p.molipre.com/img/ypy8.png" alt="又拍云图床5"><br><img src="https://p.molipre.com/img/ypy9.png" alt="又拍云图床6"></p>
+</li>
+<li><p><strong>域名绑定</strong>（因为又拍云本身仅提供一个不用于生产而用于测试的域名，因此必须绑定域名才能正常使用又拍云当图床，该步骤需要你有一个已经通过ICP备案的域名）<br><strong>按照下面图片中步骤：1、点击图1红框中配置进入云存储配置，出现第一个页面便是域名管理，2、找到加速域名，点击红框中域名绑定，3、在域名处输入域名(例如我的是p.molipre.com)，4、点击确定即可，5、找到基本信息，复制红框中CNAME的网址。</strong></p>
+<p><img src="https://p.molipre.com/img/ypy6.png" alt="又拍云图床3"><br><img src="https://p.molipre.com/img/ypy10.png" alt="又拍云图床7"><br><img src="https://p.molipre.com/img/ypy11.png" alt="又拍云图床8"><br><img src="https://p.molipre.com/img/ypy12.png" alt="又拍云图床9"><br><strong>接着打开你的域名解析管理后台，找到你的域名并添加解析记录，例如我的p.molipre.com填写如下图所示：</strong></p>
+<p><img src="https://p.molipre.com/img/txy6.png" alt="腾讯云图床6"></p>
+</li>
+<li><p><strong>添加SSL证书</strong><br><strong>打开<a target="_blank" rel="noopener external nofollow noreferrer" href="https://console.upyun.com/toolbox/ssl/">又拍云SSL证书</a>页面，如果你绑定的域名没有SSL证书，请按照下面图片中步骤：1、点击申购证书，2、选择TrustAsia(含免费)，3、点击创建订单，然后确认购买，确认支付，4、出现证书状态处于待完成的页面，点击补全，5、在域名处填写上一步骤的域名(例如我的是p.molipre.com)，然后不断下一步，直至完成，然后等待证书颁发。</strong></p>
+<p><img src="https://p.molipre.com/img/ypy16.png" alt="又拍云图床10"><br><img src="https://p.molipre.com/img/ypy17.png" alt="又拍云图床11"><br><img src="https://p.molipre.com/img/ypy22.png" alt="又拍云图床12"><br><img src="https://p.molipre.com/img/ypy23.png" alt="又拍云图床13"></p>
+<p><strong>如果已经在域名解析控制台绑定了你的域名和证书，则需要：1、打开域名解析控制台，点击证书详情，2、下载证书，并找到下载好的证书文件然后解压，3、进入解压好的证书文件夹，找到Nginx文件夹并进入，4、用编辑器打开Nginx文件夹内的crt和key文件，然后复制crt和key文件内容待用，5、打开<a target="_blank" rel="noopener external nofollow noreferrer" href="https://console.upyun.com/toolbox/ssl/">又拍云SSL证书</a>页面，点击证书管理，点击添加自有证书，6、把刚才复制的crt和key文件内容分别粘贴到pem证书框内和私钥框内，然后点击保存即可。</strong></p>
+<p><img src="https://p.molipre.com/img/ypy27.png" alt="又拍云图床14"><br><img src="https://p.molipre.com/img/ypy26.png" alt="又拍云图床15"><br><img src="https://p.molipre.com/img/ypy28.png" alt="又拍云图床16"><br><img src="https://p.molipre.com/img/ypy29.png" alt="又拍云图床17"><br><img src="https://p.molipre.com/img/ypy33.png" alt="又拍云图床18"><br><img src="https://p.molipre.com/img/ypy31.png" alt="又拍云图床19"><br><img src="https://p.molipre.com/img/ypy32.png" alt="又拍云图床20"></p>
+</li>
+<li><p><strong>开启https访问</strong><br><strong>按照下面图片中步骤：1、点击图1红框中配置进入云存储配置，2、点击图2中红框HTTPS，3、找到HTTPS配置，点击红框中的管理，4、上述证书和域名绑定后会出现图4的页面，点击开启HTTPS访问和勾选强制HTTPS访问即可。</strong></p>
+<p><img src="https://p.molipre.com/img/ypy6.png" alt="又拍云图床3"><br><img src="https://p.molipre.com/img/ypy14.png" alt="又拍云图床21"><br><img src="https://p.molipre.com/img/ypy15.png" alt="又拍云图床22"><br><img src="https://p.molipre.com/img/ypy24.png" alt="又拍云图床23"></p>
+<p><strong>完成上述步骤后，你就可以通过你自己定义的域名访问图床的图片了。</strong></p>
+</li>
+<li><p><strong>使用PicGo上传图片</strong></p>
+<p><img src="https://p.molipre.com/img/ypy34.png" alt="又拍云图床24"></p>
+<p><big><strong>又拍云设置如下：</strong></big><br><strong>设定存储空间名称：</strong>又拍云服务名。<br><strong>设定操作员及操作员密码：</strong>步骤2中设置的操作员名以及保存的密码。<br><strong>设定加速域名：</strong>步骤4中绑定的域名。<br><strong>设定网址后缀：</strong>图片处理参数（可不填），例如：!imgslim<br><strong>指定存储路径：</strong>在新的文件夹中储存，用 / 结尾，例如：img/</p>
+</li>
+</ol>
+<h2 id="PicGo-腾讯云对象存储"><a href="#PicGo-腾讯云对象存储" class="headerlink" title="PicGo+腾讯云对象存储"></a>PicGo+腾讯云对象存储</h2><ol>
+<li><p><strong>首先登陆<a target="_blank" rel="noopener external nofollow noreferrer" href="https://console.cloud.tencent.com/">腾讯云控制台</a></strong> ( 没有账号的小伙伴按照提示注册然后再实名认证即可 ) <strong>，接着找到<a target="_blank" rel="noopener external nofollow noreferrer" href="https://console.cloud.tencent.com/cos5">对象存储</a></strong> ( 有账号的小伙伴直接打开这个链接登录即可 ) <strong>，按照下面图片中步骤：1、点击存储桶列表，2、点击创建存储桶。</strong></p>
+<p><img src="https://p.molipre.com/img/txy.png" alt="腾讯云图床1"></p>
+</li>
+<li><p><strong>出现下图弹窗，按照下面图片中步骤：1、名称处输入存储桶名称（例如我输入是img），2、访问权限选择公有读私有写，其他默认然后点击确定即可。</strong></p>
+<p><img src="https://p.molipre.com/img/txy1.png" alt="腾讯云图床2"></p>
+</li>
+<li><p><strong>防盗链设置</strong>（该步骤主要是防止你的流量被恶意程序使用图床链接盗刷）<br><strong>按照下面图片中步骤：1、点击安全管理，2、点击防盗链设置，3、点击编辑，4、选择开启，选择白名单，选择允许，在Referer框内输入要用图床链接的域名，然后保存即可。</strong></p>
+<p><img src="https://p.molipre.com/img/txy2.png" alt="腾讯云图床3"><br><img src="https://p.molipre.com/img/txy3.png" alt="腾讯云图床4"></p>
+</li>
+<li><p><strong>自定义源站域名</strong>（因为对象存储本身提供的访问地址是比较长的，所以自定义一个域名去做访问比较方便，该步骤需要你有一个已经通过ICP备案的域名）<br><strong>按照下面图片中步骤：1、点击域名与传输管理，2、点击自定义源站域名，3、点击添加域名，4、在域名处输入域名(例如我的是p.molipre.com)，5、复制CNAME的内容，并点击点击保存。</strong></p>
+<p><img src="https://p.molipre.com/img/txy4.png" alt="腾讯云图床5"><br><strong>接着打开你的域名解析管理后台，找到你的域名并添加解析记录，例如我的p.molipre.com填写如下图所示：</strong></p>
+<p><img src="https://p.molipre.com/img/txy6.png" alt="腾讯云图床6"><br><strong>完成上述步骤后，你就可以通过你自己定义的域名访问图床的图片了，但是因为腾讯云自身的原因，该访问是http连接，浏览器会显示不安全，如果需要配置https访问，则需要开启CDN加速，因为这个要付费使用，我这里就不演示了，请自行设置。</strong></p>
+<p><img src="https://p.molipre.com/img/txy7.jpg" alt="腾讯云图床7"><br><img src="https://p.molipre.com/img/txy5.jpg" alt="腾讯云图床8"></p>
+</li>
+<li><p><strong>使用PicGo上传图片</strong></p>
+<p><img src="https://p.molipre.com/img/txy8.png" alt="腾讯云图床9"><br><big><strong>腾讯云COS设置如下：</strong></big><br><strong>COS版本：</strong>请选择V5，新开通的都是 V5 版本。<br><strong>SecretId、SecretKey、APPID：</strong>请访问<a target="_blank" rel="noopener external nofollow noreferrer" href="https://console.cloud.tencent.com/cam/capi">API密钥管理</a>，复制红框内的内容填写到PicGo。</p>
+<p><img src="https://p.molipre.com/img/txy10.png" alt="腾讯云图床10"><br><strong>存储空间名称：</strong>存储桶名称。<br><strong>区域：</strong>填写区域英文代码，例如步骤2中选择所属区域为南京，则填写：<strong>ap-nanjing</strong><br><strong>存储路径：</strong>在新的文件夹中储存，用 / 结尾，例如放在根目录：/<br><strong>自定义域名：</strong>如果有绑定自定义域名，填写步骤4中的域名，否则留空。</p>
+</li>
+</ol>
+<h2 id="PicGo-SM-SM"><a href="#PicGo-SM-SM" class="headerlink" title="PicGo+SM.SM"></a>PicGo+SM.SM</h2><div class="note red quote flat"><p><strong>SM.SM是一个商业开发的图床，本身有免费的存储空间和收费的VIP套餐，这里当然不推荐VIP套餐，因为太贵了，而且你注册了账号，会赠送5GB的空间，用完就没了，不注册账号的话，每天也能上传30张图片，就是传完没法管理，有账号的话你就能管理你上传的照片。</strong></p>
+</div>
+<ol>
+<li><p><strong>如果不想注册账号的话，直接访问 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://sm.ms/">SM.SM</a> 然后选择本地图片去上传即可，因为没有账号的原因，因此也没法使用PicGo来上传图片。</strong></p>
+<p><img src="https://p.molipre.com/img/smsm.png" alt="SM.SM图床"></p>
+</li>
+<li><p><strong>如果想要更好的管理上传到SM.SM的图片，那么就需要注册一个账号，<a target="_blank" rel="noopener external nofollow noreferrer" href="https://sm.ms/register">请点击这里去注册</a>。</strong></p>
+<ul>
+<li><p><strong>注册成功并登陆，然后：1、点击右上角 <code>User</code>，然后点击 <code>Dashboard</code> 进入账号管理页面。</strong></p>
+<p><img src="https://p.molipre.com/img/smsm1.png" alt="SM.SM图床1"></p>
+</li>
+<li><p><strong>接着：1、点击左下的 <code>API Token</code> ，2、点击 <code>Generate Secret Token</code> 生成秘钥令牌，3、复制 <code>Secret Token</code> 后面那一串字符待用。</strong></p>
+<p><img src="https://p.molipre.com/img/smsm2.png" alt="SM.SM图床2"></p>
+</li>
+<li><p><strong>使用PicGo上传图片到SM.SM，1、打开PicGo，找到图床设置中的SM.SM图床，2、在设定Token中粘贴你刚才保存的Secret Token，然后点击确认即可。</strong></p>
+<p><img src="https://p.molipre.com/img/smsm3.png" alt="SM.SM图床3"></p>
+</li>
+</ul>
+</li>
+</ol>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul>
+<li><strong>关于私人图床搭建的内容就到这里了，其实还有更多平台可以搭建的，例如七牛云。阿里云OSS等等，提供云存储的平台都可以用类似的方法去搭建，各种商业图床也很多，这里就不推荐了，大家自己去发掘吧。</strong></li>
+<li><strong>祝大家搭建成功，使用顺利，再见👋。</strong></li>
+</ul>
+<p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com" rel="external nofollow noreferrer">邮件</a>或在底下评论与我联系</center></strong></big></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:819591739@qq.com" rel="external nofollow noreferrer">一川</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://blog.molipre.com/posts/eb304b37.html">https://blog.molipre.com/posts/eb304b37.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.molipre.com" target="_blank">一川·MOLIPRE·BLOG</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/">图床搭建</a></div><div class="post_share"><div class="social-share" data-image="https://p.molipre.com/img/tiuchuang3.jpg" data-sites="wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 要饭ing<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://i.loli.net/2020/10/09/pMkIV43Tr1a2YKt.jpg" rel="external nofollow noreferrer" target="_blank"><img class="post-qr-code-img" src="https://i.loli.net/2020/10/09/pMkIV43Tr1a2YKt.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://i.loli.net/2020/10/09/RLuGzWJ6C8Moi79.jpg" rel="external nofollow noreferrer" target="_blank"><img class="post-qr-code-img" src="https://i.loli.net/2020/10/09/RLuGzWJ6C8Moi79.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/933ef26f.html"><img class="prev-cover" src="https://p.molipre.com/img/20210101.jpeg" onerror="onerror=null;src='https://gitee.com/Molipre/images/raw/master/img/wallpaper%20(5).jpeg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">20210101</div></div></a></div><div class="next-post pull-right"><a href="/posts/9449b4c3.html"><img class="next-cover" src="https://p.molipre.com/img/CDN.jpg" onerror="onerror=null;src='https://gitee.com/Molipre/images/raw/master/img/wallpaper%20(5).jpeg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">学学CDN的使用吧</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside_content" id="aside_content"><div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="clock"><img v-if="!clockshow" src="/images/loading.gif" style="height:120px;width:100%"><table class="clock" v-if="clockshow"><tbody><tr><td class="clockdate">{{date}}</td><td class="weatherimg"><img id="weatherimg" :src="weatherimg"></td><td class="temperature">{{temperature+ "*C"}}</td><td class="humidityimg"><img id="humidityimg" :src="humidityimg"></td><td class="humidity">{{humidity + "%"}}</td></tr><tr class="time"><td colspan="5">{{time}}</td></tr><tr><td class="usaqi" colspan="1">{{usaqi + ' ' + 'US' + ' ' +'AQI' }}</td><td class="city" colspan="3">{{city}}</td><td class="daylight" colspan="1">{{daylight}}</td></tr></tbody></table></div></div></div></div></div><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://i.loli.net/2020/10/09/HELKDJPFitjAxYu.jpg" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@47410ec/butterfly/img/loading9.gif'" alt="avatar"/><div class="author-info__name">一川</div><div class="author-info__description">读万卷书，行万里路</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length_num">27</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length_num">38</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length_num">25</div></a></div></div><a class="button--animated" id="card-info-btn" href="mailto:819591739@qq.com" rel="external nofollow noreferrer"><i class="fas fa-envelope"></i><span>联系我</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Molipre" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=819591739&amp;site=qq&amp;menu=yes" rel="external nofollow noreferrer" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="https://i.loli.net/2020/11/02/LoMpTtfH8gQhYSk.jpg" rel="external nofollow noreferrer" target="_blank" title="微信"><i class="fab fa-weixin"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>告示牌</span></div><div class="announcement_content"><p style="font-size:0.8rem">博客运营中，欢迎常来做客，主题还是会持续施工的，来到就不妨<a href="https://blog.molipre.com/messageboard/">留个言</a>吧！！！</p><img src="https://i.loli.net/2020/12/30/5JDjfMy6SlnoVqh.jpg" /></div></div></div><div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-paw fa-spin"></i><span>昔年今日</span></div><div id="history-news" style="height: 100px;overflow: hidden;"><div id="history-card"></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="card-content"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B"><span class="toc-number">2.</span> <span class="toc-text">开始</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#PicGo-Github"><span class="toc-number">2.1.</span> <span class="toc-text">PicGo+Github</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#PicGo-Gitee"><span class="toc-number">2.2.</span> <span class="toc-text">PicGo+Gitee</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#PicGo-%E5%8F%88%E6%8B%8D%E4%BA%91%E5%AD%98%E5%82%A8"><span class="toc-number">2.3.</span> <span class="toc-text">PicGo+又拍云存储</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#PicGo-%E8%85%BE%E8%AE%AF%E4%BA%91%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8"><span class="toc-number">2.4.</span> <span class="toc-text">PicGo+腾讯云对象存储</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#PicGo-SM-SM"><span class="toc-number">2.5.</span> <span class="toc-text">PicGo+SM.SM</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%80%E5%90%8E"><span class="toc-number">3.</span> <span class="toc-text">最后</span></a></li></ol></div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/70ede0ce.html" title="关于域名应用的一些小技巧"><img src="https://p.molipre.com/img/domain-name3.jpg" onerror="this.onerror=null;this.src='https://gitee.com/Molipre/images/raw/master/img/wallpaper%20(5).jpeg'" alt="关于域名应用的一些小技巧"/></a><div class="content"><a class="title" href="/posts/70ede0ce.html" title="关于域名应用的一些小技巧">关于域名应用的一些小技巧</a><time datetime="2021-01-06T02:56:03.000Z" title="发表于 2021-01-06 10:56:03">2021-01-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/e473cac8.html" title="阅读《切尔诺贝利的祭祷》"><img src="https://p.molipre.com/img/Chernobyl.png" onerror="this.onerror=null;this.src='https://gitee.com/Molipre/images/raw/master/img/wallpaper%20(5).jpeg'" alt="阅读《切尔诺贝利的祭祷》"/></a><div class="content"><a class="title" href="/posts/e473cac8.html" title="阅读《切尔诺贝利的祭祷》">阅读《切尔诺贝利的祭祷》</a><time datetime="2021-01-04T13:05:55.000Z" title="发表于 2021-01-04 21:05:55">2021-01-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/c661500c.html" title="Every Day Carry For 2021"><img src="https://p.molipre.com/img/edc3.jpg" onerror="this.onerror=null;this.src='https://gitee.com/Molipre/images/raw/master/img/wallpaper%20(5).jpeg'" alt="Every Day Carry For 2021"/></a><div class="content"><a class="title" href="/posts/c661500c.html" title="Every Day Carry For 2021">Every Day Carry For 2021</a><time datetime="2021-01-03T15:22:49.000Z" title="发表于 2021-01-03 23:22:49">2021-01-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/933ef26f.html" title="20210101"><img src="https://p.molipre.com/img/20210101.jpeg" onerror="this.onerror=null;this.src='https://gitee.com/Molipre/images/raw/master/img/wallpaper%20(5).jpeg'" alt="20210101"/></a><div class="content"><a class="title" href="/posts/933ef26f.html" title="20210101">20210101</a><time datetime="2021-01-01T15:49:09.000Z" title="发表于 2021-01-01 23:49:09">2021-01-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/eb304b37.html" title="学会搭建自己的私人图床"><img src="https://p.molipre.com/img/tiuchuang3.jpg" onerror="this.onerror=null;this.src='https://gitee.com/Molipre/images/raw/master/img/wallpaper%20(5).jpeg'" alt="学会搭建自己的私人图床"/></a><div class="content"><a class="title" href="/posts/eb304b37.html" title="学会搭建自己的私人图床">学会搭建自己的私人图床</a><time datetime="2021-01-01T03:21:55.000Z" title="发表于 2021-01-01 11:21:55">2021-01-01</time></div></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://p.molipre.com/img/tuchuang.jpg)"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heart"></i> 一川</div><div class="framework-info"><a href="https://blog.molipre.com">读万卷书</a><span class="footer-separator">|</span><a href="https://blog.molipre.com">行万里路</a></div><div class="icp"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://beian.miit.gov.cn/#/Integrated/index"><img class="icp-icon" src="https://i.loli.net/2020/10/09/DLIpuQvB1AzMK72.png"/><span>粤ICP备2020124234号</span></a></div><div class="footer_custom_text">本网站由&nbsp;<a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img class="cdn-icon" src="https://i.loli.net/2020/12/23/Of7kLoY6p4eWwxF.png"></a>&nbsp;提供CDN加速服务<br><a id="running-time"></a></div><div class="github-badge"><a style="color:#fff" rel="external nofollow noopener noreferrer" href="https://hexo.io/" target="_blank" title="由 Hexo 强力驱动" data-pjax-state=""><span class="badge-subject">Powered</span><span class="badge-value bg-red">Hexo 5.2.0</span></a></div><div class="github-badge"><a style="color:#fff" rel="external nofollow noopener noreferrer" href="https://github.com/" target="_blank" title="静态网页托管于 GitHub Pages 和 Gitee Pages" data-pjax-state=""><span class="badge-subject">Hosted</span><span class="badge-value bg-blue">GitHub & Gitee</span></a></div><div class="github-badge"><a style="color:#fff" rel="external nofollow noopener noreferrer" href="https://www.jsdelivr.com/" target="_blank" title="由JsDelivr为静态资源提供CDN加速" data-pjax-state=""><span class="badge-subject">CDN</span><span class="badge-value bg-orange">Jsdelivr</span></a></div><div class="github-badge"><a style="color:#fff" rel="external nofollow noopener noreferrer" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="本站点采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可" data-pjax-state=""><span class="badge-subject"><i class="fa fa-copyright"></i></span><span class="badge-value bg-brightgreen">BY-NC-SA 4.0</span></a></div><div class="github-badge"><a style="color:#fff" rel="external nofollow noopener noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" title="站点使用Butterfly主题dev分支最新版" data-pjax-state=""><span class="badge-subject">Theme</span><span class="badge-value bg-lightgrey">Butterfly 3.3.0-b2</span></a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"></div><div id="rightside-config-show"><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="algolia-search"><div class="search-dialog__title" id="algolia-search-title">万物基于搜索</div><div id="algolia-input-panel"><div id="algolia-search-input"></div></div><hr/><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/algolia.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    let initData = {
+      el: '#vcomment',
+      appId: '3i67rj8Jj2lPSjbi6T3gnhyf-MdYXbMMI',
+      appKey: 'Ed8gYGWUyTrehImIcuU3E66C',
+      placeholder: '🖼️图片请以M↓格式书写，例如：![](url)或直接拖动到此框中\n📌昵称可以填写QQ号来自动补全QQ信息\n👨‍🔧本站已启用Akismet反垃圾评论\n🚀评论和回复支持M↓',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: true,
+      serverURLs: 'https://3i67rj8j.api.lncldglobal.com',
+      emojiCDN: 'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/',
+      emojiMaps: {"custom-35":"https://cdn.jsdelivr.net/gh/blogimg/picbed@latest/2020/04/22/097cd88f446efae87cb27de38c5eed15.png","custom-34":"https://cdn.jsdelivr.net/gh/blogimg/picbed@latest/2020/04/22/ec2166501d29bc1eb7380c22944db462.png","custom-33":"https://cdn.jsdelivr.net/gh/blogimg/picbed@latest/2020/04/22/8ca39f96c182e51cd752dde464157c2e.png","custom-32":"https://cdn.jsdelivr.net/gh/blogimg/picbed@latest/2020/04/22/0a65c5dd18872b56605c08f7bae2e8c8.png","custom-31":"https://cdn.jsdelivr.net/gh/blogimg/picbed@latest/2020/04/22/ec3edbfe84684fdb1680307d261c3c7b.png","custom-30":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/31.webp","custom-29":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/30.gif","custom-28":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/29.webp","custom-27":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/28.webp","custom-26":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/27.webp","custom-25":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/26.webp","custom-24":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/25.jpg","custom-23":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/24.webp","custom-22":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/23.webp","custom-21":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/22.webp","custom-20":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/21.webp","custom-19":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/20.webp","custom-18":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/19.webp","custom-17":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/18.jpg","custom-16":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/17.webp","custom-15":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/16.webp","custom-14":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/15.webp","custom-13":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/14.webp","custom-12":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/13.webp","custom-11":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/12.webp","custom-10":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/11.webp","custom-8":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/9.webp","custom-7":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/8.webp","custom6":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/7.webp","custom-5":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/6.gif","custom-4":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/5.gif","custom-3":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/4.jpg","custom-2":"https://cdn.jsdelivr.net/gh/blogimg/emotion/custom/3.jpg","custom-1":"https://cdn.jsdelivr.net/gh/blogimg/picbed@master/2020/04/19/c3164053d300cc5cca5e4dc3311842dc.png","custom-0":"https://cdn.jsdelivr.net/gh/blogimg/picbed@master/2020/04/19/6b5e768e524c8441ba66184bfdd86d4d.png","bilibiliHotKey1":"bilibiliHotKey/1.jpg","bilibiliHotKey2":"bilibiliHotKey/10.jpg","bilibiliHotKey3":"bilibiliHotKey/11.jpg","bilibiliHotKey4":"bilibiliHotKey/12.jpg","bilibiliHotKey5":"bilibiliHotKey/13.jpg","bilibiliHotKey6":"bilibiliHotKey/14.jpg","bilibiliHotKey7":"bilibiliHotKey/15.jpg","bilibiliHotKey8":"bilibiliHotKey/16.jpg","bilibiliHotKey9":"bilibiliHotKey/17.jpg","bilibiliHotKey10":"bilibiliHotKey/18.jpg","bilibiliHotKey11":"bilibiliHotKey/19.jpg","bilibiliHotKey12":"bilibiliHotKey/2.jpg","bilibiliHotKey13":"bilibiliHotKey/20.jpg","bilibiliHotKey14":"bilibiliHotKey/21.jpg","bilibiliHotKey15":"bilibiliHotKey/22.jpg","bilibiliHotKey16":"bilibiliHotKey/23.jpg","bilibiliHotKey17":"bilibiliHotKey/24.jpg","bilibiliHotKey18":"bilibiliHotKey/25.jpg","bilibiliHotKey19":"bilibiliHotKey/26.jpg","bilibiliHotKey20":"bilibiliHotKey/27.jpg","bilibiliHotKey21":"bilibiliHotKey/28.jpg","bilibiliHotKey22":"bilibiliHotKey/29.jpg","bilibiliHotKey23":"bilibiliHotKey/3.jpg","bilibiliHotKey24":"bilibiliHotKey/30.jpg","bilibiliHotKey25":"bilibiliHotKey/31.jpg","bilibiliHotKey26":"bilibiliHotKey/32.jpg","bilibiliHotKey27":"bilibiliHotKey/4.jpg","bilibiliHotKey28":"bilibiliHotKey/5.jpg","bilibiliHotKey29":"bilibiliHotKey/6.jpg","bilibiliHotKey30":"bilibiliHotKey/7.jpg","bilibiliHotKey31":"bilibiliHotKey/8.jpg","bilibiliHotKey32":"bilibiliHotKey/9.jpg","bilibilitv2":"bilibilitv/[tv_doge].png","bilibilitv3":"bilibilitv/[tv_亲亲].png","bilibilitv4":"bilibilitv/[tv_偷笑].png","bilibilitv5":"bilibilitv/[tv_再见].png","bilibilitv6":"bilibilitv/[tv_冷漠].png","bilibilitv7":"bilibilitv/[tv_发怒].png","bilibilitv8":"bilibilitv/[tv_发财].png","bilibilitv9":"bilibilitv/[tv_可爱].png","bilibilitv10":"bilibilitv/[tv_吐血].png","bilibilitv11":"bilibilitv/[tv_呆].png","bilibilitv12":"bilibilitv/[tv_呕吐].png","bilibilitv13":"bilibilitv/[tv_困].png","bilibilitv14":"bilibilitv/[tv_坏笑].png","bilibilitv15":"bilibilitv/[tv_大佬].png","bilibilitv16":"bilibilitv/[tv_大哭].png","bilibilitv17":"bilibilitv/[tv_委屈].png","bilibilitv18":"bilibilitv/[tv_害羞].png","bilibilitv19":"bilibilitv/[tv_尴尬].png","bilibilitv20":"bilibilitv/[tv_微笑].png","bilibilitv21":"bilibilitv/[tv_思考].png","bilibilitv22":"bilibilitv/[tv_惊吓].png","bilibilitv23":"bilibilitv/[tv_打脸].png","bilibilitv24":"bilibilitv/[tv_抓狂].png","bilibilitv25":"bilibilitv/[tv_抠鼻].png","bilibilitv26":"bilibilitv/[tv_斜眼笑].png","bilibilitv27":"bilibilitv/[tv_无奈].png","bilibilitv28":"bilibilitv/[tv_晕].png","bilibilitv29":"bilibilitv/[tv_流汗].png","bilibilitv30":"bilibilitv/[tv_流泪].png","bilibilitv31":"bilibilitv/[tv_流鼻血].png","bilibilitv32":"bilibilitv/[tv_点赞].png","bilibilitv33":"bilibilitv/[tv_生气].png","bilibilitv34":"bilibilitv/[tv_生病].png","bilibilitv35":"bilibilitv/[tv_疑问].png","bilibilitv36":"bilibilitv/[tv_白眼].png","bilibilitv37":"bilibilitv/[tv_皱眉].png","bilibilitv38":"bilibilitv/[tv_目瞪口呆].png","bilibilitv39":"bilibilitv/[tv_睡着].png","bilibilitv40":"bilibilitv/[tv_笑哭].png","bilibilitv41":"bilibilitv/[tv_腼腆].png","bilibilitv42":"bilibilitv/[tv_色].png","bilibilitv43":"bilibilitv/[tv_调侃].png","bilibilitv44":"bilibilitv/[tv_调皮].png","bilibilitv45":"bilibilitv/[tv_鄙视].png","bilibilitv46":"bilibilitv/[tv_闭嘴].png","bilibilitv47":"bilibilitv/[tv_难过].png","bilibilitv48":"bilibilitv/[tv_馋].png","bilibilitv49":"bilibilitv/[tv_鬼脸].png","bilibilitv50":"bilibilitv/[tv_黑人问号].png","bilibilitv51":"bilibilitv/[tv_鼓掌].png","Mafumafu1":"Mafumafu/199749454.png","Mafumafu2":"Mafumafu/199749455.png","Mafumafu3":"Mafumafu/199749456.png","Mafumafu4":"Mafumafu/199749457.png","Mafumafu5":"Mafumafu/199749458.png","Mafumafu6":"Mafumafu/199749459.png","Mafumafu7":"Mafumafu/199749460.png","Mafumafu8":"Mafumafu/199749461.png","Mafumafu9":"Mafumafu/199749462.png","Mafumafu10":"Mafumafu/199749463.png","Mafumafu11":"Mafumafu/199749464.png","Mafumafu12":"Mafumafu/199749465.png","Mafumafu13":"Mafumafu/199749466.png","Mafumafu14":"Mafumafu/199749467.png","Mafumafu15":"Mafumafu/199749468.png","Mafumafu16":"Mafumafu/199749469.png","Mafumafu17":"Mafumafu/199749470.png","Mafumafu18":"Mafumafu/199749471.png","Mafumafu19":"Mafumafu/199749472.png","Mafumafu20":"Mafumafu/199749473.png","Mafumafu21":"Mafumafu/199749474.png","Mafumafu22":"Mafumafu/199749475.png","Mafumafu23":"Mafumafu/199749476.png","Mafumafu24":"Mafumafu/199749477.png","Menhera-chan1":"Menhera-chan/1.jpg","Menhera-chan2":"Menhera-chan/10.jpg","Menhera-chan3":"Menhera-chan/100.jpg","Menhera-chan4":"Menhera-chan/101.jpg","Menhera-chan5":"Menhera-chan/102.jpg","Menhera-chan6":"Menhera-chan/103.jpg","Menhera-chan7":"Menhera-chan/104.jpg","Menhera-chan8":"Menhera-chan/105.jpg","Menhera-chan9":"Menhera-chan/106.jpg","Menhera-chan10":"Menhera-chan/107.jpg","Menhera-chan11":"Menhera-chan/108.jpg","Menhera-chan12":"Menhera-chan/109.jpg","Menhera-chan13":"Menhera-chan/11.jpg","Menhera-chan14":"Menhera-chan/110.jpg","Menhera-chan15":"Menhera-chan/111.jpg","Menhera-chan16":"Menhera-chan/112.jpg","Menhera-chan17":"Menhera-chan/113.jpg","Menhera-chan18":"Menhera-chan/114.jpg","Menhera-chan19":"Menhera-chan/115.jpg","Menhera-chan20":"Menhera-chan/116.jpg","Menhera-chan21":"Menhera-chan/117.jpg","Menhera-chan22":"Menhera-chan/118.jpg","Menhera-chan23":"Menhera-chan/119.jpg","Menhera-chan24":"Menhera-chan/12.jpg","Menhera-chan25":"Menhera-chan/120.jpg","Menhera-chan26":"Menhera-chan/13.jpg","Menhera-chan27":"Menhera-chan/14.jpg","Menhera-chan28":"Menhera-chan/15.jpg","Menhera-chan29":"Menhera-chan/16.jpg","Menhera-chan30":"Menhera-chan/17.jpg","Menhera-chan31":"Menhera-chan/18.jpg","Menhera-chan32":"Menhera-chan/19.jpg","Menhera-chan33":"Menhera-chan/2.jpg","Menhera-chan34":"Menhera-chan/20.jpg","Menhera-chan35":"Menhera-chan/21.jpg","Menhera-chan36":"Menhera-chan/22.jpg","Menhera-chan37":"Menhera-chan/23.jpg","Menhera-chan38":"Menhera-chan/24.jpg","Menhera-chan39":"Menhera-chan/25.jpg","Menhera-chan40":"Menhera-chan/26.jpg","Menhera-chan41":"Menhera-chan/27.jpg","Menhera-chan42":"Menhera-chan/28.jpg","Menhera-chan43":"Menhera-chan/29.jpg","Menhera-chan44":"Menhera-chan/3.jpg","Menhera-chan45":"Menhera-chan/30.jpg","Menhera-chan46":"Menhera-chan/31.jpg","Menhera-chan47":"Menhera-chan/32.jpg","Menhera-chan48":"Menhera-chan/33.jpg","Menhera-chan49":"Menhera-chan/34.jpg","Menhera-chan50":"Menhera-chan/35.jpg","Menhera-chan51":"Menhera-chan/36.jpg","Menhera-chan52":"Menhera-chan/37.jpg","Menhera-chan53":"Menhera-chan/38.jpg","Menhera-chan54":"Menhera-chan/39.jpg","Menhera-chan55":"Menhera-chan/4.jpg","Menhera-chan56":"Menhera-chan/40.jpg","Menhera-chan57":"Menhera-chan/41.jpg","Menhera-chan58":"Menhera-chan/42.jpg","Menhera-chan59":"Menhera-chan/43.jpg","Menhera-chan60":"Menhera-chan/44.jpg","Menhera-chan61":"Menhera-chan/45.jpg","Menhera-chan62":"Menhera-chan/46.jpg","Menhera-chan63":"Menhera-chan/47.jpg","Menhera-chan64":"Menhera-chan/48.jpg","Menhera-chan65":"Menhera-chan/49.jpg","Menhera-chan66":"Menhera-chan/5.jpg","Menhera-chan67":"Menhera-chan/50.jpg","Menhera-chan68":"Menhera-chan/51.jpg","Menhera-chan69":"Menhera-chan/52.jpg","Menhera-chan70":"Menhera-chan/53(1).jpg","Menhera-chan71":"Menhera-chan/53.jpg","Menhera-chan72":"Menhera-chan/54.jpg","Menhera-chan73":"Menhera-chan/55.jpg","Menhera-chan74":"Menhera-chan/56.jpg","Menhera-chan75":"Menhera-chan/57.jpg","Menhera-chan76":"Menhera-chan/58.jpg","Menhera-chan77":"Menhera-chan/59.jpg","Menhera-chan78":"Menhera-chan/6.jpg","Menhera-chan79":"Menhera-chan/60.jpg","Menhera-chan80":"Menhera-chan/61.jpg","Menhera-chan81":"Menhera-chan/62.jpg","Menhera-chan82":"Menhera-chan/63.jpg","Menhera-chan83":"Menhera-chan/64.jpg","Menhera-chan84":"Menhera-chan/65.jpg","Menhera-chan85":"Menhera-chan/66.jpg","Menhera-chan86":"Menhera-chan/67.jpg","Menhera-chan87":"Menhera-chan/68.jpg","Menhera-chan88":"Menhera-chan/69.jpg","Menhera-chan89":"Menhera-chan/7.jpg","Menhera-chan90":"Menhera-chan/70.jpg","Menhera-chan91":"Menhera-chan/71.jpg","Menhera-chan92":"Menhera-chan/72.jpg","Menhera-chan93":"Menhera-chan/73.jpg","Menhera-chan94":"Menhera-chan/74.jpg","Menhera-chan95":"Menhera-chan/75.jpg","Menhera-chan96":"Menhera-chan/76.jpg","Menhera-chan97":"Menhera-chan/77.jpg","Menhera-chan98":"Menhera-chan/78.jpg","Menhera-chan99":"Menhera-chan/79.jpg","Menhera-chan100":"Menhera-chan/8.jpg","Menhera-chan101":"Menhera-chan/80.jpg","Menhera-chan102":"Menhera-chan/81.jpg","Menhera-chan103":"Menhera-chan/82.jpg","Menhera-chan104":"Menhera-chan/83.jpg","Menhera-chan105":"Menhera-chan/84.jpg","Menhera-chan106":"Menhera-chan/85.jpg","Menhera-chan107":"Menhera-chan/86.jpg","Menhera-chan108":"Menhera-chan/87.jpg","Menhera-chan109":"Menhera-chan/88.jpg","Menhera-chan110":"Menhera-chan/89.jpg","Menhera-chan111":"Menhera-chan/9.jpg","Menhera-chan112":"Menhera-chan/90.jpg","Menhera-chan113":"Menhera-chan/91.jpg","Menhera-chan114":"Menhera-chan/92.jpg","Menhera-chan115":"Menhera-chan/93.jpg","Menhera-chan116":"Menhera-chan/94.jpg","Menhera-chan117":"Menhera-chan/95.jpg","Menhera-chan118":"Menhera-chan/96.jpg","Menhera-chan119":"Menhera-chan/97.jpg","Menhera-chan120":"Menhera-chan/98.jpg","Menhera-chan121":"Menhera-chan/99.jpg"},
+      enableQQ: true,
+      path: window.location.pathname,
+      master: '313fee614a2feb83f1f78d54aca36e10,edacbf5ba612f1f0a06159615e015426,3a3773e3fd60c8cf3e4540d603eaf831'.split(','),
+      friends: 'cecd2b76e9ca6934306924dc13e6d058,7ff8334eb3ce169d5ef407706436ee76,d08a0457f664702197dd127bb9a17c2c,573f8ca7799e3bc942ad77406150e9e4,d61d6a3bba0f74897db827b58fb140f3,62d8c76b1fd8822cd95efe0abec26b70,f44e72c89d3d8503477d5554c0ff03a3,404c748639731df3f11bf7ff524aa61b,9218d1f44510f953f5eee3d3668cd46e,02281bbee129756026da93b2870238aa,007d877c3ed855be176d20bd00cf4bdf,8ce0d0211103ef983be11b6d4f0517ed,6c5ab4198eb83c5bbf790bcd8caca177,8beb6045bb04789803eac8747f426b4b'.split(','),
+      tagMeta: '博主,友人,访客'.split(',')
+    }
+
+    if (true) {
+      initData.requiredFields= ('nick,mail'.split(','))
+    }
+
+    if (false) {
+      const otherData = false
+      initData = Object.assign({}, initData, otherData)
+    }
+
+    const valine = new Valine(initData)
+  }
+
+  if (typeof Valine === 'function') initValine()
+  else $.getScript('https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js', initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.querySelector('#vcomment'),loadValine)
+  else setTimeout(() => loadValine(), 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="https://cdn.jsdelivr.net/npm/artitalk@3.1.3"></script><script src="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.0.1/blog/myjs/rt.js"></script><script src="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.1.3/blog/myjs/myjs.js"></script><script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script><script id="xplayer" src="http://music.xingyaox.com/api/PlayerJs/id/5f86aa5b6c9d7" ></script><script src="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.0.1/blog/myjs/history.js"></script><script src="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.0.1/blog/myjs/historyroll.js"></script><script src="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.0.2/blog/clock/js/clock.js"></script><script src="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.1.2/blog/gitcalendar/js/gitcalendar.js"></script><script src="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.0.6/blog/swiper/swiper.min.js"></script><script src="https://cdn.jsdelivr.net/gh/Molipre/Molipre-1.0@v1.0.6/blog/swiper/swiperindex.js"></script><script async src="//at.alicdn.com/t/font_2264842_3izu8i5eoc2.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-heart" src="/js/third-party/click_heart.js" async="async" mobile="true"></script><script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/4ac7a3e2.js","daovoice")
+</script><script>var isChatBtn = true
+daovoice('init', {
+  app_id: '4ac7a3e2',},{
+  launcher: { 
+     disableLauncherIcon: isChatBtn // 悬浮 ICON 是否显示
+  },
+});
+daovoice('update');
+
+if (isChatBtn) {
+  var chatBtnFn = () => {
+    var chatBtn = document.getElementById("chat_btn")
+    chatBtn.addEventListener("click", function(){
+      daovoice('show')
+    });
+  }
+  chatBtnFn()
+} else {
+  if (false) {
+    function chatBtnHide () {
+      daovoice('update', {},{
+        launcher: { 
+        disableLauncherIcon: true // 悬浮 ICON 是否显示
+        },
+      });
+    }
+    function chatBtnShow () {
+      daovoice('update', {},{
+        launcher: { 
+        disableLauncherIcon: false // 悬浮 ICON 是否显示
+        },
+      });
+    }
+  }
+}</script></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body></html>
