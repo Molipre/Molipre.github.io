@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-01-16T15:26:22.000Z</updated>
+  <updated>2021-01-20T03:20:42.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DNS是什么？</title>
+    <link href="https://blog.molipre.com/posts/62b233c2.html"/>
+    <id>https://blog.molipre.com/posts/62b233c2.html</id>
+    <published>2021-01-20T03:20:42.000Z</published>
+    <updated>2021-01-20T03:20:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>DNS</font>（Domain Name System）中文名称：<font size=6>域名系统 </font>，是互联网的一项服务，也是我们的网络环境中最常见但又被误解的组件之一。它作为将域名和IP地址相互映射的一个分布式数据库，能够使人更方便地访问互联网。</strong></p><p>&emsp;&emsp;<strong>简单说就是将我们人类容易记住的域名，例如 <code>blog.molipre.com</code> 、 <code>b.molipre.com</code> 等这样的域名转换为计算机更加容易识别的IP地址，如 <code>183.131.200.61</code> 、<code>185.199.108.153</code> ，就像电话簿一样名字对应着电话号码，DNS是关于查找地址和连接设备的，所以很多人称DNS为“互联网地址簿”。</strong></p><p><img src="https://p.molipre.com/img/DNS.png" alt="DNS"><br>&emsp;&emsp;<strong><font size=6>DNS是如何工作的？</font>DNS通过将你要访问的域名拿到DNS服务器查询相对应的IP地址，当DNS正确的查找到域名对应的IP地址，你的设备就可以和该IP的Web服务器通讯，从而让你访问到网页。</strong></p><p>&emsp;&emsp;<strong>一般会先在设备本地的DNS查询，如果查询不到就会到下一级的DNS服务器（resolver）</strong>（例如有些公司自己会设置一台DNS服务器，如果没有的话一般就是ISP，也就是我们的互联网服务提供商）<strong>，如果第二步还是无法查询到对应的IP地址，就会发送给根域名服务器，根域名服务器会告诉去TLD顶级域名服务器询问对应的IP地址，当TLD顶级域名服务器查询不到对应的IP地址，它就会告诉你去下一级权威名称服务器询问对于的IP地址，当在询问到对应的IP地址后，就会发送回 <code>resolver</code> ，这个时候 <code>resolver</code> 通常会存储域名对应的IP地址，避免下次在重复相同的步骤，最终告诉本地计算机设备。</strong></p><p><img src="https://p.molipre.com/img/DNS1.png" alt="DNS1"></p><p><strong>最后，关于域名的一些知识，可以查看“<a href="https://blog.molipre.com/posts/70ede0ce.html">关于域名的一些的知识与小技巧</a>”这篇文章。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;DNS&lt;/font&gt;（Domain Name System）中文名称：&lt;font size=6&gt;域名系统 &lt;/font&gt;，是互联网的一项服务，也是我们的网络环境中最常见但又被误解的组件之一。它作为将域名和IP</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="DNS" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/DNS/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="DNS" scheme="https://blog.molipre.com/tags/DNS/"/>
+    
+  </entry>
   
   <entry>
     <title>20210116</title>
@@ -419,9 +447,9 @@
     
     
     
-    <category term="主题の魔改" scheme="https://blog.molipre.com/categories/%E4%B8%BB%E9%A2%98%E3%81%AE%E9%AD%94%E6%94%B9/"/>
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E4%B8%BB%E9%A2%98%E3%81%AE%E9%AD%94%E6%94%B9/Butterfly%F0%9F%A6%8B/"/>
+    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/Butterfly%F0%9F%A6%8B/"/>
     
     
     <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
@@ -471,9 +499,9 @@
     
     
     
-    <category term="主题の魔改" scheme="https://blog.molipre.com/categories/%E4%B8%BB%E9%A2%98%E3%81%AE%E9%AD%94%E6%94%B9/"/>
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E4%B8%BB%E9%A2%98%E3%81%AE%E9%AD%94%E6%94%B9/Butterfly%F0%9F%A6%8B/"/>
+    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/Butterfly%F0%9F%A6%8B/"/>
     
     
     <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
@@ -483,35 +511,6 @@
     <category term="主题魔改" scheme="https://blog.molipre.com/tags/%E4%B8%BB%E9%A2%98%E9%AD%94%E6%94%B9/"/>
     
     <category term="导航栏" scheme="https://blog.molipre.com/tags/%E5%AF%BC%E8%88%AA%E6%A0%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>戴尔R740服务器安装centos7.8系统</title>
-    <link href="https://blog.molipre.com/posts/a0198444.html"/>
-    <id>https://blog.molipre.com/posts/a0198444.html</id>
-    <published>2020-11-17T01:55:58.000Z</published>
-    <updated>2020-11-16T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li>系统安装大家应该比较熟悉的就是Windows系统的安装，使用一个U盘制作成PE启动盘或者直接制作成微软的的启动盘，然后安装镜像，过程不算难，甚至有些PE系统会有一键安装的选项。不过Linux和windows不同，我们用虚拟机安装Linux系统时，例如VMware，把镜像加载就可以正常启动系统了，在物理机上，如果使用镜像光盘，因为读取速度的原因，安装过程及其漫长，如果使用U盘，可能会出现无法识别U盘里面的Linux镜像等问题，各种问题都有，因此我下面借用戴尔R740服务器演示一遍Linux系统的安装，本次安装的物理机因为是服务器，可能会和平常的PC或者笔记本有些许不一样。</li></ul><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol><li><strong>centos7.8 系统镜像 (<a href="https://mirrors.aliyun.com/centos/7.8.2003/isos/x86_64/">点击去下载</a>)</strong></li><li><strong>U盘写入镜像的软件 (<a href="https://cn.ultraiso.net/xiazai.html">UltraISO软碟通</a>)</strong></li><li><strong>一个容量为16GB的U盘</strong></li><li><strong>戴尔R740服务器</strong> (<font color="red">物理机即可</font>)</li><li><strong>显示器、显示器线材、鼠标、键盘</strong></li></ol><h2 id="镜像U盘制作"><a href="#镜像U盘制作" class="headerlink" title="镜像U盘制作"></a>镜像U盘制作</h2><ol><li><strong>打开UltraISO软碟通，点击 <code>文件</code> → <code>打开</code> 选中下载好的镜像。</strong><br><img src="https://i.loli.net/2020/11/17/dvjbazIgiMVY4mE.png" alt="ultraiso.PNG"><br><img src="https://i.loli.net/2020/11/17/cfgNBpEjn9ydPKM.png" alt="ultraiso1.PNG"></li><li><strong>点击 <code>启动</code> → <code>写入硬盘镜像</code>，选择你要写入的U盘，再点击 <code>写入</code>，等待写入完成即可。</strong><br><img src="https://i.loli.net/2020/11/17/cb7XoB3s4U8HEPt.png" alt="ultraiso2.PNG"><br><img src="https://i.loli.net/2020/11/17/z3UaRW6ryuBNKmd.png" alt="ultraiso3.PNG"></li></ol><h2 id="安装系统"><a href="#安装系统" class="headerlink" title="安装系统"></a>安装系统</h2><ol><li><strong>将已经写入镜像成功的U盘插进你要安装的物理机</strong>（<font color="red">我这边就是戴尔R740服务器</font>)<strong>，出现图1的画面按住 <code>F11</code> 再按回车键进入 <code>Boot Manager</code> ，选择 <code>One-shaot UEFIBoot Menu</code> 按回车键进入图3的界面，然后选择你制作好的镜像U盘按回车键即可。</strong><br><img src="https://i.loli.net/2020/11/17/7OL4tMh1iqsyBk3.jpg" alt="图1"><br><img src="https://i.loli.net/2020/11/17/nhRgIv7ibz2TaXf.jpg" alt="图2"><br><img src="https://i.loli.net/2020/11/17/E7QmSBf6RvqiVh8.jpg" alt="图3"></li><li><strong>上述最后一步完成后等待一会会出现图1的界面，光标移至 <code>Install Centos 7</code>，按回车键。</strong><br><img src="https://i.loli.net/2020/11/17/HK98aotZdN7IMgz.jpg" alt="图1"></li></ol><ul><li><p><strong>如果出现图2界面，按回车键并等待一会进入图3的命令行界面</strong><br><img src="https://i.loli.net/2020/11/17/dRbI71uVBUgnvGH.jpg" alt="图2"><br><img src="https://i.loli.net/2020/11/17/J5w6CL2Q8dsOg4Z.jpg" alt="图3"></p></li><li><p><strong>在命令行输入以下命令查看已经挂载的设备盘符分配情况，可以看到我的U盘为 <code>sdc4</code> (每个设备都可能不一样，但一般是sdb开头的)，记住这个 <code>sdc4</code> ，然后输入 <code>reboot</code> 重启服务器。</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls</span><br><span class="line"><span class="comment">#列出目前工作目录所含之文件及子目录</span></span><br><span class="line"><span class="built_in">cd</span> /dev</span><br><span class="line"><span class="comment">#切换当前工作目录到dev</span></span><br><span class="line">ls</span><br><span class="line"><span class="comment">#列出dev目录所含之文件及子目录</span></span><br></pre></td></tr></table></figure><p><img src="https://i.loli.net/2020/11/17/BxwLRSUdI9fKTQW.jpg" alt="图4"></p></li><li><p><strong>服务器重启后，重复安装系统的第一步，再次看见图1界面，光标移至 <code>Install Centos 7</code>，按键盘的 <code>e</code> 进入修改界面，将下图图5中的内容修改如图6所示，然后按 <code>Ctrl + x</code> 保存，回到图1界面后再按回车键，即可进入图7的centos系统的图形化安装界面。</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">修改下列命令：</span><br><span class="line">Linuxefi /images/pxeboot/vmlinuz inst.stage22=hd:LABEL=CentOS\x207\x20x\86_64 quiet</span><br><span class="line">更改为：</span><br><span class="line">Linuxefi /images/pxeboot/vmlinuzinst.stage22=hd:/dev/sdc4 quiet</span><br><span class="line"><span class="comment">#sdc4为我的U盘盘符，使用时请修改为你的U盘盘符</span></span><br></pre></td></tr></table></figure><p><img src="https://i.loli.net/2020/11/17/SPW4UdL9q2v3iMO.jpg" alt="图5"><br><img src="https://i.loli.net/2020/11/17/kJiLQwqxOjMaDIr.jpg" alt="图6"><br><img src="https://i.loli.net/2020/11/17/nNP7RkzDM2a9htQ.png" alt="图7"></p><details ><summary> <p>平常的PC设置</p> </summary>              <div class='content'>              <p><strong>以技嘉主板为例</strong></p><p>1、U盘插入电脑的usb接口，开机，不断点按 <code>delete</code> 键，进入BIOS设置界面，找到 <code>BIOS功能</code> 选项，找到 <code>选择启动优先顺序</code> ，在 <code>启动优先权 #1</code> 选择你的U盘，然后按 <code>F10</code> 再按回车键即可。</p><p>2、出现图1的界面后，光标移至 <code>Install Centos 7</code>，按键盘的 <code>Tab</code> 键，出现图2可修改的内容。</p><p><img src="https://i.loli.net/2020/11/17/6xySCvpKLGRm1NO.jpg" alt="图1"><br><img src="https://i.loli.net/2020/11/17/qFb7pJfonZiB5ak.jpg" alt="图2"><br>3、修改图2内容如为图3所示内容并按回车键。</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">修改下列命令：</span><br><span class="line">vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS\x207\x20x8 quiet</span><br><span class="line">更改为：</span><br><span class="line">vmlinuz initrd=initrd.img linux dd quiet</span><br></pre></td></tr></table></figure><p><img src="https://i.loli.net/2020/11/17/JHKO8V7o9Ylf1jk.jpg" alt="图3"><br>4、出现图4界面，可以从卷名称 <code>CENTOS_7_64</code> 得知U盘，在这台电脑里面，识别到的盘符是 <code>sda4</code> ，若没有识别出来，可以输入 <code>r</code> ，按回车键，刷新一下即可。</p><p><img src="https://i.loli.net/2020/11/17/9RpFTDfy43rLPts.jpg" alt="图4"><br>5、接着重启电脑，直到重新出现图1的选择界面，光标移至 <code>Install Centos 7</code>，按键盘的 <code>Tab</code> 键，修改内容如图5所示，按回车键即可。</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">修改下列命令：</span><br><span class="line">vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS\x207\x20x8 quiet</span><br><span class="line">更改为：</span><br><span class="line">vmlinuz initrd=initrd.img inst.stage2=hd:/dev/sda4 quiet</span><br></pre></td></tr></table></figure><p><img src="https://i.loli.net/2020/11/17/yweisR8rYoQM6bc.jpg" alt="图5"></p>              </div>            </details></li></ul><h2 id="centos7图形化安装操作"><a href="#centos7图形化安装操作" class="headerlink" title="centos7图形化安装操作"></a>centos7图形化安装操作</h2><ul><li><strong>关于centos图形化安装的操作就不多说，跟着操作提示操作即可，不懂得话，网上也有很多资料，搜索一下即可。</strong></li><li><strong>如果将来很闲的话，可能会补充这部分内容吧，毕竟挺简单的。</strong></li><li><strong>最好选择语言为<font color="red">英文</font>。</strong></li><li><strong>接下来说一下分区方案。</strong></li></ul><h1 id="分区操作步骤"><a href="#分区操作步骤" class="headerlink" title="分区操作步骤"></a>分区操作步骤</h1><ol><li><strong>点击下图红框选项。</strong><br><img src="https://i.loli.net/2020/11/17/Dyh5roFsNeM9m4L.png" alt="centos13.png"></li><li><strong>进入下图页面，如果你有几块硬盘，先选择你要安装系统的硬盘，然后选择红框的 <code>I will configure partitioning.</code> ，再点击两次 <code>done</code> 即可进入分区界面。</strong><br><img src="https://i.loli.net/2020/11/17/B7q6KzAbRoE9DYh.png" alt="centos14.png"></li></ol><h1 id="分区方案"><a href="#分区方案" class="headerlink" title="分区方案"></a>分区方案</h1><ul><li><strong>关于Linux安装系统时的分区，如果你是新手，请记住：<font color="red">除了SWAP分区外，其他分区的文件系统一律选择ext4类型,设备类型默认选LVM</font>。</strong></li><li><strong>新手第一次操作安装的时候，也可以选择centos图形化安装提供的自动创建分区，即在分区界面点击 <code>Click here to create them automatically</code> 即可让安装程序帮忙分区。</strong></li><li><strong>如果你操作娴熟，大概也不会看到这篇文章，当然下面的分区方案还是具备一定的参考价值的。</strong></li><li><strong>以下分区以一块480G固态硬盘为例：</strong></li></ul><ol><li><strong>boot分区</strong><ul><li><strong>作用：</strong>引导分区，包含了系统启动的必要内核文件，即使根分区顺坏也能正常引导启动 一般这些文件所占空间在200M以下。</li><li><strong>分区建议：</strong>分区的时候可分配200M，如果空间足够用，可以在500M-1G之间选择，避免由于长期使用的冗余文件塞满这个分区。我这边选择分配2G。</li><li><strong>分区格式：</strong>建议ext4，按需求更改。</li></ul></li><li><strong><code>/</code>分区（根分区）</strong><ul><li><strong>作用：</strong>类似Windows的C盘，所有文件（包括设备也当文件处理）都在 <code>/</code> 下，“分区”也可以在 <code>/</code> 下找到，存放系统命令和用户数据等。</li><li><strong>分区建议：</strong>建议分配15G以上，看需求，根分区和home分区的大小就类似C盘和D盘的空间分布一样，主要占空间在哪儿就在那里分大容量。我这边选择分配100G。</li><li><strong>分区格式：</strong>建议ext4，按需求更改。</li></ul></li><li><strong>swap分区</strong><ul><li><strong>作用：</strong>类似于Windows的虚拟内存，在内存不够用时占用硬盘的虚拟内存来进行临时数据的存放，而对于linux就是swap分区。</li><li><strong>分区建议：</strong>建议是物理内存大小的2倍，比如你电脑是4G的物理内存，swap分区可以是8G。我这边服务器是16G内存，则选择分配32G。</li><li><strong>分区格式：</strong>swap格式。</li></ul></li><li><strong>var分区</strong><ul><li><strong>作用：</strong>用于log日志的文件的存放，如果不分则默认在/目录下。</li><li><strong>分区建议：</strong>如果你安装的linux是用于服务器或者经常做日志分析，请划分var分区，避免日志文件不断膨胀塞满导致根分区而引发问题。我这边是服务器，需要存放大量日志，因此分配10G。</li><li><strong>分区格式：</strong>建议ext4，按需求更改。</li></ul></li><li><strong>home分区</strong><ul><li><strong>作用：</strong>存放用户数据，HOME的结构一般是 HOME/userName/userFile，如果不分则默认在/目录下。</li><li><strong>分区建议：</strong>如果用户数据多可以将此分区适当增大，请参考“根分区”分区建议；一般硬盘的主要容量几乎都在Home分区和根分区下。我这边习惯存放数据到home分区，因此分配剩下的所有存储300G。</li><li><strong>分区格式：</strong>建议ext4，按需求更改。</li></ul></li></ol><ul><li><strong>戴尔R740服务器具体分区如下图：</strong><br><img src="https://i.loli.net/2020/11/17/1bSFOpX2l8WNZfY.jpg" alt="centos12.jpg"></li></ul><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul><li><strong>关于这篇文章写出来的缘由就是最近给公司的新服务器安装系统做SVN服务器，之前虽然给服务器装过很多次系统了，但总是会忘记一些操作步骤，因此写下这篇博文，记录一下自己的安装过程。</strong></li><li><strong>祝看到最后的朋友，都成功安装系统，再见👋。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">从系统U盘开始为戴尔R740服务器安装centos7.8系统&lt;br&gt;（也适用于物理机安装centos系统）</summary>
-    
-    
-    
-    <category term="硬件相关" scheme="https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/"/>
-    
-    <category term="戴尔R740" scheme="https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E6%88%B4%E5%B0%94R740/"/>
-    
-    
-    <category term="戴尔R740" scheme="https://blog.molipre.com/tags/%E6%88%B4%E5%B0%94R740/"/>
-    
-    <category term="服务器" scheme="https://blog.molipre.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-    <category term="centos" scheme="https://blog.molipre.com/tags/centos/"/>
-    
-    <category term="系统安装" scheme="https://blog.molipre.com/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
