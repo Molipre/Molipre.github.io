@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-01-20T03:20:42.000Z</updated>
+  <updated>2021-01-21T00:31:25.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>阅读《北上》</title>
+    <link href="https://blog.molipre.com/posts/d106ffd.html"/>
+    <id>https://blog.molipre.com/posts/d106ffd.html</id>
+    <published>2021-01-21T00:31:25.000Z</published>
+    <updated>2021-01-21T00:31:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/beishang.png" alt="北上"></p><p><big>&emsp;&emsp;<strong>这是一段横跨100年的故事，从八国联军侵华到义和团扶清灭洋，再到日本侵华战争和新中国成立后发生的文化大革命，以及最后2014大年运河申遗成功这一年，发生在这条运河上关于时间，关于爱情，关于亲情，关于水，关于…的故事。</strong></p><p>&emsp;&emsp;<strong>整本小说分为两条时间线，一条时间线是1900年代，意大利人马福德参加八国联军作战与家人失联，后来他哥哥小波罗到中国寻找马福德。故事由此展开，通过大运河他们跟一些中国人产生了交集；另一条时间线是2014年，几个人为了搞《大河谭》，聚在了一起。虽然前几代人的背景都已经模糊，但是他们还是通过大运河聚到了一起，一起去完成这部大作。</strong></p><p>&emsp;&emsp;<strong>小说中有两个篇幅是让我觉得描写得很不错，“鸬鹚与罗盘”中关于邵常来的后人结婚的事情把船民们与大运河的难舍难离的深沉情结可近了书里，以及“小博物馆之歌”中关于大运河之中老物件或者古董的情怀以及闪烁着的人性和历史的光辉让人赞叹。</strong></p><p>&emsp;&emsp;<strong>小说中关于现代的篇幅让我觉得比较出戏的就是谢平遥的后人谢望和孙过程的后人孙宴临的故事发展，像是在写网络爽文小说似的，谢望的油腔滑调、孙宴临的装逼高冷范像是化学反应一样，两者一相遇，快速到不可思议的突然逆转，孙宴临就已经为了爱情不顾一切，抛弃事业，变卖作画支持谢望，看起来十分美好。</strong></p><p>&emsp;&emsp;<strong>整本小说看下来，可以看见作者徐则臣想要表达对历史的思考以及自己的态度，不过细节上有点造假的感觉，虽然是一本小说，但是关于外国人的家书和对于大运河的想法写得感觉像是中国人写得，而那个时候两个意大利人来中国没多久，应该思想上不会如此。</strong></p><p>&emsp;&emsp;<strong>总而言之，小说挺好看的，但总体上没有多大值得思考的地方，我个人观点是觉得是一部好看的小说！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://p.molipre.com/img/beishang.png&quot; alt=&quot;北上&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;这是一段横跨100年的故事，从八国联军侵华到义和团扶清灭洋，再到日本侵华战争和新中国成立后</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="阅读" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
+    
+    
+    <category term="阅读" scheme="https://blog.molipre.com/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VPN是什么？</title>
+    <link href="https://blog.molipre.com/posts/fbbb6278.html"/>
+    <id>https://blog.molipre.com/posts/fbbb6278.html</id>
+    <published>2021-01-21T00:22:42.000Z</published>
+    <updated>2021-01-21T00:22:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>VPN</font>（Virtual Private Network）中文名称：<font size=6>虚拟专用网络 </font>，是通过一个公用网络（通常是因特网）建立一个临时的、安全的连接，是一条穿过混乱的公用网络的安全、稳定的隧道。</strong></p><p>&emsp;&emsp;<strong>VPN可已通过特殊加密的通讯协议在连接在Internet上位于不同地方的两个或者多个企业内部网络之间建立一条专有的通讯线路，如同直接拉了一条一对一的专线一样，但是VPN并不需要真正铺设一条物理线路。</strong></p><p><img src="https://p.molipre.com/img/VPN2.jpg" alt="VPN"></p><p>&emsp;&emsp;<strong>VPN有多种分类方式，但主要是按照协议进行分类。</strong></p><p>&emsp;&emsp;<strong>按照协议可分为 <code>PPTP</code> 、<code>L2TP</code> 、<code>IPSec</code> 三种，因为PPTP、L2TP协议工作在OSI模型的第二层，所以PPTP、L2TP称为二层隧道协议，IPSec则是三层隧道协议。</strong></p><p>&emsp;&emsp;<strong>按照应用可分为 <code>Access VPN（远程接入VPN）</code> 、<code>Internet VPN（内联网VPN）</code> 、<code>Extranet VPN（外联网VPN）</code> 三种，Access VPN是客户端到网关，使用公网作为骨干网在设备之间传输VPN数据流量，Internet VPN是网关到网关，通过给公司的网络架构连接来自同公司的资源，Extranet VPN是两件有合作关系的企业构成Extranet，将两个企业间的资源进行连接。</strong></p><p>&emsp;&emsp;<strong>按设备划分则有 <code>路由器式VPN</code> 、<code>交换机式VPN</code> 、<code>防火墙式VPN</code>，路由器式VPN是一种比较容易的部署方式，我们家用的路由器就可能有这种设置，拥有公网IP的添加VPN服务就能简单部署成功，交换机式VPN比较少见，因为一般用连接于用户较少的VPN网络，防火墙式VPN是目前最常见的一种VPN实现方式，许多企业网络设备厂商都提供这种配置。</strong></p><p>&emsp;&emsp;<strong>按照实现原理划分则有 <code>重叠VPN</code> 、<code>对等VPN</code> ，重叠VPN是需要用户自己建立端节点之间的VPN链路，主要包括：GRE、L2TP、IPSec等众多技术，对等VPN则是由网络运营商在主干网上完成VPN通道的建立，主要包括MPLS、VPN技术。</strong></p><p><strong>VPN的实现方式很多种，主要概括为以下四种：</strong></p><ol><li><strong>VPN服务器：在大型局域网中，可以通过在网络中心搭建VPN服务器的方法实现VPN。</strong></li><li><strong>软件VPN：可以通过专用的软件实现VPN。</strong></li><li><strong>硬件VPN：可以通过专用的硬件实现VPN。</strong></li><li><strong>集成VPN：某些硬件设备，如路由器、防火墙等，都含有VPN功能，但是一般拥有VPN功能的硬件设备通常都比没有这一功能的要贵。</strong></li></ol><p><strong>VPN的工作流程如下：</strong></p><ol><li><strong>要保护主机发送明文信息到其他VPN设备。</strong></li><li><strong>VPN设备根据网络管理员设置的规则，确定是对数据进行加密还是直接传输。</strong></li><li><strong>对需要加密的数据，VPN设备将其整个数据包（包括要传输的数据、源IP地址和目的lP地址）进行加密并附上数据签名，加上新的数据报头（包括目的地VPN设备需要的安全信息和一些初始化参数）重新封装。</strong></li><li><strong>将封装后的数据包通过隧道在公共网络上传输。</strong></li><li><strong>数据包到达目的VPN设备后，将其解封，核对数字签名无误后，对数据包解密。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;VPN&lt;/font&gt;（Virtual Private Network）中文名称：&lt;font size=6&gt;虚拟专用网络 &lt;/font&gt;，是通过一个公用网络（通常是因特网）建立一个临时的、安全的连接，是一条穿过</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="VPN" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/VPN/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="VPN" scheme="https://blog.molipre.com/tags/VPN/"/>
+    
+  </entry>
   
   <entry>
     <title>DNS是什么？</title>
@@ -189,6 +244,8 @@
     
     <category term="域名" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/%E5%9F%9F%E5%90%8D/"/>
     
+    
+    <category term="DNS" scheme="https://blog.molipre.com/tags/DNS/"/>
     
     <category term="域名" scheme="https://blog.molipre.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
@@ -459,58 +516,6 @@
     <category term="主题魔改" scheme="https://blog.molipre.com/tags/%E4%B8%BB%E9%A2%98%E9%AD%94%E6%94%B9/"/>
     
     <category term="valine" scheme="https://blog.molipre.com/tags/valine/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>11月份笔记本电脑推荐</title>
-    <link href="https://blog.molipre.com/posts/5589df56.html"/>
-    <id>https://blog.molipre.com/posts/5589df56.html</id>
-    <published>2020-11-24T16:00:00.000Z</published>
-    <updated>2020-11-24T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note red quote flat"><p><strong>数据除了少部分笔记本电脑是自己使用过一段时间所得到的，其余基本是观看各大电脑评测媒体所得，所以我只推荐，其他问题一概不管，有需要参考即可，上纲上线的人一边去。</strong></p></div><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li><strong>每个月都有小伙伴来找我推荐笔记本电脑，各种价位都有，索性就用爬虫扒了一下各大电脑评测媒体的评测数据，整合了一下，以供使用，如果有雷同，很正常，侵权可删除文章。</strong></li></ul><h2 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h2><ul><li><strong>京东自营有的话，会贴上了链接，涨不涨价、有货无货且看缘分，自行参考吧。</strong></li></ul><h3 id="超薄本"><a href="#超薄本" class="headerlink" title="超薄本"></a><font color="blue">超薄本</font></h3><ol><li><strong>2500-3500元</strong>（这个价位只能说纯粹上网本，有微弱的生产力，不适合当主力机）<ul><li><strong>机械革命 S1 Air 锐龙版</strong>（R5-3500U、8GB、512GB、14英寸1080P分辨率45%NTSC色域IPS屏）</li><li><strong>荣耀 MagicBook SE</strong>（R5-3500U、8GB、256GB、14英寸1080P分辨率45%NTSC色域IPS屏）</li><li><a href="https://item.jd.com/100007311665.html"><strong>微软 Surface Go 2</strong></a>（奔腾4425Y、4GB、64GB、10.5英寸1920*1280分辨率100%sRGB色域IPS触屏）   </li><li><a href="https://item.jd.com/100006461099.html"><strong>宏碁 传奇</strong></a>（R5-4500U、8GB、512GB、14英寸1080p分辨率45%NTSC色域IPS屏）s</li></ul></li><li><strong>3500-4500元</strong>（能够满足现在大部分人的办公使用，打打网游问题也不大）<ul><li><strong>联想 小新Air14 2020 锐龙版</strong>（R5-4600U、16GB、512GB、14英寸1080p分辨率100%sRGB色域IPS屏）</li><li><strong>联想 小新Pro13 2020 锐龙版</strong>（R5-4600U、16GB、512GB、13.3英寸2560x1600分辨率100%sRGB色域IPS屏）</li><li><a href="https://item.jd.com/100006893703.html"><strong>惠普 战66 三代-AMD版</strong></a>（R7-4700U、8GB、512GB、14英寸1080p分辨率100%sRGB色域IPS屏）</li></ul></li><li><strong>4500-5500元</strong>（主流价位的笔记本，能胜任大部分的工作以及大部分人的游戏需求）<ul><li><strong>华为 MateBook14 锐龙版</strong>（R7-4800H、16GB、512GB、14英寸2160*1440分辨率100%sRGB色域IPS触屏）</li><li><strong>华为 MateBook13 锐龙版</strong>（R5-4600H、16GB、512GB、13.3英寸2160*1440分辨率100%sRGB色域IPS屏）</li><li><a href="https://item.jd.com/10023791111845.html"><strong>联想 ThinkBook 14锐龙版 2021款</strong></a>（R5-4600U、16GB、512GB、14英寸1080P分辨率100%sRGB色域IPS屏）</li><li><a href="https://item.jd.com/100014220574.html"><strong>ThinkPad X13 锐龙版</strong></a>（R5-PRO-4650U、16GB、512GB、13.3英寸1080P分辨率100%sRGB色域IPS屏）</li><li><a href="https://item.jd.com/100014632782.html"><strong>惠普 战X 锐龙版</strong></a>（R7-PRO-4750U、16GB、512GB、14英寸1080P分辨率100%sRGB色域IPS屏）</li></ul></li><li><strong>5500-6500元</strong>（也是主流价位的笔记本了，同样能胜任大部分的工作以及大部分人的游戏需求）<ul><li><a href="https://item.jd.com/100014000524.html"><strong>宏碁 蜂鸟 Spin5</strong></a>（i5-1035G4、16GB、512GB、13.5英寸2256×1504分辨率100%sRGB色域IPS触屏）</li><li><a href="https://item.jd.com/100009111469.html"><strong>联想 YOGA 14s 2021版</strong></a>（i5-1135G7、16GB、512GB、14英寸2880*1800分辨率100%sRGB色域90Hz刷新率IPS屏）</li></ul></li></ol><div class="note blue quote flat"><p><strong>下面价位的笔记本就是各自按需所求，按自己的喜好和工作内容买了。</strong></p></div><ol start="5"><li><strong>6500-7500元</strong><ul><li><strong>联想 YOGA C740</strong>（i7-10710U、16GB、512GB、14英寸1080P分辨率72%NTSC色域IPS触屏）</li><li><a href="https://item.jd.com/10023104521986.html"><strong>联想 YOGA Duet 2020</strong></a>（i5-10210U、16GB、512GB、13英寸2160*1350分辨率100%sRGB色域IPS触屏）</li><li><strong>宏碁 非凡S5</strong>（i7-1165G7、16GB、1TB、14英寸1080p分辨率100%sRGB色域IPS触屏）</li></ul></li><li><strong>7500-8500元</strong><ul><li><a href="https://item.jd.com/100013308596.html"><strong>ThinkPad X13</strong></a>（i5-10210U、16GB、512GB、13.3英寸1080P分辨率100%sRGB色域IPS屏）</li><li><strong>惠普 Spectre x360 13</strong>（i7-1065G7、8GB、1TB、13.3英寸1080p分辨率100%sRGB色域IPS触屏）</li><li><strong>华为 Matebook X Pro 2020 核显版</strong>（i7-10510U、16GB、1TB、13.9英寸3000*2000分辨率100%sRGB色域IPS触屏）</li></ul></li><li><strong>8500-10000元</strong><ul><li><a href="https://item.jd.com/100005480385.html"><strong>微软 Surface Pro 7</strong></a>（i5-1035G4、8GB、256GB、12.3英寸2736*1824分辨率100%sRGB色域IPS触屏）</li><li><a href="https://item.jd.com/100004442453.html"><strong>联想 YOGA C940</strong></a>（i7-1065G7、16GB、1TB、14英寸4K分辨率90%DCI-P3色域IPS触屏）</li><li><a href="https://item.jd.com/100008695019.html"><strong>华硕 灵耀X 纵横</strong></a>（i7-1165G7、16GB、512GB、13.9英寸3300x2200分辨率100%DCI-P3色域IPS触屏）</li></ul></li><li><strong>10000-20000元</strong><ul><li><a href="https://item.jd.com/69822495174.html"><strong>ThinkPad X1 Carbon 2020</strong></a>（i7-10710U、16GB、512GB、14英寸2K分辨率100%sRGB色域IPS屏）</li><li><a href="https://www.apple.com.cn/shop/buy-mac/macbook-pro"><strong>苹果 MacBook Pro 13英寸</strong></a>（i7-2.3GHz-4核、16GB、1TB、13.3英寸2560*1600分辨率100%DCI-P3色域IPS屏）</li><li><strong>LG Gram 17Z90N</strong>（i7-1065G7、8GB、512GB、17英寸2560*1600分辨率96%sRGB色域IPS屏）</li><li><a href="https://item.jd.com/100009939236.html"><strong>微软 Surface Laptop 3</strong></a>（i5-1035G7、8GB、256GB、13.5英寸2256*1504分辨率100%sRGB色域IPS触屏）</li></ul></li></ol><h3 id="游戏本"><a href="#游戏本" class="headerlink" title="游戏本"></a><font color="red">游戏本</font></h3><div class="note red quote flat"><p><strong>游戏本的定位基本都是高性能的了，配置高，当然价格就不会低。</strong></p></div><ol><li><strong>4500-5500元</strong><ul><li><strong>神舟 战神 G7T-CU5NA</strong>（i5-10300H、GTX1650Ti 4GB、8GB、512GB、17.3英寸1080p分辨率72%NTSC色域144Hz刷新率IPS屏）</li><li><strong>红米 Redmi G 低配版</strong>（i7-10200H、GTX1650Ti 4GB、16GB、512GB、16.1英寸1080p分辨率100%sRGB色域IPS屏）</li></ul></li><li><strong>5500-6500元</strong><ul><li><a href="https://item.jd.com/100014208314.html"><strong>机械革命 蛟龙 高色域版</strong></a>（R7-4800H、GTX1650 4GB、16GB、512GB、15.6英寸1080p分辨率100%sRGB色域IPS屏）</li><li><a href="https://item.jd.com/100012885262.html"><strong>联想 拯救者 R7000</strong></a>（R5-4600H、GTX1650Ti 4GB、16GB、512GB、15.6英寸1080p分辨率100%sRGB色域IPS屏）</li><li><strong>宏碁 暗影骑士·擎</strong>（i5-10300H、GTX1650Ti 4GB、16GB、512GB、15.6英寸1080p分辨率72%NTSC色域144Hz刷新率IPS屏）</li></ul></li><li><strong>6500-7500元</strong><ul><li><a href="https://item.jd.com/100009435029.html"><strong>炫龙 M7-E6S3</strong></a>（R5-3600、RTX2070 8GB、16GB、512GB、15.6英寸1080P分辨率72%NTSC色域144Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/100008323231.html"><strong>神舟 战神 G8-CU7NA</strong></a>（i7-10750H、RTX2060 6GB、8GB、512GB、17.3英寸1080p分辨率72%NTSC色域144Hz刷新率IPS屏）</li></ul></li><li><strong>7500-8500元</strong><ul><li><a href="https://item.jd.com/100008243247.html"><strong>联想 拯救者 R7000P</strong></a>（R7-4800H、RTX2060 6GB、16GB、512GB、15.6英寸1080P分辨率100%sRGB色域144Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/100008671273.html"><strong>荣耀 猎人游戏本 V700</strong></a>（i7-10750H、RTX2060 6GB、16GB、512GB、16.1英寸1080P分辨率100%sRGB色域144Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/100014397134.html"><strong>惠普 暗影精灵6 锐龙版</strong></a>（R7-4800H、RTX2060 6GB、16GB、512GB、15.6英寸1080p分辨率72%NTSC色域144Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/100007247953.html"><strong>华硕 天选 R9版</strong></a>（R9-4900H、RTX2060 6GB、16GB、512GB、15.6英寸1080p分辨率100%sRGB色域144Hz刷新率IPS屏）</li><li><strong>神舟 战神 TX9-CU5DK</strong>（i5-10400、RTX2070 8GB、16GB、256GB固态、1TB机械、16.1英寸1080p分辨率100%sRGB色域144Hz刷新率IPS屏）</li></ul></li><li><strong>8500-10000元</strong><ul><li><a href="https://item.jd.com/100013950500.html"><strong>联想 拯救者 Y7000P 八核顶配版</strong></a>（i7-10875H、RTX2060 6GB、16GB、512GB、15.6英寸1080P分辨率100%sRGB色域144Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/100015055656.html"><strong>华硕 玩家国度 魔霸新锐</strong></a>（i7-10870H、RTX2060 6GB、16GB、512GB、15.6英寸1080p分辨率100%sRGB色域144Hz刷新率IPS屏）</li><li><strong>神舟 战神 Z9-CU7PK</strong>（i7-10750H、RTX2070 8GB、16GB、256GB固态、1TB机械、15.6英寸1080p分辨率72%NTSC色域144Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/100013976254.html"><strong>惠普 暗影精灵6 RTX2070 Max-Q版</strong></a>（i7-10750H、RTX2070 8GB(Max-Q)、16GB、1TB、15.6英寸1080p分辨率72%NTSC色域144Hz刷新率IPS屏）</li></ul></li><li><strong>10000-20000元</strong><ul><li><a href="https://item.jd.com/100013431682.html"><strong>华硕 玩家国度 枪神4 Plus</strong></a>（i7-10875H、RTX2070S 8GB、16GB、1TB、17.3英寸1080p分辨率100%sRGB色域300Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/100012773512.html"><strong>微星 绝影2 GS66</strong></a>（i9-10980HK、RTX2070S 8GB(Max-Q)、32GB、2TB、15.6英寸1080p分辨率100%sRGB色域300Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/70486938853.html"><strong>微星 强袭2 GE66</strong></a>（i9-10980HK、RTX2080S 8GB(Max-Q)、32GB、1TB、15.6英寸1080p分辨率100%sRGB色域240Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/100015586792.html"><strong>惠普 暗影精灵6 Plus</strong></a>（i7-10870H、RTX2080S 8GB、16GB、1TB、17.3英寸1080P分辨率100%sRGB色域300Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/100012696284.html"><strong>技嘉 Aorus 15G</strong></a>（i7-10875H、RTX2070S 8GB(Max-Q)、16GB、512GB、15.6英寸1080p分辨率72%NTSC色域240Hz刷新率IPS屏）</li><li><a href="https://item.jd.com/10021621536724.html"><strong>联想 拯救者 Y9000K 2020</strong></a>（i7-10875H、RTX2080S 8GB(Max-Q)、32GB、1TB、15.6英寸1080P分辨率100%AdobeRGB色域144Hz刷新率IPS屏）</li></ul></li></ol><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul><li><p><strong>无聊的内容整合，方便自己推荐，如果方便到你，十分荣幸！那么，再见👋。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p></li></ul>]]></content>
-    
-    
-    <summary type="html">观看各家电脑笔记本媒体评测后的得到的数据以及自己的接触使用从而推荐的各个价位的笔记本电脑。</summary>
-    
-    
-    
-    <category term="硬件相关" scheme="https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/"/>
-    
-    <category term="笔记本电脑推荐💻" scheme="https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%8E%A8%E8%8D%90%F0%9F%92%BB/"/>
-    
-    
-    <category term="笔记本电脑推荐" scheme="https://blog.molipre.com/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%8E%A8%E8%8D%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Butterfly主题魔改之导航栏</title>
-    <link href="https://blog.molipre.com/posts/9197e975.html"/>
-    <id>https://blog.molipre.com/posts/9197e975.html</id>
-    <published>2020-11-18T16:00:00.000Z</published>
-    <updated>2020-11-18T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h3><ol><li><strong>电脑端</strong><br><img src="https://i.loli.net/2020/11/19/BCQbkTuw9ahWpZs.png" alt="效果展示.png"></li><li><strong>手机端</strong><br><img src="https://i.loli.net/2020/11/19/A6LFJBY71XxuODs.jpg" alt="效果展示.jpg"></li></ol><h3 id="修改导航栏menu居中以及搜索居右"><a href="#修改导航栏menu居中以及搜索居右" class="headerlink" title="修改导航栏menu居中以及搜索居右"></a>修改导航栏menu居中以及搜索居右</h3><ol><li><strong>用编辑器打开 <code>themes\butterfly\source\css\_layout\head.styl</code> 文件，找到如图所示内容：</strong><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.menus_items</span></span><br><span class="line">   <span class="selector-tag">display</span>: <span class="selector-tag">inline</span></span><br></pre></td></tr></table></figure></li><li><strong>修改内容如下：</strong><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.menus_items</span></span><br><span class="line">  <span class="selector-tag">display</span>: <span class="selector-tag">inline</span></span><br><span class="line">  <span class="selector-tag">position</span>: <span class="selector-tag">absolute</span></span><br><span class="line">  <span class="selector-tag">width</span>: 400<span class="selector-tag">px</span>    </span><br><span class="line">  <span class="selector-tag">text-align</span>: <span class="selector-tag">center</span>   </span><br><span class="line">  <span class="selector-tag">left</span>: 0</span><br><span class="line">  <span class="selector-tag">right</span>: 0</span><br><span class="line">  <span class="selector-tag">margin</span>: <span class="selector-tag">auto</span></span><br></pre></td></tr></table></figure><div class="note blue quote flat"><p><strong>上述css样式方案复制于<a href="https://blog.zhheo.com/">Heo</a>，可以去关注一下<a href="https://blog.zhheo.com/">他的博客</a>，其他方案还在修改中，完善后会更新本文。</strong></p></div></li></ol><h3 id="自定义munu始终居于右边"><a href="#自定义munu始终居于右边" class="headerlink" title="自定义munu始终居于右边"></a>自定义munu始终居于右边</h3><ol><li><strong>用编辑器打开 <code>themes\butterfly\layout\includes\header\nav.pug</code> 文件，找到如图所示内容：</strong><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nav#nav</span><br><span class="line">  span#blog_name</span><br><span class="line">    a#site-name(href&#x3D;url_for(&#39;&#x2F;&#39;)) #[&#x3D;config.title]</span><br><span class="line"></span><br><span class="line">  span#menus</span><br><span class="line">    if (theme.algolia_search.enable || theme.local_search.enable)</span><br><span class="line">      #search_button</span><br><span class="line">        a.site-page.social-icon.search</span><br><span class="line">          i.fas.fa-search.fa-fw</span><br><span class="line">        span&#x3D;&#39; &#39;+_p(&#39;search&#39;)</span><br><span class="line">  !&#x3D;fragment_cache(&#39;menus&#39;, function()&#123;return partial(&#39;includes&#x2F;header&#x2F;menu_item&#39;)&#125;)</span><br><span class="line"></span><br><span class="line">  span#toggle-menu.close</span><br><span class="line">    a.site-page</span><br><span class="line">      i.fas.fa-bars.fa-fw</span><br></pre></td></tr></table></figure></li><li><strong>修改为如下所示：</strong><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nav#nav</span><br><span class="line">  span#blog_name</span><br><span class="line">    a#site-name(href&#x3D;url_for(&#39;&#x2F;&#39;)) #[&#x3D;config.title]</span><br><span class="line"></span><br><span class="line">  span#menus</span><br><span class="line">    if (theme.algolia_search.enable || theme.local_search.enable)</span><br><span class="line">      #search_button</span><br><span class="line">        a.site-page.social-icon.search</span><br><span class="line">          i.fas.fa-search.fa-fw</span><br><span class="line">        span&#x3D;&#39; &#39;+_p(&#39;search&#39;)</span><br><span class="line">      #search_button</span><br><span class="line">        a.site-page.(href&#x3D;&#39;url&#39;)</span><br><span class="line">        &#x2F;&#x2F;其中url为链接内容，如：https:&#x2F;&#x2F;blog.molipre.com或博客内嵌页面 &#x2F;about&#x2F; 等</span><br><span class="line">          i.fas.xxxxx.fa-fw</span><br><span class="line">          &#x2F;&#x2F;其中xxxxx可以为Font Awesome图标格式，如fa-search</span><br><span class="line">        span&#x3D;&#39; &#39;+&#39;xxxx&#39;</span><br><span class="line">        &#x2F;&#x2F;其中xxxx为自定义的内容，如效果图中的 &#39;个人主页&#39; 等</span><br><span class="line">  !&#x3D;fragment_cache(&#39;menus&#39;, function()&#123;return partial(&#39;includes&#x2F;header&#x2F;menu_item&#39;)&#125;)</span><br><span class="line"></span><br><span class="line">  span#toggle-menu.close</span><br><span class="line">    a.site-page</span><br><span class="line">      i.fas.fa-bars.fa-fw</span><br></pre></td></tr></table></figure></li></ol><h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><ul><li><strong>本次魔改都是根据我博客自身来修改的，建议参考修改，而不是复制，不一定所有人都适用。</strong></li><li><strong>最后祝大家魔改成功，再见👋。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">修改导航栏menu居中&lt;br&gt;修改导航栏搜索按钮始终居于右边&lt;br&gt;自定义munu始终居于右边</summary>
-    
-    
-    
-    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="Butterfly🦋" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/Butterfly%F0%9F%A6%8B/"/>
-    
-    
-    <category term="Hexo" scheme="https://blog.molipre.com/tags/Hexo/"/>
-    
-    <category term="Butterfly" scheme="https://blog.molipre.com/tags/Butterfly/"/>
-    
-    <category term="主题魔改" scheme="https://blog.molipre.com/tags/%E4%B8%BB%E9%A2%98%E9%AD%94%E6%94%B9/"/>
-    
-    <category term="导航栏" scheme="https://blog.molipre.com/tags/%E5%AF%BC%E8%88%AA%E6%A0%8F/"/>
     
   </entry>
   
