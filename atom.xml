@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-01-25T01:34:10.000Z</updated>
+  <updated>2021-01-26T03:45:14.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -17,7 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>HTML是什么</title>
+    <title>XML是什么？</title>
+    <link href="https://blog.molipre.com/posts/8bd196f7.html"/>
+    <id>https://blog.molipre.com/posts/8bd196f7.html</id>
+    <published>2021-01-26T03:45:14.000Z</published>
+    <updated>2021-01-26T03:45:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>XML</font>（eXtensible Markup Language）中文名称：<font size=6>可扩展标记语言 </font>，标准通用标记语言的子集，是一种用于标记电子文件使其具有结构性的标记语言。</strong></p><p>&emsp;&emsp;<strong>XML 或可扩展标记语言是从标准通用标记语言或 SGML 派生的基于文本的标记语言，数据由 XML 标记存储，以识别它们并组织数据，和 HTML 一样，XML 也不是编程语言，同属为标记语言。</strong></p><p>&emsp;&emsp;<strong>XML 是一种很像 HTML 的标记语言，但不是 HTML 的替代，两者是为不同的目的而设计，XML 被设计用来传输和存储数据，其焦点是数据的内容，HTML 被设计用来显示数据，其焦点是数据的外观，所以 HTML 主要是显示信息，而 XML 则是传输信息。</strong></p><p>&emsp;&emsp;<strong>由上述可见，XML 是对 HTML 的补充，毕竟如今的网络环境飞速发展，HTML 不允许应用程序开发者为具体的应用环境定义自定义的标记以及没有语义结构的缺点使其交互性差，语义模糊，因此一个标准、简洁、结构严谨以及可高度扩展的XML是更好的选择。</strong></p><p>&emsp;&emsp;<strong>XML 1.0标准于1998年2月10日由W3C发布。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;XML&lt;/font&gt;（eXtensible Markup Language）中文名称：&lt;font size=6&gt;可扩展标记语言 &lt;/font&gt;，标准通用标记语言的子集，是一种用于标记电子文件使其具有结构性的标</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="XML" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/XML/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="XML" scheme="https://blog.molipre.com/tags/XML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML是什么？</title>
     <link href="https://blog.molipre.com/posts/fcd6a661.html"/>
     <id>https://blog.molipre.com/posts/fcd6a661.html</id>
     <published>2021-01-25T01:34:10.000Z</published>
@@ -503,32 +531,6 @@
     
     
     <category term="旅游" scheme="https://blog.molipre.com/tags/%E6%97%85%E6%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20201227</title>
-    <link href="https://blog.molipre.com/posts/31d5c67.html"/>
-    <id>https://blog.molipre.com/posts/31d5c67.html</id>
-    <published>2020-12-27T08:58:33.000Z</published>
-    <updated>2020-12-27T08:58:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2020年12月27日 星期天 天气 晴</strong></big><br>&emsp;&emsp;<strong>今日天气晴朗，室外温度24°，本来是定好早上7点起床去爬山，奈何前一天晚上睡得太晚，起来的时候已然11点了，便匆忙做了顿午餐，待午餐吃完，便从家里出发，开始了今日的与山共舞之旅。</strong></p><p><img src="https://i.loli.net/2020/12/28/dqw19MUDiKg6RTX.jpg" alt="午饭.jpg"></p><p>&emsp;&emsp;<strong>说起来我已经有一年多没去爬山了，这次有这个想法的原因是，因为疫情的缘故已经很长一段时间没怎么出过门，待在家里吃吃喝喝久了就开始变胖了，最近两个月在减肥，但是在附近跑步两个月有点无聊，上个星期在地图看到附近步行一千多米就能去爬山了，于是便诞生了每周去爬一次山的想法，这样周末也就能运动一下，还能出去呼吸一下大自然新鲜的空气，看看绿色的植物和大自然的美景。</strong></p><p><img src="https://i.loli.net/2020/12/28/hYwiVjMepcr5q2Q.jpg" alt="湖.jpg"><br><img src="https://i.loli.net/2020/12/28/xKV96dvZrcHXaie.jpg" alt="山.jpg"></p><p>&emsp;&emsp;<strong>这次爬山因为是一个人去，所以就没选择常规的大路，而是寻找山间小路和自己开辟新路线，这里并不推荐大家这样做，有一定的危险性，贴别是一个人的时候，山里可能手机没信号，如果体力差的人，走到一半体力不支可能会被困住，到时候求救就很困难了，今日爬山的时候我就在一个山头转了三次，耗费了些许时间才走出来，也是差一点迷路了，中途也遇到了许多有攀爬危险的上山和下山路程，也差点没抓稳滑倒，所以爬山还是量力而行，安全最重要。</strong></p><p>&emsp;&emsp;<strong>当你在没路的山林里披荆斩棘开出了一条新路线并且成功登顶的时候，真的会有一种自豪和开心的情绪蔓延全身的，虽然过程挺危险的，也还好做了些安全准备，最终才成功爬到山顶，也成功找到了安全的下山路。</strong></p><p>&emsp;&emsp;<strong>回到家再吃顿火锅，周末完美结束了！</strong></p><p><img src="https://i.loli.net/2020/12/28/ZpbDw4OWSyYHXor.jpg" alt="步数.jpg"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2020年12月27日 星期天 天气 晴&lt;/strong&gt;&lt;/big&gt;&lt;br&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;今日天气晴朗，室外温度24°，本来是定好早上7点起床去爬山，奈何前一天晚上睡得太晚，起来的时候已然11点了</summary>
-      
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
