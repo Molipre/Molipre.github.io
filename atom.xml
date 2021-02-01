@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-01-28T10:42:50.000Z</updated>
+  <updated>2021-02-01T03:31:14.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -17,13 +17,177 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>UDP是什么？</title>
+    <link href="https://blog.molipre.com/posts/95a763af.html"/>
+    <id>https://blog.molipre.com/posts/95a763af.html</id>
+    <published>2021-02-01T03:31:14.000Z</published>
+    <updated>2021-02-01T03:31:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>UDP</font>（User Datagram Protocol）中文名称：<font size=6>用户数据报协议 </font>，是OSI（Open System Interconnection，开放式系统互联）参考模型中一种无连接的传输层协议，主要用于不要求分组顺序到达的传输中，提供面向事务的简单不可靠信息传送服务。</strong></p><p>&emsp;&emsp;<strong>UDP提供了无连接通信，且不对传送数据包进行可靠性保证，也就是说，当报文发送之后，是无法得知其是否安全完整到达的，因此适合于一次传输少量数据，UDP传输的可靠性由应用层负责。常用的UDP端口号有：<code>53（DNS）</code> 、<code>69（TFTP）</code> 、<code>161（SNMP）</code> ，使用UDP协议包括：<code>TFTP</code> 、<code>SNMP</code> 、<code>NFS</code> 、<code>DNS</code> 、<code>BOOTP</code> 。</strong></p><p>&emsp;&emsp;<strong>UDP传输的段（segment）有8个字节的报头和有效载荷字段构成，而UDP报头由4个域组成，其中每个域各占用2个字节，具体包括源端口号、目标端口号、数据报长度、校验值。</strong></p><ol><li><p><strong>端口号：</strong><br><strong>1、UDP协议使用端口号为不同的应用保留其各自的数据传输通道，因此端口号分为源端口号和目标端口号；</strong><br><strong>2、发送端将UDP数据包通过源端口发送出去，接收端通过目标端口接收数据；</strong><br><strong>3、端口号可以使用预先为其预留或注册的静态端口，还有未被注册的动态端口；</strong><br><strong>4、UDP报头使用两个字节存放端口号，因此端口号的有效范围是从 <code>0 - 65535</code> ，大于 <code>49151</code> 的端口号都代表动态端口；</strong><br><strong>5、UDP端口号指定有两种方式：由管理机构指定端口和动态绑定的方式。</strong></p><p><img src="https://p.molipre.com/img/UDP.png" alt="UDP"></p></li><li><p><strong>数据报长度：</strong><br><strong>1、数据报的长度是指包括报头和数据部分在内的总字节数；</strong><br><strong>2、报头的长度是固定的，所以该域主要被用来计算可变长度的数据部分（又称为数据负载）；</strong><br><strong>3、包含报头在内的数据报的最大长度为65535字节。</strong></p></li><li><p><strong>校验值：</strong><br><strong>1、UDP协议使用报头中的校验值来保证数据的安全；</strong><br><strong>2、校验值需要在发送端计算得出，传递到接收端后，从新计算校验值并验证是否相符，从而判断是否出错，但UDP不做错误校正，只会把损坏的信息段丢弃，或者给接收端提供警告信息。</strong></p></li></ol><p><strong>应用：</strong></p><ul><li><strong>UDP协议在网络质量不好的情况下丢包非常严重，但因为具有消耗资源小，处理速度快的特点，因此适合用于音频、视频、普通数据等传输过程丢一两个数据包不影响接收结果的应用，例如我们熟悉的 <code>QQ</code> 就是使用UDP协议。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;UDP&lt;/font&gt;（User Datagram Protocol）中文名称：&lt;font size=6&gt;用户数据报协议 &lt;/font&gt;，是OSI（Open System Interconnection，开放式</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="UDP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/UDP/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="UDP" scheme="https://blog.molipre.com/tags/UDP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20210131</title>
+    <link href="https://blog.molipre.com/posts/8bc11e2d.html"/>
+    <id>https://blog.molipre.com/posts/8bc11e2d.html</id>
+    <published>2021-01-31T13:41:27.000Z</published>
+    <updated>2021-01-31T13:41:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年01月31日 星期天 天气 晴 平均温度 20°</strong></big></p><p>&emsp;&emsp;<strong>这个周末刚好双休，下星期要连续上9天班，然后就是春节假期了，因此这个周末放假就没出门，待在家里两天，其实就是啥都不想做，最近生活绷得很紧，突然想要放松一下，持续了十几周没断过的夜跑，这个周末也没去跑步，真的是彻彻底底当了两天死肥宅，别的不说，是真的舒服。</strong></p><p>&emsp;&emsp;<strong>周六早上特意去买了一份家乡的特色美食- <code>猪肠碌</code> ，实在是很久没吃了，久违的味道，虽然老板是老家那边的人，但是做的不算很好吃，不过对于一个长时间在外打工的人，这味道真的令人怀念啊！</strong></p><p><img src="https://p.molipre.com/img/zhuchanglu.jpg" alt="猪肠碌"></p><p>&emsp;&emsp;<strong>周六晚上再次做了 <code>青椒炒肉</code> ，这次终于不是之前做的那样干瘪无汁得了，味道也比之前好了许多，厨艺也是有了些许长进，周日试了一下网上说的菜式，之前没试过的新菜式 - <code>粉丝煎蛋番茄金针菇煲</code>（主要是之前朋友来家里做饭剩下了粉丝和鸡蛋），不知道是不是手艺不好的缘故，反正不太好吃，马马虎虎，不过粉丝还是挺入味的，然后这道 <code>炒三丁</code> 还是一如既往的好吃。</strong></p><p><img src="https://p.molipre.com/img/qingjiaochaorou.jpg" alt="青椒炒肉"><br><img src="https://p.molipre.com/img/fensibao.jpg" alt="粉丝煲"></p><p>&emsp;&emsp;<strong>两天就这样很快就过去了，平平淡淡，带有些许的孤独。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年01月31日 星期天 天气 晴 平均温度 20°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;这个周末刚好双休，下星期要连续上9天班，然后就是春节假期了，因此这个周末放假就没</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IPv6是什么？</title>
+    <link href="https://blog.molipre.com/posts/e2a05339.html"/>
+    <id>https://blog.molipre.com/posts/e2a05339.html</id>
+    <published>2021-01-31T01:48:27.000Z</published>
+    <updated>2021-01-31T01:48:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>IPv6</font>（Internet Protocol version 6）中文名称：<font size=6>互联网协议第6版 </font>，是互联网工程任务组（IETF）设计的用于替代IPv4的下一代IP协议。</strong></p><p>&emsp;&emsp;<strong>由于IPv4最大的问题在于网络地址资源不足，严重制约了互联网的应用和发展。IPv6的使用，不仅能解决网络地址资源数量的问题，而且也解决了多种接入设备连入互联网的障碍。</strong></p><p>&emsp;&emsp;<strong>IPv6的地址长度为128位，是IPv4地址长度的4倍，共2^128（约3.4×10^38）个，就其数量而言，现阶段的互联网发展速度是不需要担心IPv6地址是否够用。</strong></p><p>&emsp;&emsp;<strong>由于IPv6的地址长度为128位，IPv4点分十进制格式不再适用，于是采用十六进制表示。</strong></p><p><strong>表示方法有三种：</strong></p><ol><li><strong>冒分十六进制表示法</strong><br><strong>格式如：<code>X:X:X:X:X:X:X:X</code> ，其中每个 <code>X</code> 表示地址中的 <code>16b</code> ，即16进制表示。</strong><br><strong>例如：<code>ABCD:EF01:2345:6789:ABCD:EF01:2345:6789</code></strong></li><li><strong>0位压缩表示法</strong><br><strong>同样是1中的格式，但是地址中间包含很长一段 <code>0</code> ，则可以把连续的一段0压缩为 <code>::</code></strong><br><strong>例如：<code>ABCD:0000:0000:0000:0000:0000:0000:6789</code> → <code>ABCD::6789</code></strong><br>&emsp;&emsp;&emsp;<strong><code>0000:0000:0000:0000:0000:0000:0000:6789</code> → <code>::6789</code></strong><br>&emsp;&emsp;&emsp;<strong><code>0000:0000:0000:0000:0000:0000:0000:0000</code> → <code>::</code></strong></li><li><strong>内嵌IPv4地址表示法</strong><br><strong>该方法主要是为了实现IPv4-IPv6互通，把IPv4地址会嵌入IPv6地址中。</strong><br><strong>格式：<code>X:X:X:X:X:X:d.d.d.d</code> ，前面的 <code>96b</code> （即6个X）采用冒分十六进制表示，后面 <code>32b</code> （即4个d）采用IPv4的点分十进制表示。</strong><br><strong>例如：<code>::192.168.0.1</code> 或 <code>::FFFF:192.168.0.1</code> ，采用冒分十六进制表示的部分依旧适用0位压缩表示法。</strong></li></ol><p>&emsp;&emsp;<strong>IPv6有三种地址类型：<code>单播地址(Unicast Address)</code> 、<code>组播地址(Multicast Address)</code> 、<code>任播地址(Anycast Address)</code>：</strong></p><ol><li><strong>单播地址：</strong>用来唯一标识一个接口，类似于IPv4中的单播地址。发送到单播地址的数据报文将被传送给此地址所标识的一个接口。</li><li><strong>组播地址：</strong>用来标识一组接口（通常这组接口属于不同的节点），类似于IPv4中的组播地址。发送到组播地址的数据报文被传送给此地址所标识的所有接口。</li><li><strong>任播地址：</strong>用来标识一组接口（通常这组接口属于不同的节点）。发送到任播地址的数据报文被传送给此地址所标识的一组接口中距离源节点最近（根据使用的路由协议进行度量）的一个接口。</li></ol><p><img src="https://p.molipre.com/img/IPv6.png" alt="IPv6"></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;IPv6&lt;/font&gt;（Internet Protocol version 6）中文名称：&lt;font size=6&gt;互联网协议第6版 &lt;/font&gt;，是互联网工程任务组（IETF）设计的用于替代IPv4的下一</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="IPv6" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/IPv6/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="IPv6" scheme="https://blog.molipre.com/tags/IPv6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IPv4是什么？</title>
+    <link href="https://blog.molipre.com/posts/7ba90283.html"/>
+    <id>https://blog.molipre.com/posts/7ba90283.html</id>
+    <published>2021-01-30T01:19:58.000Z</published>
+    <updated>2021-01-30T01:19:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>IPv4</font>（Internet Protocol version 4）中文名称：<font size=6>网际协议版本4 </font>，又称：<font size=6>互联网通信协议第四版 </font>，是网际协议开发过程中的第四个修订版本，也是此协议第一个被广泛部署的版本。IPv4是互联网的核心，也是使用最广泛的网际协议版本，其后续版本为“<a href="https://blog.molipre.com/posts/e2a05339.html">IPv6</a>”。</strong></p><p>&emsp;&emsp;<strong>IPv4使用32位（4字节）地址，因此地址空间中只有4,294,967,296（2）个地址，但是，一些地址是为特殊用途所保留的，例如专用网络（<code>10.0.0.0/8、172.16.0.0/12、192.168.0.0/16</code>）等，因此互联网上路由可用的地址数量也随之减少，随着地址不断被分配，IPv4地址即将枯竭，2011年2月3日已分配完最后五个地址块。</strong></p><p>&emsp;&emsp;<strong>IPv4地址可被写作任何表示一个32位整数值的形式，但为了方便人类阅读和分析，它通常被写作点分十进制的形式，即四个字节被分开用十进制写出，中间用点分隔。</strong></p><p><strong>格式举例：</strong></p><table><thead><tr><th>格式</th><th>值</th><th>从点分十进制转换</th></tr></thead><tbody><tr><td>点分十进制</td><td>192.0.2.235</td><td></td></tr><tr><td>点分十六进制</td><td>0xC0.0x00.0x02.0xEB</td><td>每个字节被单独转换为十六进制</td></tr><tr><td>点分八进制</td><td>0300.0000.0002.0353</td><td>每个字节被单独转换为八进制</td></tr><tr><td>十六进制</td><td>0xC00002EB</td><td>将点分十六进制连在一起</td></tr><tr><td>十进制</td><td>3221226219</td><td>用十进制写出的32位整数</td></tr><tr><td>八进制</td><td>030000001353</td><td>用八进制写出的32位整数</td></tr></tbody></table><p>&emsp;&emsp;<strong>一开始的IPv4地址分为 <code>A</code> 、<code>B</code> 、<code>C</code> 、<code>D</code> 、<code>E</code> 五个类别，<code>A类</code> 、<code>B类</code> 和 <code>C类</code> 有不同的网络类别长度，剩余的部分被用来识别网络内的主机，<code>D类</code> 被用于多播地址，<code>E类</code> 被留作将来使用，1993年，无类别域间路由（<code>CIDR</code>）正式地取代了分类网络。</strong></p><p>&emsp;&emsp;<strong><code>CIDR</code> 被设计为可以重新划分地址空间，因此小的或大的地址块均可以分配给用户。CIDR创建的分层架构由互联网号码分配局（IANA）和区域互联网注册管理机构（RIR）进行管理，每个RIR均维护着一个公共的WHOIS数据库，以此提供IP地址分配的详情。</strong></p><p><strong>特殊用途的地址（保留的地址块）：</strong></p><table><thead><tr><th>CIDR地址块</th><th>描述</th><th>参考资料</th></tr></thead><tbody><tr><td>0.0.0.0/8</td><td>本网络（仅作为源地址时合法）</td><td>RFC 5735</td></tr><tr><td>10.0.0.0/8</td><td>电信级NAT</td><td>RFC 1918</td></tr><tr><td>100.64.0.0/10</td><td>电信级NAT</td><td>RFC 6598</td></tr><tr><td>127.0.0.0/8</td><td>环回</td><td>RFC 5735</td></tr><tr><td>169.254.0.0/16</td><td>链路本地</td><td>RFC 3927</td></tr><tr><td>172.16.0.0/12</td><td>专用网络</td><td>RFC 1918</td></tr><tr><td>192.0.0.0/24</td><td>保留（IANA）</td><td>RFC 5735</td></tr><tr><td>192.0.2.0/24</td><td>TEST-NET-1，文档和示例</td><td>RFC 5735</td></tr><tr><td>192.88.99.0/24</td><td>6to4中继</td><td>RFC 3068</td></tr><tr><td>192.168.0.0/16</td><td>专用网络</td><td>RFC 1918</td></tr><tr><td>198.18.0.0/15</td><td>网络基准测试</td><td>RFC 2544</td></tr><tr><td>198.51.100.0/24</td><td>TEST-NET-2，文档和示例</td><td>RFC 5737</td></tr><tr><td>203.0.113.0/24</td><td>TEST-NET-3，文档和示例</td><td>RFC 5737</td></tr><tr><td>224.0.0.0/4</td><td>多播（之前的D类网络）</td><td>RFC 3171</td></tr><tr><td>240.0.0.0/4</td><td>保留（之前的E类网络）</td><td>RFC 1700</td></tr><tr><td>255.255.255.255</td><td>受限广播</td><td>RFC 919</td></tr></tbody></table><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;IPv4&lt;/font&gt;（Internet Protocol version 4）中文名称：&lt;font size=6&gt;网际协议版本4 &lt;/font&gt;，又称：&lt;font size=6&gt;互联网通信协议第四版 &lt;/f</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="IPv4" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/IPv4/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="IPv4" scheme="https://blog.molipre.com/tags/IPv4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IC谷星X24Q显示器使用体验</title>
+    <link href="https://blog.molipre.com/posts/51476da.html"/>
+    <id>https://blog.molipre.com/posts/51476da.html</id>
+    <published>2021-01-29T03:40:54.000Z</published>
+    <updated>2021-01-29T03:40:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><strong>购买需求：最近写代码和文章的量一直在上涨，原本在用的4K显示器就竖着使用，但是需要看其他窗口就挺麻烦，因此打算增购一台显示器竖屏使用。</strong></li><li><strong>至于为啥不再买一个4K显示器，是因为我目前使用的主机是Deskmini H310，没有独立显卡，如果核显输出两台4K显示器，我估计可能会掉帧，因此购买一台2K显示器是最佳选择。</strong></li></ul><h1 id="参数与外观"><a href="#参数与外观" class="headerlink" title="参数与外观"></a>参数与外观</h1><h2 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h2><ul><li><strong>先简单说一下X24Q这款显示器的参数：<code>23.8寸</code> 、<code>75Hz刷新率</code> 、<code>4ms响应时间</code> 、<code>2K分辨率</code> 、<code>IPS面板</code> 、<code>300尼特亮度</code> 、<code>支持FreeSync</code> 、<code>支持HDR(聊胜于无)</code> 、<code>99%sRGB色域</code> 、<code>8bit色深(不知道是不是6抖8，大概率是的)</code> 、<code>支持壁挂</code> ，接口：<code>HDMI</code> 、<code>DP</code> 、<code>Audio(音频输出)</code> 、<code>USB 2.0(仅充电)</code></strong></li></ul><h2 id="外观"><a href="#外观" class="headerlink" title="外观"></a>外观</h2><ul><li><p><strong>直接看图片吧，不用过多介绍。</strong></p><p><img src="https://p.molipre.com/img/xianshiqibaozhuang.jpg" alt="显示器包装"><br><img src="https://p.molipre.com/img/xianshiqiwaiguan.jpg" alt="显示器外观"><br><img src="https://p.molipre.com/img/xianshibiankuangf.jpeg" alt="显示器边框"><br><img src="https://p.molipre.com/img/xianshichicun.png" alt="显示器尺寸"><br><img src="https://p.molipre.com/img/xianshiqjiekou1.jpg" alt="显示器接口"></p></li><li><p><strong>上面几个图可以看出包装都是不对应显示器的，应该是为了节省成本多款显示器用一种外包装，显示器三边窄边框，整体做工颇为粗糙，毕竟是个山寨小品牌，用的是公模外形，我之前选显示器就发现很多家显示器外观差不多的，底座是金属的，挺稳定，不过我直接壁挂</strong>（注意：壁挂接口75mm × 75mm）<strong>，整体不算厚但是最薄处才1.4cm也不算超薄，当然，使用过程是不会太在意这个尺寸的，边框够窄</strong>（窄的三边是4.5mm、厚的一边是20mm）<strong>就可以了，整体黑色，没有多余的logo，除了底座是金属的，其他都是塑料外壳</strong>（廉价感的由来）<strong>，关于外观基本就是这样子了。</strong></p></li></ul><h1 id="使用感受"><a href="#使用感受" class="headerlink" title="使用感受"></a>使用感受</h1><ul><li><strong>针对我个人情况来说，用于竖屏写代码、写文章、浏览网页非常合适，颜色和我的4K显示器相比有偏差，漏光情况尚好，不影响，300尼特的亮度虽然够用，但是我要用开灯用就是了，然后不要用来修图，剪辑调色等对色彩要求搞得操作，显示器只能达到能用的水平。</strong></li><li><strong>使用感受都是很主观的，毕竟是根据自己的用途来决定好不好，反正我用于信息流的编辑与浏览就很好，大概就这样。</strong></li></ul><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ol><li><strong>用于信息流的使用，例如写代码，写文章，看网页，值得购买，毕竟才 <code>700元</code> 不到的 <code>2K分辨率</code> 和 <code>99%sRGB色域</code> 的显示器；</strong></li><li><strong>不要痴心妄想用于修图、剪辑调色等需要专业显示色彩的情况下，贪图便宜买这个玩意，反正出图眼瞎；</strong></li><li><strong>玩游戏的话，没试过，不过我使用过144Hz的高刷显示器，建议游戏还是买高刷的电竞显示器，虽然这个显示器能到达75Hz，但也就那样，高刷才是王道。</strong></li><li><strong>使用macOS（指的是白苹果）的不建议购买，因为没法使用macOS的 <code>HIDPI</code>，黑苹果倒是可以通过命令和设置开启。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">原本使用的是27寸4K显示器，虽然也可以排列多个窗口，但是最近写代码、文章的量上涨，因此购买了一个显示器作为竖屏使用。</summary>
+    
+    
+    
+    <category term="产品体验" scheme="https://blog.molipre.com/categories/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/"/>
+    
+    <category term="显示器" scheme="https://blog.molipre.com/categories/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/%E6%98%BE%E7%A4%BA%E5%99%A8/"/>
+    
+    
+    <category term="产品体验" scheme="https://blog.molipre.com/tags/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/"/>
+    
+    <category term="谷星X24Q显示器" scheme="https://blog.molipre.com/tags/%E8%B0%B7%E6%98%9FX24Q%E6%98%BE%E7%A4%BA%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NFC是什么？</title>
+    <link href="https://blog.molipre.com/posts/cae3215.html"/>
+    <id>https://blog.molipre.com/posts/cae3215.html</id>
+    <published>2021-01-29T00:11:23.000Z</published>
+    <updated>2021-01-29T00:11:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>NFC</font>（Near Field Communication）中文名称：<font size=6>近场通讯 </font>，是一种短距离的高频无线通信技术，是在非接触式射频识别(RFID)技术的基础上，结合无线互连技术研发而成的。</strong></p><p>&emsp;&emsp;<strong>NFC中文名称中的“近场”是指临近电磁场的无线电波，即电磁波，遵循麦克斯韦方程，电磁波10个波长以内，电场和磁场是相互独立的，这时的电场没有多大意义，但磁场却可以用于短距离通讯，我们称之为近场通信。</strong></p><p>&emsp;&emsp;<strong>近场通信技术是由诺基亚（Nokia）、飞利浦（Philips）和索尼（Sony）共同制定的标准 ，在ISO 18092、ECMA 340和ETSI TS 102 190框架下推动标准化，同时也兼容应用广泛的ISO 14443 、Type-A、ISO 15693、B以及Felica标准非接触式智能卡 的基础架构。</strong></p><p>&emsp;&emsp;<strong>NFC作为一种短距高频的无线电技术，NFCIP-1标准规定NFC的通信距离为10厘米以内，运行频率13.56MHz，传输速度有106Kbit/s、212Kbit/s或者424Kbit/s三种。</strong></p><p><strong>NFC工作模式分两种：</strong></p><ol><li><strong>被动模式：NFC发起设备(也称为主设备)需要供电设备，主设备利用供电设备的能量来提供射频场，并将数据发送到NFC目标设备(也称作从设备)，传输速率需在106kbps、212kbps或424kbps中选择其中一种。</strong></li><li><strong>主动模式：NFC发起设备和目标设备在向对方发送数据时，都必须主动产生射频场，所以称为主动模式，它们都需要供电设备来提供产生射频场的能量。这种通信模式是对等网络通信的标准模式，可以获得非常快速的连接速率。</strong></li></ol><p><strong>NFC的应用：</strong></p><ol><li><strong>点对点通信模式：即多个具有NFC功能的数字相机、手机等设备之间可以利用NFC技术进行无线互联，实现虚拟名片或数字相片等数据交换。</strong></li><li><strong>读写器模式：即把NFC设备作为非接触读写器使用，例如开启NFC功能的手机可以读写支持NFC数据格式标准的标签。</strong></li><li><strong>卡模拟模式：即将具有NFC功能的设备模拟成一张标签或非接触卡，例如支持NFC的手机可以作为门禁卡、银行卡等而被读取。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;NFC&lt;/font&gt;（Near Field Communication）中文名称：&lt;font size=6&gt;近场通讯 &lt;/font&gt;，是一种短距离的高频无线通信技术，是在非接触式射频识别(RFID)技术的基础</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="NFC" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/NFC/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="NFC" scheme="https://blog.molipre.com/tags/NFC/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Bluetooth是什么？</title>
     <link href="https://blog.molipre.com/posts/6c69bbf0.html"/>
     <id>https://blog.molipre.com/posts/6c69bbf0.html</id>
     <published>2021-01-28T10:42:50.000Z</published>
     <updated>2021-01-28T10:42:50.000Z</updated>
     
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>Bluetooth</font>，中文名称：<font size=6>蓝牙 </font>，是一种支持设备短距离通信（一般10m内）的无线电技术，是基于低成本的近距离无线连接，为固定和移动设备建立通信环境的一种特殊的近距离无线技术连接。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>Bluetooth</font>，中文名称：<font size=6>蓝牙 </font>，是一种支持设备短距离通信（一般10m内）的无线电技术，是基于低成本的近距离无线连接，为固定和移动设备建立通信环境的一种特殊的近距离无线技术连接。</strong></p><p>&emsp;&emsp;<strong>蓝牙技术是由世界著名的5家大公司爱立信（Ericsson）、诺基亚 (Nokia)、东芝(Toshiba)、国际商用机器公司(IBM)、英特尔(Intel)，于1998年5月联合宣布的一种无线通信新技术。</strong></p><p><strong>蓝牙技术原理如下三种：</strong></p><ol><li><strong>主从关系，即规定每一对设备之间进行蓝牙通讯时，必须一个为主角色，另一为从角色，才能进行通信，通信时，必须由主端进行查找，发起配对，建链成功后，双方即可收发数据；</strong></li><li><strong>呼叫过程，即蓝牙主端设备发起呼叫，首先是查找，找出周围处于可被查找的蓝牙设备，主端设备找到从端蓝牙设备后，与从端蓝牙设备进行配对，配对完成后，从端蓝牙设备会记录主端设备的信任信息，此时主端即可向从端设备发起呼叫，已配对的设备在下次呼叫时，不再需要重新配对；</strong></li><li><strong>数据传输，即蓝牙数据传输应用中，一对一串口数据通讯，一对一应用中从端设备可以设为两种类型，一是静默状态，即只能与指定的主端通信，不被别的蓝牙设备查找;二是开发状态，既可被指定主端查找，也可以被别的蓝牙设备查找建链。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
     
     
       
@@ -403,150 +567,6 @@
     <category term="运维" scheme="https://blog.molipre.com/tags/%E8%BF%90%E7%BB%B4/"/>
     
     <category term="公私钥" scheme="https://blog.molipre.com/tags/%E5%85%AC%E7%A7%81%E9%92%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>阅读《坏血》</title>
-    <link href="https://blog.molipre.com/posts/9374fa5e.html"/>
-    <id>https://blog.molipre.com/posts/9374fa5e.html</id>
-    <published>2021-01-09T07:01:03.000Z</published>
-    <updated>2021-01-09T07:01:03.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/badblood.png" alt="坏血"></p><p><big>&emsp;&emsp;<strong>当初看到这本书的封面的时候，我就决定阅读这本书，虽然到真正去阅读完成的时候，时间已经过了两个月之久，但今天我读完，想到了一个词“滴血成金”，是的，在你看完本书后，你会发现仅仅是一滴血成就了一家100亿美元的公司，虽然最后证实这是一个骗局，但看完，你也会觉得书中的主人公，骗局公司的创始人Elizabeth Holmes的确实有一种硅谷特有的魅力，以至于使她靠着这个在15年的时间把一家公司做成了百亿美元的大公司。</strong><br>&emsp;&emsp;<strong>故事本身并不复杂，Elizabeth Holmes 19岁从斯坦福辍学，立志将血液检测设备小型化，家庭化，最终实现全自动的医疗数据采集，大幅度提升医疗产业的效率。愿景很伟大，但现实很残酷，目前的科技树还无法解决这个问题，但女主角硬是通过个人魅力一次次为公司强行续命，尽管公司管得一塌糊涂，产品方面一事无成，却依旧成功地募集了10亿美元左右的投资，走上了白富美的人生巅峰。最终，在得意了十年之后，巨大的泡沫终于被戳破，作者（拿过两个普利策奖）亲自出马撕下了皇帝的新装，让真相大白于天下。</strong><br>&emsp;&emsp;<strong>在阅读本书的过程中，你会发现一个很值得探讨的问题，这样的一个简单的骗局为什么这么多大人物会一一陷入其中，并且时间长达10年以上？</strong><br><strong>在整本书看完之后，我得出以下几个点：</strong><br><strong>1、Elizabeth Holmes自身设立的人设符合美国梦这个大背景，女性+年轻美貌+斯坦福辍学+白手起家+疯狗式工作+高尚的医疗行业+创新改变世界，这明显是一个充满理想主义的故事，满足了美国人内心的期望，而现在仅有这样一个人，所以必须是真的；</strong><br><strong>2、Elizabeth Holmes的个人魅力，非常强大，书中着重描写了她多次使用个人魅力吸引了各路人马为她工作或者注入资本等等，她自己也非常崇拜乔布斯，甚至连着装风格和坐姿都要东施效颦一番，就我个人而言Elizabeth Holmes本身是有乔布斯那种个人魅力的，但是她选错了要做的产品的道路，如果去做互联网，应该又是一个大放光彩的人物，但是在医疗行业，表面上对产品的极致追求是没用的，这个行业最重要的一点就是诚实。</strong><br><strong>3、公司的管理制度：隔离+保密+诉讼，整个公司如同一个黑箱子，而黑箱子里面每个部分也是不能相互沟通的，虽然十几年间公司不断有人离职和加入，但是高强度的保密协议，以及遭受诉讼时出现的高额成本，使得知道自己被骗的员工，也会选择沉默，更何况后期公司聘请了美国第一的诉讼律师，就使得公司的对外泄露的防火墙更加强大；</strong><br><strong>4、投资者相关专业的知识很业余，完全受Elizabeth Holmes的个人魅力所影响，从投资者名单可以看出，基本都是个人投资者，你根本看不到专业的投资机构，毕竟这些投资机构每个投资都会有专业的团队去调查，这样的骗局根本上不了台面，而Theranos的投资者名单可以发现，里面虽然星光熠熠，但这知名度更多是大众意义上的，都是一群投资业余且充满理想主义的老男人，再加上信息不对称以及害怕错过这么有利的投资的心里，最终倒向Elizabeth Holmes。</strong><br>&emsp;&emsp;<strong>这本书在前70%会让你看的非常气愤，为何这么容易被骗，而后30%看着就像爽文一样，因为在作者的调查取证下，Theranos公司和Elizabeth Holmes这个人开始一点点暴露，不过Theranos公司能够存在十几年，能够在行业和媒体利呼风唤雨，除了Elizabeth Holmes个人魅力外，或多或少有些可取之处，毕竟确实吸引了很多相关行业的大牛为它工作，但是具体如何，书中也没用详细介绍，更多讲述的是Elizabeth Holmes个人魅力所吸引。</strong><br>&emsp;&emsp;<strong>我们信仰创新和科学的力量，只不过每个人都要有警惕之心，创新与伪创新、科学与伪科学，都是表里不如一的，但往往大多数人会因为没有足够的知识支持，而被表面上的创新和科学所骗，所以说到底还是要增加自己的知识储备，莫要自大。</strong><br>&emsp;&emsp;<strong>那么，本次阅读的想法就到这里了，下次再见👋！</strong><br></big></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">一个硅谷巨头的秘密与谎言，“女版乔布斯”如何利用欲望与贪婪打造出硅谷商业神话。</summary>
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="阅读" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
-    
-    
-    <category term="阅读" scheme="https://blog.molipre.com/tags/%E9%98%85%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>让我们简单地学学CDN的使用吧</title>
-    <link href="https://blog.molipre.com/posts/9449b4c3.html"/>
-    <id>https://blog.molipre.com/posts/9449b4c3.html</id>
-    <published>2021-01-08T09:51:34.000Z</published>
-    <updated>2021-01-08T09:51:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;<strong>鉴于本博客是部署在Github上的，作为一个服务器在国外的网站，国内的访问会出现不稳定的情况，有些朋友反馈访问速度慢，有些朋友反映说网站根本打不开，虽然会和使用的网络有关系，但总体还是网站本身部署的地方访问不稳定，因此，我便开始了寻找提高博客访问速度的方法，鉴于访问网络的不稳定性，我决定从网络加速方面入手，也因此开始了解CDN方面的内容。</strong><br>&emsp;&emsp;<strong>经过最近一段时间的了解，也大概对CDN有了些许的了解，同时也通过又拍云CDN为网站提高了全站加速，那么下面就让我来说说关于CDN的一些知识，以及如何使用又拍云CDN为博客进行加速吧。</strong></p><h1 id="CDN是什么"><a href="#CDN是什么" class="headerlink" title="CDN是什么"></a>CDN是什么</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>&emsp;&emsp;<strong>CDN的全称是 <code>Content Delivery Network</code>，即内容分发网络，所以CDN本身是构建在现有网络基础之上的虚拟网络，依靠分布在不同位置的服务器，通过各个CDN在自己构建的中心平台的负载均衡、内容分发、调度等功能模块，让用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。</strong><br>&emsp;&emsp;<strong>小型的CDN服务提供商可以是个人部署的一台服务器</strong>（虽然没啥用）<strong>、或者是在单个国家部署的服务器提供CDN服务，而大型CDN则是在世界各地都拥有自己的数据中心的服务提供商，通常购买CDN服务都会选择大型的CDN服务提供商。</strong></p><h2 id="CDN的组成"><a href="#CDN的组成" class="headerlink" title="CDN的组成"></a>CDN的组成</h2><p>&emsp;&emsp;<strong>CDN虽然是一个虚拟网络，但是本身还是需要物理设备承载以及技术手段配合去的，因此CDN网络中包含的功能实体包括内容缓存设备、内容交换机、内容路由器、CDN内容管理系统等组成。</strong><br><img src="https://p.molipre.com/img/CND1.png" alt="CDN"></p><ol><li><strong>内容缓存设备：</strong>内容缓存设备就是在不同地区的服务器，也是各个CDN网络节点，位于用户接入点，是面向最终用户的内容提供设备，可缓存静态Web内容和流媒体内容，实现内容的边缘传播和存储，以便用户的就近访问。</li><li><strong>内容交换机：</strong>内容交换机和我们认知的交换机作用是差不多的，也是位于用户接入集中点，可以均衡单点多个内容缓存设备的负载，并对内容进行缓存负载平衡及访问控制。</li><li><strong>内容路由器：</strong>内容路由器和我们认知的交换机作用是差不多的，通过部署在设备上的负载均衡系统把用户的请求调度到适当的设备上；负载均衡系统会动态均衡各个内容缓存站点的载荷分配，为用户的请求选择最佳的访问站点，提高网站的可用性；作为路由器，是可以通过站点与用户的临近度、内容的可用性、网络负载、设备状况等一些因素去制定策略定制内容路由器的负载均衡系统的侧重点。<strong>（负载均衡系统是整个CDN网络的核心，它的准确性和效率基本就是代表整个CDN网络的性能和效率）</strong></li><li><strong>CDN内容管理系统：</strong>内容管理系统负责整个CDN的管理，是可选部件，作用是进行内容管理，如内容的注入和发布、内容的分发、内容的审核、内容的服务等。</li></ol><h2 id="CDN的功能"><a href="#CDN的功能" class="headerlink" title="CDN的功能"></a>CDN的功能</h2><p>&emsp;&emsp;<strong>CDN的功能也可以说是使用CDN的好处，从功能来看，CDN的功能作用大不大，取决于网站的大小、相对于核心流量源的位置以及产生的流量数量。</strong><br>&emsp;&emsp;<strong>也就是说具有服务于一个小地理区域的物理位置的本地业务不会从CDN中获益太多的好处，而一个电子商务网站，需要更广泛的覆盖面，或者网站由于各种原因从不同的地点产生大量流量，那么一个快速、高效的CDN将帮助保持竞争优势，并提供搜索引擎优化优势。</strong></p><p><strong>CDN的功能（好处）归纳起来有如下几点：</strong></p><ol><li><strong>节省骨干网带宽，减少带宽需求量</strong><br>带宽是托管服务的最大开销之一，通过增加存在点来节省处理流量所需的带宽，可以降低成本。</li><li><strong>提供服务器端加速，解决由于用户访问量大造成的服务器过载问题</strong><br>延迟是造成网站高跳出率的最大因素之一，这是将信息从用户转移到源，然后再返回的时间增加了，这是由于存储阻塞导致读取文件的延迟，来自服务器的数据处理延迟，数据传输方式，如光纤网络与普通网络，传播，或数据从一个节点传播到另一个节点的速度，通过使用有效的交付网络，可以解决或至少减少这些问题。</li><li><strong>提高安全性</strong><br>当所有的数据传输都从一台服务器进行时，它会增加被攻击的风险性，如不使用CDN加速，服务器IP将暴露，使攻击者可以直接攻击服务器，而使用CDN加速，攻击者无法轻易攻击服务器。</li><li><strong>提高内容分发并且降低网站自身建设和维护成本</strong><br>高流量负荷加上硬件故障意味着比大多数网站能够承受的停机时间更多，通过将负载分散到多个内容交付系统，将减少基础设施和服务器的负担，同时多个访问节点的存在，也解决了网站分布不均的问题，不需要花费高成本去维护和优化网站的访问。</li></ol><h2 id="CDN的原理"><a href="#CDN的原理" class="headerlink" title="CDN的原理"></a>CDN的原理</h2><ul><li><strong>基本原理：</strong><br><strong>采用各种缓存服务器，将这些缓存服务器分布到用户访问相对集中的地区或网络中，在用户访问网站时，利用全局负载技术将用户的访问指向距离最近的工作正常的缓存服务器上，由缓存服务器直接响应用户请求。</strong><br>（简单来说，就是把你源站全部缓存到世界各地的数据中心的缓存服务器，你在北京访问，就是直接访问北京的缓存服务器中已经缓存好的内容，你在纽约就直接访问纽约的缓存服务器中已经缓存好的内容，直接通过缩短了用户和内容之间的网络距离，从而达到加速的效果）</li><li><strong>基本思路：</strong><br><strong>1、尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输的更快、更稳定；</strong><br><strong>2、通过在网络各处放置节点服务器所构成的在现有的互联网基础之上的一层智能虚拟网络，CDN系统能够实时地根据网络流量和各节点的连接、负载状况以及到用户的距离和响应时间等综合信息将用户的请求重新导向离用户最近的服务节点上；</strong><br><strong>3、使用户可就近取得所需内容，解决 Internet网络拥挤的状况，提高用户访问网站的响应速度。</strong></li></ul><h2 id="博主的些许理解"><a href="#博主的些许理解" class="headerlink" title="博主的些许理解"></a>博主的些许理解</h2><ul><li><strong>通过上面的描述，大家应该基本理解CDN就是将将相同的数据存储在多个服务器，。当用户访问托管在CDN上的网站时，网络将使用离您地理位置最近的服务器智能地向您提供内容；</strong></li><li><strong>当一台服务器上的硬件出现故障，CDN可以快速将流量重新路由到下一台最好的服务器，从而限制甚至消除停机时间；</strong></li><li><strong>CDN虽然常用于网站的托管，但也用于提供其他类型的可下载数据，例如软件程序、图像、视频和流媒体，云计算服务通常也通过内容分发网络提供，例如我们常用的淘宝看到的图片98%都是走的CDN的缓存。</strong></li></ul><h1 id="CDN的使用"><a href="#CDN的使用" class="headerlink" title="CDN的使用"></a>CDN的使用</h1><div class="note blue idea flat"><p><strong>以又拍云CDN为例，可以加入<a href="https://www.upyun.com/league">又拍云联盟</a>获取每月15G的免费流量。</strong></p></div><h2 id="用于博客全站加速"><a href="#用于博客全站加速" class="headerlink" title="用于博客全站加速"></a>用于博客全站加速</h2><ol><li><p><strong>首先登陆<a href="https://console.upyun.com/dashboard/">又拍云控制台</a></strong> ( 没有账号的按照提示注册然后再实名认证即可 ) <strong>，接着找到<a href="https://console.upyun.com/services/create/cdn/">CDN</a></strong> ( 有账号的直接打开这个链接登录即可 )<strong>，点击下图中的创建服务。</strong></p><p><img src="https://p.molipre.com/img/CND2.png" alt="又拍云CND"></p></li><li><p><strong>出现下图页面，按照下面图片中步骤：</strong><br><strong>1、服务名称处输入服务名称（例如我输入是ycblog），</strong><br><strong>2、加速域名填写博客之后的访问域名，</strong><br><strong>3、应用场景勾选全站加速，</strong><br><strong>4、回源协议勾选 <code>HTTPS</code> ，</strong><br><strong>5、源站证书校验打开，</strong><br><strong>6、源站地址填写博客的园站地址或者IP，例如我的博客部署在Github那我就填写 <code>molipre.github.io</code> ，如果部署在服务器可直接填写服务器的公网IP，</strong><br><strong>7、全部填写选择完成后点击创建等待即可。</strong></p><p><img src="https://p.molipre.com/img/CND3.png" alt="又拍云CND1"></p></li><li><p><strong>修改加速区域为全球加速：</strong><br><strong>1、点击性能优化，找到位于最后面的加速区域；</strong><br><strong>2、点击管理，会弹出加速区域选择窗口；</strong><br><strong>3、选择全球加速；</strong><br><strong>4、点击确定即可生效。</strong></p><p><img src="https://p.molipre.com/img/CND4.png" alt="又拍云CND2"></p></li><li><p><strong>如果你和我一样，在github上绑定了域名，则需要做以下修改：</strong><br><strong>1、点击配置中的回源管理，找到源站设置；</strong><br><strong>2、点击源站管理的管理按钮，弹出源站设置窗口；</strong><br><strong>3、在源站设置中，关闭源站证书校验；</strong><br><strong>4、通过终端 <code>ping</code> 命令得到IP，在源站地址填写得到的IP，点击确定完成源站设置；</strong><br><strong>5、回到回源管理，找到回源host，点击回源host的管理按钮，弹出回源host设置窗口；</strong><br><strong>6、在回源host设置中，填写你在github绑定的域名，例如我绑定的是 <code>b.molipre.com</code> ，再点击保存即可。</strong></p><p><img src="https://p.molipre.com/img/CND5.png" alt="又拍云CND3"><br><img src="https://p.molipre.com/img/CND6.png" alt="又拍云CND4"></p></li><li><p><strong>此时你通过终端 <code>ping</code> 命令 <code>ping 加速域名</code> ，就会得到又拍云的cdn域名</strong></p><p><img src="https://p.molipre.com/img/CND7.png" alt="又拍云CND5"></p></li></ol><h2 id="用于静态类资源"><a href="#用于静态类资源" class="headerlink" title="用于静态类资源"></a>用于静态类资源</h2><ul><li><strong>关于用于图片加速，请查看<a href="https://blog.molipre.com/posts/eb304b37.html">学会搭建自己的私人图床</a></strong></li><li><strong>关于静态资源，如 <code>CSS</code> 、<code>JS</code> 等，请查看<a href="https://blog.molipre.com/posts/facd24db.html">使用Jsdelivr加快博客的访问速度</a></strong></li></ul><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul><li><strong>至此，关于CDN的一些知识和应用便讲完了，文章篇幅比较长，如果能看到最后，非常荣幸！</strong></li><li><strong>那么，下一篇文章见，拜拜👋。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">博客运行100天之际，苦恼网站访问速度慢的时候，了解到了CDN加速，因此对CDN做了一些了解和学习，文章会说一下CDN相关的知识，以及使用又拍云CDN为博客加速的教程。</summary>
-    
-    
-    
-    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="CDN" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/CDN/"/>
-    
-    
-    <category term="CDN" scheme="https://blog.molipre.com/tags/CDN/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于域名的一些的知识与小技巧</title>
-    <link href="https://blog.molipre.com/posts/70ede0ce.html"/>
-    <id>https://blog.molipre.com/posts/70ede0ce.html</id>
-    <published>2021-01-06T02:56:03.000Z</published>
-    <updated>2021-01-11T02:56:03.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;<strong>大家都知道访问一个网站需要一个网址，例如访问淘宝，就要访问 <code>taobao.com</code> ，访问我的博客，就要访问 <code>blog.molipre.com</code> ，这些一串字母和符号组成的网址，是域名为互联网上任何可用的网页服务器提供了方便人类理解的地址。</strong><br>&emsp;&emsp;<strong>在讲述域名的应用前，我们先来简单的解释一下域名。</strong></p><h1 id="域名是什么"><a href="#域名是什么" class="headerlink" title="域名是什么"></a>域名是什么</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>&emsp;&emsp;<strong>连上互联网的任何一台设备，都能通过一个公共IP地址访问到或者最终访问到，而这样一个IP地址，对于IPv4地址来说，这个地址有32位，通常会写成四个范围在0~255以内，由点分隔的数字组成，例如119.75.217.109。</strong><br>&emsp;&emsp;<strong>而对于IPv6来说，这个地址有128位，通常会写成八组由冒号分隔的四个十六进制数组成，例如2408:80f0:410c:001d:0000:00ff:b07a:39af，那么这么长的一串地址，对于计算机来说是非常容易处理的，但是对一个人来说很难找出谁在操控这些服务器以及这些网站提供什么服务，特别是网站或者某些服务等的IP地址可能会随着时间的推移出现变化，为了解决这些问题，我们采用方便记忆的地址，而这些地址便被称作域名。</strong></p><h2 id="域名的结构"><a href="#域名的结构" class="headerlink" title="域名的结构"></a>域名的结构</h2><p>&emsp;&emsp;<strong>一个域名是由几部分组成的简单结构（有可能是一部分、两部分、三部分等等），它们被点分隔，与现代中文的书写阅读顺序不一样的是，域名需要从右到左阅读。</strong><br><img src="https://p.molipre.com/img/domain-name5.png" alt="域名1"></p><ol><li><strong>TLD（Top-Level Domain，顶级域名）</strong><br><strong>TLD（顶级域）是互联网分层DNS</strong>（域名系统）<strong>中最通用的域。</strong><br><strong>顶级域名可以告诉用户域名所提供的服务类型。最通用的顶级域名</strong>（.com, .org, .net）<strong>不需要web服务器满足严格的标准，但一些顶级域名则执行更严格的政策，比如：</strong><ul><li><strong>地区的顶级域名，如.us，.fr，或.sh，可以要求必须提供给定语言的服务器或者托管在指定国家。这些TLD通常表明对应的网页服务从属于何种语言或哪个地区。</strong></li><li><strong>包含.gov的顶级域名只能被政府部门使用。</strong></li><li><strong>.edu只能为教育或研究机构使用。</strong></li></ul><strong>顶级域名既可以包含拉丁字母，也可以包含特殊字符。顶级域名最长可以达到63个字符，不过为了使用方便，大多数顶级域名都是两到三个字符，目前顶级域名的<a href="http://www.iana.org/domains/root/db">完整列表</a>是</strong><a href="https://www.icann.org/"><strong>ICANN</strong></a>（Internet Corporation for Assigned Names and Numbers，互联网名称与数字地址分配机构）<strong>维护的。</strong><br><strong>同时IANA</strong>（Internet Assigned Numbers Authority，互联网分配号码管理局）<strong>区分了以下顶级域组：</strong><ul><li><strong>国家/地区代码顶级域</strong>（ccTLD）<br>为国家或地区建立的两个字符域。示例：.us代表美国。</li><li><strong>国际化国家代码顶级域</strong>（IDN ccTLD）<br>非拉丁字符集（例如阿拉伯语或中文）中的 ccTLD。</li><li><strong>通用顶级域</strong>（gTLD）<br>具有三个或更多字符的顶级域。</li><li><strong>未赞助的顶级域</strong><br>直接根据 ICANN 为全球互联网社区制定的政策（例如”com”和”edu”）操作的域。</li><li><strong>赞助的顶级域</strong>（sTLD）<br>这些域名由私人组织提议和赞助，这些组织根据社区主题概念决定申请人是否有资格使用 TLD。</li><li><strong>基础架构顶级域</strong><br>此组由一个域组成，地址和路由参数区域（ARPA）。</li></ul></li><li><strong>label</strong>（标签或者说是组件）<br><strong>标签都是紧随着TLD的，由1到63个大小写不敏感的字符组成，这些字符包含字母 <code>A - z</code> ，数字 <code>0 - 9</code> ，甚至 <code>-</code> 这个符号</strong>（当然，<code>-</code> 不应该出现在标签开头或者标签的结尾）<strong>。例如：<code>m</code>，<code>12</code>，或者 <code>wo-shi-shui-i-am-m-12</code> 都是合法的标签。</strong></li><li><strong>SLD</strong>（Secondary Level Domain，二级域名）<br><strong>刚好位于TLD前面的标签也被称为二级域名 (SLD)，一个域名可以有多个标签（或者说是组件），没有强制规定必须要3个标签来构成域名。</strong><br><strong>例如：<code>www.wo.shi.shui.com</code> 是一个正确的域名，当拥有了“上级”部分，例如 <code>molipre.com</code>，你还可以创建另外的域名</strong>（有时被称为子域名）<strong>，例如：<code>blog.molipre.com</code>。</strong><br><strong>上面所述的 <code>molipre.com</code> 就是二级域名，而后面说的二级域名的子域名 <code>blog.molipre.com</code> 则是三级域名，以此类推。</strong></li></ol><h1 id="如何获得域名"><a href="#如何获得域名" class="headerlink" title="如何获得域名"></a>如何获得域名</h1><p>&emsp;&emsp;<strong>如何获取域名？看到这个，大家首先先到的就是去域名注册商购买就好了，但是，任何一个人都不可能真正的购买一个域名，我们花钱在域名注册商出注册的域名，只是拥有了这个域名的使用权，例如我注册 <code>molipre.com</code> 这个域名，但是我只能获取这个域名在一年或者多年内的使用权，不过在域名使用权到期之前，可以通过花钱延长使用时间，同时我的续期权利优先于其他人的使用权申请，所以我是从来没有拥有过 <code>molipre.com</code> 这个域名的。</strong><br>&emsp;&emsp;<strong>那么上述的域名注册商又是什么呢？域名注册商（Domain Name Registrar）是一个商业实体或组织，它们由互联网名称与数字地址分配机构（ICANN）或者一个国家性的国家代码顶级域名（ccTLD）域名注册局委派，以在指定的域名注册数据库中管理互联网域名，向公众提供此类服务，也就是说域名注册商通过域名登记来记录连接你和你的域名的技术与管理信息。</strong></p><div class="note blue flat"><p><strong>注意！对于一些域名，它可能不归属于某个域名注册商来负责记录，例如：<code>.fire</code> 是由亚马逊管理。</strong></p></div><p><strong>讲了这么多，那么我们来说一下如何获得域名：</strong></p><ol><li><p><strong>查询你想要的域名是否可用</strong><br><strong>进入域名注册商的网站，例如腾讯云<a href="https://dnspod.cloud.tencent.com/">DNSPod</a>、阿里云的<a href="https://wanwang.aliyun.com/">万网</a>、<a href="https://www.west.cn/">西部数码</a>等等，打开网站就能看到查域名，输入你先要注册的域名查询即可，如果你想要的域名已经被注册，你也可以通过 <code>whois</code> 服务查询谁是它目前的持有者，还有多久到期等一些信息，例如已经博主注册的域名：<code>molipre.com</code> ，查询发现已经被注册，则点击 <code>whois</code> 可以看到注册人、注册商、注册日期、到期日期等等一些信息。</strong></p><p><img src="https://p.molipre.com/img/domain-name6.png" alt="域名2"><br><img src="https://p.molipre.com/img/domain-name7.png" alt="域名3"><br><img src="https://p.molipre.com/img/domain-name8.png" alt="域名4"><br><img src="https://p.molipre.com/img/domain-name9.png" alt="域名5"><br><img src="https://p.molipre.com/img/domain-name10.png" alt="域名6"></p></li><li><p><strong>查询域名可用后，就可以开始注册步骤：</strong><br><strong>以 <code>腾讯云DNSPod</code> 和 <code>yichuan.club</code> 为例。首先通过腾讯云DNSPod查询到 <code>yichuan.club</code> 未被注册，然后：1、点击右边的加入购物车，2、点击右上的立即购买，进入提交订单的页面，3、选择时长，4、点击使用心得域名信息，选择个人用户填写信息，点击保存，5、上述步骤完成后点击提交订单，最后付款完成等待即可。</strong></p><div class="note blue flat"><p><strong>注意，填写个人信息过程中注册商会要求你的真实住址，请保证你正确地填写了，因为在一些国家，如果你没有提供合法的地址，注册商会关闭你的域名。</strong></p></div><p><img src="https://p.molipre.com/img/domain-name13.png" alt="域名7"><br><img src="https://p.molipre.com/img/domain-name12.png" alt="域名8"></p></li><li><p><strong>注册商将会在域名正确注册后通知你，数小时之内，所有DNS服务器都会收到你的DNS信息，之后你就可以在域名管理的界面进行域名的应用了，例如腾讯云的域名<a href="https://console.cloud.tencent.com/domain">管理界面</a>。</strong></p><p><img src="https://p.molipre.com/img/domain-name14.png" alt="域名9"></p></li></ol><h1 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h1><h2 id="概述-1"><a href="#概述-1" class="headerlink" title="概述"></a>概述</h2><p>&emsp;&emsp;<strong>域名注册好了之后，只说明对域名拥有了使用权，你并不能通过该域名访问到网站，必须进行域名解析之后，域名才能发挥作用，经过解析的域名可以作为网址访问自己的网站，也可以作为电子邮箱的后缀，因此域名解析是使用域名的必备步骤。</strong><br>&emsp;&emsp;<strong>那么什么是域名解析呢？域名解析</strong>（DNS，domain name resolution）<strong>就是需要我们手动把域名地址和IP地址的对应关系写到DNS服务器上，这样别人访问域名地址的时候就可以在DNS查询到对应的IP地址。</strong></p><h2 id="域名解析记录详解"><a href="#域名解析记录详解" class="headerlink" title="域名解析记录详解"></a>域名解析记录详解</h2><p>&emsp;&emsp;<strong>到这一步就开始了域名的应用了，添加一条解析记录，涉及到主机记录、记录类型、线路类型、记录值、TTL等一些内容的设置，让我们一步步来说一下。</strong></p><ol><li><strong>主机记录</strong><br><strong>主机记录就是域名前缀，以博主注册的域名 <code>molipre.com</code> 为例，常见用法有：</strong><br><strong>1、<code>www</code> ，解析后的域名为 <code>www.molipre.com</code></strong><br><strong>2、<code>@</code> ，直接解析主域名 <code>molipre.com</code></strong><br><b>3、<code>*</code> ，泛解析，匹配其他所有域名 <code>*.molipre.com</code></b><br><strong>4、<code>mail</code> ，将域名解析为 <code>mail.molipre.com</code> ，通常用于解析邮箱服务器</strong><br><strong>5、二级域名的子域名或者说三级域名，例如博客的地址 <code>blog.molipre.com</code> ，主机记录填写的就是 <code>blog</code></strong></li><li><strong>记录类型</strong><br><strong>记录类型简单点说就是域名的指向。，一般有以下的类型：</strong><br><strong>1、<code>A记录</code> ，用来指定域名的IPv4地址，如果需要将域名指向一个IP地址，就需要添加A记录</strong><br><strong>2、<code>CNAME记录</code> ，用于将域名指向另一个域名，再有另一个域名提供IP地址</strong><br><strong>3、<code>MX记录</code> ，需要设置邮箱，让邮箱能收到邮件，就需要添加MX记录</strong><br><strong>4、<code>TXT记录</code> ，这个记录可以填写任何东西，长度限制为255，大部分是用来做SPF记录（反垃圾邮件）</strong><br><strong>5、<code>NS记录</code> ，域名服务器记录，如果需要把子域名交给其他DNS服务商即系，需要添加NS记录</strong><br><strong>6、<code>AAAA记录</code> ，用来指定主机名或者域名对应的IPv6地址记录</strong><br><strong>7、<code>SRV记录</code> ，记录了那台计算机提供了那个服务，格式为：服务的名字、点、协议的类型</strong><br><strong>8、<code>显性URL记录</code> ，从一个地址301重定向到另一个地址时，需要添加显性URL记录</strong><br><strong>9、<code>隐性URL记录</code> ，类似于显性URL记录，区别是隐性URL记录不会改变地址栏中的域名</strong></li><li><strong>线路类型</strong><br><strong>关于线路类型一般默认就行了，但也有几种选择：</strong><br><strong>1、<code>默认</code> ，这个是必须添加的，不然只有单独指定的线路才能访问</strong><br><strong>2、<code>境内</code> ，中国大陆地区，单独为其指定服务器IP，其他用户则访问默认线路</strong><br><strong>3、<code>境外</code> ，中国大陆以外的其他地区（目前包含中国香港、中国澳门、中国台湾），单独为其指定服务器IP</strong><br><strong>4、<code>电信</code> ，单独为电信用户指定服务器IP，其他用户则访问默认线路</strong><br><strong>5、<code>联通</code> ，单独为联通用户指定服务器IP，其他用户则访问默认线路</strong><br><strong>6、<code>移动</code> ，单独为移动用户指定服务器IP，其他用户则访问默认线路</strong></li><li><strong>记录值</strong><br><strong>记录值的内容是和记录类型息息相关的。</strong><br><strong>1、如果记录类型为 <code>A记录</code> ，填写IPv4地址，例如：8.8.8.8</strong><br><strong>2、如果记录类型为 <code>CNAME记录</code> ，填写填写域名，例如：molipre.github.io</strong><br><strong>3、如果记录类型为 <code>MX记录</code> ，填写邮件服务器的IP地址或企业邮局提供的域名</strong><br><strong>4、如果记录类型为 <code>TXT记录</code> ，填写内容要根据具体设置填写</strong><br><strong>5、如果记录类型为 <code>NS记录</code> ，填写dns域名，例如：f1g1ns1.dnspod.net</strong><br><strong>6、如果记录类型为 <code>AAAA记录</code> ，填写IPv6地址，例如：2408:80f0:410c:001d:0000:00ff:b07a:39af</strong><br><strong>7、如果记录类型为 <code>SRV记录</code> ，填写那台计算机提供了那个服务，例如：_xmpp-server._tcp</strong><br><strong>8、如果记录类型为 <code>显性URL记录</code> ，填写要跳转到的网址，例如：https ://www .baidu.com</strong><br><strong>9、如果记录类型为 <code>隐性URL记录</code> ，填写要引用内容的网址，例如：https ://www .baidu.com</strong></li><li><strong>TTL</strong><br><strong>TTL是缓存生存时间（Time To Live），默认最常用的600秒，指地方dns缓存域名记录信息的时间，一般有：</strong><br><strong>1、<code>600秒</code> ，这个是默认值，一般都是600秒</strong><br><strong>1、<code>1800秒</code> ，如果IP变动频繁，建议选择1800秒</strong><br><strong>1、<code>3600秒</code> ，如果IP极少变动（一年几次），建议选择3600秒，解析速度快。</strong></li></ol><h2 id="为博客添加解析记录"><a href="#为博客添加解析记录" class="headerlink" title="为博客添加解析记录"></a>为博客添加解析记录</h2><p><strong>以博客的地址 <code>blog.molipre.com</code> 为例，首先你要了解的是我的博客是部署在 <code>Github</code> 上的，所以Github本身在我部署完静态博客后会提供一个地址（也就是域名），具体如何部署，请查看<a href="%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA(Win10%E7%AF%87)">从零开始的个人博客搭建(Win10篇)</a>和<a href="https://blog.molipre.com/posts/74231343.html">从零开始的个人博客搭建(MacOS篇)</a>这两篇博文，里面有写到如何部署到Github和云服务器上，接下来会演示添加A记录和CNAME记录。</strong></p><ol><li><p><strong>博客部署在Github上</strong><br><strong>首先登陆<a href="https://github.com/">Github</a>，找到你部署博客的仓库</strong>（例如我的仓库是：Molipre.github.io）<strong>，点击进去，然后：1、点击 <code>Settings</code> ，2、往下拉找到 <code>GitHub Pages</code> 设置中的 <code>Custom domain</code> 并填写你的域名，然后点击 <code>save</code> 保存，3、勾选强制使用HTTPS <code>Enforce HTTPS</code>，至此你在Github上的设置就完成了。</strong><br><strong>接着打开域名解析管理页面</strong>（例如我的是DNSPod）<strong>，点击DNS解析旁边的 <code>+</code> ，然后点击我的域名，看到已经注册好了的域名，点击域名进入解析页面，再点击 <code>添加记录</code> ，接着按照你在Github的 <code>Custom domain</code> 处填写的域名填写，例如我的是 <code>blog.molipre.com</code> ，主机记录则填写 <code>blog</code> ，记录类型选择 <code>CNAME</code> ，线路类型<code>默认</code> ，记录值填写 <code>molipre.github.io</code> ，TTL默认 <code>600</code>，最后点击确认，等待解析生效，便可通过 <code>blog.molipre.com</code> 这个地址访问到我部署在Github上的博客。</strong></p><p><img src="https://p.molipre.com/img/domain-name16.png" alt="域名10"><br><img src="https://p.molipre.com/img/domain-name17.png" alt="域名11"><br><img src="https://p.molipre.com/img/domain-name18.png" alt="域名12"><br><img src="https://p.molipre.com/img/domain-name20.png" alt="域名13"></p></li><li><p><strong>部署在云服务器上</strong><br><strong>这个比较简单，首先获取云服务器的IP</strong>（一般在云服务器管理界面都能看到，不过你都部署到云服务器上了，还能不知道IP？）<strong>，例如我的是 <code>49.234.46.84</code> ，接着也是一样，打开域名解析管理页面</strong>（例如我的是DNSPod）<strong>，点击DNS解析旁边的 <code>+</code> ，然后点击我的域名，看到已经注册好了的域名，点击域名进入解析页面，再点击 <code>添加记录</code> ，主机记录则填写 <code>blog</code> ，记录类型选择 <code>A</code> ，线路类型<code>默认</code> ，记录值填写 <code>49.234.46.84</code> ，TTL默认 <code>600</code>，最后点击确认，等待解析生效，便可通过 <code>blog.molipre.com</code> 这个地址访问到我部署在云服务器上的博客。</strong></p><p><img src="https://p.molipre.com/img/domain-name21.png" alt="域名14"></p></li></ol><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul><li><strong>至此，关于域名的一些知识和解析应用便讲完了，文章篇幅比较长，如果能看到最后，非常荣幸！</strong></li><li><strong>那么，下一篇文章见，拜拜👋。</strong></li></ul><h1 id="更新补充配置HTTPS（申请SSL证书）"><a href="#更新补充配置HTTPS（申请SSL证书）" class="headerlink" title="更新补充配置HTTPS（申请SSL证书）"></a>更新补充配置HTTPS（申请SSL证书）</h1><ol><li><p><strong>以腾讯云中申请SSL证书为例，首先先登录腾讯云并打开<a href="https://console.cloud.tencent.com/ssl">SSL证书</a>界面，然后点击申请免费证书。</strong></p><p><img src="https://p.molipre.com/img/ssl.png" alt="SSL"></p></li><li><p><strong>接着选择出现的证书类型（因为只有一个可选项，所以直接点确定即可）</strong><br><img src="https://p.molipre.com/img/ssl1.png" alt="SSL1"></p></li><li><p><strong>提交资料，按照提示输入即可。</strong></p><ul><li><p><strong>算法默认选项即可，证书绑定域名输入这个证书你要绑定的域名，例如我这个SSL证书要用于 <code>music.molipre.com</code> 则填写该域名，申请邮箱就填写一个能够接收邮件的邮箱，证书备注填写你的备注，例如该证书用于音乐界面，那我就会填写：<code>音乐</code> ，私钥密码可填可不填，一般不填写，全部填写完成点击下一步。</strong></p><p><img src="https://p.molipre.com/img/ssl3.png" alt="SSL2"></p></li><li><p><strong>选择验证方式选默认的 <code>自动DNS验证 </code>即可，然后点击下一步。</strong></p><p><img src="https://p.molipre.com/img/ssl4.png" alt="SSL3"></p></li><li><p><strong>等待验证，会发送两封邮件给你，第一封是SSL证书提交审核通知，这个不用理会，收到第二封证书审核通过的邮件，点击验证按钮，然后跳转到下图中基本信息的界面，则代表证书申请成功。</strong></p><p><img src="https://p.molipre.com/img/ssl5.png" alt="SSL4"><br><img src="https://p.molipre.com/img/ssl6.png" alt="SSL5"></p></li></ul></li><li><p><strong>此时直接访问 <code>music.molipre.com</code> 这个地址还是会显示 <code>不安全</code> 并且还是 <code>HTTP</code> ，因为证书虽然申请了，但还未使用，接下来以 <code>云服务器（centos7.6、nginx）</code> 为例，说一下如何使用证书以 <code>HTTPS</code> 访问 <code>music.molipre.com</code> 这个地址。</strong></p><ul><li><p><strong>首先下载证书到本地，上图快速上手处可以看到下载证书的按钮，下载下来的证书文件是一个以你的域名命名的zip压缩文件，解压后分别会看到 <code>Tomcat</code>、<code>IIS</code>、<code>Apache</code>、<code>Nginx</code> 四种不同web服务器的证书文件，我们需要的是  <code>Nginx</code> 的，打开Nginx文件夹会看到后缀为 <code>key</code> 和 <code>crt</code> 的文件，复制这两个文件。</strong></p><p><img src="https://p.molipre.com/img/ssl7.png" alt="SSL6"></p></li><li><p><strong>登录云服务器（默认已安装好Nginx），打开nginx所在的目录并在此目录下创建一个ssl文件夹，然后把刚才复制的两个文件粘贴到ssl文件夹内。</strong></p><p><img src="https://p.molipre.com/img/ssl8.png" alt="SSL7"></p></li><li><p><strong>然后再返回nginx文件夹，输入 <code>vi nginx.conf</code> 编辑nginx的配置文件，找到下图所示：</strong></p><p><img src="https://p.molipre.com/img/ssl9.png" alt="SSL8"></p><p><strong>修改为如下所示：</strong><br><strong><code>server_name</code> 改为证书绑定的域名，<code>ssl_certificate</code> 修改为存放crt文件的绝对路径，<code>ssl_certificate_key</code> 修改为存放key文件的绝对路径，然后按住 <code>esc</code> 键，再按 <code>:</code> ，输入 <code>wq</code> 然后按回车键保存已修改的文件，在输入 <code>systemctl start nginx</code> 重启nginx服务，即可发现域名访问为HTTPS并且显示安全。</strong></p><p><img src="https://p.molipre.com/img/ssl10.png" alt="SSL9"></p></li></ul></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">关于域名的理解和应用，（2021.01.11）增加一些关于配置HTTPS（申请SSL证书）的内容</summary>
-    
-    
-    
-    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="域名" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/%E5%9F%9F%E5%90%8D/"/>
-    
-    
-    <category term="DNS" scheme="https://blog.molipre.com/tags/DNS/"/>
-    
-    <category term="域名" scheme="https://blog.molipre.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>阅读《切尔诺贝利的祭祷》</title>
-    <link href="https://blog.molipre.com/posts/e473cac8.html"/>
-    <id>https://blog.molipre.com/posts/e473cac8.html</id>
-    <published>2021-01-04T13:05:55.000Z</published>
-    <updated>2021-01-04T13:05:55.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/Chernobyl-2.png"></p><p><big>&emsp;&emsp;<strong>2021年的开始前几天，读完了这本《切尔诺贝利的祭祷》，这个时间点阅读完这本书，其实不是多么愉快的阅读体验，甚至可以用压抑、沉痛来形容，在过去的1年时间里，我们都是和切尔诺贝利的人们一样，经历了一场灾难，不一样的是，切尔诺贝利事故虽大，但有一定的区域局限性，我们所经历的事情正在全球发生，并且到今天都还未好。</strong></big></p><p><big>&emsp;&emsp;<strong>正是因为同样在经历灾难的我，在阅读这本书的时候，不同以往的感受到了书中的人物在描述自己的事情时的感情，从欣喜到悲伤，最后变得绝望且无助。</strong></big></p><p><big>&emsp;&emsp;<strong>以往的阅读，不管是小说、非虚构、历史，都是在现实之外开辟了一方安静的空间，我们能够在这个世界短暂的安放我们平日生活里的情绪、难题、困惑以及犹豫，可这次对我来说是不一样的，《切尔诺贝利的祭祷》的作者没有选着绕过现实，而是直面现实，像是一位开荒者，步履艰难且坚定地向前进。</strong></big></p><p><big>&emsp;&emsp;<strong>大部分的人应该是因为某段时间HBO出了一部《切尔诺贝利》的热剧或者是日本福岛核泄漏事件引发的争议而从中了解到切尔诺贝利所发生的事，我可能比大家稍微知道的早一些，但也知道不多，也就是记得前苏联这个国家曾经有一座核电站发生过严重的核泄漏，具体严重到什么地步，从未去深究，相信大部分也适合我一样，但大家应该很清楚二战期间在日本的广岛和长崎投下的那两颗原子弹的威力，一座城市在瞬间被摧毁然后变成人间炼狱，也让一个充满野心的国家向世界投降，而切尔诺贝利时事件中，核电站反应炉的损坏，所造成的危害相当于三百五十颗原子弹在广岛引爆，在人类有战争起到如今，像是最大规模的战争：二战，白俄罗斯被摧毁了六百一十九座村庄，但是切尔诺贝利事件，白俄罗斯失去了四百八十五座村庄，现如今，每五个白俄罗斯人就有一个住在受辐射污染的地区，整个白俄罗斯不可耕种面积达到两千多公顷，国家内百分之二十六的森林面积和大部分的湿地被污染，从这些数据不难看出，切尔诺贝利事件和战争没什么区别了。</strong></big></p><p><big>&emsp;&emsp;<strong>而从本书的每个人的讲述也不难发现，当时的苏联就是当做战争来处理的，但是比战争更可怕的是，这次事件中，你根本看不到敌人，因为它存在于各种生物与非生物钟中，无法用枪支弹药就能消灭，每天呼吸的空气中存在，每天喝的水中也存在，你要补充能量的食物中同样也存在，甚至存在于母亲哺乳婴儿的乳汁里。</strong></big></p><p><big>&emsp;&emsp;<strong>切尔诺贝利事件发生至今已经过去了30年了，但是核电站30公里半径内的区域仍然是生物禁区，不仅仅是人类，昆虫鸟兽，花儿树木，一切有生命迹象的存在都被拒绝出现，虽然出事故的反应堆已经在30年前就封住了，但是其中仍存在的核燃料还在持续外泄放射性粒子，而这其中的铀需要十亿年以上的时间才会分解，钍的分解期更是长达要一百四十亿年，目前人类的科技也挺发达的了，但人类的寿命也就100年上下而已。</strong></big></p><p><big>&emsp;&emsp;<strong>作者S.A阿列克谢耶维奇花去七年的时间，走访了切尔诺贝利事件幸存的所有相关人。隔离区的居民、消防员的遗孀、尚幸存于世的清理人、当事的官员、专业的物理学家等等，然后写下了这么一部口述史，来全方位地、客观地解读切尔诺贝利事件。</strong></big></p><p><big>&emsp;&emsp;<strong>灾难发生的时候，生活在当地的人们对于发生了什么一无所知，消防员派去灭火也只是简单的当做一场火灾，穿着平常的衣服就过去了，反应炉燃烧的时候天空出现的光比电影场景还美，人们抱着孩子，竞相涌出家门来观看这异象，隔离区的居民们被要求在三天内撤离，任何物品都不许带。为什么不能带？这是我们的财产呀！于是他们把家电、摩托车用各种方式偷运出污染区，把污染源分散到全国各地，军人奉命去清理现场，对于自己所身处的环境半知不解，什么是贝克？什么是居里？什么是毫伦琴？没人懂，军校里没教过，司机在露天烟尘中运送铲起来的被污染的地皮，拼上身家性命，只为了赚一笔可以买一套高级西装的钱，听说喝伏特加能防辐射，人们喝光了酒之后，开始喝含酒精的防冻液，结果中毒</strong></big></p><p><big>&emsp;&emsp;<strong>那么当时的政府在做什么呢，事故发生后的几天，当地所有关于辐射、广岛或长崎，以及实验安全防护操作手册等，甚至讲X射线的书都消失了，而这只是为了避免在民众中制造恐慌，他们听任居民们在辐射云下露营，在河边游泳、晒太阳，然后拍成片子散播出去，说是为了稳定民心，他们命令军队在一座无人的小镇连夜清理出一幢房子，用来拍摄一个婚礼，目的也是稳定民心，人民都选择相信那些科学家或受过高等教育的人，对于辐射，他们给出的建议是：没什么可怕的，只要记得饭前洗手就好，灾难发生后，原本当地有储备的浓缩碘可以投入水源，供民众防辐射用，却没有人敢下令投放，因为没有收到上级长官的命令，不敢动用，国家安排投放到当地的防毒面具，并没有发放给当地民众。为什么？官员解释是：为了避免造成恐慌，最高领导人发表讲话，内空永远是：情况已在控制中，我们的英雄已经战胜了原子。</strong></big></p><p><big>&emsp;&emsp;<strong>然而事实是：赶赴现场灭火的消防员，受了大量辐射，两周内相继死亡，消防员怀孕的妻子不忍心离开丈夫，陪护政府期间也受到辐射，最终产下了一个死婴，在本书的开篇，我看到消防员妻子的叙述，心中充满了愤怒，却又无奈，我并不能帮助到什么。</strong></big></p><p><big>&emsp;&emsp;<strong>在书中你会看到军人从事故现场回家后，扔掉了所有衣物，却留下了一顶帽子，因为儿子实在太喜欢戴，不久之后，儿子得了脑癌；从切尔诺贝利来的女人都不敢再生小孩，有人愿意冒险，却生下无肛门无尿道只有一个肾脏的女婴，经受无数次手术却依然无法正常地生活；所有上过反应炉屋顶清理石墨的人，都在五年或七年内死去，死的时候，各有各的惨状；切尔诺贝利出来的孩子们，在操场上多站一刻钟就要流鼻血、晕倒。无数人得癌症、自杀；切尔诺贝利的居民，成了污染的代名词，没有人愿意靠近、接纳，哪怕是亲生的姐妹。</strong></big></p><p><big>&emsp;&emsp;<strong>可以想象吗？想象不到，那是一场怎样声势浩大的劫难啊！如同世界末日，在士兵摧毁掩埋污染区域的村庄时，村民也只会问是不是世界末日来了，他们根本不知道发生了什么，士兵们也无可奉告，或许如今的还存活的人们已经知道了是怎么回事，但是已经于事无补了啊。</strong></big></p><p><big>&emsp;&emsp;<strong>切尔诺贝利事件发生后，前后超过五十万人次参与了事故的清理工作，他们有司机、矿工、建筑工人、各行业的专业人士，还有人数最繁多的军人，而这些人，大部分其实都不知道自己要去什么地方干什么事，甚至都不是自愿去的，仅仅是接到政府的征召通知就去了，赤手空拳，在一个当时最先进的机器人都能无法工作的坏境，没有专业防护装备的情况下拿着铲子对抗着原子，因此身穿绿色军服的军人还被称为“绿色机器人”。</strong></big></p><p><big>&emsp;&emsp;<strong>整本书你从开始看到结束，没人一个去了事故现场的人说过后悔的，无论是自愿还是非自愿，他们都是英雄，但是也是悲惨且在政府谎言的欺骗下成为英雄的，而且每个英雄背后都是一个甚至好几个家庭的悲惨。</strong></big></p><p><big>&emsp;&emsp;<strong>书籍看到最后还是受害者的描述，你看不到作者的任何言语，但是作者却在多方位传递当事人的感受、传言和想象。她认为与其强调这些无法理解的事实，还不如关注从事实中衍生出来的感受，以及这些感受演变的过程。因为人们往往会恐惧面对无法理解的事物而急于盖棺定论，从起因一下子跳到结论，但人们的感受是真实的，即使事件本身很荒诞，你也可以通过对荒诞的感受而更接近真相。所以，对于切尔诺贝利这样无法理解的事件，也许记录下当事人的感受更为有意义。</strong></big></p><p><big>&emsp;&emsp;<strong>这本书且不说好不好吧，它就是真切的描述了在这次灾难事件所发生的悲剧以及受害者的悲伤，就是这样简单的人物述说自己所发生的事情，却能够在阅读过程中让读者的心情不断波动起伏，如果你也了解一下切尔诺贝利的事故中关于每个人想法，以及整个灾难带来的影响，请认真阅读吧！</strong></big></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">今天读完《切尔诺贝利的祭祷》，这本书，你会发现书中的身处在切尔诺贝利的小人物描述的一切和2020年的疫情中得了新冠的人是一样的，大家避之不及但又谈之甚欢，不一样的是，国家对待事情的态度与应对方式是不一样的，很庆幸活在我的祖国。</summary>
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="阅读" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
-    
-    
-    <category term="阅读" scheme="https://blog.molipre.com/tags/%E9%98%85%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Every Day Carry For 2021</title>
-    <link href="https://blog.molipre.com/posts/c661500c.html"/>
-    <id>https://blog.molipre.com/posts/c661500c.html</id>
-    <published>2021-01-03T15:22:49.000Z</published>
-    <updated>2021-01-05T15:22:49.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/edc3.jpg" alt="EDC1"></p><p>&emsp;&emsp;<strong>EDC是Every Day Carry，指的是每天所携带的东西，从2018年开始，我就开始在一些平台分享自己的EDC，不过随着从学生的转变成为打工人，背包每天携带的物品也随之发生了变化，2021年了，我来分享一下心得一年我每天都带着什么去上班吧。</strong></p><p>&emsp;&emsp;<strong>从上图也可以看出一共有9件物品，加上装着这些东西的背包，一共是10件东西，分别为口香糖、充电宝、卡包、iPhoneXS、Kindle、杂物小包、手帕纸、工牌、小米10，下面就让我一一为大家介绍一下吧。</strong></p><p><strong>口香糖：</strong>这个就是随机在超市、便利店随机购买的，基本上算是常备吧，因为有些食物虽好吃，但散发的气味总归是有人不喜欢的，就是清新口气用的。<br><strong>充电宝：</strong><a href="https://item.jd.com/100007644582.html">Anker充电宝</a>，10000毫安的容量，192.5克的重量，支持18W PD双向快充，买这个的原因是重量轻体积小但是容量大，加上有快充，毕竟现在的手机掉电太快了，特别是我在用的iPhoneXS，电池也就能用两三个小时，充电宝是出门必备的了。<br><strong>卡包：</strong><a href="https://m.tb.cn/h.4hdsczb?sm=fa3878">牛皮卡包</a>，这个巨推荐，能装七张卡片，我把我的各种证件和银行卡都放上去，不管是直接拿出门还是丢包里都不怕乱从而找不到，而且这个质感也很好，随着长时间使用反而有了自己独特的印记。</p><p><img src="https://p.molipre.com/img/edc4.jpg" alt="EDC2"><br><strong>iPhoneXS：</strong>主力机，不过电池已经极其不耐用了，自己换过几次电池后就懒得换了，没电就直接插充电宝充电，性能还是完全够用的，聚会是和朋友打打王者没见过会卡顿，就是发热太厉害了，现在冬天都还好，夏天真的是暖手宝，基本上还能用两年，到时候再看看要不要更新。<br><a href="https://item.jd.com/100014418816.html"><strong>小米10</strong></a><strong>：</strong>备用机，可能看起来比较奢侈？不过我的备用机基本上都是各家安卓旗舰机，主要是用来体验新出的安卓旗舰手机，还有就是用来装着我用了很多年的号码（真·短信接收机），这个是会经常换的，最近小米11出了，说不定过段时间就换成小米11了。</p><p><img src="https://p.molipre.com/img/edc5.jpg" alt="EDC3"><br><strong>Kindle：</strong>我的这款是Kindle 558那款，现在应该停售了，没有背光的，不过对我来说就是在外的时候看书用，在家的话我基本看的是实体书籍，Kindle这种东西就是见仁见智了，但是我觉得大部分的人买了都会沦为泡面盖，因为这不是全民阅读的时代，但是我用着适合就够了。<br><strong>杂物收纳小包：</strong>就是在淘宝几块钱购买的收纳包，主要是用来装U盘（拥有6个U盘的人）、有线耳机、转接头等一些比较小容易弄丢的东西。<br><strong>手帕纸：</strong><a href="https://item.jd.com/1282388.html">得宝的手帕纸</a>，厚实无味，主要是用习惯了，抽纸和手帕纸都是得宝的，虽然比较贵，但是很好用。<br><strong>工牌：</strong>这个就是每天上班打卡必备，没啥好说的，不带着也不行，不然就没法打卡了。<br><strong>背包：</strong><a href="https://www.mi.com/buy/detail?product_id=11674">小米小背包</a>，很平常的一款小背包，我比较喜欢双肩包，但是又不想和上学一样背着一个大背包，所以这种小背包就是很好的选择了。</p><p>&emsp;&emsp;<strong>就是一个很简单的介绍了，毕竟打工人，没啥好东西，基本都是常用的，欢迎大家来欣赏，如果也想分享自己的EDC，也可以在下方的评论留言噢。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">2018年的时候，我在我的公众号写下了我的第一篇EDC相关的文章，之后的两年也分别在不同的平台发表过，既然拾起了博客，那就在博客更新一下2021年我的背包有什么东西吧。</summary>
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="EDC" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/EDC/"/>
-    
-    
-    <category term="EDC" scheme="https://blog.molipre.com/tags/EDC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20210101</title>
-    <link href="https://blog.molipre.com/posts/933ef26f.html"/>
-    <id>https://blog.molipre.com/posts/933ef26f.html</id>
-    <published>2021-01-01T15:49:09.000Z</published>
-    <updated>2021-01-01T15:49:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年01月01日 星期五 天气 晴 平均温度 10°</strong></big></p><p>&emsp;&emsp;<strong>元旦假期的第一天，也是2021年的第一天，心情比较平静，一个人过节，今天写了三千五百字的博文，完成了今天5km以上的跑量，还自己做了顿晚饭，本来中午也想做个饭的，奈何去年</strong>（也就是昨天晚上）<strong>网上买的米下午才送到，所以中午去外面吃了个叉烧饭，新开的店铺，感觉还行，不过我应该不会经常去，因为放假都基本自己做饭嘛。</strong></p><p>&emsp;&emsp;<strong>不同以前的是，自从工作后，放假对我来说味道和以前不一样了，基本是以休息为主，而以前一放假就想着去哪里玩，可能这就是成长吧！我可以更加自由的支配着自己的生活，但是作为相应的代价就是越来越成熟，要考虑为自己的未来生活而努力。</strong></p><p>&emsp;&emsp;<strong>新的一年到来，岁月又向前走了一步，每个人都希望新的一年平安喜乐，生活越来越好，我也不例外，和往年一样，2020年立下的目标终究还是只完成了一部分，但是不影响今年继续努力，2021年的第一天，再次定下今年的目标吧。</strong></p><p>&emsp;&emsp;<strong>1、2021年的跑量必须达到1500km以上，如果可以的话完成2021年跑2021km的目标；</strong></p><p>&emsp;&emsp;<strong>2、天气良好且没有其他事情的情况下每周去爬一次山，锻炼身体；</strong></p><p>&emsp;&emsp;<strong>3、2021年保持每周阅读10个小时以上的阅读时间；</strong></p><p>&emsp;&emsp;<strong>4、2021年保持博客稳定更新（不追求更新频率，但不要长时间断更）；</strong></p><p>&emsp;&emsp;<strong>5、2021年减少不必要的熬夜情况，尽量每天11点30分前睡觉；</strong></p><p>&emsp;&emsp;<strong>就写这么多吧，关于学习的情况就不定新目标，稳定持续保持现有的学习目标，争取早日更进一步，也能够升职加薪，加油吧！2021年的一川！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年01月01日 星期五 天气 晴 平均温度 10°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;元旦假期的第一天，也是2021年的第一天，心情比较平静，一个人过节，今天写了三千</summary>
-      
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
