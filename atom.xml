@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-01T03:31:14.000Z</updated>
+  <updated>2021-02-02T00:21:24.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TCP是什么？</title>
+    <link href="https://blog.molipre.com/posts/bc3f60c.html"/>
+    <id>https://blog.molipre.com/posts/bc3f60c.html</id>
+    <published>2021-02-02T00:21:24.000Z</published>
+    <updated>2021-02-02T00:21:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>TCP</font>（Transmission Control Protocol）中文名称：<font size=6>传输控制协议 </font>，是一种面向连接的、可靠的、基于字节流的传输层通信协议，是为了在不可靠的互联网络上提供可靠的端到端字节流而专门设计的一个传输协议。</strong></p><p><strong>TCP是一种面向广域网的通信协议，目的是在跨越多个网络通信时，为两个通信端点之间提供一条具有下列特点的通信方式：</strong></p><ol><li><strong>基于流的方式；</strong></li><li><strong>面向连接；</strong></li><li><strong>可靠通信方式；</strong></li><li><strong>在网络状况不佳的时候尽量降低系统由于重传带来的带宽开销；</strong></li><li><strong>通信连接维护是面向通信的两个端点的，而不考虑中间网段和节点。</strong></li></ol><p><strong>为满足TCP协议的这些特点，TCP协议做了如下的规定：</strong></p><ol><li><strong>数据分片：</strong>在发送端对用户数据进行分片，在接收端进行重组，由TCP确定分片的大小并控制分片和重组；</li><li><strong>到达确认：</strong>接收端接收到分片数据时，根据分片数据序号向发送端发送一个确认；</li><li><strong>超时重发：</strong>发送方在发送分片时启动超时定时器，如果在定时器超时之后没有收到相应的确认，重发分片；</li><li><strong>滑动窗口：</strong>TCP连接每一方的接收缓冲空间大小都固定，接收端只允许另一端发送接收端缓冲区所能接纳的数据，TCP在滑动窗口的基础上提供流量控制，防止较快主机致使较慢主机的缓冲区溢出；</li><li><strong>失序处理：</strong>作为IP数据报来传输的TCP分片到达时可能会失序，TCP将对收到的数据进行重新排序，将收到的数据以正确的顺序交给应用层；</li><li><strong>重复处理：</strong>作为IP数据报来传输的TCP分片会发生重复，TCP的接收端必须丢弃重复的数据；</li><li><strong>数据校验：</strong>TCP将保持它首部和数据的检验和，这是一个端到端的检验和，目的是检测数据在传输过程中的任何变化。如果收到分片的检验和有差错，TCP将丢弃这个分片，并不确认收到此报文段导致对端超时并重发。</li></ol><p><strong>TCP的工作方式如下：</strong></p><ol><li><p><strong>建立连接：</strong><br><strong>TCP是因特网中的传输层协议，使用三次握手协议建立连接。</strong><br><strong>1、客户端发送SYN（SEQ=x）报文给服务器端，进入SYN_SEND状态；</strong><br><strong>2、服务器端收到SYN报文，回应一个SYN （SEQ=y）ACK（ACK=x+1）报文，进入SYN_RECV状态；</strong><br><strong>3、客户端收到服务器端的SYN报文，回应一个ACK（ACK=y+1）报文，进入Established状态。</strong></p><p><img src="https://p.molipre.com/img/TCP.png" alt="三次握手"></p></li><li><p><strong>连接终止：</strong><br><strong>TCP终止连接需要经过四次握手，主要是由于TCP的半关闭（half-close）造成的。</strong><br><strong>1、某个应用进程首先调用close，称该端执行“主动关闭”（active close），该端的TCP于是发送一个FIN分节，表示数据发送完毕；</strong><br><strong>2、接收到这个FIN的对端执行 “被动关闭”（passive close），这个FIN由TCP确认；</strong><br><strong>3、一段时间后，接收到这个文件结束符的应用进程将调用close关闭它的套接字，这导致它的TCP也发送一个FIN；</strong><br><strong>4、接收这个最终FIN的原发送端TCP（即执行主动关闭的那一端）确认这个FIN。</strong></p><p><img src="https://p.molipre.com/img/TCP1.png" alt="四次握手"></p></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;TCP&lt;/font&gt;（Transmission Control Protocol）中文名称：&lt;font size=6&gt;传输控制协议 &lt;/font&gt;，是一种面向连接的、可靠的、基于字节流的传输层通信协议，是为了</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="TCP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/TCP/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="TCP" scheme="https://blog.molipre.com/tags/TCP/"/>
+    
+  </entry>
   
   <entry>
     <title>UDP是什么？</title>
@@ -538,35 +566,6 @@
     <category term="产品体验" scheme="https://blog.molipre.com/tags/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/"/>
     
     <category term="雷柏MT750L鼠标" scheme="https://blog.molipre.com/tags/%E9%9B%B7%E6%9F%8FMT750L%E9%BC%A0%E6%A0%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在centos7.6下配置SSH的公私钥key登录</title>
-    <link href="https://blog.molipre.com/posts/4070ac05.html"/>
-    <id>https://blog.molipre.com/posts/4070ac05.html</id>
-    <published>2021-01-12T07:15:48.000Z</published>
-    <updated>2021-01-12T07:15:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;<strong>一般一台服务器的SSH权限，是会被适当的做限制的，因为一台服务器需要被多人管理并使用，root用户的密码是不会告诉每个使用者的，因为这样很容易造成密码泄露引起的服务器安全问题，那么使用公私钥配对登录就是最常用的方法了，除了能够保护root密码以外，也还有其他的好处，例如在scp或者rsync下的key的免密转发等，那么下面我们就来配置吧。</strong></p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><h2 id="使用-ssh-keygen-生成私钥和公钥"><a href="#使用-ssh-keygen-生成私钥和公钥" class="headerlink" title="使用 ssh-keygen 生成私钥和公钥"></a>使用 <code>ssh-keygen</code> 生成私钥和公钥</h2><ul><li><p><strong>先用root用户密码登录服务器，然后输入以下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure><p><strong>命令输入按回车键后出现的所有选项，可以使用默认配置，一直按回车键即可。</strong></p><p><img src="https://p.molipre.com/img/ssh-keygen1.png" alt="ssh-keygen"></p></li></ul><h2 id="修改SSH主配置文件-选做"><a href="#修改SSH主配置文件-选做" class="headerlink" title="修改SSH主配置文件(选做)"></a>修改SSH主配置文件(选做)</h2><ul><li><p><strong>该步骤可做可不做，主要目的是为了取消root用户的密码认证功能，让SSH登录只能够使用公私钥配对来实现远程登录管理。</strong><br><strong>输入以下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim /etc/ssh/sshd_config</span><br><span class="line"><span class="comment"># 没有装vim的请把vim改成vi</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/ssh-keygen3.png" alt="ssh-keygen1"><br><strong>找到 <code>PasswordAuthentication yes</code> 然后把 <code>yes</code> 修改为 <code>no</code>，然后按下 <code>esc</code> 键，再按英文 <code>:</code> ，输入 <code>wq</code> 保存退出。</strong></p><p><img src="https://p.molipre.com/img/ssh-keygen2.png" alt="ssh-keygen2"></p></li></ul><h2 id="生成公私钥-以终端软件-SecureCRT-8-3-为例"><a href="#生成公私钥-以终端软件-SecureCRT-8-3-为例" class="headerlink" title="生成公私钥(以终端软件 SecureCRT 8.3 为例)"></a>生成公私钥(以终端软件 SecureCRT 8.3 为例)</h2><ol><li><p><strong>打开终端软件SecureCRT，然后：1、点击 <code>Tools</code> ，2、点击 <code>Create Public Key...</code></strong></p><p><img src="https://p.molipre.com/img/ssh-keygen4.png" alt="ssh-keygen3"></p></li><li><p><strong>出现弹窗直接点击 <code>下一步</code> ，然后看到下图界面，在 <code>Passphrase</code> 和 <code>Confirm Passphrase</code> 输入相同的密码（该步骤可选择不填密码为空，但不建议），<code>Comment</code> 处填写注释，可不填，接着点击 <code>下一步</code> ，<code>Key length in bits:</code> 默认选择 <code>2048</code> 即可。</strong></p><p><img src="https://p.molipre.com/img/ssh-keygen6.png" alt="ssh-keygen4"></p></li><li><p><strong>出现下图界面，选择 <code>OpenSSH Key format（new）</code> 这种密钥格式，<code>Pribate key filename</code> 是选择密钥的名称以及存放位置，例如我选择 <code>默认名称</code> 和存放在 <code>D盘</code>，最后点击完成即可在 <code>D盘</code> 找到两个密钥文件，保存时点击询问是否用作默认密钥点击 <code>Yes</code> 即可。</strong></p><p><img src="https://p.molipre.com/img/ssh-keygen7.png" alt="ssh-keygen5"></p><p><img src="https://p.molipre.com/img/ssh-keygen8.png" alt="ssh-keygen6"></p></li></ol><h2 id="将公钥导入服务器"><a href="#将公钥导入服务器" class="headerlink" title="将公钥导入服务器"></a>将公钥导入服务器</h2><ol><li><p><strong>导入公钥文件，实际是为了把公钥文件内容写进服务器中的 <code>/root/.ssh/authorized_keys</code> 文件里面，方法有很多种，为了方便，我这边选择直接把公钥文件放进服务器，然后用 <code>cat</code> 命令追加写入 <code>authorized_keys</code> 文件内，root账号密码登录服务器，输入命令如下：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rz</span><br><span class="line"><span class="comment"># 上传命令，如果显示无此命令则需要安装lrzsz包</span></span><br></pre></td></tr></table></figure><p><strong>输入 <code>rz</code> 命令后弹出下图界面，然后找到公钥文件所在的目录，选择公钥文件，然后点击 <code>Add</code> ，最后点击 <code>OK</code> 即可。</strong></p><p><img src="https://p.molipre.com/img/ssh-keygen10.png" alt="ssh-keygen7"></p><p><strong>此时在输入 <code>ll</code> 命令即可看到公钥文件已经上传到服务器(例如我上传到了 <code>.ssh</code> 文件夹)</strong></p><p><img src="https://p.molipre.com/img/ssh-keygen11.png" alt="ssh-keygen8"></p></li><li><p><strong>把公钥文件内容写进 <code>authorized_keys</code> 文件内</strong><br><strong>上图可以看到 <code>.ssh</code> 文件夹内没有 <code>authorized_keys</code> 文件，所以需要先创建，输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat Identity.pub</span><br><span class="line"><span class="comment"># 打印Identity.pub文件内容</span></span><br><span class="line">touch authorized_keys</span><br><span class="line"><span class="comment"># 当前目录（.ssh）创建authorized_keys文件</span></span><br><span class="line">cat Identity.pub &gt;&gt; authorized_keys</span><br><span class="line"><span class="comment"># 把Identity.pub文件内容写入 authorized_keys文件内</span></span><br><span class="line"><span class="comment"># 因为两个文件都在 .ssh 文件夹N内，如果不在的话要输入绝对路径，例如cat /root/Identity.pub（authorized_keys文件必须放在 .ssh 目录内）</span></span><br><span class="line">cat authorized_keys</span><br><span class="line"><span class="comment"># 打印authorized_keys文件内容，查看是否写入成功</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/ssh-keygen12.png" alt="ssh-keygen9"></p></li></ol><h2 id="重启SSH服务"><a href="#重启SSH服务" class="headerlink" title="重启SSH服务"></a>重启SSH服务</h2><ul><li><strong>在服务器终端输入如下命令：</strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl restart sshd.service</span><br></pre></td></tr></table></figure></li></ul><h2 id="验证是否使用公私钥配对登录"><a href="#验证是否使用公私钥配对登录" class="headerlink" title="验证是否使用公私钥配对登录"></a>验证是否使用公私钥配对登录</h2><ol><li><p><strong>在终端软件 <code>SecureCRT</code> 找到服务器，1、右键选择 <code>Properties</code> ，2、点击 <code>SSH2</code> ，3、找到 <code>Authentication</code> ，只勾选 <code>PublicKey</code> ，然后点击 <code>OK</code> 即可。</strong></p><p><img src="https://p.molipre.com/img/ssh-keygen13.png" alt="ssh-keygen10"><br><img src="https://p.molipre.com/img/ssh-keygen14.png" alt="ssh-keygen11"></p></li><li><p><strong>双击服务器连接并登录，出现图2内容则代表公私钥配对登录成功。</strong></p><p><img src="https://p.molipre.com/img/ssh-keygen15.png" alt="ssh-keygen12"><br><img src="https://p.molipre.com/img/ssh-keygen16.png" alt="ssh-keygen13"></p></li></ol><h2 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h2><ul><li><p><strong>如出现没有配对密钥的情况，请添加密钥</strong><br><strong>1、点击 <code>Tools</code> ，2、选择 <code>Manage Agent Keys</code> ，3、出现图2弹窗，点击 <code>Add..</code> ，4、找到存放密钥的文件夹，选择没有后缀的密钥文件，5、点击 <code>Open</code> ，然后之前配置好的密钥密码，再点击 <code>OK</code> ，就可以看见密钥添加成功。</strong></p><p><img src="https://p.molipre.com/img/ssh-keygen17.png" alt="ssh-keygen14"><br><img src="https://p.molipre.com/img/ssh-keygen18.png" alt="ssh-keygen15"><br><img src="https://p.molipre.com/img/ssh-keygen19.png" alt="ssh-keygen16"><br><img src="https://p.molipre.com/img/ssh-keygen20.png" alt="ssh-keygen17"></p></li></ul><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul><li><strong>本次教程到这里就结束了，本次教程属于运维常规手段，操作不难，主要是给初学者观看，希望对看到本篇博文的朋友有用。</strong></li><li><strong>最后说一声，再见👋。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">关于密钥登陆服务器是运维常用的手段，因为密码交予每个需要使用服务器的人就会出现被泄露的情况，而每个人用自己持有的私钥登录相对安全。</summary>
-    
-    
-    
-    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="SSH" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/SSH/"/>
-    
-    
-    <category term="centos" scheme="https://blog.molipre.com/tags/centos/"/>
-    
-    <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
-    
-    <category term="运维" scheme="https://blog.molipre.com/tags/%E8%BF%90%E7%BB%B4/"/>
-    
-    <category term="公私钥" scheme="https://blog.molipre.com/tags/%E5%85%AC%E7%A7%81%E9%92%A5/"/>
     
   </entry>
   
