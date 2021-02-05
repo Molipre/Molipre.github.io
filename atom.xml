@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-04T01:23:26.000Z</updated>
+  <updated>2021-02-05T02:09:47.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PPTP是什么？</title>
+    <link href="https://blog.molipre.com/posts/92caa7b6.html"/>
+    <id>https://blog.molipre.com/posts/92caa7b6.html</id>
+    <published>2021-02-05T02:09:47.000Z</published>
+    <updated>2021-02-05T02:09:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>PPTP</font>（Point-to-Point Tunneling Protocol）中文名称：<font size=6>点对点隧道协议 </font>，是一种支持多协议虚拟专用网络的网络技术，PPTP使用传输控制协议（TCP）创建控制通道来发送控制命令，以及利用通用路由封装（GRE）通道来封装点对点协议（PPP）数据包以发送数据。</strong></p><p>&emsp;&emsp;<strong>PPTP是由微软、Ascend Communications、3Com等厂商联合形成的产业联盟开发，并不是IETF建议的标准，因此在内置在Windows系统中，在微软点对点协议（PPP）协议堆栈中，提供了各种标准的身份验证与加密机制来支持PPTP。</strong></p><p>&emsp;&emsp;<strong>在Windows系统中，它可以搭配PAP、CHAP、MS-CHAPv1/v2或EAP-TLS来进行身份验证，通常也可以搭配微软点对点加密（MPPE）或IPSec的加密机制来提高安全性，当然，在Windows之外，Mac OS平台、Linux、FreeBSD等平台也提供开放源代码的版本。</strong></p><p>&emsp;&emsp;<strong>Windows系统中设置比较简单，以 <code>win10</code> 为例，打开 <code>设置</code> ，进入 <code>网络和Internet</code> ，找到 <code>VPN</code> ，点击 <code>添加VPN连接</code> ，输入相关信息，确认即可完成。</strong></p><p><img src="https://p.molipre.com/img/PPTP.png" alt="VPN设置"></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;PPTP&lt;/font&gt;（Point-to-Point Tunneling Protocol）中文名称：&lt;font size=6&gt;点对点隧道协议 &lt;/font&gt;，是一种支持多协议虚拟专用网络的网络技术，PPTP</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="PPTP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/PPTP/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="PPTP" scheme="https://blog.molipre.com/tags/PPTP/"/>
+    
+  </entry>
   
   <entry>
     <title>002、Linux学习之Linux文件系统</title>
@@ -541,33 +569,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="ISP" scheme="https://blog.molipre.com/tags/ISP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>阅读《北上》</title>
-    <link href="https://blog.molipre.com/posts/d106ffd.html"/>
-    <id>https://blog.molipre.com/posts/d106ffd.html</id>
-    <published>2021-01-21T00:31:25.000Z</published>
-    <updated>2021-01-21T00:31:25.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/beishang.png" alt="北上"></p><p><big>&emsp;&emsp;<strong>这是一段横跨100年的故事，从八国联军侵华到义和团扶清灭洋，再到日本侵华战争和新中国成立后发生的文化大革命，以及最后2014大年运河申遗成功这一年，发生在这条运河上关于时间，关于爱情，关于亲情，关于水，关于…的故事。</strong></p><p>&emsp;&emsp;<strong>整本小说分为两条时间线，一条时间线是1900年代，意大利人马福德参加八国联军作战与家人失联，后来他哥哥小波罗到中国寻找马福德。故事由此展开，通过大运河他们跟一些中国人产生了交集；另一条时间线是2014年，几个人为了搞《大河谭》，聚在了一起。虽然前几代人的背景都已经模糊，但是他们还是通过大运河聚到了一起，一起去完成这部大作。</strong></p><p>&emsp;&emsp;<strong>小说中有两个篇幅是让我觉得描写得很不错，“鸬鹚与罗盘”中关于邵常来的后人结婚的事情把船民们与大运河的难舍难离的深沉情结可近了书里，以及“小博物馆之歌”中关于大运河之中老物件或者古董的情怀以及闪烁着的人性和历史的光辉让人赞叹。</strong></p><p>&emsp;&emsp;<strong>小说中关于现代的篇幅让我觉得比较出戏的就是谢平遥的后人谢望和孙过程的后人孙宴临的故事发展，像是在写网络爽文小说似的，谢望的油腔滑调、孙宴临的装逼高冷范像是化学反应一样，两者一相遇，快速到不可思议的突然逆转，孙宴临就已经为了爱情不顾一切，抛弃事业，变卖作画支持谢望，看起来十分美好。</strong></p><p>&emsp;&emsp;<strong>整本小说看下来，可以看见作者徐则臣想要表达对历史的思考以及自己的态度，不过细节上有点造假的感觉，虽然是一本小说，但是关于外国人的家书和对于大运河的想法写得感觉像是中国人写得，而那个时候两个意大利人来中国没多久，应该思想上不会如此。</strong></p><p>&emsp;&emsp;<strong>总而言之，小说挺好看的，但总体上没有多大值得思考的地方，我个人观点是觉得是一部好看的小说！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://p.molipre.com/img/beishang.png&quot; alt=&quot;北上&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;这是一段横跨100年的故事，从八国联军侵华到义和团扶清灭洋，再到日本侵华战争和新中国成立后</summary>
-      
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="阅读" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
-    
-    
-    <category term="阅读" scheme="https://blog.molipre.com/tags/%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
