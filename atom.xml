@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-05T02:09:47.000Z</updated>
+  <updated>2021-02-06T02:54:51.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>003、Linux学习之Linux的文件权限和目录配置</title>
+    <link href="https://blog.molipre.com/posts/a7e04f82.html"/>
+    <id>https://blog.molipre.com/posts/a7e04f82.html</id>
+    <published>2021-02-06T02:54:51.000Z</published>
+    <updated>2021-02-06T02:54:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">Linux优秀的地方之一就是多人多任务环境，因此Linux中每个目录和文件给予每个用户的什么权限就很重要，什么文件或目录给什么人读、写或者执行，都需要一一划分好。</summary>
+    
+    
+    
+    <category term="学习" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Linux的文件权限和目录配置" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/Linux%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E5%92%8C%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
+    
+    <category term="Linux的文件权限和目录配置" scheme="https://blog.molipre.com/tags/Linux%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E5%92%8C%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FTP是什么？</title>
+    <link href="https://blog.molipre.com/posts/275ba27.html"/>
+    <id>https://blog.molipre.com/posts/275ba27.html</id>
+    <published>2021-02-06T02:12:05.000Z</published>
+    <updated>2021-02-06T02:12:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>FTP</font>（File Transfer Protocol）中文名称：<font size=6>文件传输协议 </font>，是用于在网络上进行文件传输的一套标准协议，它工作在 OSI 模型的第七层，使用 TCP 传输，客户在和服务器建立连接前要经过一个“三次握手”的过程，保证客户与服务器之间的连接是可靠的，而且是面向连接，为数据传输提供可靠保证。</strong></p><p>&emsp;&emsp;<strong>FTP允许用户以文件操作的方式（如文件的增、删、改、查、传送等）与另一主机相互通信，用户并不真正登录到自己想要存取的计算机上面而成为完全用户，而是用FTP程序访问远程资源，实现用户往返传输文件、目录管理以及访问电子邮件等等，即使双方计算机可能配有不同的操作系统和文件存储方式。</strong></p><p>&emsp;&emsp;<strong>FTP 是基于客户———服务器（C/S）模型而设计的，在客户端与 FTP 服务器之间建立两个连接，FTP 在两台通信的主机之间使用了两条 TCP 连接，一条是数据连接，用于数据传送；另一条是控制连接，用于传送控制信息（命令和响应）。</strong><br><img src="https://p.molipre.com/img/FTP.png" alt="FTP"></p><p><strong>FTP的账户分为三种，分别是Real、Guest、Anonymous，主要如下：</strong></p><ol><li><strong>Real帐户：</strong>指在FTP服务上拥有帐号，这类用户登录FTP服务器的时候，其默认的主目录就是其帐号命名的目录，不过Real帐户还可以变更到其他目录中去，例如系统的主目录等等。</li><li><strong>Guest用户：</strong>指的是给不同的部门或者某个特定的用户设置一个帐户，这类用户只能够访问自己的主目录，这种方式来保障FTP服务上其他文件的安全性，因为该类用户不得访问主目录以外的文件。</li><li><strong>Anonymous用户：</strong>指的是匿名访问的用户，没有指定账户，但是可以匿名访问某些公开的资源。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;FTP&lt;/font&gt;（File Transfer Protocol）中文名称：&lt;font size=6&gt;文件传输协议 &lt;/font&gt;，是用于在网络上进行文件传输的一套标准协议，它工作在 OSI 模型的第七层，</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="FTP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/FTP/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="FTP" scheme="https://blog.molipre.com/tags/FTP/"/>
+    
+  </entry>
   
   <entry>
     <title>PPTP是什么？</title>
@@ -54,11 +107,7 @@
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><strong>前面一章我们学习了如何在电脑安装虚拟机系统，既然系统已经安装好了，那今天就开始正式学习Linux。</strong></li><li><strong>这一章我开先从Linux的文件系统开始学习，在Linux中的任何东西都是以文件的形式存在的。</strong></li></ul><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><h2 id="文件系统"><a href="#文件系统" class="headerlink" title="文件系统"></a>文件系统</h2><ul><li><strong>Linux操作系统具有一定层次结构，由若干目录和子目录组成，不同于windows操作系统，Linux只有一个根目录，用 <code>/</code> 表示，它采用的是级层式的树形结构在Linux世界里，一切皆文件。</strong><br><img src="https://p.molipre.com/img/wenjianxitong.png" alt="目录结构-1"><br><img src="https://p.molipre.com/img/wenjianxitong1.png" alt="目录结构-2"></li></ul><h2 id="目录详解"><a href="#目录详解" class="headerlink" title="目录详解"></a>目录详解</h2><ul><li><strong>从上面的图可以看到Linux有且仅有一个根目录 <code>/</code> ，在根目录下有许多其他的目录，有些是非常重要的，有些是次要的，下面我们来一一学习一下。</strong></li></ul><ol><li><strong><code>/bin</code></strong><br><strong>即 <code>Binary</code> 的缩写，存放着最经常使用的命令。</strong></li><li><strong><code>/boot</code></strong><br><strong>存放的是启动Linux时使用的一些核心文件，包括一些连接文件以及镜像文件。</strong></li><li><strong><code>/dev</code></strong><br><strong>这个目录类似于winlows的设备管理器，把所有的硬件用文件的形式存储。</strong></li><li><strong><code>/etc</code></strong><br><strong>存放Linux系统及各种程序的配置文件。</strong></li><li><strong><code>/home</code></strong><br><strong>即家目录，存放普通用户的主目录，在Linux中每个用户都有一个自己的目录，一般该目录名是以用户的账号命名的。</strong></li><li><strong><code>/lib</code></strong><br><strong>此目录下包含系统引导和在根用户执行命令时候所必需用到的共享库。</strong></li><li><strong><code>/usr/lib</code></strong><br><strong>目标库文件，包括动态连接库加上一些通常不是直接调用的可执行文件的存放位置。</strong></li><li><strong><code>/media</code></strong><br><strong>挂载的媒体设备目录，一般外部设备挂载到这里，例如cdrom、U盘等。</strong></li><li><strong><code>/mnt</code></strong><br><strong>临时挂载目录，这个目录一般是用于存放挂载储存设备的挂载目录的，比如磁盘，光驱，网络文件系统等，当我们需要挂载某个磁盘设备的时候，可以把磁盘设备挂载到这个目录上去，这样我们可以直接通过访问这个目录来访问那个磁盘。</strong></li><li><strong><code>/opt</code></strong><br><strong>可择的文件目录，这个目录表示的是可择的意思，些自定义软件包或者第方工具，就可以安装在这里。</strong></li><li><strong><code>/proc</code></strong><br><strong>特殊文件目录，这个目录采用一种特殊的文件系统格式（proc格式，内核支持这种格式。其中包含了全部虚拟文件。它们并不保存在磁盘中，也不占据磁盘空间(尽管命令ls -c会显示它们的大小)，当查看它们时，实际上看到的是内存里的信息，这些文件助于我们了解系统内部信息。</strong></li><li><strong><code>/root</code></strong><br><strong>用户root的$HOME目录，系统管理员(就是root用户或超级用户)的主目录比较特殊，不存放在/home中，而是直接放在/root目录下了。</strong></li><li><strong><code>/sbin</code></strong><br><strong>即 <code>Super User</code> ，这里存放的是系统管理员使用的系统管理程序，存放大多涉及系统管理的命令，例如引导系统的init程序等。</strong></li><li><strong><code>/usr/sbin</code></strong><br><strong>管理员使用的非系统必须的可执行文件存放目录，这个目录相当于根文件系统下的对应目录/sbin，保存系统管理程序的二进制文件，并且这些文件不是系统启动或文件系统挂载 /usr 目录或修复系统所必需的。</strong></li><li><strong><code>/tmp</code></strong><br><strong>临时文件目录，这个目录存放系统中的一些临时文件，当系统关机后开机或者重启，文件可能会被系统自动清空。</strong></li><li><strong><code>/usr</code></strong><br><strong>这个目录中包含了命令库文件和在通常操作中不会修改的文件，不太恰当的比喻就类似Windows中系统盘的Program Files。</strong></li><li><strong><code>/var</code></strong><br><strong>内容经常变化的目录，这个目录下文件的大小可能会改变，如缓冲文件，日志文件，缓存文件，等一般都存放在这里，但基本都是存放日志文件。</strong></li></ol><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ul><li><strong>整个Linux文件系统是一个树形结构，每个分叉（子目录）有特定的功能。</strong></li><li><strong>Linux的各个目录存放的内容基本是规划好的，不能随便乱放文件。</strong></li><li><strong>Linux一切都是文件，以文件的形式管理所有设备。</strong></li></ul><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul><li><strong>关于Linux的文件除了根目录下的各个目录，在这些目录里面还有其他重要的目录，也需要去了解。</strong></li><li><strong>接下来下一章学习的是Linux的文件权限和目录配置。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;前面一章我们学习了如何在电脑安装虚拟机系统，既然系统已经安装好了，那今天就开始正式学习Linux。&lt;/stron</summary>
-      
+    <summary type="html">关于Linux系统中根目录下的目录详解以及其他重要的目录介绍。</summary>
     
     
     
@@ -207,6 +256,29 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="UDP" scheme="https://blog.molipre.com/tags/UDP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阅读《菊与刀》</title>
+    <link href="https://blog.molipre.com/posts/32bc6abe.html"/>
+    <id>https://blog.molipre.com/posts/32bc6abe.html</id>
+    <published>2021-02-01T03:15:45.000Z</published>
+    <updated>2021-02-01T03:15:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/juyudao.png" alt="菊与刀"></p><p><big>&emsp;&emsp;<strong>《菊与刀》从人类学的角度，分析了当年第二次世界大战时和战败后日本人或者说日本这个民族的民族特质，文化等等，虽然这本书写作至今已经要70年了，时间流逝，如今的日本和当年的日本，表面上的东西早就变得面目全非了，但是读完《菊与刀》这本书，你会发现，书中提到的关于日本民族的文化、特质，似乎依旧如此。</strong></p><p>&emsp;&emsp;<strong>《菊与刀》这本书在提到了解日本的时候，一定会被推荐的，但是我读完这本书想说的是，这是一本美国人类学家对日本的深刻解读，虽然在此后说是被日本人认可的作品，但是作者在书的开头也说了，她本身不懂日语，从未去过日本，也没研究过日本，所有的资料都是从一些传到美国并翻译为英语的日本文献，以及采访一些生活在美国的二三代日本人所得，而且她写下这本书的动机本身是美国军方给出的一个任务。</strong></p><p>&emsp;&emsp;<strong>说到这里，你可能会好奇，一个从未了解过日本的美国专家是如何写出一本关于日本的国民特性、文化的作品的，看到书本的开头，我也非常好奇，因为我是看到很多推荐才去看这本书的，因此我也是耐心地看完了，看完你会发现，对于作者的专业性你会持怀疑态度，毕竟关于一个人的性格，是极具私人化和个人感受的，从未在这生活过的怎么可能感受得到，也不奇怪很多读完本书去日本生活的人或者去过日本生活过的人再读此书，都会觉得很多对日本的描述过于夸张和实为谣言。</strong></p><p>&emsp;&emsp;<strong>因此本书虽然值得一读，但不要当做是一本合格的经得起调查的学术著作，你应当看作是一份美国思维方式和研究方法所得到的关于日本名族文化特性等的研究报告，甚至这份报告是带有种族色彩，毕竟想像式的研究，只有诡辩和幻想。</strong></p></big><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">一个美国人类学家在第二次世界大战对日本文化或者说日本整个民族的矛盾性格的揭示，虽然至今已过几十年，可能大部分的认识随着时间的流逝已然过时，但从中还是能够窥视处日本这个国家或者说日本整个民族文化的根本。</summary>
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="阅读" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
+    
+    
+    <category term="阅读" scheme="https://blog.molipre.com/tags/%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
@@ -485,90 +557,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="HTML" scheme="https://blog.molipre.com/tags/HTML/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MD5是什么？</title>
-    <link href="https://blog.molipre.com/posts/65dff7db.html"/>
-    <id>https://blog.molipre.com/posts/65dff7db.html</id>
-    <published>2021-01-24T03:10:15.000Z</published>
-    <updated>2021-01-24T03:10:15.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>MD5</font>（MD5 Message-Digest Algorithm）中文名称：<font size=6>消息摘要算法 </font>，是一种被称为密码散列算法的算法，MD5可以产生出一个128位（16字节）的散列值（hash value），用于确保信息传输完整一致。</strong></p><p>&emsp;&emsp;<strong>MD5由美国密码学家罗纳德·李维斯特（Ronald Linn Rivest）设计，于1992年公开，用以取代Rivest在1990年开设计开发的MD4算法，1996年后该算法被证实存在弱点，可以被加以破解，对于需要高度安全性的数据，不建议使用该算法，2004年，证实MD5算法无法防止碰撞（collision），因此不适用于安全性认证，因此更加不适用密钥认证或是数字签名等用途。</strong></p><p>&emsp;&emsp;<strong>MD5的原理可以概括为：MD5码以512位分组来处理输入的信息，且每一分组又被划分为16个32位子分组，经过了一系列的处理后，算法的输出由四个32位分组组成，将这四个32位分组级联后将生成一个128位散列值。</strong></p><p>&emsp;&emsp;<strong>简单点说就是MD5消息摘要哈希算法处理512位块中的数据，将数据分解为16个字，每个字由32位组成。MD5的输出是一个128位的消息摘要值。</strong></p><p>&emsp;&emsp;<strong>MD5摘要值的计算是在单独的阶段中执行的，这些阶段处理每个512位数据块以及前一阶段计算的值。第一阶段从使用连续十六进制数值初始化的消息摘要值开始。</strong></p><p>&emsp;&emsp;<strong>每个阶段包括四个消息摘要传递，它们操作当前数据块中的值和前一个块中处理的值，从最后一个块计算的最终值成为该块的MD5摘要。</strong></p><p><img src="https://p.molipre.com/img/MD5.png" alt="MD5"><br>&emsp;&emsp;<strong>安全性方面上面已经说了，要求安全性高的的数据、密钥、数字签名等，不再建议使用MD5，但是我们平常的号码、邮箱等等加密用起来就无妨，例如评论系统valine中的邮箱使用MD5进行加密。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;MD5&lt;/font&gt;（MD5 Message-Digest Algorithm）中文名称：&lt;font size=6&gt;消息摘要算法 &lt;/font&gt;，是一种被称为密码散列算法的算法，MD5可以产生出一个128位（</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="MD5" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/MD5/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="MD5" scheme="https://blog.molipre.com/tags/MD5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ICP是什么？</title>
-    <link href="https://blog.molipre.com/posts/12d8c74d.html"/>
-    <id>https://blog.molipre.com/posts/12d8c74d.html</id>
-    <published>2021-01-23T03:31:42.000Z</published>
-    <updated>2021-01-23T03:31:42.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>ICP</font>（Internet Content Provider）中文名称：<font size=6>网络内容服务商 </font>，又名：<font size=6>电信与信息服务业务经营 </font>，即向广大用户综合提供互联网信息业务和增值业务的电信运营商。</strong></p><p>&emsp;&emsp;<strong>根据中华人民共和国国务院令第291号《<a href="https://baike.baidu.com/item/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%94%B5%E4%BF%A1%E6%9D%A1%E4%BE%8B">中华人民共和国电信条例</a>》、第292号《<a href="https://baike.baidu.com/item/%E4%BA%92%E8%81%94%E7%BD%91%E4%BF%A1%E6%81%AF%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95">互联网信息服务管理办法</a>》（简称ICP管理办法），国家对提供互联网信息服务的经营性ICP实行许可证制度，作为ICP，必须具备ICP证，即各地通信管理部门核发的《<a href="https://baike.baidu.com/item/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E7%94%B5%E4%BF%A1%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%9C%8D%E5%8A%A1%E4%B8%9A%E5%8A%A1%E7%BB%8F%E8%90%A5%E8%AE%B8%E5%8F%AF%E8%AF%81/7681705">中华人民共和国电信与信息服务业务经营许可证</a>》，ICP证是网站经营的许可证，根据国家《互联网信息服务管理办法》规定，经营性网站必须办理ICP证，否则就属于非法经营。</strong></p><p>&emsp;&emsp;<strong>上述的经营性ICP主要是指利用网上广告、代制作网页、出租服务器内存空间、主机托管、有偿提供特定信息内容、电子商务及其它网上应用服务等方式获得收入的ICP。</strong></p><p>&emsp;&emsp;<strong>由于网络发展迅速，以前详细划分的 <code>ISP</code> 和 <code>ICP</code> 所属的公司现在基本都是两者都涉及，例如百度、腾讯、阿里为例，都会有出租服务器内存空间、主机托管、电子商务等等一些方式获取收入，那就必须拥有ICP证，而我们常用的电信联通移动就更不用说了，主营业务是为个人和企业提供增值业务的电信运营商，最早划分ICP说的就是这些公司，现在也会提供出租服务器内存空间、主机托管、电子商务等等服务。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;ICP&lt;/font&gt;（Internet Content Provider）中文名称：&lt;font size=6&gt;网络内容服务商 &lt;/font&gt;，又名：&lt;font size=6&gt;电信与信息服务业务经营 &lt;/fon</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ICP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ICP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ICP" scheme="https://blog.molipre.com/tags/ICP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ISP是什么？</title>
-    <link href="https://blog.molipre.com/posts/f354f4ba.html"/>
-    <id>https://blog.molipre.com/posts/f354f4ba.html</id>
-    <published>2021-01-22T01:36:09.000Z</published>
-    <updated>2021-01-22T01:36:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>ISP</font>（Internet Service Providern）中文名称：<font size=6>互联网服务提供商 </font>，指的是面向公众提供下列信息服务的经营者：一是 <code>接入服务</code> ，即帮助用户接入Internet；二是 <code>导航服务</code> ，即帮助用户在Internet上找到所需要的信息；三是 <code>信息服务</code> ，即建立数据服务系统，收集、加工、存储信息，定期维护更新，并通过网络向用户提供信息内容服务。</strong></p><p>&emsp;&emsp;<strong>通常我们所熟知的各大互联网公司基本是属于 <code>ISP</code> ，例如百度搜索，属于ISP中的第二种，但是每个公司都不止一种服务，通常一家ISP基本都会涉及导航服务和信息服务，例如我们熟知的腾讯、阿里、百度、字节跳动、新浪等等，如 <code>电信、联通、移动</code> 现在也属于ISP，但是因为其主营业务的缘故，更加详细划分为 <a href="https://blog.molipre.com/posts/12d8c74d.html"><code>ICP（点击查看）</code></a>。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;ISP&lt;/font&gt;（Internet Service Providern）中文名称：&lt;font size=6&gt;互联网服务提供商 &lt;/font&gt;，指的是面向公众提供下列信息服务的经营者：一是 &lt;code&gt;接入</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ISP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ISP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ISP" scheme="https://blog.molipre.com/tags/ISP/"/>
     
   </entry>
   
