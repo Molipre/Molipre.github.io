@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-06T02:54:51.000Z</updated>
+  <updated>2021-02-07T06:15:08.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OSPF是什么？</title>
+    <link href="https://blog.molipre.com/posts/75728ab1.html"/>
+    <id>https://blog.molipre.com/posts/75728ab1.html</id>
+    <published>2021-02-07T06:15:08.000Z</published>
+    <updated>2021-02-07T06:15:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>OSPF</font>（Open Shortest Path First）中文名称：<font size=6>开放最短路径优先 </font>，是一个内部网关协议(Interior Gateway Protocol，IGP），用于在单一自治系统（autonomous system,AS）内决策路由，是对链路状态路由协议的一种实现。</strong></p><p>&emsp;&emsp;<strong>OSPF的简单说就是两个相邻的路由器通过发报文的形式成为邻居关系，邻居再相互发送链路状态信息形成邻接关系，之后各自根据最短路径算法算出路由，整个过程使用了五种报文、三个阶段、四张表。</strong></p><p><strong>五种报文：</strong></p><ol><li><strong>Hello报文：</strong>建立并维护邻居关系；</li><li><strong>DBD报文：</strong>发送链路状态头部信息；</li><li><strong>LSR报文：</strong>把从DBD中找出需要的链路状态头部信息传给邻居，请求完整信息；</li><li><strong>LSU报文：</strong>将LSR请求的头部信息对应的完整信息发给邻居；；</li><li><strong>LSACK：</strong>收到LSU报文后确认该报文。</li></ol><p><strong>三个阶段：</strong></p><ol><li><strong>邻居发现：</strong>通过发送Hello报文形成邻居关系；</li><li><strong>路由通告：</strong>邻居间发送链路状态信息形成邻接关系；</li><li><strong>路由计算：</strong>根据最短路径算法算出路由表。</li></ol><p><strong>四张表：</strong></p><ol><li><strong>邻居表：</strong>主要记录形成邻居关系路由器；</li><li><strong>链路状态数据库：</strong>记录链路状态信息；</li><li><strong>OSPF路由表：</strong>通过链路状态数据库得出；</li><li><strong>全局路由表：</strong>OSPF路由与其他比较得出。</li></ol><p><strong>工作过程：</strong></p><ol><li><strong>了解自身链路：</strong>每台路由器了解其自身的链路，即与其直连的网络；</li><li><strong>寻找邻居：</strong>找网络中可与自己交换链路状态信息的周边路由器；</li><li><strong>创建链路状态数据包：</strong>建立邻居关系后开始创建链路状态数据包；</li><li><strong>链路状态信息传递：</strong>将描述链路状态的LSA泛洪到邻居，形成包含网络完整链路状态信息的链路状态数据库；</li><li><strong>计算路由：</strong>路由区域内的每台路由器都可以使用SPF算法来独立计算路由。</li></ol><p><strong>优点：</strong></p><ol><li><strong>适合在大范围的网络</strong></li><li><strong>组播触发式更新</strong></li><li><strong>收敛速度快</strong></li><li><strong>以开销作为度量值</strong></li><li><strong>避免路由环路</strong></li><li><strong>应用广泛</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;OSPF&lt;/font&gt;（Open Shortest Path First）中文名称：&lt;font size=6&gt;开放最短路径优先 &lt;/font&gt;，是一个内部网关协议(Interior Gateway Proto</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="OSPF" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/OSPF/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="OSPF" scheme="https://blog.molipre.com/tags/OSPF/"/>
+    
+  </entry>
   
   <entry>
     <title>003、Linux学习之Linux的文件权限和目录配置</title>
@@ -528,35 +556,6 @@
     <category term="Samba" scheme="https://blog.molipre.com/tags/Samba/"/>
     
     <category term="运维" scheme="https://blog.molipre.com/tags/%E8%BF%90%E7%BB%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HTML是什么？</title>
-    <link href="https://blog.molipre.com/posts/fcd6a661.html"/>
-    <id>https://blog.molipre.com/posts/fcd6a661.html</id>
-    <published>2021-01-25T01:34:10.000Z</published>
-    <updated>2021-01-25T01:34:10.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>HTML</font>（Hyper Text Markup Language）中文名称：<font size=6>超文本标记语言 </font>，是一种标记语言。</strong></p><p>&emsp;&emsp;<strong>在狭义上，如果用描述逻辑的计算机语言来定义编程语言，HTML几乎不算是一种编程语言，我个人当然觉得HTML不是编程语言，毕竟HTML并不具备图灵完备性，虽然目前的 <code>HTML 5</code> 包含了 <code>js API</code> + <code>CSS3</code> ，但也只是提供接口，真正操作的是 <code>JavaScript</code>。</strong></p><p>&emsp;&emsp;<strong>在广义上，HTML感觉更像一个平台，而不是一个语言，因此把HTML叫做一种代码规范标准更合适，作为一门标记语言，更重要的作用是作为信息的呈现载体，注重信息的呈现形式，它包括一系列标签．通过这些标签可以将网络上的文档格式统一，使分散的Internet资源连接为一个逻辑整体，HTML文本是由HTML命令组成的描述性文本，HTML命令可以说明文字，图形、动画、声音、表格、链接等。</strong></p><p><strong>目前HTML已经更新到了 <a href="https://baike.baidu.com/item/html5/4234903?fromtitle=HTML%205&fromid=8762673"><code>HTML 5</code></a> ，有如下几个历史版本：</strong></p><ol><li><strong>HTML 1.0：</strong>在1993年6月作为互联网工程工作小组(IETF)工作草案发布。*</li><li><strong>HTML 2.0：</strong>1995年1 1月作为RFC 1866发布，于2000年6月发布之后被宣布已经过时。</li><li><strong>HTML 3.2：</strong>1997年1月14日，W3C推荐标准。</li><li><strong>HTML 4.0：</strong>1997年12月18日，W3C推荐标准。</li><li><strong>HTML 4.01（微小改进）：</strong>1999年12月24日，W3C推荐标准。</li><li><strong>HTML 5：</strong>2012年12月17日，W3C发布HTML5规范。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;HTML&lt;/font&gt;（Hyper Text Markup Language）中文名称：&lt;font size=6&gt;超文本标记语言 &lt;/font&gt;，是一种标记语言。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&amp;emsp;</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="HTML" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/HTML/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="HTML" scheme="https://blog.molipre.com/tags/HTML/"/>
     
   </entry>
   
