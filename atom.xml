@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-08T07:37:12.000Z</updated>
+  <updated>2021-02-10T01:41:22.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,89 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VLAN是什么？</title>
+    <link href="https://blog.molipre.com/posts/c98d00fa.html"/>
+    <id>https://blog.molipre.com/posts/c98d00fa.html</id>
+    <published>2021-02-10T01:41:22.000Z</published>
+    <updated>2021-02-10T01:41:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>VLAN</font>（Virtual Local Area Network）中文名称：<font size=6>虚拟局域网 </font>，是将一个物理的LAN在逻辑上划分成多个广播域的通信技术，即一组逻辑上的设备和用户，这些设备和用户并不受物理位置的限制，可以根据功能、部门及应用等因素将它们组织起来，相互之间的通信就好像它们在同一个网段中一样。</strong></p><p>&emsp;&emsp;<strong>划分VLAN的目的是可以把一个LAN划分成多个逻辑的VLAN，每个VLAN是一个广播域，VLAN内的主机间通信就和在一个LAN内一样，而VLAN间则不能直接互通，将广播报文就被限制在一个VLAN内，有效隔离广播报文和提升网络质量。</strong></p><p><strong>VLAN的主要作用如下：</strong></p><ol><li><strong>限制广播域：</strong>广播域被限制在一个VLAN内，节省了带宽，提高了网络处理能力；</li><li><strong>增强局域网的安全性：</strong>不同VLAN内的报文在传输时是相互隔离的，即一个VLAN内的用户不能和其它VLAN内的用户直接通信；</li><li><strong>提高了网络的健壮性：</strong>故障被限制在一个VLAN内，本VLAN内的故障不会影响其他VLAN的正常工作；</li><li><strong>灵活构建虚拟工作组：</strong>用VLAN可以划分不同的用户到不同的工作组，同一工作组的用户也不必局限于某一固定的物理范围，网络构建和维护更方便灵活。</li></ol><p><strong>VLAN可按按照以下几种划分：</strong></p><ol><li><strong>按端口划分VLAN：</strong>即规定一个交换机上某几个端口为虚拟网AAA，某几个端口为虚拟网BBB；</li><li><strong>按MAC地址划分VLAN：</strong>根据每个主机的MAC地址来划分，即对每个MAC地址的主机都配置它属于哪个组；</li><li><strong>按网络层划分：</strong>根据每个主机的网络层地址或协议类型(如果支持多协议)划分的；</li><li><strong>按IP组播划分：</strong>即一个组播组就是一个VLAN，易通过路由器进行扩展，但不适合局域网，因为效率不高；</li><li><strong>基于规则的VLAN：</strong>即基于策略的VLAN，具有自动配置的能力，能够把相关的用户连成一体，在逻辑划分上称为关系网络，只需在网管软件中确定划分VLAN的规则（或属性）；</li><li><strong>按用户定义、非用户授权划分：</strong>基于用户定义、非用户授权来划分VLAN，是指为了适应特别的VLAN网络，根据具体的网络用户的特别要求来定义和设计VLAN，而且可以让非VLAN群体用户访问VLAN，但是需要提供用户密码，在得到VLAN管理的认证后才可以加入一个VLAN。</li></ol><p><strong>VLAN之间通信一般采用两种路由策略，即集中式路由和分布式路由，或由VLAN本身的访问控制技术。</strong></p><ol><li><strong>集中式路由：</strong>是指所有VLAN都通过一个中心路由器实现互联，同一交换机（一般指二层交换机）上的两个端口，如果它们属于两个不同的VLAN，在数据交换时也要通过中心路由器来选择路由；</li><li><strong>分布式路由：</strong>是将路由选择功能适当地分布在带有路由功能的交换机上（指三层交换机），同一交换机上的不同VLAN可以直接实现互通。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;VLAN&lt;/font&gt;（Virtual Local Area Network）中文名称：&lt;font size=6&gt;虚拟局域网 &lt;/font&gt;，是将一个物理的LAN在逻辑上划分成多个广播域的通信技术，即一组逻辑</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="VLAN" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/VLAN/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="VLAN" scheme="https://blog.molipre.com/tags/VLAN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20210209</title>
+    <link href="https://blog.molipre.com/posts/fcc62ebb.html"/>
+    <id>https://blog.molipre.com/posts/fcc62ebb.html</id>
+    <published>2021-02-09T07:31:33.000Z</published>
+    <updated>2021-02-09T07:31:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年02月09日 星期天 天气 阴转小雨 平均温度 18°</strong></big></p><p>&emsp;&emsp;<strong>今天是放春节假期前最后一天上班，过两天就是春节了，虽然自工作之后，关于年味的也是越来越乏味，但是想着能够回家见到家人，内心还是十分欢喜，虽然今天是个阴天，天气还稍微变冷了一点，下午还下起了小雨，但是并不会影响到因为热切想要归家的开心。</strong></p><p>&emsp;&emsp;<strong>前两天刚好是农历生日，虽然没有人记得，但是我买了个 <code>AirPods Pro</code> 作为今年的生日礼物，不得不说这个耳机极大程度地提高了我上班的舒适感，再也不用和那些在公共场合外放特别大声的脑残对线了，降噪一开，完全隔绝了地铁上外放着的抖音视频，简直是出行必备神器，春节回来应该会写一个使用体验。</strong></p><p>&emsp;&emsp;<strong>春节期间有打算购买一台11英寸 <code>iPad Pro 2020</code> ，因为最近在学习备战一些考证，之前用的iPad mini 4屏幕太小了，加上我把系统升级到了iPadOS 14后，操作就变得卡顿了，所以关于购买新iPad的心又燃了起来，虽然最近都在传苹果三月份会更新iPad系列，但是等到新iPad发布再到能够购买再到送到手上，估计要4、5月份了，对我来说，时间更重要，而且我个人觉得不是啥重大改变，新款和旧款都差不多，就像之前iPad Pro 2018和现在的iPad Pro 2020，差别不大，CPU你也感受不出性能差别，毕竟苹果的CPU还是很强的，最重要一点是，我目前大学毕业了，但是发现我还能用教育优惠购买苹果的产品，谁知道会不会某天就没了，所以2月份会购买iPad Pro 2020，然后把iPad mini 4送给我姐姐看视频，愉快！</strong></p><p>&emsp;&emsp;<strong>最近也没有什么事情值得一说，就到这里吧，春节假期快乐！！放假啦！！！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年02月09日 星期天 天气 阴转小雨 平均温度 18°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;今天是放春节假期前最后一天上班，过两天就是春节了，虽然自工作之后，关于年味</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ACL是什么？</title>
+    <link href="https://blog.molipre.com/posts/50845140.html"/>
+    <id>https://blog.molipre.com/posts/50845140.html</id>
+    <published>2021-02-09T03:39:03.000Z</published>
+    <updated>2021-02-09T03:39:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>ACL</font>（Access Control Lists）中文名称：<font size=6>访问控制列表 </font>，是一种基于包过滤的访问控制技术，它可以根据设定的条件对接口上的数据包进行过滤，允许其通过或丢弃，访问控制列表被广泛地应用于路由器和三层交换机，借助于访问控制列表，可以有效地控制用户对网络的访问，从而最大程度地保障网络安全。</strong></p><p><strong>ACL是如何工作的？</strong></p><ol><li><strong>当一个数据报进入一个端口，路由器检查这个数据报是否可路由，如果是可以路由的，路由器检查这个端口是否有ACL控制进入数据报，如果有，根据ACL中的条件指令，检查这个数据报，如果数据报是被允许的，就查询路由表，决定数据报的目标端口；</strong></li><li><strong>路由器检查目标端口是否存在ACL控制流出的数据报，若不存在，这个数据报就直接发送到目标端口，若存在，就再根据ACL进行取舍。然后在转发到目的端口。</strong></li></ol><p><strong>ACL可分为以下几种：</strong></p><ol><li><strong>标准IP访问列表：</strong>一个标准IP访问控制列表匹配IP包中的源地址或源地址中的一部分，可对匹配的包采取拒绝或允许两个操作。编号范围是从1到99的访问控制列表是标准IP访问控制列表。</li><li><strong>扩展IP访问：</strong>扩展IP访问控制列表比标准IP访问控制列表具有更多的匹配项，包括协议类型、源地址、目的地址、源端口、目的端口、建立连接的和IP优先级等。编号范围是从100到199的访问控制列表是扩展IP访问控制列表。</li><li><strong>命名的IP访问：</strong>所谓命名的IP访问控制列表是以列表名代替列表编号来定义IP访问控制列表，同样包括标准和扩展两种列表，定义过滤的语句与编号方式中相似。</li><li><strong>标准IPX访问：</strong>标准IPX访问控制列表的编号范围是800-899，它检查IPX源网络号和目的网络号，同样可以检查源地址和目的地址的节点号部分。</li><li><strong>扩展IPX访问：</strong>扩展IPX访问控制列表在标准IPX访问控制列表的基础上，增加了对IPX报头中以下几个字段的检查，它们是协议类型、源Socket、目标Socket。扩展IPX访问控制列表的编号范围是900-999。</li><li><strong>命名的IPX访问：</strong>与命名的IP访问控制列表一样，命名的IPX访问控制列表是使用列表名取代列表编号。从而方便定义和引用列表，同样有标准和扩展之分。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;ACL&lt;/font&gt;（Access Control Lists）中文名称：&lt;font size=6&gt;访问控制列表 &lt;/font&gt;，是一种基于包过滤的访问控制技术，它可以根据设定的条件对接口上的数据包进行过滤，</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="ACL" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ACL/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="ACL" scheme="https://blog.molipre.com/tags/ACL/"/>
+    
+  </entry>
   
   <entry>
     <title>NAT是什么？</title>
@@ -471,90 +554,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="NFC" scheme="https://blog.molipre.com/tags/NFC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Bluetooth是什么？</title>
-    <link href="https://blog.molipre.com/posts/6c69bbf0.html"/>
-    <id>https://blog.molipre.com/posts/6c69bbf0.html</id>
-    <published>2021-01-28T10:42:50.000Z</published>
-    <updated>2021-01-28T10:42:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>Bluetooth</font>，中文名称：<font size=6>蓝牙 </font>，是一种支持设备短距离通信（一般10m内）的无线电技术，是基于低成本的近距离无线连接，为固定和移动设备建立通信环境的一种特殊的近距离无线技术连接。</strong></p><p>&emsp;&emsp;<strong>蓝牙技术是由世界著名的5家大公司爱立信（Ericsson）、诺基亚 (Nokia)、东芝(Toshiba)、国际商用机器公司(IBM)、英特尔(Intel)，于1998年5月联合宣布的一种无线通信新技术。</strong></p><p><strong>蓝牙技术原理如下三种：</strong></p><ol><li><strong>主从关系，即规定每一对设备之间进行蓝牙通讯时，必须一个为主角色，另一为从角色，才能进行通信，通信时，必须由主端进行查找，发起配对，建链成功后，双方即可收发数据；</strong></li><li><strong>呼叫过程，即蓝牙主端设备发起呼叫，首先是查找，找出周围处于可被查找的蓝牙设备，主端设备找到从端蓝牙设备后，与从端蓝牙设备进行配对，配对完成后，从端蓝牙设备会记录主端设备的信任信息，此时主端即可向从端设备发起呼叫，已配对的设备在下次呼叫时，不再需要重新配对；</strong></li><li><strong>数据传输，即蓝牙数据传输应用中，一对一串口数据通讯，一对一应用中从端设备可以设为两种类型，一是静默状态，即只能与指定的主端通信，不被别的蓝牙设备查找;二是开发状态，既可被指定主端查找，也可以被别的蓝牙设备查找建链。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;Bluetooth&lt;/font&gt;，中文名称：&lt;font size=6&gt;蓝牙 &lt;/font&gt;，是一种支持设备短距离通信（一般10m内）的无线电技术，是基于低成本的近距离无线连接，为固定和移动设备建立通信环境的一</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="Bluetooth" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/Bluetooth/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="Bluetooth" scheme="https://blog.molipre.com/tags/Bluetooth/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NAS是什么？</title>
-    <link href="https://blog.molipre.com/posts/1b6e8b66.html"/>
-    <id>https://blog.molipre.com/posts/1b6e8b66.html</id>
-    <published>2021-01-27T05:12:51.000Z</published>
-    <updated>2021-01-27T05:12:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>NAS</font>（Network Attached Storage）中文名称：<font size=6>网络附属存储 </font>，是一种专门的数据存储技术的名称，为用户提供了集中式数据访问服务，按照中文字面意思来看，NAS就是连接在网络上（内网、外网），具备资料存储功能的装置，所以NAS又叫“网络存储器”。</strong></p><p>&emsp;&emsp;<strong>NAS 和常见的移动硬盘不同在于 NAS 是通过网络进行数据传输而不是使用USB数据线，然而更大的区别是，NAS 还拥有自己的操作系统，因为实际上它就是一台专门用于提供存储服务的电脑或者说是服务器，一般家用或中小企业使用的消费级 NAS 产品的体积都很小巧，提供了一个或多个硬盘位，用户可以根据自身的需求安装不同数量和容量的硬盘。</strong></p><p>&emsp;&emsp;<strong>NAS本身能够支持多种协议（如SMB、ISCSI、NFS、CIFS、FTP、HTTP等），而且能够支持各种操作系统，任何一台电脑都可以通过浏览器这种方式对NAS设备进行管理，以及通过电脑系统本身的文件系统访问NAS设备上的数据。</strong></p><p>&emsp;&emsp;<strong>NAS将存储设备连接到现有的网络上来提供数据和文件服务，NAS服务器一般由存硬件、操作系统以及其上的文件系统等几个部分组成，为了提高系统性能和不间断的用户访问，NAS采用了专业化的操作系统用于网络文件的访问，这些操作系统既支持标准的文件访问，也支持相应的网络协议，因此NAS技术能够满足特定的用户需求。</strong></p><p>&emsp;&emsp;<strong>目前NAS发展多年，软件应用生态已经丰富到一定程度，基本不再局限于用作文件存储与共享的设备，它完全就是一台拥有多功能于一身的专用设备，但却比个人电脑或者服务器有着体积小巧、省电、静音、运行稳定、功能齐全且不必花费大量精力去安装及配置各种软件、无需维护等等优势。</strong></p><p>&emsp;&emsp;<strong>目前家用NAS比较出名的品牌有威联通科技（QNAP）和群晖科技（Synology），已经最近比较火的华芸科技（ASUSTOR），虽然这些品牌都有企业级别的NAS，但是企业的NAS目前还是更加倾向于购买服务器，通过安装Linux系统再安装各种软件实现网络存储与网络共享的功能。</strong></p><p><strong>NAS的优点：</strong></p><ol><li><strong>跨平台使用，支持多种操作系统，不同平台的用户只需要根据网络协议即可进入相同的文件夹；</strong></li><li><strong>能够远程使用、管理、查看NAS上存储的数据；</strong></li><li><strong>部署方便，在整个网络环境中任意一个位置都可以存放。</strong></li></ol><p><strong>NAS的缺点（局限性）：</strong></p><ol><li><strong>NAS在存储或共享数据的时候，需要占用网络环境中的带宽，因此此过程中必定会影响用户设备上或者是整个网络环境中其他设备的网络状况。</strong></li><li><strong>NAS本身的安装使用比较简单，但后期的可扩展性会受到前期硬件的选择限制，例如增加存储空间，就要考虑到接口是否够用，虽然增加另一台NAS很方便，但是两台NAS需要做到无缝合并是麻烦且不容易。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;NAS&lt;/font&gt;（Network Attached Storage）中文名称：&lt;font size=6&gt;网络附属存储 &lt;/font&gt;，是一种专门的数据存储技术的名称，为用户提供了集中式数据访问服务，按照中</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="NAS" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/NAS/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="NAS" scheme="https://blog.molipre.com/tags/NAS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>XML是什么？</title>
-    <link href="https://blog.molipre.com/posts/8bd196f7.html"/>
-    <id>https://blog.molipre.com/posts/8bd196f7.html</id>
-    <published>2021-01-26T03:45:14.000Z</published>
-    <updated>2021-01-26T03:45:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>XML</font>（eXtensible Markup Language）中文名称：<font size=6>可扩展标记语言 </font>，标准通用标记语言的子集，是一种用于标记电子文件使其具有结构性的标记语言。</strong></p><p>&emsp;&emsp;<strong>XML 或可扩展标记语言是从标准通用标记语言或 SGML 派生的基于文本的标记语言，数据由 XML 标记存储，以识别它们并组织数据，和 HTML 一样，XML 也不是编程语言，同属为标记语言。</strong></p><p>&emsp;&emsp;<strong>XML 是一种很像 HTML 的标记语言，但不是 HTML 的替代，两者是为不同的目的而设计，XML 被设计用来传输和存储数据，其焦点是数据的内容，HTML 被设计用来显示数据，其焦点是数据的外观，所以 HTML 主要是显示信息，而 XML 则是传输信息。</strong></p><p>&emsp;&emsp;<strong>由上述可见，XML 是对 HTML 的补充，毕竟如今的网络环境飞速发展，HTML 不允许应用程序开发者为具体的应用环境定义自定义的标记以及没有语义结构的缺点使其交互性差，语义模糊，因此一个标准、简洁、结构严谨以及可高度扩展的XML是更好的选择。</strong></p><p>&emsp;&emsp;<strong>XML 1.0标准于1998年2月10日由W3C发布。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;XML&lt;/font&gt;（eXtensible Markup Language）中文名称：&lt;font size=6&gt;可扩展标记语言 &lt;/font&gt;，标准通用标记语言的子集，是一种用于标记电子文件使其具有结构性的标</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="XML" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/XML/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="XML" scheme="https://blog.molipre.com/tags/XML/"/>
     
   </entry>
   
