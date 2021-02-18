@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-10T01:41:22.000Z</updated>
+  <updated>2021-02-14T03:39:06.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,200 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20210214</title>
+    <link href="https://blog.molipre.com/posts/1b7e03bc.html"/>
+    <id>https://blog.molipre.com/posts/1b7e03bc.html</id>
+    <published>2021-02-14T03:39:06.000Z</published>
+    <updated>2021-02-14T03:39:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年02月14日 星期天 情人节 天气 晴 平均温度 24°</strong></big></p><p><img src="https://p.molipre.com/img/20210214-2.jpg" alt="月亮与风筝"><br><img src="https://p.molipre.com/img/20210214-1.jpg" alt="烟火"></p><p>&emsp;&emsp;<strong>又到一年一度的情人节，也是我的新历生日，每年这个时候，几乎不是临近春节就是在春节假期，因此在没有情人的情况下，我既不过情人节也不过生日，因此春节期间大家都忙。</strong></p><p>&emsp;&emsp;<strong>不过今年有些不一样，一个朋友约了我和另一个共友去了另一个共同的朋友家（可能有点绕口），刚好朋友家是在海边的，因此今年的情人节和生日就和几个朋友过了（虽说不是全部单身，但是春节基本异地了），很开心在14号最后一小时去海边放了烟火，在城里基本上没这种放烟火机会，不过体验过放烟火，才知道如果不买又大又贵的烟火，其实还不如直接看别人放更有意思。</strong></p><p>&emsp;&emsp;<strong>新的一年，又年长一岁，希望未来更好，不论是自己还是亲人朋友，大家都身体健康，赚大钱。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年02月14日 星期天 情人节 天气 晴 平均温度 24°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://p.molipre.com/img/20210214-2.jpg&quot; alt=</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RAM是什么？</title>
+    <link href="https://blog.molipre.com/posts/cee0c4e3.html"/>
+    <id>https://blog.molipre.com/posts/cee0c4e3.html</id>
+    <published>2021-02-14T03:16:33.000Z</published>
+    <updated>2021-02-14T03:16:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>RAM</font>（Random Access Memory）中文名称：<font size=6>随机存取存储器 </font>，又名：<font size=6>主存 </font>，是与CPU直接交换数据的内部存储器，可以随时读写（刷新时除外），速度很快，通常作为操作系统或其他正在运行中的程序的临时数据存储介质。</strong></p><p><strong>RAM由存储矩阵、地址译码器、读/写控制器、输入/输出、片选控制等几部分组成。</strong></p><ol><li><strong>存储矩阵：</strong>RAM的核心部分是一个寄存器矩阵，用来存储信息；</li><li><strong>地址译码器：</strong>用于将寄存器地址所对应的二进制数译成有效的行选信号和列选信号，从而选中该存储单元；</li><li><strong>读/写控制器：</strong>通过读写信号来控制被选中的寄存器进行读操作还是进行写操作；</li><li><strong>输入/输出：</strong>通过输入/输岀端与计算机的CPU交换数据，读出时它是输岀端，写入时它是输入端；</li><li><strong>片选控制：</strong>CPU访问存储器时，一次只能访问RAM中的某一片（或几片），即存储器中只有一片（或几片）RAM中的一个地址接受CPU访问，与其交换信息，而其他片RAM与CPU不发生联系，片选控制用于在多片RAM组合时控制CPU与那片RAM交换信息。</li></ol><p><strong>RAM有如下几个特点：</strong></p><ol><li><strong>随机存取：</strong>指的是当存储器中的数据被读取或写入时，所需要的时间与这段信息所在的位置或所写入的位置无关；</li><li><strong>易失性：</strong>指的是断电后不保留数据；</li><li><strong>对静电敏感：</strong>与其他集成电路一致，静电会干扰存储器内电容器的电荷，引致数据流失，甚至烧坏电路；</li><li><strong>快速访问：</strong>随机存取存储器几乎是所有访问设备中写入和读取速度最快的；</li><li><strong>需要刷新（再生）：</strong>依赖电容器存储数据，电容器充满电后代表1（二进制），未充电的代表0，由于电容器或多或少有漏电的情形，若不作特别处理，数据会渐渐随时间流失，刷新是指定期读取电容器的状态，然后按照原来的状态重新为电容器充电，弥补流失了的电荷。</li></ol><p><strong>RAM 可分为静态随机存储器（SRAM）和动态随机存储器（DRAM）：</strong></p><ol><li><strong>静态随机存储器（SRAM）：</strong>在静态触发器的基础上附加门控管而构成的，靠触发器的自保功能存储数据，不停电的情况下能够长时间保留SRAM存放的信息，且不需外加刷新电路，状态稳定，但是晶体管较多，集成度较低，因此功耗较大；</li><li><strong>动态随机存储器（DRAM）：</strong>DRAM利用电容存储电荷的原理保存信息，电路简单，集成度高，由于任何电容都存在漏电，因此，当电容存储有电荷时，过一段时间由于电容放电会导致电荷流失，使保存信息丢失，上面说到的刷新指的就是DRAM的刷新。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;RAM&lt;/font&gt;（Random Access Memory）中文名称：&lt;font size=6&gt;随机存取存储器 &lt;/font&gt;，又名：&lt;font size=6&gt;主存 &lt;/font&gt;，是与CPU直接交换数据</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="RAM" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/RAM/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="RAM" scheme="https://blog.molipre.com/tags/RAM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CPU是什么？</title>
+    <link href="https://blog.molipre.com/posts/57e99559.html"/>
+    <id>https://blog.molipre.com/posts/57e99559.html</id>
+    <published>2021-02-13T02:43:16.000Z</published>
+    <updated>2021-02-13T02:43:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>CPU</font>（Central Processing Unit）中文名称：<font size=6>中央处理器 </font>，是计算机系统的运算和控制核心，是信息处理、程序运行的最终执行单元，因此中央处理器的功效主要为处理指令、执行操作、控制时间、处理数据。</strong></p><p>&emsp;&emsp;<strong>CPU是计算机中负责读取指令，对指令译码并执行指令的核心部件，中央处理器主要包括两个部分，即控制器、运算器，其中还包括高速缓冲存储器及实现它们之间联系的数据、控制的总线。</strong></p><p><strong>运算器：</strong>运算器是指计算机中进行各种算术和逻辑运算操作的部件，其中算术逻辑单元是中央处理核心的部分。</p><ol><li><strong>算术逻辑单元（ALU）：</strong>指能实现多组 算术运算与逻辑运算的组合逻辑电路；</li><li><strong>中间寄存器（IR）：</strong>长度为 128 位，通过操作数来决定实际长度；</li><li><strong>运算累加器（ACC）：</strong>寄存器一般都是单累加器，长度为128位，ACC可以看成可变长的累加器；</li><li><strong>描述字寄存器（DR）：</strong>主要应用于存放与修改描述字中，长度为64位；</li><li><strong>B寄存器：</strong>长度为32位，在修改地址过程中能保存地址修改量，主存地址只能用描述字进行修改。</li></ol><p><strong>目前CPU可分为如下几种：</strong></p><ol><li><strong>指令集的方式：</strong>按照指令集的方式将其分为精简指令集计算机(RISC)和复杂指令集计算机(CISC)，RISC指令长度和执行时间恒定，CISC指令长度和执行时间不一定，RISC 指令的并行的执行程度更好，并且编译器的效率也较高，CISC指令则对不同的任务有着更好的优化，代价是电路复杂且较难提高并行度；</li><li><strong>嵌入式系统CPU：</strong>范围太广，不予解释，我们日常生活用到的打印机、计算器之类的处理器都是用到嵌入式系统CPU；</li><li><strong>大型机CPU：</strong>专门用于大型主机的CPU，大型机使用专用的处理器指令集、操作系统和应用软件。</li></ol><p><strong>目前主流的CPU品牌有如下：</strong></p><ol><li><strong>Intel</strong></li><li><strong>AMD</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;CPU&lt;/font&gt;（Central Processing Unit）中文名称：&lt;font size=6&gt;中央处理器 &lt;/font&gt;，是计算机系统的运算和控制核心，是信息处理、程序运行的最终执行单元，因此中央</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="CPU" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/CPU/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="CPU" scheme="https://blog.molipre.com/tags/CPU/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IGP是什么？</title>
+    <link href="https://blog.molipre.com/posts/20eea5cf.html"/>
+    <id>https://blog.molipre.com/posts/20eea5cf.html</id>
+    <published>2021-02-12T03:45:16.000Z</published>
+    <updated>2021-02-12T03:45:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>IGP</font>（Interior Gateway Protocol）中文名称：<font size=6>内部网关协议 </font>，是在一个自治网络内网关（主机和路由器）间交换路由信息的协议，包括 <code>RIP</code> 、<code>OSPF</code> 、<code>IS-IS</code> 、<code>IGRP</code> 、<code>EIGRP</code> 。</strong></p><p><strong>内部网关协议可以划分为两类：</strong></p><ol><li><strong>距离矢量路由协议：</strong>距离矢量是指以距离和方向构成的矢量来通告路由信息，距离按跳数等度量来定义，方向则是下一跳的路由器或送出接口，距离矢量协议通常使用贝尔曼-福特 (Bellman-Ford) 算法来确定最佳路。<br><strong>距离向量路由协议有如下几种：</strong> <code>IP RIP</code> 、<code>IPX RIP</code> 、<code>Apple Talk RT M P</code> 、<code>I G R P</code> 。<br><strong>适用情形：</strong><br>1、网络结构简单、扁平，不需要特殊的分层设计；<br>2、管理员没有足够的知识来配置链路状态协议和排查故障；<br>3、特定类型的网络拓扑结构，如集中星形（Hub-and-Spoke）网络；<br>4、无需关注网络最差情况下的收敛时间。</li><li><strong>链路状态路由协议：</strong>配置了链路状态路由协议的路由器可以获取所有其它路由器的信息来创建网络的“完整视图”（即拓扑结构），并在拓扑结构中选择到达所有目的网络的最佳路径。<br><strong>链接状态路由协议有如下几种：</strong> <code>IP OSPF</code>、<code>IPX NLSP</code> 、<code>I S - I S</code> 。<br><strong>适用情形：</strong><br>1、网络进行了分层设计，大型网络通常如此。<br>2、管理员对于网络中采用的链路状态路由协议非常熟悉。<br>3、网络对收敛速度的要求极高</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;IGP&lt;/font&gt;（Interior Gateway Protocol）中文名称：&lt;font size=6&gt;内部网关协议 &lt;/font&gt;，是在一个自治网络内网关（主机和路由器）间交换路由信息的协议，包括 &lt;</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="IGP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/IGP/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="IGP" scheme="https://blog.molipre.com/tags/IGP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新年快乐！牛年大吉！</title>
+    <link href="https://blog.molipre.com/posts/dce2d7b8.html"/>
+    <id>https://blog.molipre.com/posts/dce2d7b8.html</id>
+    <published>2021-02-11T15:59:59.000Z</published>
+    <updated>2021-02-11T15:59:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/newyear1.jpg"></p><p><strong>写于2021年02月11日，农历庚子年腊月三十日，除夕夜。</strong></p><p><strong>庚子鼠年的我们历经磨难，但任然不断地努力向前走，一川的博客也于今年重新上线。</strong></p><p><strong>新的一年，一川将会持续更新博客内容，也会不断优化博客内容，提高内容的质量。</strong></p><p><strong>最后，一川在此祝各位辛丑牛年身体健康，万事顺利，学业进步，事业有为，牛年大吉！！！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://p.molipre.com/img/newyear1.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写于2021年02月11日，农历庚子年腊月三十日，除夕夜。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;庚子鼠年的我们历经磨难，但任然不断</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="随笔" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://blog.molipre.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PDF是什么？</title>
+    <link href="https://blog.molipre.com/posts/be8a306c.html"/>
+    <id>https://blog.molipre.com/posts/be8a306c.html</id>
+    <published>2021-02-11T09:11:07.000Z</published>
+    <updated>2021-02-11T09:11:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>PDF</font>（Portable Document Format）中文名称：<font size=6>可携带文档格式 </font>，是由Adobe Systems用于与应用程序、操作系统、硬件无关的方式进行文件交换所发展出的文件格式，PDF文件以PostScript语言图象模型为基础，无论在哪种打印机上都可保证精确的颜色和准确的打印效果，即PDF会忠实地再现原稿的每一个字符、颜色以及图象。</strong></p><p>&emsp;&emsp;<strong>PDF作为一种电子文档格式，PDF无需在意使用的操作系统平台，不论是在Windows、Linux，还是在MacOS，PDF这种电子文档格式都是通用的，这也使得PDF成为在Internet上进行电子文档发行和数字化信息传播的理想文档格式。</strong></p><p><strong>PDF文件结构主要可以分为四个部分：</strong></p><ol><li><strong>首部</strong></li><li><strong>文件体</strong></li><li><strong>交叉引用表</strong></li><li><strong>尾部</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;PDF&lt;/font&gt;（Portable Document Format）中文名称：&lt;font size=6&gt;可携带文档格式 &lt;/font&gt;，是由Adobe Systems用于与应用程序、操作系统、硬件无关的方</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="PDF" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/PDF/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="PDF" scheme="https://blog.molipre.com/tags/PDF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20210211</title>
+    <link href="https://blog.molipre.com/posts/1f634aa0.html"/>
+    <id>https://blog.molipre.com/posts/1f634aa0.html</id>
+    <published>2021-02-11T02:42:02.000Z</published>
+    <updated>2021-02-11T02:42:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年02月11日 星期四 除夕 天气 晴 平均温度 18°</strong></big></p><p>&emsp;&emsp;<strong>今天，又到了一年一度贴对联的除夕，今年照例是帮爸爸的忙，主角还是我爹，宝刀未老，买对联和贴对联的好手，不过老爸今年爬上爬下也会说有点累了，父母是真的开始变老了。</strong></p><p>&emsp;&emsp;<strong>今年的年夜饭还是熟悉的味道-妈妈做的饭，虽然随着姐姐们出嫁，这几年的年夜饭只有我和父母三人吃，但是这种熟悉的味道以及家人陪伴的感觉是真的好，自从毕业后出来工作，选择在别的城市打拼，回家的机会就是每年的为数不多的节假日了，虽然没有如父母的意愿在老家工作，因为我知道一个五线小城市是真的没多大机遇，我也不想在往后遇到大问题的时候无能为力，所以趁年轻，我要出去闯闯！</strong></p><p>&emsp;&emsp;<strong>新的一年又来了，希望家人们身体安康，平平安安，也希望自己事业有成，加油吧！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年02月11日 星期四 除夕 天气 晴 平均温度 18°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;今天，又到了一年一度贴对联的除夕，今年照例是帮爸爸的忙，主角还是我爹，宝刀</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>VLAN是什么？</title>
@@ -367,193 +561,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="TCP" scheme="https://blog.molipre.com/tags/TCP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>UDP是什么？</title>
-    <link href="https://blog.molipre.com/posts/95a763af.html"/>
-    <id>https://blog.molipre.com/posts/95a763af.html</id>
-    <published>2021-02-01T03:31:14.000Z</published>
-    <updated>2021-02-01T03:31:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>UDP</font>（User Datagram Protocol）中文名称：<font size=6>用户数据报协议 </font>，是OSI（Open System Interconnection，开放式系统互联）参考模型中一种无连接的传输层协议，主要用于不要求分组顺序到达的传输中，提供面向事务的简单不可靠信息传送服务。</strong></p><p>&emsp;&emsp;<strong>UDP提供了无连接通信，且不对传送数据包进行可靠性保证，也就是说，当报文发送之后，是无法得知其是否安全完整到达的，因此适合于一次传输少量数据，UDP传输的可靠性由应用层负责。常用的UDP端口号有：<code>53（DNS）</code> 、<code>69（TFTP）</code> 、<code>161（SNMP）</code> ，使用UDP协议包括：<code>TFTP</code> 、<code>SNMP</code> 、<code>NFS</code> 、<code>DNS</code> 、<code>BOOTP</code> 。</strong></p><p>&emsp;&emsp;<strong>UDP传输的段（segment）有8个字节的报头和有效载荷字段构成，而UDP报头由4个域组成，其中每个域各占用2个字节，具体包括源端口号、目标端口号、数据报长度、校验值。</strong></p><ol><li><p><strong>端口号：</strong><br><strong>1、UDP协议使用端口号为不同的应用保留其各自的数据传输通道，因此端口号分为源端口号和目标端口号；</strong><br><strong>2、发送端将UDP数据包通过源端口发送出去，接收端通过目标端口接收数据；</strong><br><strong>3、端口号可以使用预先为其预留或注册的静态端口，还有未被注册的动态端口；</strong><br><strong>4、UDP报头使用两个字节存放端口号，因此端口号的有效范围是从 <code>0 - 65535</code> ，大于 <code>49151</code> 的端口号都代表动态端口；</strong><br><strong>5、UDP端口号指定有两种方式：由管理机构指定端口和动态绑定的方式。</strong></p><p><img src="https://p.molipre.com/img/UDP.png" alt="UDP"></p></li><li><p><strong>数据报长度：</strong><br><strong>1、数据报的长度是指包括报头和数据部分在内的总字节数；</strong><br><strong>2、报头的长度是固定的，所以该域主要被用来计算可变长度的数据部分（又称为数据负载）；</strong><br><strong>3、包含报头在内的数据报的最大长度为65535字节。</strong></p></li><li><p><strong>校验值：</strong><br><strong>1、UDP协议使用报头中的校验值来保证数据的安全；</strong><br><strong>2、校验值需要在发送端计算得出，传递到接收端后，从新计算校验值并验证是否相符，从而判断是否出错，但UDP不做错误校正，只会把损坏的信息段丢弃，或者给接收端提供警告信息。</strong></p></li></ol><p><strong>应用：</strong></p><ul><li><strong>UDP协议在网络质量不好的情况下丢包非常严重，但因为具有消耗资源小，处理速度快的特点，因此适合用于音频、视频、普通数据等传输过程丢一两个数据包不影响接收结果的应用，例如我们熟悉的 <code>QQ</code> 就是使用UDP协议。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;UDP&lt;/font&gt;（User Datagram Protocol）中文名称：&lt;font size=6&gt;用户数据报协议 &lt;/font&gt;，是OSI（Open System Interconnection，开放式</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="UDP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/UDP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="UDP" scheme="https://blog.molipre.com/tags/UDP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>阅读《菊与刀》</title>
-    <link href="https://blog.molipre.com/posts/32bc6abe.html"/>
-    <id>https://blog.molipre.com/posts/32bc6abe.html</id>
-    <published>2021-02-01T03:15:45.000Z</published>
-    <updated>2021-02-01T03:15:45.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/juyudao.png" alt="菊与刀"></p><p><big>&emsp;&emsp;<strong>《菊与刀》从人类学的角度，分析了当年第二次世界大战时和战败后日本人或者说日本这个民族的民族特质，文化等等，虽然这本书写作至今已经要70年了，时间流逝，如今的日本和当年的日本，表面上的东西早就变得面目全非了，但是读完《菊与刀》这本书，你会发现，书中提到的关于日本民族的文化、特质，似乎依旧如此。</strong></p><p>&emsp;&emsp;<strong>《菊与刀》这本书在提到了解日本的时候，一定会被推荐的，但是我读完这本书想说的是，这是一本美国人类学家对日本的深刻解读，虽然在此后说是被日本人认可的作品，但是作者在书的开头也说了，她本身不懂日语，从未去过日本，也没研究过日本，所有的资料都是从一些传到美国并翻译为英语的日本文献，以及采访一些生活在美国的二三代日本人所得，而且她写下这本书的动机本身是美国军方给出的一个任务。</strong></p><p>&emsp;&emsp;<strong>说到这里，你可能会好奇，一个从未了解过日本的美国专家是如何写出一本关于日本的国民特性、文化的作品的，看到书本的开头，我也非常好奇，因为我是看到很多推荐才去看这本书的，因此我也是耐心地看完了，看完你会发现，对于作者的专业性你会持怀疑态度，毕竟关于一个人的性格，是极具私人化和个人感受的，从未在这生活过的怎么可能感受得到，也不奇怪很多读完本书去日本生活的人或者去过日本生活过的人再读此书，都会觉得很多对日本的描述过于夸张和实为谣言。</strong></p><p>&emsp;&emsp;<strong>因此本书虽然值得一读，但不要当做是一本合格的经得起调查的学术著作，你应当看作是一份美国思维方式和研究方法所得到的关于日本名族文化特性等的研究报告，甚至这份报告是带有种族色彩，毕竟想像式的研究，只有诡辩和幻想。</strong></p></big><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">一个美国人类学家在第二次世界大战对日本文化或者说日本整个民族的矛盾性格的揭示，虽然至今已过几十年，可能大部分的认识随着时间的流逝已然过时，但从中还是能够窥视处日本这个国家或者说日本整个民族文化的根本。</summary>
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="阅读" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
-    
-    
-    <category term="阅读" scheme="https://blog.molipre.com/tags/%E9%98%85%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20210131</title>
-    <link href="https://blog.molipre.com/posts/8bc11e2d.html"/>
-    <id>https://blog.molipre.com/posts/8bc11e2d.html</id>
-    <published>2021-01-31T13:41:27.000Z</published>
-    <updated>2021-01-31T13:41:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年01月31日 星期天 天气 晴 平均温度 20°</strong></big></p><p>&emsp;&emsp;<strong>这个周末刚好双休，下星期要连续上9天班，然后就是春节假期了，因此这个周末放假就没出门，待在家里两天，其实就是啥都不想做，最近生活绷得很紧，突然想要放松一下，持续了十几周没断过的夜跑，这个周末也没去跑步，真的是彻彻底底当了两天死肥宅，别的不说，是真的舒服。</strong></p><p>&emsp;&emsp;<strong>周六早上特意去买了一份家乡的特色美食- <code>猪肠碌</code> ，实在是很久没吃了，久违的味道，虽然老板是老家那边的人，但是做的不算很好吃，不过对于一个长时间在外打工的人，这味道真的令人怀念啊！</strong></p><p><img src="https://p.molipre.com/img/zhuchanglu.jpg" alt="猪肠碌"></p><p>&emsp;&emsp;<strong>周六晚上再次做了 <code>青椒炒肉</code> ，这次终于不是之前做的那样干瘪无汁得了，味道也比之前好了许多，厨艺也是有了些许长进，周日试了一下网上说的菜式，之前没试过的新菜式 - <code>粉丝煎蛋番茄金针菇煲</code>（主要是之前朋友来家里做饭剩下了粉丝和鸡蛋），不知道是不是手艺不好的缘故，反正不太好吃，马马虎虎，不过粉丝还是挺入味的，然后这道 <code>炒三丁</code> 还是一如既往的好吃。</strong></p><p><img src="https://p.molipre.com/img/qingjiaochaorou.jpg" alt="青椒炒肉"><br><img src="https://p.molipre.com/img/fensibao.jpg" alt="粉丝煲"></p><p>&emsp;&emsp;<strong>两天就这样很快就过去了，平平淡淡，带有些许的孤独。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年01月31日 星期天 天气 晴 平均温度 20°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;这个周末刚好双休，下星期要连续上9天班，然后就是春节假期了，因此这个周末放假就没</summary>
-      
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>IPv6是什么？</title>
-    <link href="https://blog.molipre.com/posts/e2a05339.html"/>
-    <id>https://blog.molipre.com/posts/e2a05339.html</id>
-    <published>2021-01-31T01:48:27.000Z</published>
-    <updated>2021-01-31T01:48:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>IPv6</font>（Internet Protocol version 6）中文名称：<font size=6>互联网协议第6版 </font>，是互联网工程任务组（IETF）设计的用于替代IPv4的下一代IP协议。</strong></p><p>&emsp;&emsp;<strong>由于IPv4最大的问题在于网络地址资源不足，严重制约了互联网的应用和发展。IPv6的使用，不仅能解决网络地址资源数量的问题，而且也解决了多种接入设备连入互联网的障碍。</strong></p><p>&emsp;&emsp;<strong>IPv6的地址长度为128位，是IPv4地址长度的4倍，共2^128（约3.4×10^38）个，就其数量而言，现阶段的互联网发展速度是不需要担心IPv6地址是否够用。</strong></p><p>&emsp;&emsp;<strong>由于IPv6的地址长度为128位，IPv4点分十进制格式不再适用，于是采用十六进制表示。</strong></p><p><strong>表示方法有三种：</strong></p><ol><li><strong>冒分十六进制表示法</strong><br><strong>格式如：<code>X:X:X:X:X:X:X:X</code> ，其中每个 <code>X</code> 表示地址中的 <code>16b</code> ，即16进制表示。</strong><br><strong>例如：<code>ABCD:EF01:2345:6789:ABCD:EF01:2345:6789</code></strong></li><li><strong>0位压缩表示法</strong><br><strong>同样是1中的格式，但是地址中间包含很长一段 <code>0</code> ，则可以把连续的一段0压缩为 <code>::</code></strong><br><strong>例如：<code>ABCD:0000:0000:0000:0000:0000:0000:6789</code> → <code>ABCD::6789</code></strong><br>&emsp;&emsp;&emsp;<strong><code>0000:0000:0000:0000:0000:0000:0000:6789</code> → <code>::6789</code></strong><br>&emsp;&emsp;&emsp;<strong><code>0000:0000:0000:0000:0000:0000:0000:0000</code> → <code>::</code></strong></li><li><strong>内嵌IPv4地址表示法</strong><br><strong>该方法主要是为了实现IPv4-IPv6互通，把IPv4地址会嵌入IPv6地址中。</strong><br><strong>格式：<code>X:X:X:X:X:X:d.d.d.d</code> ，前面的 <code>96b</code> （即6个X）采用冒分十六进制表示，后面 <code>32b</code> （即4个d）采用IPv4的点分十进制表示。</strong><br><strong>例如：<code>::192.168.0.1</code> 或 <code>::FFFF:192.168.0.1</code> ，采用冒分十六进制表示的部分依旧适用0位压缩表示法。</strong></li></ol><p>&emsp;&emsp;<strong>IPv6有三种地址类型：<code>单播地址(Unicast Address)</code> 、<code>组播地址(Multicast Address)</code> 、<code>任播地址(Anycast Address)</code>：</strong></p><ol><li><strong>单播地址：</strong>用来唯一标识一个接口，类似于IPv4中的单播地址。发送到单播地址的数据报文将被传送给此地址所标识的一个接口。</li><li><strong>组播地址：</strong>用来标识一组接口（通常这组接口属于不同的节点），类似于IPv4中的组播地址。发送到组播地址的数据报文被传送给此地址所标识的所有接口。</li><li><strong>任播地址：</strong>用来标识一组接口（通常这组接口属于不同的节点）。发送到任播地址的数据报文被传送给此地址所标识的一组接口中距离源节点最近（根据使用的路由协议进行度量）的一个接口。</li></ol><p><img src="https://p.molipre.com/img/IPv6.png" alt="IPv6"></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;IPv6&lt;/font&gt;（Internet Protocol version 6）中文名称：&lt;font size=6&gt;互联网协议第6版 &lt;/font&gt;，是互联网工程任务组（IETF）设计的用于替代IPv4的下一</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="IPv6" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/IPv6/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="IPv6" scheme="https://blog.molipre.com/tags/IPv6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>IPv4是什么？</title>
-    <link href="https://blog.molipre.com/posts/7ba90283.html"/>
-    <id>https://blog.molipre.com/posts/7ba90283.html</id>
-    <published>2021-01-30T01:19:58.000Z</published>
-    <updated>2021-01-30T01:19:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>IPv4</font>（Internet Protocol version 4）中文名称：<font size=6>网际协议版本4 </font>，又称：<font size=6>互联网通信协议第四版 </font>，是网际协议开发过程中的第四个修订版本，也是此协议第一个被广泛部署的版本。IPv4是互联网的核心，也是使用最广泛的网际协议版本，其后续版本为“<a href="https://blog.molipre.com/posts/e2a05339.html">IPv6</a>”。</strong></p><p>&emsp;&emsp;<strong>IPv4使用32位（4字节）地址，因此地址空间中只有4,294,967,296（2）个地址，但是，一些地址是为特殊用途所保留的，例如专用网络（<code>10.0.0.0/8、172.16.0.0/12、192.168.0.0/16</code>）等，因此互联网上路由可用的地址数量也随之减少，随着地址不断被分配，IPv4地址即将枯竭，2011年2月3日已分配完最后五个地址块。</strong></p><p>&emsp;&emsp;<strong>IPv4地址可被写作任何表示一个32位整数值的形式，但为了方便人类阅读和分析，它通常被写作点分十进制的形式，即四个字节被分开用十进制写出，中间用点分隔。</strong></p><p><strong>格式举例：</strong></p><table><thead><tr><th>格式</th><th>值</th><th>从点分十进制转换</th></tr></thead><tbody><tr><td>点分十进制</td><td>192.0.2.235</td><td></td></tr><tr><td>点分十六进制</td><td>0xC0.0x00.0x02.0xEB</td><td>每个字节被单独转换为十六进制</td></tr><tr><td>点分八进制</td><td>0300.0000.0002.0353</td><td>每个字节被单独转换为八进制</td></tr><tr><td>十六进制</td><td>0xC00002EB</td><td>将点分十六进制连在一起</td></tr><tr><td>十进制</td><td>3221226219</td><td>用十进制写出的32位整数</td></tr><tr><td>八进制</td><td>030000001353</td><td>用八进制写出的32位整数</td></tr></tbody></table><p>&emsp;&emsp;<strong>一开始的IPv4地址分为 <code>A</code> 、<code>B</code> 、<code>C</code> 、<code>D</code> 、<code>E</code> 五个类别，<code>A类</code> 、<code>B类</code> 和 <code>C类</code> 有不同的网络类别长度，剩余的部分被用来识别网络内的主机，<code>D类</code> 被用于多播地址，<code>E类</code> 被留作将来使用，1993年，无类别域间路由（<code>CIDR</code>）正式地取代了分类网络。</strong></p><p>&emsp;&emsp;<strong><code>CIDR</code> 被设计为可以重新划分地址空间，因此小的或大的地址块均可以分配给用户。CIDR创建的分层架构由互联网号码分配局（IANA）和区域互联网注册管理机构（RIR）进行管理，每个RIR均维护着一个公共的WHOIS数据库，以此提供IP地址分配的详情。</strong></p><p><strong>特殊用途的地址（保留的地址块）：</strong></p><table><thead><tr><th>CIDR地址块</th><th>描述</th><th>参考资料</th></tr></thead><tbody><tr><td>0.0.0.0/8</td><td>本网络（仅作为源地址时合法）</td><td>RFC 5735</td></tr><tr><td>10.0.0.0/8</td><td>电信级NAT</td><td>RFC 1918</td></tr><tr><td>100.64.0.0/10</td><td>电信级NAT</td><td>RFC 6598</td></tr><tr><td>127.0.0.0/8</td><td>环回</td><td>RFC 5735</td></tr><tr><td>169.254.0.0/16</td><td>链路本地</td><td>RFC 3927</td></tr><tr><td>172.16.0.0/12</td><td>专用网络</td><td>RFC 1918</td></tr><tr><td>192.0.0.0/24</td><td>保留（IANA）</td><td>RFC 5735</td></tr><tr><td>192.0.2.0/24</td><td>TEST-NET-1，文档和示例</td><td>RFC 5735</td></tr><tr><td>192.88.99.0/24</td><td>6to4中继</td><td>RFC 3068</td></tr><tr><td>192.168.0.0/16</td><td>专用网络</td><td>RFC 1918</td></tr><tr><td>198.18.0.0/15</td><td>网络基准测试</td><td>RFC 2544</td></tr><tr><td>198.51.100.0/24</td><td>TEST-NET-2，文档和示例</td><td>RFC 5737</td></tr><tr><td>203.0.113.0/24</td><td>TEST-NET-3，文档和示例</td><td>RFC 5737</td></tr><tr><td>224.0.0.0/4</td><td>多播（之前的D类网络）</td><td>RFC 3171</td></tr><tr><td>240.0.0.0/4</td><td>保留（之前的E类网络）</td><td>RFC 1700</td></tr><tr><td>255.255.255.255</td><td>受限广播</td><td>RFC 919</td></tr></tbody></table><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;IPv4&lt;/font&gt;（Internet Protocol version 4）中文名称：&lt;font size=6&gt;网际协议版本4 &lt;/font&gt;，又称：&lt;font size=6&gt;互联网通信协议第四版 &lt;/f</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="IPv4" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/IPv4/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="IPv4" scheme="https://blog.molipre.com/tags/IPv4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>IC谷星X24Q显示器使用体验</title>
-    <link href="https://blog.molipre.com/posts/51476da.html"/>
-    <id>https://blog.molipre.com/posts/51476da.html</id>
-    <published>2021-01-29T03:40:54.000Z</published>
-    <updated>2021-01-29T03:40:54.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><strong>购买需求：最近写代码和文章的量一直在上涨，原本在用的4K显示器就竖着使用，但是需要看其他窗口就挺麻烦，因此打算增购一台显示器竖屏使用。</strong></li><li><strong>至于为啥不再买一个4K显示器，是因为我目前使用的主机是Deskmini H310，没有独立显卡，如果核显输出两台4K显示器，我估计可能会掉帧，因此购买一台2K显示器是最佳选择。</strong></li></ul><h1 id="参数与外观"><a href="#参数与外观" class="headerlink" title="参数与外观"></a>参数与外观</h1><h2 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h2><ul><li><strong>先简单说一下X24Q这款显示器的参数：<code>23.8寸</code> 、<code>75Hz刷新率</code> 、<code>4ms响应时间</code> 、<code>2K分辨率</code> 、<code>IPS面板</code> 、<code>300尼特亮度</code> 、<code>支持FreeSync</code> 、<code>支持HDR(聊胜于无)</code> 、<code>99%sRGB色域</code> 、<code>8bit色深(不知道是不是6抖8，大概率是的)</code> 、<code>支持壁挂</code> ，接口：<code>HDMI</code> 、<code>DP</code> 、<code>Audio(音频输出)</code> 、<code>USB 2.0(仅充电)</code></strong></li></ul><h2 id="外观"><a href="#外观" class="headerlink" title="外观"></a>外观</h2><ul><li><p><strong>直接看图片吧，不用过多介绍。</strong></p><p><img src="https://p.molipre.com/img/xianshiqibaozhuang.jpg" alt="显示器包装"><br><img src="https://p.molipre.com/img/xianshiqiwaiguan.jpg" alt="显示器外观"><br><img src="https://p.molipre.com/img/xianshibiankuangf.jpeg" alt="显示器边框"><br><img src="https://p.molipre.com/img/xianshichicun.png" alt="显示器尺寸"><br><img src="https://p.molipre.com/img/xianshiqjiekou1.jpg" alt="显示器接口"></p></li><li><p><strong>上面几个图可以看出包装都是不对应显示器的，应该是为了节省成本多款显示器用一种外包装，显示器三边窄边框，整体做工颇为粗糙，毕竟是个山寨小品牌，用的是公模外形，我之前选显示器就发现很多家显示器外观差不多的，底座是金属的，挺稳定，不过我直接壁挂</strong>（注意：壁挂接口75mm × 75mm）<strong>，整体不算厚但是最薄处才1.4cm也不算超薄，当然，使用过程是不会太在意这个尺寸的，边框够窄</strong>（窄的三边是4.5mm、厚的一边是20mm）<strong>就可以了，整体黑色，没有多余的logo，除了底座是金属的，其他都是塑料外壳</strong>（廉价感的由来）<strong>，关于外观基本就是这样子了。</strong></p></li></ul><h1 id="使用感受"><a href="#使用感受" class="headerlink" title="使用感受"></a>使用感受</h1><ul><li><strong>针对我个人情况来说，用于竖屏写代码、写文章、浏览网页非常合适，颜色和我的4K显示器相比有偏差，漏光情况尚好，不影响，300尼特的亮度虽然够用，但是我要用开灯用就是了，然后不要用来修图，剪辑调色等对色彩要求搞得操作，显示器只能达到能用的水平。</strong></li><li><strong>使用感受都是很主观的，毕竟是根据自己的用途来决定好不好，反正我用于信息流的编辑与浏览就很好，大概就这样。</strong></li></ul><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ol><li><strong>用于信息流的使用，例如写代码，写文章，看网页，值得购买，毕竟才 <code>700元</code> 不到的 <code>2K分辨率</code> 和 <code>99%sRGB色域</code> 的显示器；</strong></li><li><strong>不要痴心妄想用于修图、剪辑调色等需要专业显示色彩的情况下，贪图便宜买这个玩意，反正出图眼瞎；</strong></li><li><strong>玩游戏的话，没试过，不过我使用过144Hz的高刷显示器，建议游戏还是买高刷的电竞显示器，虽然这个显示器能到达75Hz，但也就那样，高刷才是王道。</strong></li><li><strong>使用macOS（指的是白苹果）的不建议购买，因为没法使用macOS的 <code>HIDPI</code>，黑苹果倒是可以通过命令和设置开启。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">原本使用的是27寸4K显示器，虽然也可以排列多个窗口，但是最近写代码、文章的量上涨，因此购买了一个显示器作为竖屏使用。</summary>
-    
-    
-    
-    <category term="产品体验" scheme="https://blog.molipre.com/categories/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/"/>
-    
-    <category term="显示器" scheme="https://blog.molipre.com/categories/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/%E6%98%BE%E7%A4%BA%E5%99%A8/"/>
-    
-    
-    <category term="产品体验" scheme="https://blog.molipre.com/tags/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/"/>
-    
-    <category term="谷星X24Q显示器" scheme="https://blog.molipre.com/tags/%E8%B0%B7%E6%98%9FX24Q%E6%98%BE%E7%A4%BA%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NFC是什么？</title>
-    <link href="https://blog.molipre.com/posts/cae3215.html"/>
-    <id>https://blog.molipre.com/posts/cae3215.html</id>
-    <published>2021-01-29T00:11:23.000Z</published>
-    <updated>2021-01-29T00:11:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>NFC</font>（Near Field Communication）中文名称：<font size=6>近场通讯 </font>，是一种短距离的高频无线通信技术，是在非接触式射频识别(RFID)技术的基础上，结合无线互连技术研发而成的。</strong></p><p>&emsp;&emsp;<strong>NFC中文名称中的“近场”是指临近电磁场的无线电波，即电磁波，遵循麦克斯韦方程，电磁波10个波长以内，电场和磁场是相互独立的，这时的电场没有多大意义，但磁场却可以用于短距离通讯，我们称之为近场通信。</strong></p><p>&emsp;&emsp;<strong>近场通信技术是由诺基亚（Nokia）、飞利浦（Philips）和索尼（Sony）共同制定的标准 ，在ISO 18092、ECMA 340和ETSI TS 102 190框架下推动标准化，同时也兼容应用广泛的ISO 14443 、Type-A、ISO 15693、B以及Felica标准非接触式智能卡 的基础架构。</strong></p><p>&emsp;&emsp;<strong>NFC作为一种短距高频的无线电技术，NFCIP-1标准规定NFC的通信距离为10厘米以内，运行频率13.56MHz，传输速度有106Kbit/s、212Kbit/s或者424Kbit/s三种。</strong></p><p><strong>NFC工作模式分两种：</strong></p><ol><li><strong>被动模式：NFC发起设备(也称为主设备)需要供电设备，主设备利用供电设备的能量来提供射频场，并将数据发送到NFC目标设备(也称作从设备)，传输速率需在106kbps、212kbps或424kbps中选择其中一种。</strong></li><li><strong>主动模式：NFC发起设备和目标设备在向对方发送数据时，都必须主动产生射频场，所以称为主动模式，它们都需要供电设备来提供产生射频场的能量。这种通信模式是对等网络通信的标准模式，可以获得非常快速的连接速率。</strong></li></ol><p><strong>NFC的应用：</strong></p><ol><li><strong>点对点通信模式：即多个具有NFC功能的数字相机、手机等设备之间可以利用NFC技术进行无线互联，实现虚拟名片或数字相片等数据交换。</strong></li><li><strong>读写器模式：即把NFC设备作为非接触读写器使用，例如开启NFC功能的手机可以读写支持NFC数据格式标准的标签。</strong></li><li><strong>卡模拟模式：即将具有NFC功能的设备模拟成一张标签或非接触卡，例如支持NFC的手机可以作为门禁卡、银行卡等而被读取。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;NFC&lt;/font&gt;（Near Field Communication）中文名称：&lt;font size=6&gt;近场通讯 &lt;/font&gt;，是一种短距离的高频无线通信技术，是在非接触式射频识别(RFID)技术的基础</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="NFC" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/NFC/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="NFC" scheme="https://blog.molipre.com/tags/NFC/"/>
     
   </entry>
   
