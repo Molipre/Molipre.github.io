@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.molipre.com/posts/b9e7f475.html</loc>
+    
+    <lastmod>2021-02-15</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/posts/1b7e03bc.html</loc>
     
     <lastmod>2021-02-14</lastmod>
@@ -683,14 +690,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/ICP/</loc>
+    <loc>https://blog.molipre.com/tags/ISP/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/ISP/</loc>
+    <loc>https://blog.molipre.com/tags/ICP/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -746,14 +753,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/IPv6/</loc>
+    <loc>https://blog.molipre.com/tags/UDP/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/UDP/</loc>
+    <loc>https://blog.molipre.com/tags/IPv6/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -845,6 +852,13 @@
   
   <url>
     <loc>https://blog.molipre.com/tags/RAM/</loc>
+    <lastmod>2021-02-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/tags/ROM/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1040,14 +1054,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/CDN/</loc>
+    <loc>https://blog.molipre.com/tags/valine/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/valine/</loc>
+    <loc>https://blog.molipre.com/tags/CDN/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1117,6 +1131,13 @@
   </url>
   
   <url>
+    <loc>https://blog.molipre.com/tags/VMware/</loc>
+    <lastmod>2021-02-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/tags/Samba/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
@@ -1125,13 +1146,6 @@
   
   <url>
     <loc>https://blog.molipre.com/tags/%E8%BF%90%E7%BB%B4/</loc>
-    <lastmod>2021-02-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.molipre.com/tags/VMware/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1182,7 +1196,7 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ISP/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ICP/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1231,7 +1245,7 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ICP/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ISP/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1259,14 +1273,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/IPv6/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/UDP/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/UDP/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/IPv6/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1358,6 +1372,13 @@
   
   <url>
     <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/RAM/</loc>
+    <lastmod>2021-02-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ROM/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1525,6 +1546,13 @@
   </url>
   
   <url>
+    <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/VMware/</loc>
+    <lastmod>2021-02-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/Hexo/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
@@ -1533,13 +1561,6 @@
   
   <url>
     <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/Samba/</loc>
-    <lastmod>2021-02-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/VMware/</loc>
     <lastmod>2021-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-14T03:39:06.000Z</updated>
+  <updated>2021-02-15T06:59:02.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ROM是什么？</title>
+    <link href="https://blog.molipre.com/posts/b9e7f475.html"/>
+    <id>https://blog.molipre.com/posts/b9e7f475.html</id>
+    <published>2021-02-15T06:59:02.000Z</published>
+    <updated>2021-02-15T06:59:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>ROM</font>（Read-Only Memory）中文名称：<font size=6>只读存储器 </font>，是只能读出无法写入信息的存储器，通常是装入整机前写入的，整机工作过程中只能读出，不像随机存储器能快速方便地改写存储内容。ROM所存数据稳定 ，断电后所存数据也不会改变，并且结构较简单，使用方便，因而常用于存储各种固定程序和数据。</strong></p><p>&emsp;&emsp;<strong>ROM从其制造工艺和功能上分为五种类型，分别是掩膜编程的只读存储器MROM</strong>（Mask-programmedROM）<strong>、可编程的只读存储器PROM</strong>（Programmable ROM）<strong>、可擦除可编程的只读存储器EPROM</strong>（Erasable Programmable ROM）<strong>、可电擦除可编程的只读存储器EEPROM</strong>（Elecrically Erasable Programmable ROM）<strong>和快擦除读写存储器</strong>（Flash Memory）<strong>。</strong></p><ol><li><strong>掩膜编程的只读存储器MROM：</strong>存储的信息由生产厂家在掩膜工艺过程中“写入”。在制造过程中，将资料以一特制光罩（Mask）烧录于线路中；</li><li><strong>可编程的只读存储器PROM：</strong>允许用户通过专用的设备（编程器）一次性写入自己所需要的信息，其一般可编程一次，PROM存储器出厂时各个存储单元皆为1，或皆为0，用户使用时，再使用编程的方法使PROM存储所需要的数据</li><li><strong>可擦除可编程的只读存储器EPROM：</strong>可多次编程，是一种以读为主的可写可读的存储器，用户根据需要来写入，并能把已写入的内容擦去后再改写的ROM，存储的信息可以由用户自行加电编写，也可以利用紫外线光源或脉冲电流等方法先将原存的信息擦除，然后用写入器重新写入新的信息；</li><li><strong>可电擦除可编程的只读存储器EEPROM：</strong>随时可写入而无须擦除原先内容的存储器，但写操作比读操作时间要长得多，修改时只需使用普通的控制、地址和数据总线，不过抹除的方式是使用高电场来完成；</li><li><strong>快擦除读写存储器：</strong>由英特尔发明的一种高密度、非易失性的读/写半导体存储器，使用电可擦技术，整个快闪存储器可以在一秒钟至几秒内被擦除，即擦除存储器中的某些块，而不是整块芯片。</li></ol><p>&emsp;&emsp;<strong>我们日常使用的U盘、TF卡、SD卡等移动存储器就是快擦除读写存储器，俗称“闪存”。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;ROM&lt;/font&gt;（Read-Only Memory）中文名称：&lt;font size=6&gt;只读存储器 &lt;/font&gt;，是只能读出无法写入信息的存储器，通常是装入整机前写入的，整机工作过程中只能读出，不像随机</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="ROM" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ROM/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="ROM" scheme="https://blog.molipre.com/tags/ROM/"/>
+    
+  </entry>
   
   <entry>
     <title>20210214</title>
@@ -533,34 +561,6 @@
     <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
     
     <category term="VMware" scheme="https://blog.molipre.com/tags/VMware/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TCP是什么？</title>
-    <link href="https://blog.molipre.com/posts/bc3f60c.html"/>
-    <id>https://blog.molipre.com/posts/bc3f60c.html</id>
-    <published>2021-02-02T00:21:24.000Z</published>
-    <updated>2021-02-02T00:21:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>TCP</font>（Transmission Control Protocol）中文名称：<font size=6>传输控制协议 </font>，是一种面向连接的、可靠的、基于字节流的传输层通信协议，是为了在不可靠的互联网络上提供可靠的端到端字节流而专门设计的一个传输协议。</strong></p><p><strong>TCP是一种面向广域网的通信协议，目的是在跨越多个网络通信时，为两个通信端点之间提供一条具有下列特点的通信方式：</strong></p><ol><li><strong>基于流的方式；</strong></li><li><strong>面向连接；</strong></li><li><strong>可靠通信方式；</strong></li><li><strong>在网络状况不佳的时候尽量降低系统由于重传带来的带宽开销；</strong></li><li><strong>通信连接维护是面向通信的两个端点的，而不考虑中间网段和节点。</strong></li></ol><p><strong>为满足TCP协议的这些特点，TCP协议做了如下的规定：</strong></p><ol><li><strong>数据分片：</strong>在发送端对用户数据进行分片，在接收端进行重组，由TCP确定分片的大小并控制分片和重组；</li><li><strong>到达确认：</strong>接收端接收到分片数据时，根据分片数据序号向发送端发送一个确认；</li><li><strong>超时重发：</strong>发送方在发送分片时启动超时定时器，如果在定时器超时之后没有收到相应的确认，重发分片；</li><li><strong>滑动窗口：</strong>TCP连接每一方的接收缓冲空间大小都固定，接收端只允许另一端发送接收端缓冲区所能接纳的数据，TCP在滑动窗口的基础上提供流量控制，防止较快主机致使较慢主机的缓冲区溢出；</li><li><strong>失序处理：</strong>作为IP数据报来传输的TCP分片到达时可能会失序，TCP将对收到的数据进行重新排序，将收到的数据以正确的顺序交给应用层；</li><li><strong>重复处理：</strong>作为IP数据报来传输的TCP分片会发生重复，TCP的接收端必须丢弃重复的数据；</li><li><strong>数据校验：</strong>TCP将保持它首部和数据的检验和，这是一个端到端的检验和，目的是检测数据在传输过程中的任何变化。如果收到分片的检验和有差错，TCP将丢弃这个分片，并不确认收到此报文段导致对端超时并重发。</li></ol><p><strong>TCP的工作方式如下：</strong></p><ol><li><p><strong>建立连接：</strong><br><strong>TCP是因特网中的传输层协议，使用三次握手协议建立连接。</strong><br><strong>1、客户端发送SYN（SEQ=x）报文给服务器端，进入SYN_SEND状态；</strong><br><strong>2、服务器端收到SYN报文，回应一个SYN （SEQ=y）ACK（ACK=x+1）报文，进入SYN_RECV状态；</strong><br><strong>3、客户端收到服务器端的SYN报文，回应一个ACK（ACK=y+1）报文，进入Established状态。</strong></p><p><img src="https://p.molipre.com/img/TCP.png" alt="三次握手"></p></li><li><p><strong>连接终止：</strong><br><strong>TCP终止连接需要经过四次握手，主要是由于TCP的半关闭（half-close）造成的。</strong><br><strong>1、某个应用进程首先调用close，称该端执行“主动关闭”（active close），该端的TCP于是发送一个FIN分节，表示数据发送完毕；</strong><br><strong>2、接收到这个FIN的对端执行 “被动关闭”（passive close），这个FIN由TCP确认；</strong><br><strong>3、一段时间后，接收到这个文件结束符的应用进程将调用close关闭它的套接字，这导致它的TCP也发送一个FIN；</strong><br><strong>4、接收这个最终FIN的原发送端TCP（即执行主动关闭的那一端）确认这个FIN。</strong></p><p><img src="https://p.molipre.com/img/TCP1.png" alt="四次握手"></p></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;TCP&lt;/font&gt;（Transmission Control Protocol）中文名称：&lt;font size=6&gt;传输控制协议 &lt;/font&gt;，是一种面向连接的、可靠的、基于字节流的传输层通信协议，是为了</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="TCP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/TCP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="TCP" scheme="https://blog.molipre.com/tags/TCP/"/>
     
   </entry>
   
