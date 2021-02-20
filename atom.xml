@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-19T06:38:24.000Z</updated>
+  <updated>2021-02-20T06:55:04.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SSH是什么？</title>
+    <link href="https://blog.molipre.com/posts/d09631bb.html"/>
+    <id>https://blog.molipre.com/posts/d09631bb.html</id>
+    <published>2021-02-20T06:55:04.000Z</published>
+    <updated>2021-02-20T06:55:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>SSH</font>（Secure Shell）中文名称：<font size=6>安全外壳协议 </font>，是建立在应用层基础上的安全协议，专为远程登录会话和其他网络服务提供安全性的协议，利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。</strong></p><p>&emsp;&emsp;<strong>传统的网络服务程序：ftp、pop和telnet等在网络上用明文传送口令和数据，因此非常容易截获这些口令和数据，主要是因为这些服务 程序的安全验证方式容易受到 <code>man-in-the-middle</code>（中间人）攻击，即冒充真正的服务器接收你传给服务器的数据，然后再冒充你把数据传给真正的服务器，而SSH可以把所有传输的数据进行加密，从而杜绝中间人攻击，同时也能防止DNS欺骗和IP欺骗。</strong></p><p>&emsp;&emsp;<strong>SSH传输的数据会进行加密和压缩，因此能够更加安全且快速的传输。</strong></p><p><strong>SSH是如何验证的？</strong></p><ol><li><strong>基于口令的安全验证：</strong>使用账号和口令登录远程主机，所有传输的数据都会被加密，但是不能保证你正在连接的服务器就是你想连接的服务器；</li><li><strong>基于密匙的安全验证：</strong>使用密钥登录远程主机，需要先为自己创建一对密钥，然后把公钥放在需要访问你的服务器上，当你通过SSH连接该服务器时，客户端软件就会向服务器发出请求，请求用你的密匙进行安全验证，服务器收到请求之后，先在该服务器上你的主目录下寻找你的公用密匙，然后把它和你发送过来的公用密匙进行比较，如果两个密匙一致，服务器就用公用密匙加密“质询”（challenge）并把它发送给客户端软件，客户端软件收到“质询”之后就可以用你的私人密匙解密再把它发送给服务器完成登录。</li></ol><p>&emsp;&emsp;<strong>通常我们都是使用第二种基于密匙的安全验证，不然使用基于口令的安全验证就和其他服务程序的安全验证方式一样，也容易受到<code> man-in-the-middle</code>（中间人）攻击,之前博客写到如何使用SSH登录服务器的教程有着详细的步骤，有兴趣的可以去搜索看看。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;SSH&lt;/font&gt;（Secure Shell）中文名称：&lt;font size=6&gt;安全外壳协议 &lt;/font&gt;，是建立在应用层基础上的安全协议，专为远程登录会话和其他网络服务提供安全性的协议，利用 SSH </summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="SSH" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/SSH/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="SSH" scheme="https://blog.molipre.com/tags/SSH/"/>
+    
+  </entry>
   
   <entry>
     <title>ARP是什么？</title>
@@ -539,34 +567,6 @@
     <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
     
     <category term="Linux的文件权限和目录配置" scheme="https://blog.molipre.com/tags/Linux%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E5%92%8C%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>FTP是什么？</title>
-    <link href="https://blog.molipre.com/posts/275ba27.html"/>
-    <id>https://blog.molipre.com/posts/275ba27.html</id>
-    <published>2021-02-06T02:12:05.000Z</published>
-    <updated>2021-02-06T02:12:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>FTP</font>（File Transfer Protocol）中文名称：<font size=6>文件传输协议 </font>，是用于在网络上进行文件传输的一套标准协议，它工作在 OSI 模型的第七层，使用 TCP 传输，客户在和服务器建立连接前要经过一个“三次握手”的过程，保证客户与服务器之间的连接是可靠的，而且是面向连接，为数据传输提供可靠保证。</strong></p><p>&emsp;&emsp;<strong>FTP允许用户以文件操作的方式（如文件的增、删、改、查、传送等）与另一主机相互通信，用户并不真正登录到自己想要存取的计算机上面而成为完全用户，而是用FTP程序访问远程资源，实现用户往返传输文件、目录管理以及访问电子邮件等等，即使双方计算机可能配有不同的操作系统和文件存储方式。</strong></p><p>&emsp;&emsp;<strong>FTP 是基于客户———服务器（C/S）模型而设计的，在客户端与 FTP 服务器之间建立两个连接，FTP 在两台通信的主机之间使用了两条 TCP 连接，一条是数据连接，用于数据传送；另一条是控制连接，用于传送控制信息（命令和响应）。</strong><br><img src="https://p.molipre.com/img/FTP.png" alt="FTP"></p><p><strong>FTP的账户分为三种，分别是Real、Guest、Anonymous，主要如下：</strong></p><ol><li><strong>Real帐户：</strong>指在FTP服务上拥有帐号，这类用户登录FTP服务器的时候，其默认的主目录就是其帐号命名的目录，不过Real帐户还可以变更到其他目录中去，例如系统的主目录等等。</li><li><strong>Guest用户：</strong>指的是给不同的部门或者某个特定的用户设置一个帐户，这类用户只能够访问自己的主目录，这种方式来保障FTP服务上其他文件的安全性，因为该类用户不得访问主目录以外的文件。</li><li><strong>Anonymous用户：</strong>指的是匿名访问的用户，没有指定账户，但是可以匿名访问某些公开的资源。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;FTP&lt;/font&gt;（File Transfer Protocol）中文名称：&lt;font size=6&gt;文件传输协议 &lt;/font&gt;，是用于在网络上进行文件传输的一套标准协议，它工作在 OSI 模型的第七层，</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="FTP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/FTP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="FTP" scheme="https://blog.molipre.com/tags/FTP/"/>
     
   </entry>
   
