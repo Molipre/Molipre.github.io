@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-16T07:48:45.000Z</updated>
+  <updated>2021-02-18T02:39:24.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RIP是什么？</title>
+    <link href="https://blog.molipre.com/posts/5e5fd972.html"/>
+    <id>https://blog.molipre.com/posts/5e5fd972.html</id>
+    <published>2021-02-17T02:39:24.000Z</published>
+    <updated>2021-02-18T02:39:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>RIP</font>（Routing Information Protocol）中文名称：<font size=6>路由信息协议 </font>，是基于距离矢量算法的路由协议，利用跳数来作为计量标准，在带宽、配置和管理方面要求较低，主要适合于规模较小的网络中。</strong></p><p>&emsp;&emsp;<strong>RIP有三个版本：<code>RIPv1</code> 、<code>RIPv2</code> 、<code>RIPng</code> ，前两者用于IPv4， RIPng用于IPv6。</strong></p><p><strong>RIP是如何工作的？</strong></p><ol><li><strong>路由建立：</strong>路由器运行RIP后，会首先发送路由更新请求，收到请求的路由器会发送自己的RIP路由进行响应；网络稳定后，路由器会周期性发送路由更新信息；</li><li><strong>距离矢量的计算：</strong>当一个RIP更新报文到达时，接收方路由器和自己的RIP路由表中的每一项进行比较，并按照距离矢量路由算法对自己的RIP路由表进行修正；</li><li><strong>定时器：</strong><br>1、周期更新定时器：用来激发RIP路由器路由表的更新，每个RIP节点只有一个更新定时器，设为30s。每隔30s路由器会向其邻居广播自己的路由表信息；<br>2、超时定时器：用来判定某条路由是否可用。每条路由有一个超时定时器，设为180s。当一条路由激活或更新时，该定时器初始化，如果在180s之内没有收到关于那条路由的更新，则将该路由置为无效；<br>3、清除定时器：用来判定是否清除一条路由。每条路由有一个清除定时器，设为120s。当路由器认识到某条路由无效时，就初始化一个清除定时器，如果在120s内还没收到这条路由的更新，就从路由表中将该路由删除；<br>4、延迟定时器：为避免触发更新引起广播风暴而设置的一个随机的延迟定时器，延迟时间为1～5s。</li><li><strong>环路：</strong>当网络发生故障时，RIP网络有可能产生路由环路。可以通过水平分割、毒性反转、触发更新、抑制时间等技术来避免环路的产生。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;RIP&lt;/font&gt;（Routing Information Protocol）中文名称：&lt;font size=6&gt;路由信息协议 &lt;/font&gt;，是基于距离矢量算法的路由协议，利用跳数来作为计量标准，在带宽、</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="RIP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/RIP/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="RIP" scheme="https://blog.molipre.com/tags/RIP/"/>
+    
+  </entry>
   
   <entry>
     <title>AirPods Pro入手体验</title>
@@ -536,34 +564,6 @@
     <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
     
     <category term="Linux文件系统" scheme="https://blog.molipre.com/tags/Linux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SMTP是什么？</title>
-    <link href="https://blog.molipre.com/posts/e5cd9720.html"/>
-    <id>https://blog.molipre.com/posts/e5cd9720.html</id>
-    <published>2021-02-04T00:22:16.000Z</published>
-    <updated>2021-02-04T00:22:16.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>SMTP</font>（Simple Mail Transfer Protocol）中文名称：<font size=6>简单邮件传输协议 </font>，是一种提供可靠且有效的电子邮件传输的协议，SMTP是建立在FTP文件传输服务上的一种邮件服务，主要用于系统之间的邮件信息传递，并提供有关来信的通知。</strong></p><p>&emsp;&emsp;<strong>SMTP是一组用于从源地址到目的地址传送邮件的规则，并且控制信件的中转方式，属于TCP/IP协议族帮助每台计算机在发送或中转信件时找到下一个目的地。</strong></p><p>&emsp;&emsp;<strong>SMTP重要的特性之一是它能跨越网络传输邮件，即“SMTP邮件中继”，可实现相同网络上处理机之间的邮件传输，也可以通过中继器或网关实现某处理机与其它网络之间的邮件传输。</strong></p><p><strong>SMTP的工作过程如下：</strong></p><ol><li><strong>建立连接：</strong>在这一阶段，SMTP客户请求与服务器的25端口建立一个TCP连接。一旦连接建立，SMTP服务器和客户就开始相互通告自己的域名，同时确认对方的域名。</li><li><strong>邮件传送：</strong>利用命令，SMTP客户将邮件的源地址、目的地址和邮件的具体内容传递给SMTP服务器，SMTP服务器进行相应的响应并接收邮件。</li><li><strong>连接释放：</strong>SMTP客户发出退出命令，服务器在处理命令后进行响应，随后关闭TCP连接。</li></ol><p><img src="https://p.molipre.com/img/SMTP.png" alt="SMTP"></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;SMTP&lt;/font&gt;（Simple Mail Transfer Protocol）中文名称：&lt;font size=6&gt;简单邮件传输协议 &lt;/font&gt;，是一种提供可靠且有效的电子邮件传输的协议，SMTP是建</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="SMTP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/SMTP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="SMTP" scheme="https://blog.molipre.com/tags/SMTP/"/>
     
   </entry>
   
