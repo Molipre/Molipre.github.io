@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-18T02:55:22.000Z</updated>
+  <updated>2021-02-19T06:38:24.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ARP是什么？</title>
+    <link href="https://blog.molipre.com/posts/499f6001.html"/>
+    <id>https://blog.molipre.com/posts/499f6001.html</id>
+    <published>2021-02-19T06:38:24.000Z</published>
+    <updated>2021-02-19T06:38:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>ARP</font>（Address Resolution Protocol）中文名称：<font size=6>地址解析协议 </font>，是根据IP地址获取物理地址的一个TCP/IP协议，主机发送信息时将包含目标IP地址的ARP请求广播到局域网络上的所有主机，并接收返回消息，以此确定目标的物理地址；收到返回消息后将该IP地址和物理地址存入本机ARP缓存中并保留一定时间，下次请求时直接查询ARP缓存以节约资源。</strong></p><p><strong>ARP是如何工作的？</strong><br>（以主机A的IP地址为 <code>192.168.1.1</code> ，MAC地址为 <code>0A-11-22-33-44-01</code> 和主机B的IP地址为 <code>192.168.1.2</code> ，MAC地址为 <code>0A-11-22-33-44-02</code> 为例，当主机A要与主机B通信时，地址解析协议可以将主机B的IP地址（192.168.1.2）解析成主机B的MAC地址，以下为工作流程：）</p><ol><li><strong>根据主机A上的路由表内容，IP确定用于访问主机B的转发IP地址是192.168.1.2。然后A主机在自己的本地ARP缓存中检查主机B的匹配MAC地址；</strong></li><li><strong>如果主机A在ARP缓存中没有找到映射，它将询问192.168.1.2的硬件地址，从而将ARP请求帧广播到本地网络上的所有主机。源主机A的IP地址和MAC地址都包括在ARP请求中。本地网络上的每台主机都接收到ARP请求并且检查是否与自己的IP地址匹配。如果主机发现请求的IP地址与自己的IP地址不匹配，它将丢弃ARP请求；</strong></li><li><strong>主机B确定ARP请求中的IP地址与自己的IP地址匹配，则将主机A的IP地址和MAC地址映射添加到本地ARP缓存中；</strong></li><li><strong>主机B将包含其MAC地址的ARP回复消息直接发送回主机A；</strong></li><li><strong>当主机A收到从主机B发来的ARP回复消息时，会用主机B的IP和MAC地址映射更新ARP缓存。本机缓存是有生存期的，生存期结束后，将再次重复上面的过程。主机B的MAC地址一旦确定，主机A就能向主机B发送IP通信了。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;ARP&lt;/font&gt;（Address Resolution Protocol）中文名称：&lt;font size=6&gt;地址解析协议 &lt;/font&gt;，是根据IP地址获取物理地址的一个TCP/IP协议，主机发送信息时</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="ARP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ARP/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="ARP" scheme="https://blog.molipre.com/tags/ARP/"/>
+    
+  </entry>
   
   <entry>
     <title>ICMP是什么？</title>
@@ -539,34 +567,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="FTP" scheme="https://blog.molipre.com/tags/FTP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PPTP是什么？</title>
-    <link href="https://blog.molipre.com/posts/92caa7b6.html"/>
-    <id>https://blog.molipre.com/posts/92caa7b6.html</id>
-    <published>2021-02-05T02:09:47.000Z</published>
-    <updated>2021-02-05T02:09:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>PPTP</font>（Point-to-Point Tunneling Protocol）中文名称：<font size=6>点对点隧道协议 </font>，是一种支持多协议虚拟专用网络的网络技术，PPTP使用传输控制协议（TCP）创建控制通道来发送控制命令，以及利用通用路由封装（GRE）通道来封装点对点协议（PPP）数据包以发送数据。</strong></p><p>&emsp;&emsp;<strong>PPTP是由微软、Ascend Communications、3Com等厂商联合形成的产业联盟开发，并不是IETF建议的标准，因此在内置在Windows系统中，在微软点对点协议（PPP）协议堆栈中，提供了各种标准的身份验证与加密机制来支持PPTP。</strong></p><p>&emsp;&emsp;<strong>在Windows系统中，它可以搭配PAP、CHAP、MS-CHAPv1/v2或EAP-TLS来进行身份验证，通常也可以搭配微软点对点加密（MPPE）或IPSec的加密机制来提高安全性，当然，在Windows之外，Mac OS平台、Linux、FreeBSD等平台也提供开放源代码的版本。</strong></p><p>&emsp;&emsp;<strong>Windows系统中设置比较简单，以 <code>win10</code> 为例，打开 <code>设置</code> ，进入 <code>网络和Internet</code> ，找到 <code>VPN</code> ，点击 <code>添加VPN连接</code> ，输入相关信息，确认即可完成。</strong></p><p><img src="https://p.molipre.com/img/PPTP.png" alt="VPN设置"></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;PPTP&lt;/font&gt;（Point-to-Point Tunneling Protocol）中文名称：&lt;font size=6&gt;点对点隧道协议 &lt;/font&gt;，是一种支持多协议虚拟专用网络的网络技术，PPTP</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="PPTP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/PPTP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="PPTP" scheme="https://blog.molipre.com/tags/PPTP/"/>
     
   </entry>
   
