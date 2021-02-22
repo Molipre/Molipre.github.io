@@ -128,6 +128,37 @@
   </entry>
   
   <entry>
+    <title>开工大吉</title>
+    <link href="https://blog.molipre.com/posts/ad0d5881.html"/>
+    <id>https://blog.molipre.com/posts/ad0d5881.html</id>
+    <published>2021-02-18T06:29:29.000Z</published>
+    <updated>2021-02-18T06:29:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/goodluck.jpg"></p><center><p><strong>2021年2月18日星期四</strong></p><p><strong>正式开始上班</strong></p><p><strong>起床时很迷糊</strong></p><p><strong>来到公司时很慵懒</strong></p><p><strong>抢开工红包时很喜悦</strong></p><p><strong>开始干活时很抗拒</strong></p><p><strong>迷迷糊糊又过了一天</strong></p><p><strong>一切正常且安好</strong></p><p><strong>继续加油吧！</strong></p></center><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://p.molipre.com/img/goodluck.jpg&quot;&gt;&lt;/p&gt;
+&lt;center&gt;
+
+&lt;p&gt;&lt;strong&gt;2021年2月18日星期四&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;正式开始上班&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="随笔" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://blog.molipre.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ICMP是什么？</title>
     <link href="https://blog.molipre.com/posts/3e985097.html"/>
     <id>https://blog.molipre.com/posts/3e985097.html</id>
@@ -541,34 +572,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="ACL" scheme="https://blog.molipre.com/tags/ACL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NAT是什么？</title>
-    <link href="https://blog.molipre.com/posts/278361d6.html"/>
-    <id>https://blog.molipre.com/posts/278361d6.html</id>
-    <published>2021-02-08T07:37:12.000Z</published>
-    <updated>2021-02-08T07:37:12.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>NAT</font>（Network Address Translation）中文名称：<font size=6>网络地址转换 </font>，是一种在 IP 数据包通过路由器或防火墙时重写来源 IP 地址或目的 IP 地址的技术，是一种路由器功能，主要用于实现位于内部网络的主机访问外部网络的功能。</strong></p><p><strong>NAT的实现方式有三种，即静态转换、动态转换和端口多路复用。</strong></p><ol><li><strong>静态转换（Static Nat）：</strong>指将内部网络的私有IP地址转换为公有IP地址，IP地址对是一对一的，是一成不变的，某个私有IP地址只转换为某个公有IP地址。</li><li><strong>动态转换（Dynamic Nat）：</strong>指将内部网络的私有IP地址转换为公用IP地址时，IP地址是不确定的，是随机的，所有被授权访问上Internet的私有IP地址可随机转换为任何指定的合法IP地址。</li><li><strong>端口多路复用（Port address Translation）：</strong>指改变外出数据包的源端口并进行端口转换，内部网络的所有主机均可共享一个合法外部IP地址实现对Internet的访问，从而可以最大限度地节约IP地址资源。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;NAT&lt;/font&gt;（Network Address Translation）中文名称：&lt;font size=6&gt;网络地址转换 &lt;/font&gt;，是一种在 IP 数据包通过路由器或防火墙时重写来源 IP 地址或</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="NAT" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/NAT/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="NAT" scheme="https://blog.molipre.com/tags/NAT/"/>
     
   </entry>
   
