@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-20T06:55:04.000Z</updated>
+  <updated>2021-02-22T01:55:50.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RAID是什么？</title>
+    <link href="https://blog.molipre.com/posts/a791012d.html"/>
+    <id>https://blog.molipre.com/posts/a791012d.html</id>
+    <published>2021-02-22T01:55:50.000Z</published>
+    <updated>2021-02-22T01:55:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>RAID</font>（Redundant Arrays of Independent Disks）中文名称：<font size=6>独立冗余磁盘阵列 </font>，但我们通常都是指磁盘阵列，即包括没有冗余能力的磁盘阵列，例如 <code>RAID 0</code>。</strong></p><p>&emsp;&emsp;<strong>磁盘阵列是由很多块独立的磁盘，组合成一个容量巨大的磁盘组，利用个别磁盘提供数据所产生加成效果提升整个磁盘系统效能，即将数据切割成许多区段，分别存放在各个硬盘上。</strong></p><p><strong>目前的RAID技术主要有以下三个基本功能：</strong></p><ol><li><strong>通过对磁盘上的数据进行条带化，实现对数据成块存取，减少磁盘的机械寻道时间，提高了数据存取速度；</strong></li><li><strong>通过对一个阵列中的几块磁盘同时读取，减少了磁盘的机械寻道时间，提高数据存取速度；</strong></li><li><strong>通过镜像或者存储奇偶校验信息的方式，实现了对数据的冗余保护。</strong></li></ol><p><strong>RAID的标准等级划分：</strong></p><ol><li><p><strong>RAID 0：</strong>最简单的、没有数据检验的数据条带化技术，虽然名为RAID 0，但是不提供冗余，因此并不是真正意义上的RAID。<br>RAID 0将所在磁盘条带化后组成大容量的存储空间，将数据分散存储在所有磁盘中，以独立访问方式实现多块磁盘的并读访问，且因为可以并发执行 I/O 操作，总线带宽得到充分利用，再加上不需要进行数据校验，RAID 0的性能在所有RAID等级中是最高的，理论上讲，由n块磁盘组成的RAID 0，它的读写性能是单个磁盘性能的n倍。<br>RAID 0最少需要两块硬盘。</p><p><img src="https://p.molipre.com/img/RAID0.png" alt="RAID 0"></p></li><li><p><strong>RAID 1：</strong>可以称为镜像的阵列，会将数据完全一致地分别写到工作磁盘和镜像磁盘，因此磁盘空间利用率是50%，不过RAID 1虽然有冗余能力，但是不对数据校验。<br>RAID 1是为了增强数据安全性使两块磁盘数据呈现完全镜像，一旦工作磁盘发生故障，系统自动从镜像磁盘读取数据，不会影响用户工作，为实现有完全容错的能力，RAID 1需要较高的实现成本。<br>RAID 1最少需要两块硬盘。</p><p><img src="https://p.molipre.com/img/RAID1.png" alt="RAID 1"></p></li><li><p><strong>RAID 2：</strong>纠错海明码磁盘阵列，通过利用海明码实现数据校验冗余。<br>海明码是一种在原始数据中加入若干校验码来进行错误检测和纠正的编码技术，其中第 2n 位（ 1, 2, 4, 8, … ）是校验码，其他位置是数据码,因此在 RAID2 中，数据按位存储，每块磁盘存储一位数据编码，磁盘数量取决于所设定的数据存储宽度，可由用户设定。<br>海明码自身具备纠错能力，因此 RAID2 可以在数据发生错误的情况下对纠正错误，保证数据的安全性。<br>例如下图中数据宽度为4的RAID 2，需要4块数据磁盘和3块校验磁盘共7块磁盘，即0/3/5/6为数据磁盘，1/2/4为校验磁盘，如果是 64 位数据宽度，则需要 64 块 数据磁盘和 7 块校验磁盘。<br>目前因为RAID 2数据冗余开销太大且数据重建非常耗时，所以在实际中很少应用，没有形成商业产品，目前主流存储磁盘阵列均不提供RAID2支持。<br>RAID 2最少需要两块硬盘。</p><p><img src="https://p.molipre.com/img/RAID2-1.jpg" alt="RAID 2"></p></li><li><p><strong>RAID 3：</strong>使用专用校验盘的并行访问阵列，采用一个专用的磁盘作为校验盘，其余磁盘作为数据盘，数据按位可字节的方式交叉存储到各个数据盘中。<br>RAID 3至少需要三块磁盘，不同磁盘上同一带区的数据作XOR校验，校验值写入校验盘中，RAID 3完好时读性能与RAID 0完全一致，并行从多个磁盘条带读取数据，性能非常高，同时还提供了数据容错能力。<br>RAID 3中某一磁盘出现故障，不会影响数据读取，可以借助校验数据和其他完好数据来重建数据，如果所要读取的数据块正好位于失效磁盘，则系统需要读取所有同一条带的数据块，并根据校验值重建丢失的数据，系统性能将受到影响，且更换故障磁盘后，系统按相同的方式重建故障盘中的数据至新磁盘。<br>RAID3 只需要一个校验盘，阵列的存储空间利用率高，再加上并行访问的特征，能够为高带宽的大量读写提供高性能，适用大容量数据的顺序访问应用，如影像处理、流媒体服务等，但现在RAID 5不断发展，在大数据量读取时能够模拟RAID 3，而RAID 3出现坏盘时性能会大幅下降，因此RAID 3已经很少被使用，大多数使用RAID 5。<br>RAID 3最少需要三块硬盘。</p><p><img src="https://p.molipre.com/img/RAID3.png" alt="RAID 3"></p></li><li><p><strong>RAID 4：</strong>与RAID 3原理大致相同，但是不同的是RAID 4按照块的方式来组织数据，写操作只涉及当前数据盘和校验盘两个盘，因此能够同时处理多个多个 I/O 请求。<br>RAID 4在不同磁盘上的同级数据块同样使用XOR校验，结果存储在校验盘中。写入数据时，RAID 4按这种方式把各磁盘上的同级数据的校验值写入校验盘，读取时进行即时校验，所以RAID 4中某块磁盘的数据块损坏， RAID 4可以通过校验值以及其他磁盘上的同级数据块进行数据重建。<br>RAID 4有这非常好的读性能，但是因为只有一个校验盘，在写入数据时同时需要写入校验数据，因此只能一个磁盘一个磁盘地写，写性能较差，当数据磁盘也来越多时，校验磁盘将会造成瓶颈和限制，因此目前主流的存储很少用RAID 4。<br>RAID 3最少需要三块硬盘。</p><p><img src="https://p.molipre.com/img/RAID4.png" alt="RAID 4"></p></li><li><p><strong>RAID 5：</strong>目前最常见的存储阵列，原理与RAID 4相似，区别在于校验数据分布在阵列中的所有磁盘上，而没有采用专门的校验磁盘。<br>RAID 5对于数据和校验数据的写操作可以同时发生在完全不同的磁盘上，因此不存在RAID 4中的并发写操作时的校验盘性能瓶颈。<br>RAID 5的磁盘上同时存储数据和校验数据，数据块和对应的校验信息存保存在不同的磁盘上，当一个数据盘损坏时，系统可以根据同一条带的其他数据块和对应的校验数据来重建损坏的数据，不过与其他RAID等级一样，重建数据时，RAID 5的性能会受到较大的影响。<br>RAID 5可以看做RAID 0和RAID 1的折中方案，在保证数据安全的同时能够最大限度利用存储空间以及性能，目前大部分的数据中心的存储方案是使用RAID 5。<br>RAID 5最少需要三块硬盘。</p><p><img src="https://p.molipre.com/img/RAID5.png" alt="RAID 5"></p></li><li><p><strong>RAID 6：</strong>可以看做是RAID 5的扩展，引入双重校验的概念，可以保护阵列中同时出现两个磁盘失效时，阵列仍能够继续工作，不会发生数据丢失。<br>RAID 6支持数据的恢复，也支持校验数据的恢复，最常见的方法是采用两个独立的校验算法，校验数据可以分别存储在两个不同的校验盘上，或者分散存储在所有成员磁盘中。当两个磁盘同时失效时，即可通过求解两元方程来重建两个磁盘上的数据。<br>RAID 6具有快速的读取性能、更高的容错能力，不过其搭建成本要远高于RAID 5，写性能也较差，且设计和实施非常复杂，目前较少被应用。<br>RAID 6最少需要四块硬盘。</p><p><img src="https://p.molipre.com/img/RAID6.png" alt="RAID 6"></p></li></ol><p><strong>目前RAID技术的实现主要分为 <code>软RAID</code> 和 <code>硬RAID</code> ：</strong></p><ol><li><strong>软件RAID：</strong>使用基于主机的软件提供RAID 功能，是在操作系统级上实现的，成本较低；</li><li><strong>硬件RAID：</strong>基于主机的硬件RAID和基于阵列的硬件RAID，成本较高，常用的硬件RAID是基于阵列的硬件RAID，即使用外部硬件RAID控制器，它充当主机与磁盘之间的接口，将存储卷呈现给主机，主机将这些卷作为物理驱动器进行管理。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;RAID&lt;/font&gt;（Redundant Arrays of Independent Disks）中文名称：&lt;font size=6&gt;独立冗余磁盘阵列 &lt;/font&gt;，但我们通常都是指磁盘阵列，即包括没有冗</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="RAID" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/RAID/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="RAID" scheme="https://blog.molipre.com/tags/RAID/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20210221</title>
+    <link href="https://blog.molipre.com/posts/7bb98a59.html"/>
+    <id>https://blog.molipre.com/posts/7bb98a59.html</id>
+    <published>2021-02-21T15:34:10.000Z</published>
+    <updated>2021-02-02T15:34:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年02月21日 星期天  天气 晴 平均温度 17°</strong></big></p><p>&emsp;&emsp;<strong>这是新年假期结束去上班后的第一个假期，虽然有一些人今天是要补班的，但是他们相应地也延长了一天春节假期，普普通通的一天，主要是平复了一下假期带来的躁动，以及对新的一年工作和学习的安排。</strong></p><p>&emsp;&emsp;<strong>然后新买的 <code>Apple Watch Nike SE</code> 在星期六送到货，星期天体验了一天，符合我的预期，特别是运动方面，测试了一下户外跑步（我平常的主要运动），挺准确，而且也很方便，等我用上几周时间，应该会写一篇体验博文。</strong></p><p><img src="https://p.molipre.com/img/20210221-1.jpg" alt="Apple Watch Nike SE"><br>&emsp;&emsp;<strong>星期六的时候了解了一下 <code>Termux</code> ，然后去<a href="https://www.sqlsec.com/">国光的博客</a>简单地学习了一下，目前已经把闲置的平板电脑 <code>小米平板4 PLUS</code> 利用上了，能够简单地在平板上撰写和更新博客，也能够用平板电脑去SSH连接我的各个服务器，总体来说还是很好的一个软件。</strong></p><p><img src="https://p.molipre.com/img/20210221.png" alt="Termux"><br><img src="https://p.molipre.com/img/20210221-2.jpg" alt="Termux"></p><p>&emsp;&emsp;<strong>周末基本都是自己做饭，这次是 <code>青椒炒蛋</code> 和 <code>耗油西蓝花</code> ，以及爸妈在家那边买的干货 - <code>干鱿鱼</code> ，就这样简简单单一顿晚饭就做好了，这个鱿鱼本身带有咸味，洗干净，切成几段丢在煮饭煮到一半的电饭煲里蒸熟就好了，非常好吃！</strong></p><p><img src="https://p.molipre.com/img/20210221.jpg" alt="晚饭"></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年02月21日 星期天  天气 晴 平均温度 17°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;这是新年假期结束去上班后的第一个假期，虽然有一些人今天是要补班的，但是他们相应</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>SSH是什么？</title>
@@ -514,59 +569,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="NAT" scheme="https://blog.molipre.com/tags/NAT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>OSPF是什么？</title>
-    <link href="https://blog.molipre.com/posts/75728ab1.html"/>
-    <id>https://blog.molipre.com/posts/75728ab1.html</id>
-    <published>2021-02-07T06:15:08.000Z</published>
-    <updated>2021-02-07T06:15:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>OSPF</font>（Open Shortest Path First）中文名称：<font size=6>开放最短路径优先 </font>，是一个内部网关协议(Interior Gateway Protocol，IGP），用于在单一自治系统（autonomous system,AS）内决策路由，是对链路状态路由协议的一种实现。</strong></p><p>&emsp;&emsp;<strong>OSPF的简单说就是两个相邻的路由器通过发报文的形式成为邻居关系，邻居再相互发送链路状态信息形成邻接关系，之后各自根据最短路径算法算出路由，整个过程使用了五种报文、三个阶段、四张表。</strong></p><p><strong>五种报文：</strong></p><ol><li><strong>Hello报文：</strong>建立并维护邻居关系；</li><li><strong>DBD报文：</strong>发送链路状态头部信息；</li><li><strong>LSR报文：</strong>把从DBD中找出需要的链路状态头部信息传给邻居，请求完整信息；</li><li><strong>LSU报文：</strong>将LSR请求的头部信息对应的完整信息发给邻居；；</li><li><strong>LSACK：</strong>收到LSU报文后确认该报文。</li></ol><p><strong>三个阶段：</strong></p><ol><li><strong>邻居发现：</strong>通过发送Hello报文形成邻居关系；</li><li><strong>路由通告：</strong>邻居间发送链路状态信息形成邻接关系；</li><li><strong>路由计算：</strong>根据最短路径算法算出路由表。</li></ol><p><strong>四张表：</strong></p><ol><li><strong>邻居表：</strong>主要记录形成邻居关系路由器；</li><li><strong>链路状态数据库：</strong>记录链路状态信息；</li><li><strong>OSPF路由表：</strong>通过链路状态数据库得出；</li><li><strong>全局路由表：</strong>OSPF路由与其他比较得出。</li></ol><p><strong>工作过程：</strong></p><ol><li><strong>了解自身链路：</strong>每台路由器了解其自身的链路，即与其直连的网络；</li><li><strong>寻找邻居：</strong>找网络中可与自己交换链路状态信息的周边路由器；</li><li><strong>创建链路状态数据包：</strong>建立邻居关系后开始创建链路状态数据包；</li><li><strong>链路状态信息传递：</strong>将描述链路状态的LSA泛洪到邻居，形成包含网络完整链路状态信息的链路状态数据库；</li><li><strong>计算路由：</strong>路由区域内的每台路由器都可以使用SPF算法来独立计算路由。</li></ol><p><strong>优点：</strong></p><ol><li><strong>适合在大范围的网络</strong></li><li><strong>组播触发式更新</strong></li><li><strong>收敛速度快</strong></li><li><strong>以开销作为度量值</strong></li><li><strong>避免路由环路</strong></li><li><strong>应用广泛</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;OSPF&lt;/font&gt;（Open Shortest Path First）中文名称：&lt;font size=6&gt;开放最短路径优先 &lt;/font&gt;，是一个内部网关协议(Interior Gateway Proto</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="OSPF" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/OSPF/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="OSPF" scheme="https://blog.molipre.com/tags/OSPF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>003、Linux学习之Linux的文件权限和目录配置</title>
-    <link href="https://blog.molipre.com/posts/a7e04f82.html"/>
-    <id>https://blog.molipre.com/posts/a7e04f82.html</id>
-    <published>2021-02-06T02:54:51.000Z</published>
-    <updated>2021-02-06T02:54:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">Linux优秀的地方之一就是多人多任务环境，因此Linux中每个目录和文件给予每个用户的什么权限就很重要，什么文件或目录给什么人读、写或者执行，都需要一一划分好。</summary>
-    
-    
-    
-    <category term="学习" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="Linux的文件权限和目录配置" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/Linux%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E5%92%8C%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/"/>
-    
-    
-    <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
-    
-    <category term="Linux的文件权限和目录配置" scheme="https://blog.molipre.com/tags/Linux%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E5%92%8C%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
