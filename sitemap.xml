@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.molipre.com/posts/779f4518.html</loc>
+    
+    <lastmod>2021-02-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/posts/a791012d.html</loc>
     
     <lastmod>2021-02-22</lastmod>
@@ -893,14 +900,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/PDF/</loc>
+    <loc>https://blog.molipre.com/tags/IGP/</loc>
     <lastmod>2021-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/tags/IGP/</loc>
+    <loc>https://blog.molipre.com/tags/PDF/</loc>
     <lastmod>2021-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1271,6 +1278,20 @@
   </url>
   
   <url>
+    <loc>https://blog.molipre.com/tags/win10/</loc>
+    <lastmod>2021-02-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/tags/%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%810x80004005/</loc>
+    <lastmod>2021-02-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/tags/%E6%97%85%E6%B8%B8/</loc>
     <lastmod>2021-02-22</lastmod>
     <changefreq>daily</changefreq>
@@ -1462,14 +1483,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/PDF/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/IGP/</loc>
     <lastmod>2021-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/IGP/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/PDF/</loc>
     <lastmod>2021-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1707,13 +1728,6 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/Samba/</loc>
-    <lastmod>2021-02-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/Hexo/</loc>
     <lastmod>2021-02-22</lastmod>
     <changefreq>daily</changefreq>
@@ -1721,7 +1735,21 @@
   </url>
   
   <url>
+    <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/Samba/</loc>
+    <lastmod>2021-02-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/SSH/</loc>
+    <lastmod>2021-02-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/win10/</loc>
     <lastmod>2021-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-22T01:55:50.000Z</updated>
+  <updated>2021-02-22T09:09:33.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于Win10上错误代码0x80004005的解决方法</title>
+    <link href="https://blog.molipre.com/posts/779f4518.html"/>
+    <id>https://blog.molipre.com/posts/779f4518.html</id>
+    <published>2021-02-22T09:09:33.000Z</published>
+    <updated>2021-02-22T09:09:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>今天使用Win10系统登录共享文件夹时，出现了如下提示：</strong></p><p><img src="https://p.molipre.com/img/errorcode-1.png" alt="错误代码"></p><p><strong>因为我是通过下图的方式输入IP访问的</strong></p><p><img src="https://p.molipre.com/img/errorcode-2.png" alt="错误代码"></p><p><strong>解决办法：</strong></p><ol><li><p><strong>打开 <code>此电脑</code>-<code>右键</code>-<code>管理</code>-<code>服务和应用程序</code>-<code>服务</code>，找到 <code>TCP/IP NetBIOS Helper</code>，查看是否已经启动，如果未启动，点击 <code>启动</code> ，完成后即可通过IP成功访问共享文件夹。</strong></p><p><img src="https://p.molipre.com/img/errorcode-3.png" alt="TCP/IP NetBIOS Helper"></p></li><li><p><strong>上述办法找到 <code>TCP/IP NetBIOS Helper</code> 后，发现服务已经启动，请按照以下步骤操作：</strong><br><strong>1、<code>win + r</code> 然后输入IP，出现图2的提示。</strong></p><p><img src="https://p.molipre.com/img/errorcode-4.png" alt="win + r"><br><img src="https://p.molipre.com/img/errorcode-5.png" alt="提示"><br><strong>2、打开 <code>控制面板</code>-<code>程序</code>-<code>启用或关闭Windows功能</code> ，出现下图弹窗，找到图2所示内容然后勾选，点击确认，等待组件安装完成，重启电脑，然后再次输入IP即可访问共享文件夹。</strong></p><p><img src="https://p.molipre.com/img/errorcode-6.png" alt="启用或关闭Windows功能"><br><img src="https://p.molipre.com/img/errorcode-7.png" alt="SMB组件"></p></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">今天使用Win10系统登录共享文件夹时无法进入，错误代码是0x80004005，因此查询一番后整理了相关的解决办法。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="win10" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/win10/"/>
+    
+    
+    <category term="win10" scheme="https://blog.molipre.com/tags/win10/"/>
+    
+    <category term="错误代码0x80004005" scheme="https://blog.molipre.com/tags/%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%810x80004005/"/>
+    
+  </entry>
   
   <entry>
     <title>RAID是什么？</title>
@@ -544,34 +569,6 @@
     
     
     <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ACL是什么？</title>
-    <link href="https://blog.molipre.com/posts/50845140.html"/>
-    <id>https://blog.molipre.com/posts/50845140.html</id>
-    <published>2021-02-09T03:39:03.000Z</published>
-    <updated>2021-02-09T03:39:03.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>ACL</font>（Access Control Lists）中文名称：<font size=6>访问控制列表 </font>，是一种基于包过滤的访问控制技术，它可以根据设定的条件对接口上的数据包进行过滤，允许其通过或丢弃，访问控制列表被广泛地应用于路由器和三层交换机，借助于访问控制列表，可以有效地控制用户对网络的访问，从而最大程度地保障网络安全。</strong></p><p><strong>ACL是如何工作的？</strong></p><ol><li><strong>当一个数据报进入一个端口，路由器检查这个数据报是否可路由，如果是可以路由的，路由器检查这个端口是否有ACL控制进入数据报，如果有，根据ACL中的条件指令，检查这个数据报，如果数据报是被允许的，就查询路由表，决定数据报的目标端口；</strong></li><li><strong>路由器检查目标端口是否存在ACL控制流出的数据报，若不存在，这个数据报就直接发送到目标端口，若存在，就再根据ACL进行取舍。然后在转发到目的端口。</strong></li></ol><p><strong>ACL可分为以下几种：</strong></p><ol><li><strong>标准IP访问列表：</strong>一个标准IP访问控制列表匹配IP包中的源地址或源地址中的一部分，可对匹配的包采取拒绝或允许两个操作。编号范围是从1到99的访问控制列表是标准IP访问控制列表。</li><li><strong>扩展IP访问：</strong>扩展IP访问控制列表比标准IP访问控制列表具有更多的匹配项，包括协议类型、源地址、目的地址、源端口、目的端口、建立连接的和IP优先级等。编号范围是从100到199的访问控制列表是扩展IP访问控制列表。</li><li><strong>命名的IP访问：</strong>所谓命名的IP访问控制列表是以列表名代替列表编号来定义IP访问控制列表，同样包括标准和扩展两种列表，定义过滤的语句与编号方式中相似。</li><li><strong>标准IPX访问：</strong>标准IPX访问控制列表的编号范围是800-899，它检查IPX源网络号和目的网络号，同样可以检查源地址和目的地址的节点号部分。</li><li><strong>扩展IPX访问：</strong>扩展IPX访问控制列表在标准IPX访问控制列表的基础上，增加了对IPX报头中以下几个字段的检查，它们是协议类型、源Socket、目标Socket。扩展IPX访问控制列表的编号范围是900-999。</li><li><strong>命名的IPX访问：</strong>与命名的IP访问控制列表一样，命名的IPX访问控制列表是使用列表名取代列表编号。从而方便定义和引用列表，同样有标准和扩展之分。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;ACL&lt;/font&gt;（Access Control Lists）中文名称：&lt;font size=6&gt;访问控制列表 &lt;/font&gt;，是一种基于包过滤的访问控制技术，它可以根据设定的条件对接口上的数据包进行过滤，</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ACL" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ACL/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ACL" scheme="https://blog.molipre.com/tags/ACL/"/>
     
   </entry>
   
