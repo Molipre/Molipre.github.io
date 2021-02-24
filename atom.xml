@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-22T09:09:33.000Z</updated>
+  <updated>2021-02-24T02:28:31.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DPI是什么？</title>
+    <link href="https://blog.molipre.com/posts/39f5948e.html"/>
+    <id>https://blog.molipre.com/posts/39f5948e.html</id>
+    <published>2021-02-24T02:28:31.000Z</published>
+    <updated>2021-02-24T02:28:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>DPI</font>（Dots Per Inch）中文名称：<font size=6>每英寸点数 </font>，是一个量度单位，用于点阵数码影像，指每一英寸长度中，取样、可显示或输出点的数目。</strong></p><p>&emsp;&emsp;<strong>DPI是打印机、鼠标等设备分辨率的度量单位。是衡量打印机打印精度的主要参数之一，一般来说，DPI值越高，表明打印机的打印精度越高。</strong></p><p>&emsp;&emsp;<strong>对于打印机，如果一台打印机的分辨率是4800×1200dpi，那么意味着在X方向（横向）上，两个墨点最近的距离可以达到1/4800英寸；在Y方向（纵向）上，两个墨点的距离可以达到1/1200英寸，通常情况下我们认为600x600DPI以上的图像, 在普通纸上按照更高打印精度(如：4800X1200DPI)的打印是没有意义的。</strong></p><p>&emsp;&emsp;<strong>对于鼠标，DPI参数，指的是鼠标在桌面上移动1英寸的距离的同时，鼠标光标能够在屏幕上移动多少“点”。</strong></p><p>&emsp;&emsp;<strong>当我们需要鼠标在屏幕上移动一段固定的距离时，高DPI的鼠标所移动的物理距离会比低DPI鼠标要短，高DPI的鼠标，往往只需要移动很小一点距离，就能够将光标从屏幕的一侧边缘移动到屏幕的另一边，而低DPI的鼠标，完成这一操作，往往需要移动超过高DPI鼠标数倍的距离。</strong></p><p><strong>DPI是何如计算的呢？</strong><br><strong>概念中定义单位面积的像素多少，但是计算时应该定义多少英寸中含有多少像素，即：</strong><br>某个设备的参数如下：<br>1英寸=25.4mm<br>1mm=1/25.4英寸<br>10.64mm=10.64/25.4英寸=0.418898英寸<br>152/0.418898=362.856DPI=363DPI<br>14mm=14/25.4英寸=0.55118英寸<br>200/0.55118=362.8578DPI=363DPI</p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;DPI&lt;/font&gt;（Dots Per Inch）中文名称：&lt;font size=6&gt;每英寸点数 &lt;/font&gt;，是一个量度单位，用于点阵数码影像，指每一英寸长度中，取样、可显示或输出点的数目。&lt;/stron</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="DPI" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/DPI/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="DPI" scheme="https://blog.molipre.com/tags/DPI/"/>
+    
+  </entry>
   
   <entry>
     <title>关于Win10上错误代码0x80004005的解决方法</title>
@@ -542,33 +570,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="VLAN" scheme="https://blog.molipre.com/tags/VLAN/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20210209</title>
-    <link href="https://blog.molipre.com/posts/fcc62ebb.html"/>
-    <id>https://blog.molipre.com/posts/fcc62ebb.html</id>
-    <published>2021-02-09T07:31:33.000Z</published>
-    <updated>2021-02-09T07:31:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年02月09日 星期天 天气 阴转小雨 平均温度 18°</strong></big></p><p>&emsp;&emsp;<strong>今天是放春节假期前最后一天上班，过两天就是春节了，虽然自工作之后，关于年味的也是越来越乏味，但是想着能够回家见到家人，内心还是十分欢喜，虽然今天是个阴天，天气还稍微变冷了一点，下午还下起了小雨，但是并不会影响到因为热切想要归家的开心。</strong></p><p>&emsp;&emsp;<strong>前两天刚好是农历生日，虽然没有人记得，但是我买了个 <code>AirPods Pro</code> 作为今年的生日礼物，不得不说这个耳机极大程度地提高了我上班的舒适感，再也不用和那些在公共场合外放特别大声的脑残对线了，降噪一开，完全隔绝了地铁上外放着的抖音视频，简直是出行必备神器，春节回来应该会写一个使用体验。</strong></p><p>&emsp;&emsp;<strong>春节期间有打算购买一台11英寸 <code>iPad Pro 2020</code> ，因为最近在学习备战一些考证，之前用的iPad mini 4屏幕太小了，加上我把系统升级到了iPadOS 14后，操作就变得卡顿了，所以关于购买新iPad的心又燃了起来，虽然最近都在传苹果三月份会更新iPad系列，但是等到新iPad发布再到能够购买再到送到手上，估计要4、5月份了，对我来说，时间更重要，而且我个人觉得不是啥重大改变，新款和旧款都差不多，就像之前iPad Pro 2018和现在的iPad Pro 2020，差别不大，CPU你也感受不出性能差别，毕竟苹果的CPU还是很强的，最重要一点是，我目前大学毕业了，但是发现我还能用教育优惠购买苹果的产品，谁知道会不会某天就没了，所以2月份会购买iPad Pro 2020，然后把iPad mini 4送给我姐姐看视频，愉快！</strong></p><p>&emsp;&emsp;<strong>最近也没有什么事情值得一说，就到这里吧，春节假期快乐！！放假啦！！！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年02月09日 星期天 天气 阴转小雨 平均温度 18°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;今天是放春节假期前最后一天上班，过两天就是春节了，虽然自工作之后，关于年味</summary>
-      
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
