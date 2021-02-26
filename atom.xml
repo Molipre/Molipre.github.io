@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-24T02:28:31.000Z</updated>
+  <updated>2021-02-26T02:55:05.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PPI是什么？</title>
+    <link href="https://blog.molipre.com/posts/4ef2a418.html"/>
+    <id>https://blog.molipre.com/posts/4ef2a418.html</id>
+    <published>2021-02-26T02:55:05.000Z</published>
+    <updated>2021-02-26T02:55:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>PPI</font>（Pixels Per Inch）中文名称：<font size=6>像素密度 </font>，表示的是每英寸对角线上所拥有的像素（pixel）数目，通常用于显示设备，显示的密度越高，拟真度就越高，画面的细节就会越丰富。</strong></p><p>&emsp;&emsp;<strong>例如我们平时最常见的电视、显示器、手机，它们的显示屏幕都有PPI，当然不同的尺寸、不同的分辨率，PPI也不尽相同，有时候一台手机可能和一台电视有这一样的PPI。</strong></p><p><strong>那么PPI是如何计算的呢？</strong><br>以一台4英寸、854X480分辨率的手机为例；<br>PPI=√(854^2+480^2)/4=244.912<br>那么我们可以得出：<br>假设一台设备的分辨率为X*Y，屏幕尺寸为C<br>则PPI=√(X^2+Y^2)/C</p><p><img src="https://p.molipre.com/img/PPI.png" alt="PPI计算公式"></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;PPI&lt;/font&gt;（Pixels Per Inch）中文名称：&lt;font size=6&gt;像素密度 &lt;/font&gt;，表示的是每英寸对角线上所拥有的像素（pixel）数目，通常用于显示设备，显示的密度越高，拟真</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="PPI" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/PPI/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="PPI" scheme="https://blog.molipre.com/tags/PPI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TortoiseSVN的简单使用手册</title>
+    <link href="https://blog.molipre.com/posts/69ea8529.html"/>
+    <id>https://blog.molipre.com/posts/69ea8529.html</id>
+    <published>2021-02-24T07:02:48.000Z</published>
+    <updated>2021-02-26T07:02:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>文章暂未写完</p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;文章暂未写完&lt;/p&gt;
+&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;center&gt;如有问题请点击&lt;a href=&quot;mailto:819591739@qq.com&quot;&gt;邮件&lt;/a&gt;或在底下评论与我联系&lt;/center&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="TortoiseSVN" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/TortoiseSVN/"/>
+    
+    
+    <category term="win10" scheme="https://blog.molipre.com/tags/win10/"/>
+    
+    <category term="TortoiseSVN" scheme="https://blog.molipre.com/tags/TortoiseSVN/"/>
+    
+  </entry>
   
   <entry>
     <title>DPI是什么？</title>
@@ -515,61 +573,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="PDF" scheme="https://blog.molipre.com/tags/PDF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>20210211</title>
-    <link href="https://blog.molipre.com/posts/1f634aa0.html"/>
-    <id>https://blog.molipre.com/posts/1f634aa0.html</id>
-    <published>2021-02-11T02:42:02.000Z</published>
-    <updated>2021-02-11T02:42:02.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年02月11日 星期四 除夕 天气 晴 平均温度 18°</strong></big></p><p>&emsp;&emsp;<strong>今天，又到了一年一度贴对联的除夕，今年照例是帮爸爸的忙，主角还是我爹，宝刀未老，买对联和贴对联的好手，不过老爸今年爬上爬下也会说有点累了，父母是真的开始变老了。</strong></p><p>&emsp;&emsp;<strong>今年的年夜饭还是熟悉的味道-妈妈做的饭，虽然随着姐姐们出嫁，这几年的年夜饭只有我和父母三人吃，但是这种熟悉的味道以及家人陪伴的感觉是真的好，自从毕业后出来工作，选择在别的城市打拼，回家的机会就是每年的为数不多的节假日了，虽然没有如父母的意愿在老家工作，因为我知道一个五线小城市是真的没多大机遇，我也不想在往后遇到大问题的时候无能为力，所以趁年轻，我要出去闯闯！</strong></p><p>&emsp;&emsp;<strong>新的一年又来了，希望家人们身体安康，平平安安，也希望自己事业有成，加油吧！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年02月11日 星期四 除夕 天气 晴 平均温度 18°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;今天，又到了一年一度贴对联的除夕，今年照例是帮爸爸的忙，主角还是我爹，宝刀</summary>
-      
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>VLAN是什么？</title>
-    <link href="https://blog.molipre.com/posts/c98d00fa.html"/>
-    <id>https://blog.molipre.com/posts/c98d00fa.html</id>
-    <published>2021-02-10T01:41:22.000Z</published>
-    <updated>2021-02-10T01:41:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>VLAN</font>（Virtual Local Area Network）中文名称：<font size=6>虚拟局域网 </font>，是将一个物理的LAN在逻辑上划分成多个广播域的通信技术，即一组逻辑上的设备和用户，这些设备和用户并不受物理位置的限制，可以根据功能、部门及应用等因素将它们组织起来，相互之间的通信就好像它们在同一个网段中一样。</strong></p><p>&emsp;&emsp;<strong>划分VLAN的目的是可以把一个LAN划分成多个逻辑的VLAN，每个VLAN是一个广播域，VLAN内的主机间通信就和在一个LAN内一样，而VLAN间则不能直接互通，将广播报文就被限制在一个VLAN内，有效隔离广播报文和提升网络质量。</strong></p><p><strong>VLAN的主要作用如下：</strong></p><ol><li><strong>限制广播域：</strong>广播域被限制在一个VLAN内，节省了带宽，提高了网络处理能力；</li><li><strong>增强局域网的安全性：</strong>不同VLAN内的报文在传输时是相互隔离的，即一个VLAN内的用户不能和其它VLAN内的用户直接通信；</li><li><strong>提高了网络的健壮性：</strong>故障被限制在一个VLAN内，本VLAN内的故障不会影响其他VLAN的正常工作；</li><li><strong>灵活构建虚拟工作组：</strong>用VLAN可以划分不同的用户到不同的工作组，同一工作组的用户也不必局限于某一固定的物理范围，网络构建和维护更方便灵活。</li></ol><p><strong>VLAN可按按照以下几种划分：</strong></p><ol><li><strong>按端口划分VLAN：</strong>即规定一个交换机上某几个端口为虚拟网AAA，某几个端口为虚拟网BBB；</li><li><strong>按MAC地址划分VLAN：</strong>根据每个主机的MAC地址来划分，即对每个MAC地址的主机都配置它属于哪个组；</li><li><strong>按网络层划分：</strong>根据每个主机的网络层地址或协议类型(如果支持多协议)划分的；</li><li><strong>按IP组播划分：</strong>即一个组播组就是一个VLAN，易通过路由器进行扩展，但不适合局域网，因为效率不高；</li><li><strong>基于规则的VLAN：</strong>即基于策略的VLAN，具有自动配置的能力，能够把相关的用户连成一体，在逻辑划分上称为关系网络，只需在网管软件中确定划分VLAN的规则（或属性）；</li><li><strong>按用户定义、非用户授权划分：</strong>基于用户定义、非用户授权来划分VLAN，是指为了适应特别的VLAN网络，根据具体的网络用户的特别要求来定义和设计VLAN，而且可以让非VLAN群体用户访问VLAN，但是需要提供用户密码，在得到VLAN管理的认证后才可以加入一个VLAN。</li></ol><p><strong>VLAN之间通信一般采用两种路由策略，即集中式路由和分布式路由，或由VLAN本身的访问控制技术。</strong></p><ol><li><strong>集中式路由：</strong>是指所有VLAN都通过一个中心路由器实现互联，同一交换机（一般指二层交换机）上的两个端口，如果它们属于两个不同的VLAN，在数据交换时也要通过中心路由器来选择路由；</li><li><strong>分布式路由：</strong>是将路由选择功能适当地分布在带有路由功能的交换机上（指三层交换机），同一交换机上的不同VLAN可以直接实现互通。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;VLAN&lt;/font&gt;（Virtual Local Area Network）中文名称：&lt;font size=6&gt;虚拟局域网 &lt;/font&gt;，是将一个物理的LAN在逻辑上划分成多个广播域的通信技术，即一组逻辑</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="VLAN" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/VLAN/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="VLAN" scheme="https://blog.molipre.com/tags/VLAN/"/>
     
   </entry>
   
