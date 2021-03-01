@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-26T02:55:05.000Z</updated>
+  <updated>2021-02-28T15:54:57.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,84 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20210228</title>
+    <link href="https://blog.molipre.com/posts/cbebacf.html"/>
+    <id>https://blog.molipre.com/posts/cbebacf.html</id>
+    <published>2021-02-28T15:54:57.000Z</published>
+    <updated>2021-02-28T15:54:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年02月28日 星期天  天气 阴 平均温度 16°</strong></big></p><p>&emsp;&emsp;<strong>2月份的最后一天，心情还不错，可能是等待了17天的iPad Pro终于送到手上了，用了一天，不得不说很好用，苹果的产品还是一如既往地精致，简单和我手上的小米平板4PLUS对比了一下，iPad Pro屏幕素质简直好的不得了，虽然两者差价挺大的，目前下了一些软件使用，等我用上一个月左右时间会写一篇体验博文的。</strong></p><p><img src="https://p.molipre.com/img/iPad-Pro.jpg" alt="iPad Pro"></p><p>&emsp;&emsp;<strong>这个周末按照妈妈说的方法做了鱼胶瘦肉粥以及鱼胶瘦肉汤，成功学会了不同的做粥的方法，和怎么用鱼胶，以前我不太喜欢麻烦的菜式，对我来说怎么简单怎么来，但有时候你会发现做饭这件事情只是想得比较麻烦，取得方法后还是很快的，经过妈妈的传授了做饭的经验，我也是会些许菜式了。</strong></p><p><img src="https://p.molipre.com/img/zhouhetang.jpg" alt="粥和汤"></p><p>&emsp;&emsp;<strong>这个周末看完了电视剧《我的时代你的时代》，电视剧里的甜齁到我了，虽然又是差不多的剧情，但经不住令人喜欢和想像，发现自己每次看完这类电视剧都会想像一下自己的爱情是否会有一些小确幸的事情，虽然目前是个单身人士，但还是希望有美好的爱情故事，谁的内心不是住着一个小公主呢！</strong></p><p>&emsp;&emsp;<strong>明天就是三月了，春天的季节，万物复苏，竞相绽放，我将继续前行，继续加油，goodluck！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年02月28日 星期天  天气 阴 平均温度 16°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2月份的最后一天，心情还不错，可能是等待了17天的iPad Pro终于送到手上</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Termux是什么？</title>
+    <link href="https://blog.molipre.com/posts/d7fbf5a2.html"/>
+    <id>https://blog.molipre.com/posts/d7fbf5a2.html</id>
+    <published>2021-02-28T04:41:36.000Z</published>
+    <updated>2021-02-28T04:41:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong>最近在寻找一款手机和平板电脑能用的终端软件，然后看了一下国光大佬关于Termux的文章，感觉很厉害，使用了一段时间，不过还没折腾好，所以现在先介绍Termux，好软件向大家推荐，等我用一段时间后会写一篇简单的使用体检和简单上手的教程，详细的教程请看<a href="https://www.sqlsec.com/">国光大佬的博客</a>关于 “<a href="https://www.sqlsec.com/2018/05/termux.html">Termux 高级终端安装使用配置教程</a>” 这篇博文。</strong></p><p>&emsp;&emsp;<strong>不过我是苹果全家桶的用户，所以更多的是使用iPad Pro，不过苹果端的终端软件暂时还没找到好用的，如果找到了再给大家介绍，让我找到一款好用的终端软件吧。</strong></p><p>&emsp;&emsp;<strong><font size=6>Termux</font> ，是一款基于 Android 平台的开源 Linux 终端模拟器，使用 pkg(apt) 进行软件包的管理，十分方便安装软件包，支持 Python、PHP、Ruby、Nodejs、MySQL等，而且无需root权限，因此绝大多数的 Android 设备都能够使用，目前我是安装在我的小米平板4PLUS上使用。</strong></p><p>&emsp;&emsp;<strong>目前，在运行了Termux的安卓设备上使用体验与在电脑上使用各种终端软件的流畅度和操作手感基本无差别，以下简单的 Linux 任务我在试验后发现均能够完成。</strong></p><ol><li><strong>使用 Bash 和 Zsh</strong></li><li><strong>使用 Vim 编辑文件</strong></li><li><strong>通过 SSH 访问服务器</strong></li><li><strong>使用 GCC 和 Clang 编译代码</strong></li><li><strong>使用 Git 检查项目</strong></li><li><strong>运行 MySQL，Redis 等服务器</strong></li><li><strong>等等，更多的我会在之后的体验和教程博文给大家介绍</strong></li></ol><p><img src="https://p.molipre.com/img/termux-baike.jpg" alt="Termux"></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;最近在寻找一款手机和平板电脑能用的终端软件，然后看了一下国光大佬关于Termux的文章，感觉很厉害，使用了一段时间，不过还没折腾好，所以现在先介绍Termux，好软件向大家推荐，等我用一段时间后会写一篇简单的使用体检和简单上手的教程，</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="Termux" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/Termux/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="Termux" scheme="https://blog.molipre.com/tags/Termux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>备份、恢复SecureCRT的配置和会话信息以及为其添加原本的KEY</title>
+    <link href="https://blog.molipre.com/posts/e24d2945.html"/>
+    <id>https://blog.molipre.com/posts/e24d2945.html</id>
+    <published>2021-02-26T03:36:41.000Z</published>
+    <updated>2021-03-01T03:54:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><big>&emsp;&emsp;<strong>关于SecureCRT这个终端软件的使用，我们有可能会遇到原有的SecureCRT中的配置和会话非常之多，但是一旦换了电脑或者重装了电脑系统，这些配置就没有了，重新配置相当麻烦，还有在SecureCRT的tool选项中添加完KEY后，当软件关闭或者电脑关机后，再次打开添加的KEY就不在了，需要重新添加。</strong><br>&emsp;&emsp;<strong>虽然在以前使用SecureCRT的时候我遇到这个问题并且已经解决了，但是最近有许多人询问到这个问题的解决办法，便写下这篇博文记录一下解决办法。</strong></big></p><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><ol><li><p><strong>问题：<big>更换新电脑后或者重装系统后，再次安装SecureCRT，丢失原有的全部配置</big></strong><br> （关于这个问题，如果你只有几个服务器问题不大，毕竟花上10分钟估计就弄好了，但是如果你有几十个以上的服务器需要配置，那将会是噩梦！！！）<br><strong>解决办法：</strong><br>  1、打开原有的SecureCRT软件，找到 <code>Options</code> → <code>Global Options</code> → <code>General</code> → <code>Configuration Paths</code> → <code>Configuration folder</code> ，可以看到我的配置文件是存放到E盘的svn文件夹。</p><p>  <img src="https://p.molipre.com/img/Configuration-folder.png" alt="Configuration folder"><br>  2、复制你看到的路径，然后进入该路径内，并将里面所有的文件打包压缩。</p><p>  <img src="https://p.molipre.com/img/config-yashuo.png" alt="config-yashuo"><br>  3、将打包好的压缩文件备份到其他存储设备，需要恢复到新电脑或者新系统时，同样是根据1中的方式找到软件的存放路径，然后把压缩文件解压并替换里面的文件即可。</p></li><li><p><strong>问题：<big>在SecureCRT软件中的 <code>Tools</code> → <code>Manage Agent Keys</code> 中添加key后，如果软件重新启动或者电脑重新启动，添加的key会丢失</big></strong><br>  （主要是Manage Agent Keys添加的key信息不会被软件保存在软件配置中，需要每次打开软件都去添加）<br>  <img src="https://p.molipre.com/img/secureCRT-keys.png" alt="Manage Agent Keys"><br><strong>解决办法：</strong><br>  1、打开SecureCRT软件，找到 <code>Options</code> → <code>Global Options</code> → <code>SSH2</code> → <code>Public key</code> ，选择 <code>Use identity or certificate file</code> ，然后点一下隔壁的 <code>...</code> ，选择你的key文件，然后点击 <code>OK</code> 即可。</p><p>  <img src="https://p.molipre.com/img/secureCRT-keys1.png" alt="secureCRT-keys"><br>  2、上述的操作是针对全局配置应用的，如果你的某些服务器不适用这个key，你就需要针对该服务器进行配置，打开 <code>Sessions</code> ，找到需要单独配置的服务器，点击并右键选择 <code>Properties</code> ，在 <code>Sessions Options</code> 弹窗中找到 <code>SSH2</code> → <code>Authentication</code> ，点击 <code>PublicKey</code>，然后点击隔壁的 <code>Properties</code> 按钮，接下来就是和1步骤中一样的操作即可完成配置。</p><p>  <img src="https://p.molipre.com/img/secureCRT-keys2.png" alt="secureCRT-keys"></p></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">在使用新的电脑上或者重装完系统后使用SecureCRT，如果原本电脑的SecureCRT的配置和会话很复杂且数目多，一个个重新添加很麻烦，本篇博文教大家如何备份原有配置和会话，以及恢复备份，同时也会讲一下如何添加原有的KEY（不会随着软件关闭或者系统关机而消失）。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="SecureCRT" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/SecureCRT/"/>
+    
+    
+    <category term="SecureCRT" scheme="https://blog.molipre.com/tags/SecureCRT/"/>
+    
+  </entry>
   
   <entry>
     <title>PPI是什么？</title>
@@ -54,12 +132,7 @@
     <content type="html"><![CDATA[<p>文章暂未写完</p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;文章暂未写完&lt;/p&gt;
-&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;center&gt;如有问题请点击&lt;a href=&quot;mailto:819591739@qq.com&quot;&gt;邮件&lt;/a&gt;或在底下评论与我联系&lt;/center&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
-</summary>
-      
+    <summary type="html">主要是讲解一下TortoiseSVN这个SVN客户端软件的简单使用，关于SVN的详解和SVN服务器的搭建以后会写一篇博文去详细介绍。</summary>
     
     
     
@@ -489,90 +562,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="CPU" scheme="https://blog.molipre.com/tags/CPU/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>IGP是什么？</title>
-    <link href="https://blog.molipre.com/posts/20eea5cf.html"/>
-    <id>https://blog.molipre.com/posts/20eea5cf.html</id>
-    <published>2021-02-12T03:45:16.000Z</published>
-    <updated>2021-02-12T03:45:16.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>IGP</font>（Interior Gateway Protocol）中文名称：<font size=6>内部网关协议 </font>，是在一个自治网络内网关（主机和路由器）间交换路由信息的协议，包括 <code>RIP</code> 、<code>OSPF</code> 、<code>IS-IS</code> 、<code>IGRP</code> 、<code>EIGRP</code> 。</strong></p><p><strong>内部网关协议可以划分为两类：</strong></p><ol><li><strong>距离矢量路由协议：</strong>距离矢量是指以距离和方向构成的矢量来通告路由信息，距离按跳数等度量来定义，方向则是下一跳的路由器或送出接口，距离矢量协议通常使用贝尔曼-福特 (Bellman-Ford) 算法来确定最佳路。<br><strong>距离向量路由协议有如下几种：</strong> <code>IP RIP</code> 、<code>IPX RIP</code> 、<code>Apple Talk RT M P</code> 、<code>I G R P</code> 。<br><strong>适用情形：</strong><br>1、网络结构简单、扁平，不需要特殊的分层设计；<br>2、管理员没有足够的知识来配置链路状态协议和排查故障；<br>3、特定类型的网络拓扑结构，如集中星形（Hub-and-Spoke）网络；<br>4、无需关注网络最差情况下的收敛时间。</li><li><strong>链路状态路由协议：</strong>配置了链路状态路由协议的路由器可以获取所有其它路由器的信息来创建网络的“完整视图”（即拓扑结构），并在拓扑结构中选择到达所有目的网络的最佳路径。<br><strong>链接状态路由协议有如下几种：</strong> <code>IP OSPF</code>、<code>IPX NLSP</code> 、<code>I S - I S</code> 。<br><strong>适用情形：</strong><br>1、网络进行了分层设计，大型网络通常如此。<br>2、管理员对于网络中采用的链路状态路由协议非常熟悉。<br>3、网络对收敛速度的要求极高</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;IGP&lt;/font&gt;（Interior Gateway Protocol）中文名称：&lt;font size=6&gt;内部网关协议 &lt;/font&gt;，是在一个自治网络内网关（主机和路由器）间交换路由信息的协议，包括 &lt;</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="IGP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/IGP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="IGP" scheme="https://blog.molipre.com/tags/IGP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>新年快乐！牛年大吉！</title>
-    <link href="https://blog.molipre.com/posts/dce2d7b8.html"/>
-    <id>https://blog.molipre.com/posts/dce2d7b8.html</id>
-    <published>2021-02-11T15:59:59.000Z</published>
-    <updated>2021-02-11T15:59:59.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/newyear1.jpg"></p><p><strong>写于2021年02月11日，农历庚子年腊月三十日，除夕夜。</strong></p><p><strong>庚子鼠年的我们历经磨难，但任然不断地努力向前走，一川的博客也于今年重新上线。</strong></p><p><strong>新的一年，一川将会持续更新博客内容，也会不断优化博客内容，提高内容的质量。</strong></p><p><strong>最后，一川在此祝各位辛丑牛年身体健康，万事顺利，学业进步，事业有为，牛年大吉！！！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://p.molipre.com/img/newyear1.jpg&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;写于2021年02月11日，农历庚子年腊月三十日，除夕夜。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;庚子鼠年的我们历经磨难，但任然不断</summary>
-      
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="随笔" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="随笔" scheme="https://blog.molipre.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PDF是什么？</title>
-    <link href="https://blog.molipre.com/posts/be8a306c.html"/>
-    <id>https://blog.molipre.com/posts/be8a306c.html</id>
-    <published>2021-02-11T09:11:07.000Z</published>
-    <updated>2021-02-11T09:11:07.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>PDF</font>（Portable Document Format）中文名称：<font size=6>可携带文档格式 </font>，是由Adobe Systems用于与应用程序、操作系统、硬件无关的方式进行文件交换所发展出的文件格式，PDF文件以PostScript语言图象模型为基础，无论在哪种打印机上都可保证精确的颜色和准确的打印效果，即PDF会忠实地再现原稿的每一个字符、颜色以及图象。</strong></p><p>&emsp;&emsp;<strong>PDF作为一种电子文档格式，PDF无需在意使用的操作系统平台，不论是在Windows、Linux，还是在MacOS，PDF这种电子文档格式都是通用的，这也使得PDF成为在Internet上进行电子文档发行和数字化信息传播的理想文档格式。</strong></p><p><strong>PDF文件结构主要可以分为四个部分：</strong></p><ol><li><strong>首部</strong></li><li><strong>文件体</strong></li><li><strong>交叉引用表</strong></li><li><strong>尾部</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;PDF&lt;/font&gt;（Portable Document Format）中文名称：&lt;font size=6&gt;可携带文档格式 &lt;/font&gt;，是由Adobe Systems用于与应用程序、操作系统、硬件无关的方</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="PDF" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/PDF/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="PDF" scheme="https://blog.molipre.com/tags/PDF/"/>
     
   </entry>
   
