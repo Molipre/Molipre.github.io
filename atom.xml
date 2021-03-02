@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-02-28T15:54:57.000Z</updated>
+  <updated>2021-03-02T02:50:05.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于Windows系统的台式机前面板音频接口无声的解决办法</title>
+    <link href="https://blog.molipre.com/posts/91bc26f3.html"/>
+    <id>https://blog.molipre.com/posts/91bc26f3.html</id>
+    <published>2021-03-02T02:50:05.000Z</published>
+    <updated>2021-03-02T02:50:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><big>&emsp;&emsp;<strong>情况一般分为两种，电脑中有Realtek音频管理软件和没有Realtek音频管理软件，通常在我们装好系统且安装完所有驱动后，是会出现Realtek音频管理软件的，但是有些朋友因为不认识这个是什么从而以为没用，就卸载了Realtek音频管理软件，这个时候你用前置面板插口发现没声音，然而声卡驱动却是没有问题，但是找不到设置的地方。</strong></p><p>&emsp;&emsp;<strong>当然，我们没有卸载软件的话就更加简单了，只需要找到Realtek高清晰音频管理器后，打开设置一下，然后在声音选择 <code>扬声器（Realtek High Definition Audio）</code> 即可。</strong></big></p><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><p>&emsp;<strong>方法如下：</strong></p><ol><li><p><strong>找到如下图所示图标，双击打开，看到图2的界面;</strong></p><p><img src="https://p.molipre.com/img/realtek-1.png" alt="Realtek"><br><img src="https://p.molipre.com/img/realtek-2.png" alt="Realtek"></p></li><li><p><strong>点击右上角如下图红框所示的文件图标，出现图2的界面，然后勾选 <code>禁用前面板插孔检测</code> ，然后点击确定即可。</strong></p><p><img src="https://p.molipre.com/img/realtek-3.png" alt="Realtek"><br><img src="https://p.molipre.com/img/realtek-4.png" alt="Realtek"></p></li></ol><p><big>&emsp;<strong>第二种情况：找不到Realtek音频管理软件</strong></big><br>&emsp;<strong>打开 <code>此电脑</code> → <code>管理</code> → <code>设备管理器</code> 查看，如果驱动正常运转，那就是软件被卸载了，只需要去下载一个Realtek高清晰音频管理器然后安装，再执行上面的操作就可以了。</strong><br>    <img src="https://p.molipre.com/img/realtek-5.png" alt="Realtek"></p><p>&emsp;<strong>或者是发现已经安装了Realtek音频管理软件，但是没找到打开的方法，这个时候也是需要重新安装这个软件。</strong><br>    <img src="https://p.molipre.com/img/realtek-6.png" alt="Realtek"></p><p><big>&emsp;&emsp;<strong>当软件安装成功并出现步骤1中的图标，基本上问题就解决了，需要注意的一点是，有些系统可能会出现 <code>Realtek Audio Console</code> 这个软件，如果能够打开有设置界面也可以用该软件设置，也可能会出现该软件不支持此机型的情况，那就按照上面的方法操作。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">在相信很多朋友都会遇到台式机的前面板插了耳机但是播放没有声音，或者重新安装了驱动却发现还是没有声音，还有就是各种驱动都正常无问题，但是就是没找到设置的方法，本篇博文将教授如何解决。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="win10" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/win10/"/>
+    
+    
+    <category term="win10" scheme="https://blog.molipre.com/tags/win10/"/>
+    
+    <category term="Realtek" scheme="https://blog.molipre.com/tags/Realtek/"/>
+    
+  </entry>
   
   <entry>
     <title>20210228</title>
@@ -534,34 +559,6 @@
     <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
     
     <category term="RAM" scheme="https://blog.molipre.com/tags/RAM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CPU是什么？</title>
-    <link href="https://blog.molipre.com/posts/57e99559.html"/>
-    <id>https://blog.molipre.com/posts/57e99559.html</id>
-    <published>2021-02-13T02:43:16.000Z</published>
-    <updated>2021-02-13T02:43:16.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>CPU</font>（Central Processing Unit）中文名称：<font size=6>中央处理器 </font>，是计算机系统的运算和控制核心，是信息处理、程序运行的最终执行单元，因此中央处理器的功效主要为处理指令、执行操作、控制时间、处理数据。</strong></p><p>&emsp;&emsp;<strong>CPU是计算机中负责读取指令，对指令译码并执行指令的核心部件，中央处理器主要包括两个部分，即控制器、运算器，其中还包括高速缓冲存储器及实现它们之间联系的数据、控制的总线。</strong></p><p><strong>运算器：</strong>运算器是指计算机中进行各种算术和逻辑运算操作的部件，其中算术逻辑单元是中央处理核心的部分。</p><ol><li><strong>算术逻辑单元（ALU）：</strong>指能实现多组 算术运算与逻辑运算的组合逻辑电路；</li><li><strong>中间寄存器（IR）：</strong>长度为 128 位，通过操作数来决定实际长度；</li><li><strong>运算累加器（ACC）：</strong>寄存器一般都是单累加器，长度为128位，ACC可以看成可变长的累加器；</li><li><strong>描述字寄存器（DR）：</strong>主要应用于存放与修改描述字中，长度为64位；</li><li><strong>B寄存器：</strong>长度为32位，在修改地址过程中能保存地址修改量，主存地址只能用描述字进行修改。</li></ol><p><strong>目前CPU可分为如下几种：</strong></p><ol><li><strong>指令集的方式：</strong>按照指令集的方式将其分为精简指令集计算机(RISC)和复杂指令集计算机(CISC)，RISC指令长度和执行时间恒定，CISC指令长度和执行时间不一定，RISC 指令的并行的执行程度更好，并且编译器的效率也较高，CISC指令则对不同的任务有着更好的优化，代价是电路复杂且较难提高并行度；</li><li><strong>嵌入式系统CPU：</strong>范围太广，不予解释，我们日常生活用到的打印机、计算器之类的处理器都是用到嵌入式系统CPU；</li><li><strong>大型机CPU：</strong>专门用于大型主机的CPU，大型机使用专用的处理器指令集、操作系统和应用软件。</li></ol><p><strong>目前主流的CPU品牌有如下：</strong></p><ol><li><strong>Intel</strong></li><li><strong>AMD</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;CPU&lt;/font&gt;（Central Processing Unit）中文名称：&lt;font size=6&gt;中央处理器 &lt;/font&gt;，是计算机系统的运算和控制核心，是信息处理、程序运行的最终执行单元，因此中央</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="CPU" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/CPU/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="CPU" scheme="https://blog.molipre.com/tags/CPU/"/>
     
   </entry>
   
