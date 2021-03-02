@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-03-02T02:50:05.000Z</updated>
+  <updated>2021-03-02T03:59:14.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SVN是什么？</title>
+    <link href="https://blog.molipre.com/posts/a0fcc534.html"/>
+    <id>https://blog.molipre.com/posts/a0fcc534.html</id>
+    <published>2021-03-02T03:59:14.000Z</published>
+    <updated>2021-03-02T03:59:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>SVN</font>（Subversion）中文名称：<font size=6>版本控制系统 </font>，是一个开放源代码的版本控制系统，通过采用分支管理系统的高效管理，即用于多个人共同开发同一个项目，实现共享资源，实现最终集中式的管理。</strong></p><p>&emsp;&emsp;<strong>SVNn管理着随时间改变的数据，这些数据放置在一个中央资料档案库(repository) 中，这个档案库就像一个普通的文件服务器, 不过它会记住每一次文件的变动，在需要的时候可以把档案恢复到旧的版本, 或是浏览文件的变动历史。</strong></p><p>&emsp;&emsp;<strong>SVN存储版本数据也两种方式：BDB（一种事务安全型表类型）和FSFS（一种不需要数据库的存储系统），因为BDB方式在服务器中断时，有可能锁住数据，所以FSFS方式更安全一点。</strong></p><p><strong>SVN的主要功能如下：</strong></p><ol><li><strong>目录版本控制：</strong>依靠时间跟踪整个目录的变动，目录和文件都能进行版本控制；</li><li><strong>真实的版本历史：</strong>所有新加的文件或者目录都从一个新的、干净的版本开始；</li><li><strong>自动提交：</strong>即不完全更新，不是全部更新到了档案库中，以逻辑区间建立并提交变动，以防止当部分提交成功时出现的问题；</li><li><strong>纳入版本控管的元数据：</strong>每一个文件与目录都附有一組属性关键字并和属性值相关联；</li><li><strong>一致的数据处理方式：</strong>使用二进制差异算法来异表示文件的差异，无论是文字还是二进制的文件都同样地以压缩形式储存在档案库中, 而且文件差异是以两个方向在网络上传输的；</li><li><strong>有效的分支(branch)与标签(tag)：</strong>通过复制项目建立分支与标签，使用的方法就类似于硬连接（hard-link）。</li></ol><p><strong>SVN 的一些概念：</strong></p><ol><li><strong>repository（源代码库）：</strong>源代码统一存放的地方；</li><li><strong>Checkout（提取）：</strong>当你手上没有源代码的时候，你需要从repository checkout一份；</li><li><strong>Commit（提交）：</strong>当你已经修改了代码，你就需要Commit到repository；</li><li><strong>Update（更新）：</strong>当你已经Checkout了一份源代码， Update一下你就可以和Repository上的源代码同步，你手上的代码就会有最新的变更。</li></ol><p>&emsp;&emsp;<strong>目前SVN的客户端有两类，一类是基于Web的WebSVN等，另一类是以Tortoise SVN为代表的客户端软件，前者需要Web服务器的支持，后者需要用户在本地安装客户端，两种都有免费的开源软件供使用，博主在之前的文章有写过<a href="https://blog.molipre.com/posts/69ea8529.html">TortoiseSVN的简单使用手册</a>，可以点击链接去看看.</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;SVN&lt;/font&gt;（Subversion）中文名称：&lt;font size=6&gt;版本控制系统 &lt;/font&gt;，是一个开放源代码的版本控制系统，通过采用分支管理系统的高效管理，即用于多个人共同开发同一个项目，实</summary>
+      
+    
+    
+    
+    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="SVN" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/SVN/"/>
+    
+    
+    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
+    
+    <category term="SVN" scheme="https://blog.molipre.com/tags/SVN/"/>
+    
+  </entry>
   
   <entry>
     <title>关于Windows系统的台式机前面板音频接口无声的解决办法</title>
@@ -531,34 +559,6 @@
     
     
     <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RAM是什么？</title>
-    <link href="https://blog.molipre.com/posts/cee0c4e3.html"/>
-    <id>https://blog.molipre.com/posts/cee0c4e3.html</id>
-    <published>2021-02-14T03:16:33.000Z</published>
-    <updated>2021-02-14T03:16:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>RAM</font>（Random Access Memory）中文名称：<font size=6>随机存取存储器 </font>，又名：<font size=6>主存 </font>，是与CPU直接交换数据的内部存储器，可以随时读写（刷新时除外），速度很快，通常作为操作系统或其他正在运行中的程序的临时数据存储介质。</strong></p><p><strong>RAM由存储矩阵、地址译码器、读/写控制器、输入/输出、片选控制等几部分组成。</strong></p><ol><li><strong>存储矩阵：</strong>RAM的核心部分是一个寄存器矩阵，用来存储信息；</li><li><strong>地址译码器：</strong>用于将寄存器地址所对应的二进制数译成有效的行选信号和列选信号，从而选中该存储单元；</li><li><strong>读/写控制器：</strong>通过读写信号来控制被选中的寄存器进行读操作还是进行写操作；</li><li><strong>输入/输出：</strong>通过输入/输岀端与计算机的CPU交换数据，读出时它是输岀端，写入时它是输入端；</li><li><strong>片选控制：</strong>CPU访问存储器时，一次只能访问RAM中的某一片（或几片），即存储器中只有一片（或几片）RAM中的一个地址接受CPU访问，与其交换信息，而其他片RAM与CPU不发生联系，片选控制用于在多片RAM组合时控制CPU与那片RAM交换信息。</li></ol><p><strong>RAM有如下几个特点：</strong></p><ol><li><strong>随机存取：</strong>指的是当存储器中的数据被读取或写入时，所需要的时间与这段信息所在的位置或所写入的位置无关；</li><li><strong>易失性：</strong>指的是断电后不保留数据；</li><li><strong>对静电敏感：</strong>与其他集成电路一致，静电会干扰存储器内电容器的电荷，引致数据流失，甚至烧坏电路；</li><li><strong>快速访问：</strong>随机存取存储器几乎是所有访问设备中写入和读取速度最快的；</li><li><strong>需要刷新（再生）：</strong>依赖电容器存储数据，电容器充满电后代表1（二进制），未充电的代表0，由于电容器或多或少有漏电的情形，若不作特别处理，数据会渐渐随时间流失，刷新是指定期读取电容器的状态，然后按照原来的状态重新为电容器充电，弥补流失了的电荷。</li></ol><p><strong>RAM 可分为静态随机存储器（SRAM）和动态随机存储器（DRAM）：</strong></p><ol><li><strong>静态随机存储器（SRAM）：</strong>在静态触发器的基础上附加门控管而构成的，靠触发器的自保功能存储数据，不停电的情况下能够长时间保留SRAM存放的信息，且不需外加刷新电路，状态稳定，但是晶体管较多，集成度较低，因此功耗较大；</li><li><strong>动态随机存储器（DRAM）：</strong>DRAM利用电容存储电荷的原理保存信息，电路简单，集成度高，由于任何电容都存在漏电，因此，当电容存储有电荷时，过一段时间由于电容放电会导致电荷流失，使保存信息丢失，上面说到的刷新指的就是DRAM的刷新。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;RAM&lt;/font&gt;（Random Access Memory）中文名称：&lt;font size=6&gt;随机存取存储器 &lt;/font&gt;，又名：&lt;font size=6&gt;主存 &lt;/font&gt;，是与CPU直接交换数据</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="RAM" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/RAM/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="RAM" scheme="https://blog.molipre.com/tags/RAM/"/>
     
   </entry>
   
