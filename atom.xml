@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-03-02T03:59:14.000Z</updated>
+  <updated>2021-03-02T02:50:05.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,34 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>SVN是什么？</title>
-    <link href="https://blog.molipre.com/posts/a0fcc534.html"/>
-    <id>https://blog.molipre.com/posts/a0fcc534.html</id>
-    <published>2021-03-02T03:59:14.000Z</published>
-    <updated>2021-03-02T03:59:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>SVN</font>（Subversion）中文名称：<font size=6>版本控制系统 </font>，是一个开放源代码的版本控制系统，通过采用分支管理系统的高效管理，即用于多个人共同开发同一个项目，实现共享资源，实现最终集中式的管理。</strong></p><p>&emsp;&emsp;<strong>SVNn管理着随时间改变的数据，这些数据放置在一个中央资料档案库(repository) 中，这个档案库就像一个普通的文件服务器, 不过它会记住每一次文件的变动，在需要的时候可以把档案恢复到旧的版本, 或是浏览文件的变动历史。</strong></p><p>&emsp;&emsp;<strong>SVN存储版本数据也两种方式：BDB（一种事务安全型表类型）和FSFS（一种不需要数据库的存储系统），因为BDB方式在服务器中断时，有可能锁住数据，所以FSFS方式更安全一点。</strong></p><p><strong>SVN的主要功能如下：</strong></p><ol><li><strong>目录版本控制：</strong>依靠时间跟踪整个目录的变动，目录和文件都能进行版本控制；</li><li><strong>真实的版本历史：</strong>所有新加的文件或者目录都从一个新的、干净的版本开始；</li><li><strong>自动提交：</strong>即不完全更新，不是全部更新到了档案库中，以逻辑区间建立并提交变动，以防止当部分提交成功时出现的问题；</li><li><strong>纳入版本控管的元数据：</strong>每一个文件与目录都附有一組属性关键字并和属性值相关联；</li><li><strong>一致的数据处理方式：</strong>使用二进制差异算法来异表示文件的差异，无论是文字还是二进制的文件都同样地以压缩形式储存在档案库中, 而且文件差异是以两个方向在网络上传输的；</li><li><strong>有效的分支(branch)与标签(tag)：</strong>通过复制项目建立分支与标签，使用的方法就类似于硬连接（hard-link）。</li></ol><p><strong>SVN 的一些概念：</strong></p><ol><li><strong>repository（源代码库）：</strong>源代码统一存放的地方；</li><li><strong>Checkout（提取）：</strong>当你手上没有源代码的时候，你需要从repository checkout一份；</li><li><strong>Commit（提交）：</strong>当你已经修改了代码，你就需要Commit到repository；</li><li><strong>Update（更新）：</strong>当你已经Checkout了一份源代码， Update一下你就可以和Repository上的源代码同步，你手上的代码就会有最新的变更。</li></ol><p>&emsp;&emsp;<strong>目前SVN的客户端有两类，一类是基于Web的WebSVN等，另一类是以Tortoise SVN为代表的客户端软件，前者需要Web服务器的支持，后者需要用户在本地安装客户端，两种都有免费的开源软件供使用，博主在之前的文章有写过<a href="https://blog.molipre.com/posts/69ea8529.html">TortoiseSVN的简单使用手册</a>，可以点击链接去看看.</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;SVN&lt;/font&gt;（Subversion）中文名称：&lt;font size=6&gt;版本控制系统 &lt;/font&gt;，是一个开放源代码的版本控制系统，通过采用分支管理系统的高效管理，即用于多个人共同开发同一个项目，实</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="SVN" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/SVN/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="SVN" scheme="https://blog.molipre.com/tags/SVN/"/>
-    
-  </entry>
   
   <entry>
     <title>关于Windows系统的台式机前面板音频接口无声的解决办法</title>
@@ -97,34 +69,6 @@
   </entry>
   
   <entry>
-    <title>Termux是什么？</title>
-    <link href="https://blog.molipre.com/posts/d7fbf5a2.html"/>
-    <id>https://blog.molipre.com/posts/d7fbf5a2.html</id>
-    <published>2021-02-28T04:41:36.000Z</published>
-    <updated>2021-02-28T04:41:36.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong>最近在寻找一款手机和平板电脑能用的终端软件，然后看了一下国光大佬关于Termux的文章，感觉很厉害，使用了一段时间，不过还没折腾好，所以现在先介绍Termux，好软件向大家推荐，等我用一段时间后会写一篇简单的使用体检和简单上手的教程，详细的教程请看<a href="https://www.sqlsec.com/">国光大佬的博客</a>关于 “<a href="https://www.sqlsec.com/2018/05/termux.html">Termux 高级终端安装使用配置教程</a>” 这篇博文。</strong></p><p>&emsp;&emsp;<strong>不过我是苹果全家桶的用户，所以更多的是使用iPad Pro，不过苹果端的终端软件暂时还没找到好用的，如果找到了再给大家介绍，让我找到一款好用的终端软件吧。</strong></p><p>&emsp;&emsp;<strong><font size=6>Termux</font> ，是一款基于 Android 平台的开源 Linux 终端模拟器，使用 pkg(apt) 进行软件包的管理，十分方便安装软件包，支持 Python、PHP、Ruby、Nodejs、MySQL等，而且无需root权限，因此绝大多数的 Android 设备都能够使用，目前我是安装在我的小米平板4PLUS上使用。</strong></p><p>&emsp;&emsp;<strong>目前，在运行了Termux的安卓设备上使用体验与在电脑上使用各种终端软件的流畅度和操作手感基本无差别，以下简单的 Linux 任务我在试验后发现均能够完成。</strong></p><ol><li><strong>使用 Bash 和 Zsh</strong></li><li><strong>使用 Vim 编辑文件</strong></li><li><strong>通过 SSH 访问服务器</strong></li><li><strong>使用 GCC 和 Clang 编译代码</strong></li><li><strong>使用 Git 检查项目</strong></li><li><strong>运行 MySQL，Redis 等服务器</strong></li><li><strong>等等，更多的我会在之后的体验和教程博文给大家介绍</strong></li></ol><p><img src="https://p.molipre.com/img/termux-baike.jpg" alt="Termux"></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;最近在寻找一款手机和平板电脑能用的终端软件，然后看了一下国光大佬关于Termux的文章，感觉很厉害，使用了一段时间，不过还没折腾好，所以现在先介绍Termux，好软件向大家推荐，等我用一段时间后会写一篇简单的使用体检和简单上手的教程，</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="Termux" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/Termux/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="Termux" scheme="https://blog.molipre.com/tags/Termux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>备份、恢复SecureCRT的配置和会话信息以及为其添加原本的KEY</title>
     <link href="https://blog.molipre.com/posts/e24d2945.html"/>
     <id>https://blog.molipre.com/posts/e24d2945.html</id>
@@ -144,34 +88,6 @@
     
     
     <category term="SecureCRT" scheme="https://blog.molipre.com/tags/SecureCRT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PPI是什么？</title>
-    <link href="https://blog.molipre.com/posts/4ef2a418.html"/>
-    <id>https://blog.molipre.com/posts/4ef2a418.html</id>
-    <published>2021-02-26T02:55:05.000Z</published>
-    <updated>2021-02-26T02:55:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>PPI</font>（Pixels Per Inch）中文名称：<font size=6>像素密度 </font>，表示的是每英寸对角线上所拥有的像素（pixel）数目，通常用于显示设备，显示的密度越高，拟真度就越高，画面的细节就会越丰富。</strong></p><p>&emsp;&emsp;<strong>例如我们平时最常见的电视、显示器、手机，它们的显示屏幕都有PPI，当然不同的尺寸、不同的分辨率，PPI也不尽相同，有时候一台手机可能和一台电视有这一样的PPI。</strong></p><p><strong>那么PPI是如何计算的呢？</strong><br>以一台4英寸、854X480分辨率的手机为例；<br>PPI=√(854^2+480^2)/4=244.912<br>那么我们可以得出：<br>假设一台设备的分辨率为X*Y，屏幕尺寸为C<br>则PPI=√(X^2+Y^2)/C</p><p><img src="https://p.molipre.com/img/PPI.png" alt="PPI计算公式"></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;PPI&lt;/font&gt;（Pixels Per Inch）中文名称：&lt;font size=6&gt;像素密度 &lt;/font&gt;，表示的是每英寸对角线上所拥有的像素（pixel）数目，通常用于显示设备，显示的密度越高，拟真</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="PPI" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/PPI/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="PPI" scheme="https://blog.molipre.com/tags/PPI/"/>
     
   </entry>
   
@@ -201,34 +117,6 @@
   </entry>
   
   <entry>
-    <title>DPI是什么？</title>
-    <link href="https://blog.molipre.com/posts/39f5948e.html"/>
-    <id>https://blog.molipre.com/posts/39f5948e.html</id>
-    <published>2021-02-24T02:28:31.000Z</published>
-    <updated>2021-02-24T02:28:31.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>DPI</font>（Dots Per Inch）中文名称：<font size=6>每英寸点数 </font>，是一个量度单位，用于点阵数码影像，指每一英寸长度中，取样、可显示或输出点的数目。</strong></p><p>&emsp;&emsp;<strong>DPI是打印机、鼠标等设备分辨率的度量单位。是衡量打印机打印精度的主要参数之一，一般来说，DPI值越高，表明打印机的打印精度越高。</strong></p><p>&emsp;&emsp;<strong>对于打印机，如果一台打印机的分辨率是4800×1200dpi，那么意味着在X方向（横向）上，两个墨点最近的距离可以达到1/4800英寸；在Y方向（纵向）上，两个墨点的距离可以达到1/1200英寸，通常情况下我们认为600x600DPI以上的图像, 在普通纸上按照更高打印精度(如：4800X1200DPI)的打印是没有意义的。</strong></p><p>&emsp;&emsp;<strong>对于鼠标，DPI参数，指的是鼠标在桌面上移动1英寸的距离的同时，鼠标光标能够在屏幕上移动多少“点”。</strong></p><p>&emsp;&emsp;<strong>当我们需要鼠标在屏幕上移动一段固定的距离时，高DPI的鼠标所移动的物理距离会比低DPI鼠标要短，高DPI的鼠标，往往只需要移动很小一点距离，就能够将光标从屏幕的一侧边缘移动到屏幕的另一边，而低DPI的鼠标，完成这一操作，往往需要移动超过高DPI鼠标数倍的距离。</strong></p><p><strong>DPI是何如计算的呢？</strong><br><strong>概念中定义单位面积的像素多少，但是计算时应该定义多少英寸中含有多少像素，即：</strong><br>某个设备的参数如下：<br>1英寸=25.4mm<br>1mm=1/25.4英寸<br>10.64mm=10.64/25.4英寸=0.418898英寸<br>152/0.418898=362.856DPI=363DPI<br>14mm=14/25.4英寸=0.55118英寸<br>200/0.55118=362.8578DPI=363DPI</p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;DPI&lt;/font&gt;（Dots Per Inch）中文名称：&lt;font size=6&gt;每英寸点数 &lt;/font&gt;，是一个量度单位，用于点阵数码影像，指每一英寸长度中，取样、可显示或输出点的数目。&lt;/stron</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="DPI" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/DPI/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="DPI" scheme="https://blog.molipre.com/tags/DPI/"/>
-    
-  </entry>
-  
-  <entry>
     <title>关于Win10上错误代码0x80004005的解决方法</title>
     <link href="https://blog.molipre.com/posts/779f4518.html"/>
     <id>https://blog.molipre.com/posts/779f4518.html</id>
@@ -250,34 +138,6 @@
     <category term="win10" scheme="https://blog.molipre.com/tags/win10/"/>
     
     <category term="错误代码0x80004005" scheme="https://blog.molipre.com/tags/%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%810x80004005/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RAID是什么？</title>
-    <link href="https://blog.molipre.com/posts/a791012d.html"/>
-    <id>https://blog.molipre.com/posts/a791012d.html</id>
-    <published>2021-02-22T01:55:50.000Z</published>
-    <updated>2021-02-22T01:55:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>RAID</font>（Redundant Arrays of Independent Disks）中文名称：<font size=6>独立冗余磁盘阵列 </font>，但我们通常都是指磁盘阵列，即包括没有冗余能力的磁盘阵列，例如 <code>RAID 0</code>。</strong></p><p>&emsp;&emsp;<strong>磁盘阵列是由很多块独立的磁盘，组合成一个容量巨大的磁盘组，利用个别磁盘提供数据所产生加成效果提升整个磁盘系统效能，即将数据切割成许多区段，分别存放在各个硬盘上。</strong></p><p><strong>目前的RAID技术主要有以下三个基本功能：</strong></p><ol><li><strong>通过对磁盘上的数据进行条带化，实现对数据成块存取，减少磁盘的机械寻道时间，提高了数据存取速度；</strong></li><li><strong>通过对一个阵列中的几块磁盘同时读取，减少了磁盘的机械寻道时间，提高数据存取速度；</strong></li><li><strong>通过镜像或者存储奇偶校验信息的方式，实现了对数据的冗余保护。</strong></li></ol><p><strong>RAID的标准等级划分：</strong></p><ol><li><p><strong>RAID 0：</strong>最简单的、没有数据检验的数据条带化技术，虽然名为RAID 0，但是不提供冗余，因此并不是真正意义上的RAID。<br>RAID 0将所在磁盘条带化后组成大容量的存储空间，将数据分散存储在所有磁盘中，以独立访问方式实现多块磁盘的并读访问，且因为可以并发执行 I/O 操作，总线带宽得到充分利用，再加上不需要进行数据校验，RAID 0的性能在所有RAID等级中是最高的，理论上讲，由n块磁盘组成的RAID 0，它的读写性能是单个磁盘性能的n倍。<br>RAID 0最少需要两块硬盘。</p><p><img src="https://p.molipre.com/img/RAID0.png" alt="RAID 0"></p></li><li><p><strong>RAID 1：</strong>可以称为镜像的阵列，会将数据完全一致地分别写到工作磁盘和镜像磁盘，因此磁盘空间利用率是50%，不过RAID 1虽然有冗余能力，但是不对数据校验。<br>RAID 1是为了增强数据安全性使两块磁盘数据呈现完全镜像，一旦工作磁盘发生故障，系统自动从镜像磁盘读取数据，不会影响用户工作，为实现有完全容错的能力，RAID 1需要较高的实现成本。<br>RAID 1最少需要两块硬盘。</p><p><img src="https://p.molipre.com/img/RAID1.png" alt="RAID 1"></p></li><li><p><strong>RAID 2：</strong>纠错海明码磁盘阵列，通过利用海明码实现数据校验冗余。<br>海明码是一种在原始数据中加入若干校验码来进行错误检测和纠正的编码技术，其中第 2n 位（ 1, 2, 4, 8, … ）是校验码，其他位置是数据码,因此在 RAID2 中，数据按位存储，每块磁盘存储一位数据编码，磁盘数量取决于所设定的数据存储宽度，可由用户设定。<br>海明码自身具备纠错能力，因此 RAID2 可以在数据发生错误的情况下对纠正错误，保证数据的安全性。<br>例如下图中数据宽度为4的RAID 2，需要4块数据磁盘和3块校验磁盘共7块磁盘，即0/3/5/6为数据磁盘，1/2/4为校验磁盘，如果是 64 位数据宽度，则需要 64 块 数据磁盘和 7 块校验磁盘。<br>目前因为RAID 2数据冗余开销太大且数据重建非常耗时，所以在实际中很少应用，没有形成商业产品，目前主流存储磁盘阵列均不提供RAID2支持。<br>RAID 2最少需要两块硬盘。</p><p><img src="https://p.molipre.com/img/RAID2-1.jpg" alt="RAID 2"></p></li><li><p><strong>RAID 3：</strong>使用专用校验盘的并行访问阵列，采用一个专用的磁盘作为校验盘，其余磁盘作为数据盘，数据按位可字节的方式交叉存储到各个数据盘中。<br>RAID 3至少需要三块磁盘，不同磁盘上同一带区的数据作XOR校验，校验值写入校验盘中，RAID 3完好时读性能与RAID 0完全一致，并行从多个磁盘条带读取数据，性能非常高，同时还提供了数据容错能力。<br>RAID 3中某一磁盘出现故障，不会影响数据读取，可以借助校验数据和其他完好数据来重建数据，如果所要读取的数据块正好位于失效磁盘，则系统需要读取所有同一条带的数据块，并根据校验值重建丢失的数据，系统性能将受到影响，且更换故障磁盘后，系统按相同的方式重建故障盘中的数据至新磁盘。<br>RAID3 只需要一个校验盘，阵列的存储空间利用率高，再加上并行访问的特征，能够为高带宽的大量读写提供高性能，适用大容量数据的顺序访问应用，如影像处理、流媒体服务等，但现在RAID 5不断发展，在大数据量读取时能够模拟RAID 3，而RAID 3出现坏盘时性能会大幅下降，因此RAID 3已经很少被使用，大多数使用RAID 5。<br>RAID 3最少需要三块硬盘。</p><p><img src="https://p.molipre.com/img/RAID3.png" alt="RAID 3"></p></li><li><p><strong>RAID 4：</strong>与RAID 3原理大致相同，但是不同的是RAID 4按照块的方式来组织数据，写操作只涉及当前数据盘和校验盘两个盘，因此能够同时处理多个多个 I/O 请求。<br>RAID 4在不同磁盘上的同级数据块同样使用XOR校验，结果存储在校验盘中。写入数据时，RAID 4按这种方式把各磁盘上的同级数据的校验值写入校验盘，读取时进行即时校验，所以RAID 4中某块磁盘的数据块损坏， RAID 4可以通过校验值以及其他磁盘上的同级数据块进行数据重建。<br>RAID 4有这非常好的读性能，但是因为只有一个校验盘，在写入数据时同时需要写入校验数据，因此只能一个磁盘一个磁盘地写，写性能较差，当数据磁盘也来越多时，校验磁盘将会造成瓶颈和限制，因此目前主流的存储很少用RAID 4。<br>RAID 3最少需要三块硬盘。</p><p><img src="https://p.molipre.com/img/RAID4.png" alt="RAID 4"></p></li><li><p><strong>RAID 5：</strong>目前最常见的存储阵列，原理与RAID 4相似，区别在于校验数据分布在阵列中的所有磁盘上，而没有采用专门的校验磁盘。<br>RAID 5对于数据和校验数据的写操作可以同时发生在完全不同的磁盘上，因此不存在RAID 4中的并发写操作时的校验盘性能瓶颈。<br>RAID 5的磁盘上同时存储数据和校验数据，数据块和对应的校验信息存保存在不同的磁盘上，当一个数据盘损坏时，系统可以根据同一条带的其他数据块和对应的校验数据来重建损坏的数据，不过与其他RAID等级一样，重建数据时，RAID 5的性能会受到较大的影响。<br>RAID 5可以看做RAID 0和RAID 1的折中方案，在保证数据安全的同时能够最大限度利用存储空间以及性能，目前大部分的数据中心的存储方案是使用RAID 5。<br>RAID 5最少需要三块硬盘。</p><p><img src="https://p.molipre.com/img/RAID5.png" alt="RAID 5"></p></li><li><p><strong>RAID 6：</strong>可以看做是RAID 5的扩展，引入双重校验的概念，可以保护阵列中同时出现两个磁盘失效时，阵列仍能够继续工作，不会发生数据丢失。<br>RAID 6支持数据的恢复，也支持校验数据的恢复，最常见的方法是采用两个独立的校验算法，校验数据可以分别存储在两个不同的校验盘上，或者分散存储在所有成员磁盘中。当两个磁盘同时失效时，即可通过求解两元方程来重建两个磁盘上的数据。<br>RAID 6具有快速的读取性能、更高的容错能力，不过其搭建成本要远高于RAID 5，写性能也较差，且设计和实施非常复杂，目前较少被应用。<br>RAID 6最少需要四块硬盘。</p><p><img src="https://p.molipre.com/img/RAID6.png" alt="RAID 6"></p></li></ol><p><strong>目前RAID技术的实现主要分为 <code>软RAID</code> 和 <code>硬RAID</code> ：</strong></p><ol><li><strong>软件RAID：</strong>使用基于主机的软件提供RAID 功能，是在操作系统级上实现的，成本较低；</li><li><strong>硬件RAID：</strong>基于主机的硬件RAID和基于阵列的硬件RAID，成本较高，常用的硬件RAID是基于阵列的硬件RAID，即使用外部硬件RAID控制器，它充当主机与磁盘之间的接口，将存储卷呈现给主机，主机将这些卷作为物理驱动器进行管理。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;RAID&lt;/font&gt;（Redundant Arrays of Independent Disks）中文名称：&lt;font size=6&gt;独立冗余磁盘阵列 &lt;/font&gt;，但我们通常都是指磁盘阵列，即包括没有冗</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="RAID" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/RAID/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="RAID" scheme="https://blog.molipre.com/tags/RAID/"/>
     
   </entry>
   
@@ -305,62 +165,6 @@
     
     
     <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SSH是什么？</title>
-    <link href="https://blog.molipre.com/posts/d09631bb.html"/>
-    <id>https://blog.molipre.com/posts/d09631bb.html</id>
-    <published>2021-02-20T06:55:04.000Z</published>
-    <updated>2021-02-20T06:55:04.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>SSH</font>（Secure Shell）中文名称：<font size=6>安全外壳协议 </font>，是建立在应用层基础上的安全协议，专为远程登录会话和其他网络服务提供安全性的协议，利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。</strong></p><p>&emsp;&emsp;<strong>传统的网络服务程序：ftp、pop和telnet等在网络上用明文传送口令和数据，因此非常容易截获这些口令和数据，主要是因为这些服务 程序的安全验证方式容易受到 <code>man-in-the-middle</code>（中间人）攻击，即冒充真正的服务器接收你传给服务器的数据，然后再冒充你把数据传给真正的服务器，而SSH可以把所有传输的数据进行加密，从而杜绝中间人攻击，同时也能防止DNS欺骗和IP欺骗。</strong></p><p>&emsp;&emsp;<strong>SSH传输的数据会进行加密和压缩，因此能够更加安全且快速的传输。</strong></p><p><strong>SSH是如何验证的？</strong></p><ol><li><strong>基于口令的安全验证：</strong>使用账号和口令登录远程主机，所有传输的数据都会被加密，但是不能保证你正在连接的服务器就是你想连接的服务器；</li><li><strong>基于密匙的安全验证：</strong>使用密钥登录远程主机，需要先为自己创建一对密钥，然后把公钥放在需要访问你的服务器上，当你通过SSH连接该服务器时，客户端软件就会向服务器发出请求，请求用你的密匙进行安全验证，服务器收到请求之后，先在该服务器上你的主目录下寻找你的公用密匙，然后把它和你发送过来的公用密匙进行比较，如果两个密匙一致，服务器就用公用密匙加密“质询”（challenge）并把它发送给客户端软件，客户端软件收到“质询”之后就可以用你的私人密匙解密再把它发送给服务器完成登录。</li></ol><p>&emsp;&emsp;<strong>通常我们都是使用第二种基于密匙的安全验证，不然使用基于口令的安全验证就和其他服务程序的安全验证方式一样，也容易受到<code> man-in-the-middle</code>（中间人）攻击,之前博客写到如何使用SSH登录服务器的教程有着详细的步骤，有兴趣的可以去搜索看看。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;SSH&lt;/font&gt;（Secure Shell）中文名称：&lt;font size=6&gt;安全外壳协议 &lt;/font&gt;，是建立在应用层基础上的安全协议，专为远程登录会话和其他网络服务提供安全性的协议，利用 SSH </summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="SSH" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/SSH/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="SSH" scheme="https://blog.molipre.com/tags/SSH/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ARP是什么？</title>
-    <link href="https://blog.molipre.com/posts/499f6001.html"/>
-    <id>https://blog.molipre.com/posts/499f6001.html</id>
-    <published>2021-02-19T06:38:24.000Z</published>
-    <updated>2021-02-19T06:38:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>ARP</font>（Address Resolution Protocol）中文名称：<font size=6>地址解析协议 </font>，是根据IP地址获取物理地址的一个TCP/IP协议，主机发送信息时将包含目标IP地址的ARP请求广播到局域网络上的所有主机，并接收返回消息，以此确定目标的物理地址；收到返回消息后将该IP地址和物理地址存入本机ARP缓存中并保留一定时间，下次请求时直接查询ARP缓存以节约资源。</strong></p><p><strong>ARP是如何工作的？</strong><br>（以主机A的IP地址为 <code>192.168.1.1</code> ，MAC地址为 <code>0A-11-22-33-44-01</code> 和主机B的IP地址为 <code>192.168.1.2</code> ，MAC地址为 <code>0A-11-22-33-44-02</code> 为例，当主机A要与主机B通信时，地址解析协议可以将主机B的IP地址（192.168.1.2）解析成主机B的MAC地址，以下为工作流程：）</p><ol><li><strong>根据主机A上的路由表内容，IP确定用于访问主机B的转发IP地址是192.168.1.2。然后A主机在自己的本地ARP缓存中检查主机B的匹配MAC地址；</strong></li><li><strong>如果主机A在ARP缓存中没有找到映射，它将询问192.168.1.2的硬件地址，从而将ARP请求帧广播到本地网络上的所有主机。源主机A的IP地址和MAC地址都包括在ARP请求中。本地网络上的每台主机都接收到ARP请求并且检查是否与自己的IP地址匹配。如果主机发现请求的IP地址与自己的IP地址不匹配，它将丢弃ARP请求；</strong></li><li><strong>主机B确定ARP请求中的IP地址与自己的IP地址匹配，则将主机A的IP地址和MAC地址映射添加到本地ARP缓存中；</strong></li><li><strong>主机B将包含其MAC地址的ARP回复消息直接发送回主机A；</strong></li><li><strong>当主机A收到从主机B发来的ARP回复消息时，会用主机B的IP和MAC地址映射更新ARP缓存。本机缓存是有生存期的，生存期结束后，将再次重复上面的过程。主机B的MAC地址一旦确定，主机A就能向主机B发送IP通信了。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;ARP&lt;/font&gt;（Address Resolution Protocol）中文名称：&lt;font size=6&gt;地址解析协议 &lt;/font&gt;，是根据IP地址获取物理地址的一个TCP/IP协议，主机发送信息时</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ARP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ARP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ARP" scheme="https://blog.molipre.com/tags/ARP/"/>
     
   </entry>
   
@@ -396,62 +200,6 @@
   </entry>
   
   <entry>
-    <title>ICMP是什么？</title>
-    <link href="https://blog.molipre.com/posts/3e985097.html"/>
-    <id>https://blog.molipre.com/posts/3e985097.html</id>
-    <published>2021-02-18T02:55:22.000Z</published>
-    <updated>2021-02-18T02:55:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>ICMP</font>（Internet Control Message Protocol）中文名称：<font size=6>控制报文协议 </font>，是TCP/IP协议簇的一个子协议，用于在IP主机、路由器之间传递控制消息，指的是控制网络通不通、主机是否可达、路由是否可用等网络本身的消息，因此ICMP是一种面向无连接的协议。</strong></p><p>&emsp;&emsp;<strong>ICMP控制的消息不是需要传输的用户数据，但是对于用户数据的传递起着重要的作用，ICMP使用IP的基本支持，是IP的一个组成部分，必须由每个IP模块实现。</strong></p><p>&emsp;&emsp;<strong>ICMP可以看做是一个错误侦测与回报机制，主要是用于检测网络的连接状况，以及确保连线的准确性，当路由器在处理一个数据包的过程中发生了意外，可以通过ICMP向数据包的源端报告有关事件，例如我们常用的 <code>ping</code> 命令和 <code>tracert</code> 命令都是利用 ICMP 协议来实现网络功能。</strong></p><p>&emsp;&emsp;<strong>ICMP的工作原理：</strong>ICMP会把发送的出错报文返回到发送原数据的设备，这样发送设备随后可根据ICMP报文确定发生错误的类型，并确定如何才能更好地重发失败的数据包，因此ICMP的工作是报告问题而不是纠正错误。**</p><p><strong>主要的ICMP消息类型包括以下几种：</strong></p><ol><li><strong>响应请求：</strong>例如我们常用的 <code>ping</code> 命令，就是响应请求（Type=8）和应答（Type=0），一台主机向一个节点发送一个Type=8的ICMP报文，如果途中没有异常（例如被路由器丢弃、目标不回应ICMP或传输失败），则目标返回Type=0的ICMP报文，说明这台主机存在，更详细的tracert通过计算ICMP报文通过的节点来确定主机与目标之间的网络距离；</li><li><strong>目标不可到达、源抑制和超时报文：</strong>这三种报文的格式是一样的；<br>1、目标不可到达报文（Type=3）在路由器或主机不能传递数据报时使用，例如连接对方一个不存在的端口等；<br>2、源抑制则充当一个控制流量的角色，它通知主机减少数据报流量，由于ICMP没有恢复传输的报文，所以只要停止该报文，主机就会逐渐恢复传输速率；<br>3、超时报文就是长时间在网络游荡而找不到目标，或者拥塞导致主机在规定时间内无法重组数据报分段，超时报文的代码域有两种取值：Code=0表示传输超时，Code=1表示重组分段超时。</li><li><strong>时间戳：</strong>时间戳请求报文（Type=13）和时间戳应答报文（Type=14）用于测试两台主机之间数据报来回一次的传输时间，传输时，主机填充原始时间戳，接收方收到请求后填充接收时间戳后以Type=14的报文格式返回，发送方计算这个时间差；</li><li><strong>全部消息类型：</strong>太多了不展示。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;ICMP&lt;/font&gt;（Internet Control Message Protocol）中文名称：&lt;font size=6&gt;控制报文协议 &lt;/font&gt;，是TCP/IP协议簇的一个子协议，用于在IP主机、</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ICMP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ICMP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ICMP" scheme="https://blog.molipre.com/tags/ICMP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RIP是什么？</title>
-    <link href="https://blog.molipre.com/posts/5e5fd972.html"/>
-    <id>https://blog.molipre.com/posts/5e5fd972.html</id>
-    <published>2021-02-17T02:39:24.000Z</published>
-    <updated>2021-02-17T02:39:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>RIP</font>（Routing Information Protocol）中文名称：<font size=6>路由信息协议 </font>，是基于距离矢量算法的路由协议，利用跳数来作为计量标准，在带宽、配置和管理方面要求较低，主要适合于规模较小的网络中。</strong></p><p>&emsp;&emsp;<strong>RIP有三个版本：<code>RIPv1</code> 、<code>RIPv2</code> 、<code>RIPng</code> ，前两者用于IPv4， RIPng用于IPv6。</strong></p><p><strong>RIP是如何工作的？</strong></p><ol><li><strong>路由建立：</strong>路由器运行RIP后，会首先发送路由更新请求，收到请求的路由器会发送自己的RIP路由进行响应；网络稳定后，路由器会周期性发送路由更新信息；</li><li><strong>距离矢量的计算：</strong>当一个RIP更新报文到达时，接收方路由器和自己的RIP路由表中的每一项进行比较，并按照距离矢量路由算法对自己的RIP路由表进行修正；</li><li><strong>定时器：</strong><br>1、周期更新定时器：用来激发RIP路由器路由表的更新，每个RIP节点只有一个更新定时器，设为30s。每隔30s路由器会向其邻居广播自己的路由表信息；<br>2、超时定时器：用来判定某条路由是否可用。每条路由有一个超时定时器，设为180s。当一条路由激活或更新时，该定时器初始化，如果在180s之内没有收到关于那条路由的更新，则将该路由置为无效；<br>3、清除定时器：用来判定是否清除一条路由。每条路由有一个清除定时器，设为120s。当路由器认识到某条路由无效时，就初始化一个清除定时器，如果在120s内还没收到这条路由的更新，就从路由表中将该路由删除；<br>4、延迟定时器：为避免触发更新引起广播风暴而设置的一个随机的延迟定时器，延迟时间为1～5s。</li><li><strong>环路：</strong>当网络发生故障时，RIP网络有可能产生路由环路。可以通过水平分割、毒性反转、触发更新、抑制时间等技术来避免环路的产生。</li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;RIP&lt;/font&gt;（Routing Information Protocol）中文名称：&lt;font size=6&gt;路由信息协议 &lt;/font&gt;，是基于距离矢量算法的路由协议，利用跳数来作为计量标准，在带宽、</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="RIP" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/RIP/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="RIP" scheme="https://blog.molipre.com/tags/RIP/"/>
-    
-  </entry>
-  
-  <entry>
     <title>AirPods Pro入手体验</title>
     <link href="https://blog.molipre.com/posts/10971429.html"/>
     <id>https://blog.molipre.com/posts/10971429.html</id>
@@ -480,62 +228,6 @@
   </entry>
   
   <entry>
-    <title>PNG是什么？</title>
-    <link href="https://blog.molipre.com/posts/2958e9e4.html"/>
-    <id>https://blog.molipre.com/posts/2958e9e4.html</id>
-    <published>2021-02-16T04:03:10.000Z</published>
-    <updated>2021-02-16T04:03:10.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>PNG</font>（Portable Network Graphics）中文名称：<font size=6>便携式网络图形 </font>，是一种采用无损压缩算法的位图格式，使用从LZ77派生的无损数据压缩算法。</strong></p><p>&emsp;&emsp;<strong>PNG设计目的是试图替代GIF和TIFF文件格式，同时增加一些GIF文件格式所不具备的特性，一般应用于JAVA程序、网页或S60程序中，原因是它压缩比高，生成文件体积小。</strong></p><p><strong>PNG有如下特性：</strong></p><ol><li><strong>体积小：</strong></li><li><strong>无损压缩：</strong>PNG文件采用LZ77算法的派生算法进行压缩，其结果是获得高的压缩比，不损失数据；</li><li><strong>索引彩色模式：</strong>采用8位调色板将RGB彩色图像转换为索引彩色图像；</li><li><strong>更优化的网络传输显示：</strong>PNG图像在浏览器上采用流式浏览，即使经过交错处理的图像会在完全下载之前提供浏览者一个基本的图像内容，然后再逐渐清晰起来；</li><li><strong>支持透明效果：</strong>PNG可以为原图像定义256个透明层次，使得彩色图像的边缘能与任何背景平滑地融合，从而彻底地消除锯齿边缘。</li></ol><p>&emsp;&emsp;<strong>PNG格式有8位、24位、32位三种形式，其中8位PNG支持两种不同的透明形式（索引透明和alpha透明），24位PNG不支持透明，32位PNG在24位基础上增加了8位透明通道，因此可展现256级透明程度。</strong></p><p>&emsp;&emsp;<strong>PNG8和PNG24后面的数字则是代表这种PNG格式最多可以索引和存储的颜色值。8代表2的8次方也就是256色，而24则代表2的24次方大概有1600多万色。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;PNG&lt;/font&gt;（Portable Network Graphics）中文名称：&lt;font size=6&gt;便携式网络图形 &lt;/font&gt;，是一种采用无损压缩算法的位图格式，使用从LZ77派生的无损数据压缩</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="PNG" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/PNG/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="PNG" scheme="https://blog.molipre.com/tags/PNG/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ROM是什么？</title>
-    <link href="https://blog.molipre.com/posts/b9e7f475.html"/>
-    <id>https://blog.molipre.com/posts/b9e7f475.html</id>
-    <published>2021-02-15T06:59:02.000Z</published>
-    <updated>2021-02-15T06:59:02.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;<strong><font size=6>ROM</font>（Read-Only Memory）中文名称：<font size=6>只读存储器 </font>，是只能读出无法写入信息的存储器，通常是装入整机前写入的，整机工作过程中只能读出，不像随机存储器能快速方便地改写存储内容。ROM所存数据稳定 ，断电后所存数据也不会改变，并且结构较简单，使用方便，因而常用于存储各种固定程序和数据。</strong></p><p>&emsp;&emsp;<strong>ROM从其制造工艺和功能上分为五种类型，分别是掩膜编程的只读存储器MROM</strong>（Mask-programmedROM）<strong>、可编程的只读存储器PROM</strong>（Programmable ROM）<strong>、可擦除可编程的只读存储器EPROM</strong>（Erasable Programmable ROM）<strong>、可电擦除可编程的只读存储器EEPROM</strong>（Elecrically Erasable Programmable ROM）<strong>和快擦除读写存储器</strong>（Flash Memory）<strong>。</strong></p><ol><li><strong>掩膜编程的只读存储器MROM：</strong>存储的信息由生产厂家在掩膜工艺过程中“写入”。在制造过程中，将资料以一特制光罩（Mask）烧录于线路中；</li><li><strong>可编程的只读存储器PROM：</strong>允许用户通过专用的设备（编程器）一次性写入自己所需要的信息，其一般可编程一次，PROM存储器出厂时各个存储单元皆为1，或皆为0，用户使用时，再使用编程的方法使PROM存储所需要的数据</li><li><strong>可擦除可编程的只读存储器EPROM：</strong>可多次编程，是一种以读为主的可写可读的存储器，用户根据需要来写入，并能把已写入的内容擦去后再改写的ROM，存储的信息可以由用户自行加电编写，也可以利用紫外线光源或脉冲电流等方法先将原存的信息擦除，然后用写入器重新写入新的信息；</li><li><strong>可电擦除可编程的只读存储器EEPROM：</strong>随时可写入而无须擦除原先内容的存储器，但写操作比读操作时间要长得多，修改时只需使用普通的控制、地址和数据总线，不过抹除的方式是使用高电场来完成；</li><li><strong>快擦除读写存储器：</strong>由英特尔发明的一种高密度、非易失性的读/写半导体存储器，使用电可擦技术，整个快闪存储器可以在一秒钟至几秒内被擦除，即擦除存储器中的某些块，而不是整块芯片。</li></ol><p>&emsp;&emsp;<strong>我们日常使用的U盘、TF卡、SD卡等移动存储器就是快擦除读写存储器，俗称“闪存”。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;&lt;font size=6&gt;ROM&lt;/font&gt;（Read-Only Memory）中文名称：&lt;font size=6&gt;只读存储器 &lt;/font&gt;，是只能读出无法写入信息的存储器，通常是装入整机前写入的，整机工作过程中只能读出，不像随机</summary>
-      
-    
-    
-    
-    <category term="百科" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ROM" scheme="https://blog.molipre.com/categories/%E7%99%BE%E7%A7%91/ROM/"/>
-    
-    
-    <category term="一川百科" scheme="https://blog.molipre.com/tags/%E4%B8%80%E5%B7%9D%E7%99%BE%E7%A7%91/"/>
-    
-    <category term="ROM" scheme="https://blog.molipre.com/tags/ROM/"/>
-    
-  </entry>
-  
-  <entry>
     <title>20210214</title>
     <link href="https://blog.molipre.com/posts/1b7e03bc.html"/>
     <id>https://blog.molipre.com/posts/1b7e03bc.html</id>
@@ -559,6 +251,290 @@
     
     
     <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新年快乐！牛年大吉！</title>
+    <link href="https://blog.molipre.com/posts/dce2d7b8.html"/>
+    <id>https://blog.molipre.com/posts/dce2d7b8.html</id>
+    <published>2021-02-11T15:59:59.000Z</published>
+    <updated>2021-02-11T15:59:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/newyear1.jpg"></p><p><strong>写于2021年02月11日，农历庚子年腊月三十日，除夕夜。</strong></p><p><strong>庚子鼠年的我们历经磨难，但任然不断地努力向前走，一川的博客也于今年重新上线。</strong></p><p><strong>新的一年，一川将会持续更新博客内容，也会不断优化博客内容，提高内容的质量。</strong></p><p><strong>最后，一川在此祝各位辛丑牛年身体健康，万事顺利，学业进步，事业有为，牛年大吉！！！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://p.molipre.com/img/newyear1.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写于2021年02月11日，农历庚子年腊月三十日，除夕夜。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;庚子鼠年的我们历经磨难，但任然不断</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="随笔" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://blog.molipre.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20210211</title>
+    <link href="https://blog.molipre.com/posts/1f634aa0.html"/>
+    <id>https://blog.molipre.com/posts/1f634aa0.html</id>
+    <published>2021-02-11T02:42:02.000Z</published>
+    <updated>2021-02-11T02:42:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年02月11日 星期四 除夕 天气 晴 平均温度 18°</strong></big></p><p>&emsp;&emsp;<strong>今天，又到了一年一度贴对联的除夕，今年照例是帮爸爸的忙，主角还是我爹，宝刀未老，买对联和贴对联的好手，不过老爸今年爬上爬下也会说有点累了，父母是真的开始变老了。</strong></p><p>&emsp;&emsp;<strong>今年的年夜饭还是熟悉的味道-妈妈做的饭，虽然随着姐姐们出嫁，这几年的年夜饭只有我和父母三人吃，但是这种熟悉的味道以及家人陪伴的感觉是真的好，自从毕业后出来工作，选择在别的城市打拼，回家的机会就是每年的为数不多的节假日了，虽然没有如父母的意愿在老家工作，因为我知道一个五线小城市是真的没多大机遇，我也不想在往后遇到大问题的时候无能为力，所以趁年轻，我要出去闯闯！</strong></p><p>&emsp;&emsp;<strong>新的一年又来了，希望家人们身体安康，平平安安，也希望自己事业有成，加油吧！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年02月11日 星期四 除夕 天气 晴 平均温度 18°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;今天，又到了一年一度贴对联的除夕，今年照例是帮爸爸的忙，主角还是我爹，宝刀</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20210209</title>
+    <link href="https://blog.molipre.com/posts/fcc62ebb.html"/>
+    <id>https://blog.molipre.com/posts/fcc62ebb.html</id>
+    <published>2021-02-09T07:31:33.000Z</published>
+    <updated>2021-02-09T07:31:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年02月09日 星期天 天气 阴转小雨 平均温度 18°</strong></big></p><p>&emsp;&emsp;<strong>今天是放春节假期前最后一天上班，过两天就是春节了，虽然自工作之后，关于年味的也是越来越乏味，但是想着能够回家见到家人，内心还是十分欢喜，虽然今天是个阴天，天气还稍微变冷了一点，下午还下起了小雨，但是并不会影响到因为热切想要归家的开心。</strong></p><p>&emsp;&emsp;<strong>前两天刚好是农历生日，虽然没有人记得，但是我买了个 <code>AirPods Pro</code> 作为今年的生日礼物，不得不说这个耳机极大程度地提高了我上班的舒适感，再也不用和那些在公共场合外放特别大声的脑残对线了，降噪一开，完全隔绝了地铁上外放着的抖音视频，简直是出行必备神器，春节回来应该会写一个使用体验。</strong></p><p>&emsp;&emsp;<strong>春节期间有打算购买一台11英寸 <code>iPad Pro 2020</code> ，因为最近在学习备战一些考证，之前用的iPad mini 4屏幕太小了，加上我把系统升级到了iPadOS 14后，操作就变得卡顿了，所以关于购买新iPad的心又燃了起来，虽然最近都在传苹果三月份会更新iPad系列，但是等到新iPad发布再到能够购买再到送到手上，估计要4、5月份了，对我来说，时间更重要，而且我个人觉得不是啥重大改变，新款和旧款都差不多，就像之前iPad Pro 2018和现在的iPad Pro 2020，差别不大，CPU你也感受不出性能差别，毕竟苹果的CPU还是很强的，最重要一点是，我目前大学毕业了，但是发现我还能用教育优惠购买苹果的产品，谁知道会不会某天就没了，所以2月份会购买iPad Pro 2020，然后把iPad mini 4送给我姐姐看视频，愉快！</strong></p><p>&emsp;&emsp;<strong>最近也没有什么事情值得一说，就到这里吧，春节假期快乐！！放假啦！！！</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年02月09日 星期天 天气 阴转小雨 平均温度 18°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;今天是放春节假期前最后一天上班，过两天就是春节了，虽然自工作之后，关于年味</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>003、Linux学习之Linux的文件权限和目录配置</title>
+    <link href="https://blog.molipre.com/posts/a7e04f82.html"/>
+    <id>https://blog.molipre.com/posts/a7e04f82.html</id>
+    <published>2021-02-06T02:54:51.000Z</published>
+    <updated>2021-02-06T02:54:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本章节暂未学习完</p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">Linux优秀的地方之一就是多人多任务环境，因此Linux中每个目录和文件给予每个用户的什么权限就很重要，什么文件或目录给什么人读、写或者执行，都需要一一划分好。</summary>
+    
+    
+    
+    <category term="学习" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Linux的文件权限和目录配置" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/Linux%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E5%92%8C%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
+    
+    <category term="Linux的文件权限和目录配置" scheme="https://blog.molipre.com/tags/Linux%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E5%92%8C%E7%9B%AE%E5%BD%95%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>002、Linux学习之Linux文件系统</title>
+    <link href="https://blog.molipre.com/posts/d0e77f14.html"/>
+    <id>https://blog.molipre.com/posts/d0e77f14.html</id>
+    <published>2021-02-04T01:23:26.000Z</published>
+    <updated>2021-02-04T01:23:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><strong>前面一章我们学习了如何在电脑安装虚拟机系统，既然系统已经安装好了，那今天就开始正式学习Linux。</strong></li><li><strong>这一章我开先从Linux的文件系统开始学习，在Linux中的任何东西都是以文件的形式存在的。</strong></li></ul><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><h2 id="文件系统"><a href="#文件系统" class="headerlink" title="文件系统"></a>文件系统</h2><ul><li><strong>Linux操作系统具有一定层次结构，由若干目录和子目录组成，不同于windows操作系统，Linux只有一个根目录，用 <code>/</code> 表示，它采用的是级层式的树形结构在Linux世界里，一切皆文件。</strong><br><img src="https://p.molipre.com/img/wenjianxitong.png" alt="目录结构-1"><br><img src="https://p.molipre.com/img/wenjianxitong1.png" alt="目录结构-2"></li></ul><h2 id="目录详解"><a href="#目录详解" class="headerlink" title="目录详解"></a>目录详解</h2><ul><li><strong>从上面的图可以看到Linux有且仅有一个根目录 <code>/</code> ，在根目录下有许多其他的目录，有些是非常重要的，有些是次要的，下面我们来一一学习一下。</strong></li></ul><ol><li><strong><code>/bin</code></strong><br><strong>即 <code>Binary</code> 的缩写，存放着最经常使用的命令。</strong></li><li><strong><code>/boot</code></strong><br><strong>存放的是启动Linux时使用的一些核心文件，包括一些连接文件以及镜像文件。</strong></li><li><strong><code>/dev</code></strong><br><strong>这个目录类似于winlows的设备管理器，把所有的硬件用文件的形式存储。</strong></li><li><strong><code>/etc</code></strong><br><strong>存放Linux系统及各种程序的配置文件。</strong></li><li><strong><code>/home</code></strong><br><strong>即家目录，存放普通用户的主目录，在Linux中每个用户都有一个自己的目录，一般该目录名是以用户的账号命名的。</strong></li><li><strong><code>/lib</code></strong><br><strong>此目录下包含系统引导和在根用户执行命令时候所必需用到的共享库。</strong></li><li><strong><code>/usr/lib</code></strong><br><strong>目标库文件，包括动态连接库加上一些通常不是直接调用的可执行文件的存放位置。</strong></li><li><strong><code>/media</code></strong><br><strong>挂载的媒体设备目录，一般外部设备挂载到这里，例如cdrom、U盘等。</strong></li><li><strong><code>/mnt</code></strong><br><strong>临时挂载目录，这个目录一般是用于存放挂载储存设备的挂载目录的，比如磁盘，光驱，网络文件系统等，当我们需要挂载某个磁盘设备的时候，可以把磁盘设备挂载到这个目录上去，这样我们可以直接通过访问这个目录来访问那个磁盘。</strong></li><li><strong><code>/opt</code></strong><br><strong>可择的文件目录，这个目录表示的是可择的意思，些自定义软件包或者第方工具，就可以安装在这里。</strong></li><li><strong><code>/proc</code></strong><br><strong>特殊文件目录，这个目录采用一种特殊的文件系统格式（proc格式，内核支持这种格式。其中包含了全部虚拟文件。它们并不保存在磁盘中，也不占据磁盘空间(尽管命令ls -c会显示它们的大小)，当查看它们时，实际上看到的是内存里的信息，这些文件助于我们了解系统内部信息。</strong></li><li><strong><code>/root</code></strong><br><strong>用户root的$HOME目录，系统管理员(就是root用户或超级用户)的主目录比较特殊，不存放在/home中，而是直接放在/root目录下了。</strong></li><li><strong><code>/sbin</code></strong><br><strong>即 <code>Super User</code> ，这里存放的是系统管理员使用的系统管理程序，存放大多涉及系统管理的命令，例如引导系统的init程序等。</strong></li><li><strong><code>/usr/sbin</code></strong><br><strong>管理员使用的非系统必须的可执行文件存放目录，这个目录相当于根文件系统下的对应目录/sbin，保存系统管理程序的二进制文件，并且这些文件不是系统启动或文件系统挂载 /usr 目录或修复系统所必需的。</strong></li><li><strong><code>/tmp</code></strong><br><strong>临时文件目录，这个目录存放系统中的一些临时文件，当系统关机后开机或者重启，文件可能会被系统自动清空。</strong></li><li><strong><code>/usr</code></strong><br><strong>这个目录中包含了命令库文件和在通常操作中不会修改的文件，不太恰当的比喻就类似Windows中系统盘的Program Files。</strong></li><li><strong><code>/var</code></strong><br><strong>内容经常变化的目录，这个目录下文件的大小可能会改变，如缓冲文件，日志文件，缓存文件，等一般都存放在这里，但基本都是存放日志文件。</strong></li></ol><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ul><li><strong>整个Linux文件系统是一个树形结构，每个分叉（子目录）有特定的功能。</strong></li><li><strong>Linux的各个目录存放的内容基本是规划好的，不能随便乱放文件。</strong></li><li><strong>Linux一切都是文件，以文件的形式管理所有设备。</strong></li></ul><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul><li><strong>关于Linux的文件除了根目录下的各个目录，在这些目录里面还有其他重要的目录，也需要去了解。</strong></li><li><strong>接下来下一章学习的是Linux的文件权限和目录配置。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">关于Linux系统中根目录下的目录详解以及其他重要的目录介绍。</summary>
+    
+    
+    
+    <category term="学习" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Linux文件系统" scheme="https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/Linux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
+    
+    <category term="Linux文件系统" scheme="https://blog.molipre.com/tags/Linux%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>001、Linux学习之VMware安装centos7</title>
+    <link href="https://blog.molipre.com/posts/e7f811ea.html"/>
+    <id>https://blog.molipre.com/posts/e7f811ea.html</id>
+    <published>2021-02-02T07:06:17.000Z</published>
+    <updated>2021-02-02T07:06:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><strong>在<a href="https://blog.molipre.com/posts/a0198444.html">“戴尔R740服务器安装centos7.8系统”</a>这篇博文中我们讲述了如何为物理机安装centos系统用作Linux学习，但是大部分人都不会有一台闲置的电脑去专门安装linux系统用于学习，因此在平常使用的电脑上安装虚拟机软件再在虚拟机软件去安装Linux系统才是我们学习Linux的常规方法。</strong></li><li><strong>这篇博文主要就是教会大家如何使用虚拟机软件 <a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html"><code>VMware Workstation Pro</code></a> 安装centos7，，并且配置其网络能够通过SSH的方法连接系统，还有最后安装 <code>VMware Tools</code> 这个工具。</strong></li><li><strong>关于虚拟机软件有很多个，大家熟知的并且用的最多应该就是 <code>Vmware Workstation Pro</code> 和 <code>Virtual Box</code> ，当然macOS端有一个 <code>Parallels Desktop</code> 也是非常好用的，不过我们这次主要是用 <code>Vmware Workstation Pro</code> ，如果有机会，会出一篇博文介绍一下其他的虚拟机软件。</strong></li></ul><h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><p>— <strong>既然是用虚拟机软件安装centos7系统，那肯定需要软件安装包和系统镜像：</strong></p><ol><li><a href="https://download3.vmware.com/software/wkst/file/VMware-workstation-full-16.1.0-17198959.exe"><strong>VMware Workstation Pro</strong></a></li><li><strong>CentOS-7-x86_64-Minimal-1810</strong> (鉴于centos团队已经逐步停止了centos的维护，相关镜像请自行查询下载)</li></ol><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><div class="note red quote flat"><p><strong>本教程基于Windows 10 1909版本、VMware Workstation 15 Pro、CentOS-7-x86_64-Minimal-1810等基础下进行，如Windows激活、VMware激活等问题请自行解决。</strong></p></div><h2 id="VMware-Workstation-Pro安装"><a href="#VMware-Workstation-Pro安装" class="headerlink" title="VMware Workstation Pro安装"></a>VMware Workstation Pro安装</h2><ul><li><strong>这个软件安装应该不用教学吧，基本是下载完成后，双击打开一直下一步就好了。</strong></li></ul><h2 id="创建centos虚拟机"><a href="#创建centos虚拟机" class="headerlink" title="创建centos虚拟机"></a>创建centos虚拟机</h2><ol><li><p><strong>VMware Workstation Pro 安装完成后，打开软件，一般刚装好的如下图所示，然后点击 <code>创建新的虚拟机</code> 。</strong></p><p><img src="https://p.molipre.com/img/vmware.png" alt="安装centos"></p></li><li><p><strong>1、点击后出现下面的弹窗，选择 <code>自定义(高级)</code> ；</strong><br><strong>2、直到出现图2界面，选择 <code>稍后安装操作系统</code> ；</strong><br><strong>3、在客户机操作系统界面选择 <code>Linux</code> ，版本选择 <code>CentOS 7 64位</code> ；</strong><br><strong>4、在命名虚拟机界面，给创建的虚拟机命名，例如我命名为 <code>centos7</code> ；</strong><br><strong>5、在处理器配置界面，按默认选择即可，因为用于学习，不需要太高配置；</strong><br><strong>6、对于虚拟机的内存建议高一点，推荐 <code>2G</code> ；</strong><br><strong>7、网络类型选择 <code>桥接网络</code> ，主要是为使虚拟机系统拥有自己的IP便于用SSH连接， 如果是打算直接在虚拟机软件操作可以选择 <code>NAT模式</code> ；</strong><br><strong>8、虚拟机容量默认推荐 <code>20G</code> 即可，然后勾选 <code>将虚拟磁盘存储为单个文件</code> ；</strong></p><p><img src="https://p.molipre.com/img/vmware1.png" alt="安装centos-1"><br><img src="https://p.molipre.com/img/vmware2.png" alt="安装centos-2"><br><img src="https://p.molipre.com/img/vmware3-2.png" alt="安装centos-3"><br><img src="https://p.molipre.com/img/vmware4.png" alt="安装centos-4"><br><img src="https://p.molipre.com/img/vmware5.png" alt="安装centos-5"><br><img src="https://p.molipre.com/img/vmware6.png" alt="安装centos-6"><br><img src="https://p.molipre.com/img/vmware7.png" alt="安装centos-7"><br><img src="https://p.molipre.com/img/vmware8.png" alt="安装centos-8"></p></li><li><p><strong>上述所有操作完成后，点击下一步出现下图界面，点击 <code>自定义硬件</code> ，进入硬件设置界面。</strong></p><p><img src="https://p.molipre.com/img/vmware9.png" alt="安装centos-9"><br><strong>1、点击 <code>新CD/DVD（IDE）</code> ；</strong><br><strong>2、选择 <code>使用ISO映像文件</code> ；</strong><br><strong>3、点击浏览，选择已经下载好的centos镜像文件，最后点击关闭；</strong><br><strong>4、返回上图页面点击完成即可完成虚拟机的配置。</strong></p><p><img src="https://p.molipre.com/img/vmware10.png" alt="安装centos-10"></p></li></ol><h2 id="设置虚拟机网络"><a href="#设置虚拟机网络" class="headerlink" title="设置虚拟机网络"></a>设置虚拟机网络</h2><div class="note red quote flat"><p><strong>这项设置是需要选择网络模式为 <code>NAT模式</code> 才需要设置，如果和我一样设置为 <code>桥接模式</code> ，则忽略该设置。</strong></p></div><div class="note red quote flat"><p><strong>下面出现的所有IP请根据自己局域网IP修改，每个局域网IP都可能不一样。</strong></p></div><ol><li><p><strong>先查看电脑的虚拟机服务是否启动，<code>此电脑</code> → <code>右键</code> → <code>管理</code> → <code>服务和应用程序</code> → <code>服务</code> ，找到 <code>VMware</code> 开头的服务，没有启动的话，全部启动。</strong></p><p><img src="https://p.molipre.com/img/vmware30.png" alt="设置虚拟机网络-1"></p></li><li><p><strong>在 <code>VMware Workstation Pro</code> 软件左上角，点击 <code>编辑</code> ，然后选择点击 <code>虚拟网络编辑器</code> 。</strong></p><p><img src="https://p.molipre.com/img/vmware17.png" alt="设置虚拟机网络-2"></p></li><li><p><strong>上述步骤点击后进入下图界面，点击右下角的 <code>更改设置</code> 。</strong></p><p><img src="https://p.molipre.com/img/vmware18.png" alt="设置虚拟机网络-3"></p></li><li><p><strong>选择 <code>VMnet8</code> ，然后点击 <code>NAT设置</code> 。</strong></p><p><img src="https://p.molipre.com/img/vmware31.png" alt="设置虚拟机网络-4"></p></li><li><p><strong><code>NAT设置</code> 如下图：</strong></p><p><img src="https://p.molipre.com/img/vmware32.png" alt="设置虚拟机网络-5"></p></li><li><p><strong>打开电脑的 <code>控制面板</code> → <code>网络和Internet</code> → <code>网络连接</code> ，找到 <code>VMnet8</code> ，<code>右键</code> → <code>属性</code> → <code>Internet 协议版本 4(TCP/IP)</code> → <code>属性</code> ，修改如图所示：</strong></p><p><img src="https://p.molipre.com/img/vmware33.png" alt="设置虚拟机网络-6"><br><img src="https://p.molipre.com/img/vmware34-1.png" alt="设置虚拟机网络-7"></p></li><li><p><strong>配置虚拟机系统的静态IP（此步骤请在系统安装完成后修改），操作步骤请往下查看。</strong></p></li></ol><h2 id="安装centos7系统"><a href="#安装centos7系统" class="headerlink" title="安装centos7系统"></a>安装centos7系统</h2><ul><li><strong>上述虚拟机相关的配置完成后，就可以点击开启虚拟机，开始安装centos7系统。</strong></li></ul><ol><li><p><strong>如下图所示，完成虚拟机配置后，在我的计算机会出现刚才配置好的虚拟机，点击它并且点击开启此虚拟机。</strong></p><p><img src="https://p.molipre.com/img/vmware11.png" alt="安装centos7系统-1"></p></li><li><p><strong>等待一会就会出现下图几个选项的界面，选中第一个 <code>Install CentOS 7</code> ，按回车键，出现图2界面，继续按回车键，等待一会，便会出现centos安装系统图形操作界面，如图3所示。</strong></p><p><img src="https://p.molipre.com/img/vmware12.png" alt="安装centos7系统-2"><br><img src="https://p.molipre.com/img/vmware13.png" alt="安装centos7系统-3"><br><img src="https://p.molipre.com/img/vmware14.png" alt="安装centos7系统-4"></p></li><li><p><strong>从这一步开始，剩下的步骤就和物理机安装centos系统一样了，我这边就快速过，基本就是不断点击下一步，然后分区方案详细情况可以参考“戴尔R740服务器安装centos7.8系统”这篇博文中的“<a href="https://blog.molipre.com/posts/a0198444.html#%E5%88%86%E5%8C%BA%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4">分区操作步骤</a>”。</strong><br><strong>我的虚拟机分区方案如下图：</strong></p><p><img src="https://p.molipre.com/img/vmware15-1.png" alt="安装centos7系统-5"></p></li></ol><h2 id="设置SSH登录"><a href="#设置SSH登录" class="headerlink" title="设置SSH登录"></a>设置SSH登录</h2><div class="note red quote flat"><p><strong>如果是为了学习Linux，上述操作完成后就可以开始折腾centos系统了，所以这一步看个人习惯，当然我还是建议学习一下如何用SSH连接，毕竟这个是运维必备技能了。</strong></p></div><ol><li><p><strong>待上述步骤完成后，点击 <code>reboot</code> 重启系统等待一会看见如下界面，输入 <code>root</code> 后输入前面设置好的密码，即可进入系统。</strong></p><p><img src="https://p.molipre.com/img/vmware16-1.png" alt="设置SSH登录-1"></p></li><li><p><strong>先用命令看看是否连网，以及是否有IP。</strong><br><strong>命令如下：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ping www.qq.com</span><br><span class="line"><span class="comment"># ping命令测试是否联网</span></span><br><span class="line">ifconfig</span><br><span class="line"><span class="comment"># 显示目前的网络设备以及状态内容</span></span><br></pre></td></tr></table></figure><p><strong>如出现下图情况：</strong></p><p><img src="https://p.molipre.com/img/vmware19-1.png" alt="设置SSH登录-2"><br><strong>1、先修改网卡文件的 <code>ONBOOT=YES</code> ，然后重启网路服务，命令如下；</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/sysconfig/network-scripts</span><br><span class="line"><span class="comment"># 切换到network-scripts目录</span></span><br><span class="line">ll</span><br><span class="line"><span class="comment"># 查看当前目录下的文件和目录</span></span><br><span class="line">vi ifcfg-xxxx</span><br><span class="line"><span class="comment"># xxxx指的是网卡名字，例如我的是ifcfg-ens33</span></span><br><span class="line">将<span class="string">&quot;ONBOOT=no&quot;</span>改为<span class="string">&quot;ONBOOT=yes&quot;</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/vmware20.png" alt="设置SSH登录-3"><br><strong>修改完成后按住 <code>esc</code> 键，再按 <code>:</code> ，输入 <code>wq</code> ，按回车键保存修改，然后输入如下命令重启网络服务：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">service network restart</span><br><span class="line"><span class="comment"># 或</span></span><br><span class="line">systemctl start network.service</span><br></pre></td></tr></table></figure><p><strong>网络服务重启成功后，再次测试网络发现已经联网。</strong></p><p><img src="https://p.molipre.com/img/vmware21-1.png" alt="设置SSH登录-4"><br><strong>接着输入如下命令安装 <code>ifconfig</code> ：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum search ifconfig</span><br><span class="line"><span class="comment"># 搜索下ifconfig的相关，由下图可以看到网络工具是net-tools.x86_64包</span></span><br><span class="line">yum install -y net-tools.x86_64</span><br><span class="line"><span class="comment"># 安装net-tools.x86_64</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/vmware22.png" alt="设置SSH登录-5"><br><img src="https://p.molipre.com/img/vmware23.png" alt="设置SSH登录-6"><br><strong>工具安装完成后，再次输入 <code>ifconfig</code> 命令即可查看到网卡信息。</strong></p><p><img src="https://p.molipre.com/img/vmware24.png" alt="设置SSH登录-7"></p><div class="note red quote flat"><p><strong>到这一步看到IP其实就可以通过SSH连接了，但是现在的IP是自动获取的，有可能会变化，所以还需要设置为静态IP，当然，一般DHCP获取的IP很长一段时间都不会变化的，不想麻烦也可以不修改。</strong></p></div></li><li><p><strong>设置静态IP</strong><br><strong>输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/sysconfig/network-scripts</span><br><span class="line"><span class="comment"># 切换到network-scripts目录</span></span><br><span class="line">ll</span><br><span class="line"><span class="comment"># 查看当前目录下的文件和目录</span></span><br><span class="line">vi ifcfg-xxxx</span><br><span class="line"><span class="comment"># xxxx指的是网卡名字，例如我的是ifcfg-ens33</span></span><br><span class="line">将<span class="string">&quot;BOOTPROTO=dhcp&quot;</span>改为<span class="string">&quot;BOOTPROTO=static&quot;</span></span><br><span class="line"><span class="comment"># 并添加如下内容</span></span><br><span class="line">IPADDR=192.168.11.212   <span class="comment"># 设置的静态IP地址，上面我查到是这个IP，所以直接设置</span></span><br><span class="line">NETMASK=255.255.255.0    <span class="comment"># 子网掩码</span></span><br><span class="line">GATEWAY=192.168.11.1    <span class="comment"># 网关地址</span></span><br><span class="line">DNS1=114.114.114</span><br><span class="line">DNS2=8.8.8.8</span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/vmware25.png" alt="设置静态IP"><br><strong>修改完成后按住 <code>esc</code> 键，再按 <code>:</code> ，输入 <code>wq</code> ，按回车键保存修改，然后输入如下命令重启网络服务：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">service network restart</span><br><span class="line"><span class="comment"># 或</span></span><br><span class="line">systemctl start network.service</span><br></pre></td></tr></table></figure></li><li><p><strong>使用软件通过SSH连接虚拟机</strong><br><strong>以我现在使用的 <code>SecureCRT 8.3</code> 为例，打开软件，新建新的连接，输入IP</strong>（例如我的是192.168.11.212）<strong>，端口号不用修改，输入用户名 <code>root</code> ，点击完成，然后找到创建好的连接，双击打开，输入密码即可成功进入虚拟机系统。</strong></p><p><img src="https://p.molipre.com/img/vmware26.png" alt="SSH连接-1"><br><img src="https://p.molipre.com/img/vmware27.png" alt="SSH连接-2"><br><img src="https://p.molipre.com/img/vmware28.png" alt="SSH连接-3"></p><div class="note red quote flat"><p><strong>关于更多的SSH内容可以查看“<a href="https://blog.molipre.com/posts/4070ac05.html">在centos7.6下配置SSH的公私钥key登录</a>”这篇博文。</strong></p></div></li></ol><h2 id="安装VMware-Tools"><a href="#安装VMware-Tools" class="headerlink" title="安装VMware Tools"></a>安装VMware Tools</h2><ol><li><p><strong>在 <code>VMware Workstation Pro</code> 软件左上角，点击 <code>虚拟机</code> ，然后选择点击 <code>安装VMware Tools</code> 。</strong></p><p><img src="https://p.molipre.com/img/vmware35.png" alt="安装VMware Tools-1"></p></li><li><p><strong>待VMware Tools下载完成，出现 <code>取消安装VMware Tools安装</code> 选项，进入虚拟机系统， 输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls /dev</span><br><span class="line"><span class="comment"># 显示dev目录下的内容</span></span><br></pre></td></tr></table></figure><p><strong>通过命令可以看到cdrom已经加载。</strong></p><p><img src="https://p.molipre.com/img/vmware36.png" alt="安装VMware Tools-2"><br><strong>输入如下命令挂载cdrom：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir /mnt/cdrom</span><br><span class="line"><span class="comment"># 在mnt目录下创建cdrom目录</span></span><br><span class="line">mount -t iso9660 /dev/cdrom /mnt/cdrom</span><br><span class="line"><span class="comment"># 将/dev/cdrom挂载在/mnt/cdrom目录</span></span><br><span class="line">ls /mnt/cdrom</span><br><span class="line"><span class="comment"># 显示cdrom目录下的内容</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/vmware37.png" alt="安装VMware Tools-3"><br><strong>输入如下命令将/mnt/cdrom目录下的 VMwareTools压缩包拷贝到家目录：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cp /mnt/cdrom/VMwareTools-10.3.2-9925305.tar.gz ~</span><br><span class="line"><span class="comment"># 拷贝/mnt/cdrom目录下的 VMwareTools-10.3.2-9925305.tar.gz文件到家目录</span></span><br><span class="line">umount /dev/cdrom</span><br><span class="line"><span class="comment"># 解除挂载cdrom</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="comment"># 切换到家目录</span></span><br><span class="line">ls ~</span><br><span class="line"><span class="comment"># 显示家目录下的内容，查看是否复制成功</span></span><br><span class="line">tar -zxvf VMwareTools-10.3.2-9925305.tar.gz</span><br><span class="line"><span class="comment"># 解压VMwareTools-10.3.2-9925305.tar.gz</span></span><br><span class="line">ls ~</span><br><span class="line"><span class="comment"># 显示家目录下的内容，查看是否解压成功</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/vmware38.png" alt="安装VMware Tools-4"><br><img src="https://p.molipre.com/img/vmware39.png" alt="安装VMware Tools-5"></p></li><li><p><strong>安装VMware Tools</strong><br><strong>输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /vmware-tools-distrib</span><br><span class="line"><span class="comment"># 切换到vmware-tools-distrib目录</span></span><br><span class="line">./vmware-install.pl</span><br><span class="line"><span class="comment"># 运行vmware-install.pl文件</span></span><br></pre></td></tr></table></figure><p><strong>接下来提示有[no]的输入no，有[yes]的输入yes，没有的一般直接按回车。</strong></p><p><img src="https://p.molipre.com/img/vmware40.png" alt="安装VMware Tools-6"><br><strong>如果出现 <code>what is the location of the gcc program on your machine ?</code> ，则需要安装一下 <code>gcc</code> ，通过 <code>Ctrl+c</code> 退出安装，然后输入如下命令安装gcc：</strong><br><img src="https://p.molipre.com/img/vmware42.png" alt="安装VMware Tools-7"></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum -y install gcc</span><br><span class="line"><span class="comment"># 安装gcc</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/vmware43.png" alt="安装VMware Tools-8"></p><p><strong>如果出现 <code>Enter the path to the kernel header files for the 3.10.0-872.el7.x86_64 kernel headers ?</code> ，因为尚未创建相应的软链接导致的，通过 <code>Ctrl+c</code> 退出安装，然后输入如下命令安装 <code>kernel kernel-headers kernel-devel</code>：</strong><br><img src="https://p.molipre.com/img/vmware44.png" alt="安装VMware Tools-9"></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum -y install kernel kernel-headers kernel-devel</span><br><span class="line"><span class="comment"># 安装kernel kernel-headers kernel-devel</span></span><br><span class="line">rpm -aq | grep kernel-headers</span><br><span class="line"><span class="comment"># 查看kernel-headers是否安装成功</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/vmware45.png" alt="安装VMware Tools-10"><br><img src="https://p.molipre.com/img/vmware46.png" alt="安装VMware Tools-11"><br><strong>接着通过如下命令创建软链接：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ln -s /usr/src/kernels/3.10.0-1160.15.2.el7.x86_64/include/generated/uapi/linux/version.h /usr/src/kernels/3.10.0-1160.15.2.el7.x86_64/include/linux/version.h</span><br><span class="line"><span class="comment"># 为/usr/src里面的version.h创建软链接</span></span><br><span class="line">reboot</span><br><span class="line"><span class="comment"># 重启虚拟机</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/vmware47.png" alt="安装VMware Tools-12"><br><strong>接下来重新回到 <code>vmware-tools-distrib</code> 文件夹并运行 <code>vmware-install.pl</code>文件，然后按照提示有[no]的输入no，有[yes]的输入yes，没有的直接按回车，待看到 <code>Creating a new initrd boot image for the kernel</code> ，等待一段时间后出现 <code>Enjoy --the VMware team</code> 即是完成安装。</strong></p><p><img src="https://p.molipre.com/img/vmware48.png" alt="安装VMware Tools-13"></p></li><li><p><strong>运行并配置VMware Tools</strong><br><strong>输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/usr/bin/vmware-user</span><br><span class="line"><span class="comment"># 启动vmware用户进程</span></span><br><span class="line">reboot</span><br><span class="line"><span class="comment"># 重启虚拟机完成VMware Tools安装</span></span><br></pre></td></tr></table></figure></li></ol><h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><ul><li><strong>至此关于在虚拟机上安装Linux系统并且SSH连接，以及VMware Tools的安装就结束了，接下来将开启关于Linux更多知识的学习。</strong></li></ul><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul><li><strong>祝大家成功在虚拟机软件上安装centos系统！</strong></li><li><strong>开始下一步的学习吧，再见👋！</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">介绍如何通过VMware Workstation这个虚拟机软件安装centos7，和让虚拟机系统拥有独立的IP能够通过SSH连接，以及安装VMware Tools。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="VMware" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/VMware/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
+    
+    <category term="VMware" scheme="https://blog.molipre.com/tags/VMware/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阅读《菊与刀》</title>
+    <link href="https://blog.molipre.com/posts/32bc6abe.html"/>
+    <id>https://blog.molipre.com/posts/32bc6abe.html</id>
+    <published>2021-02-01T03:15:45.000Z</published>
+    <updated>2021-02-01T03:15:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/juyudao.png" alt="菊与刀"></p><p><big>&emsp;&emsp;<strong>《菊与刀》从人类学的角度，分析了当年第二次世界大战时和战败后日本人或者说日本这个民族的民族特质，文化等等，虽然这本书写作至今已经要70年了，时间流逝，如今的日本和当年的日本，表面上的东西早就变得面目全非了，但是读完《菊与刀》这本书，你会发现，书中提到的关于日本民族的文化、特质，似乎依旧如此。</strong></p><p>&emsp;&emsp;<strong>《菊与刀》这本书在提到了解日本的时候，一定会被推荐的，但是我读完这本书想说的是，这是一本美国人类学家对日本的深刻解读，虽然在此后说是被日本人认可的作品，但是作者在书的开头也说了，她本身不懂日语，从未去过日本，也没研究过日本，所有的资料都是从一些传到美国并翻译为英语的日本文献，以及采访一些生活在美国的二三代日本人所得，而且她写下这本书的动机本身是美国军方给出的一个任务。</strong></p><p>&emsp;&emsp;<strong>说到这里，你可能会好奇，一个从未了解过日本的美国专家是如何写出一本关于日本的国民特性、文化的作品的，看到书本的开头，我也非常好奇，因为我是看到很多推荐才去看这本书的，因此我也是耐心地看完了，看完你会发现，对于作者的专业性你会持怀疑态度，毕竟关于一个人的性格，是极具私人化和个人感受的，从未在这生活过的怎么可能感受得到，也不奇怪很多读完本书去日本生活的人或者去过日本生活过的人再读此书，都会觉得很多对日本的描述过于夸张和实为谣言。</strong></p><p>&emsp;&emsp;<strong>因此本书虽然值得一读，但不要当做是一本合格的经得起调查的学术著作，你应当看作是一份美国思维方式和研究方法所得到的关于日本名族文化特性等的研究报告，甚至这份报告是带有种族色彩，毕竟想像式的研究，只有诡辩和幻想。</strong></p></big><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">一个美国人类学家在第二次世界大战对日本文化或者说日本整个民族的矛盾性格的揭示，虽然至今已过几十年，可能大部分的认识随着时间的流逝已然过时，但从中还是能够窥视处日本这个国家或者说日本整个民族文化的根本。</summary>
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="阅读" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
+    
+    
+    <category term="阅读" scheme="https://blog.molipre.com/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20210131</title>
+    <link href="https://blog.molipre.com/posts/8bc11e2d.html"/>
+    <id>https://blog.molipre.com/posts/8bc11e2d.html</id>
+    <published>2021-01-31T13:41:27.000Z</published>
+    <updated>2021-01-31T13:41:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big>&emsp;&emsp;<strong>2021年01月31日 星期天 天气 晴 平均温度 20°</strong></big></p><p>&emsp;&emsp;<strong>这个周末刚好双休，下星期要连续上9天班，然后就是春节假期了，因此这个周末放假就没出门，待在家里两天，其实就是啥都不想做，最近生活绷得很紧，突然想要放松一下，持续了十几周没断过的夜跑，这个周末也没去跑步，真的是彻彻底底当了两天死肥宅，别的不说，是真的舒服。</strong></p><p>&emsp;&emsp;<strong>周六早上特意去买了一份家乡的特色美食- <code>猪肠碌</code> ，实在是很久没吃了，久违的味道，虽然老板是老家那边的人，但是做的不算很好吃，不过对于一个长时间在外打工的人，这味道真的令人怀念啊！</strong></p><p><img src="https://p.molipre.com/img/zhuchanglu.jpg" alt="猪肠碌"></p><p>&emsp;&emsp;<strong>周六晚上再次做了 <code>青椒炒肉</code> ，这次终于不是之前做的那样干瘪无汁得了，味道也比之前好了许多，厨艺也是有了些许长进，周日试了一下网上说的菜式，之前没试过的新菜式 - <code>粉丝煎蛋番茄金针菇煲</code>（主要是之前朋友来家里做饭剩下了粉丝和鸡蛋），不知道是不是手艺不好的缘故，反正不太好吃，马马虎虎，不过粉丝还是挺入味的，然后这道 <code>炒三丁</code> 还是一如既往的好吃。</strong></p><p><img src="https://p.molipre.com/img/qingjiaochaorou.jpg" alt="青椒炒肉"><br><img src="https://p.molipre.com/img/fensibao.jpg" alt="粉丝煲"></p><p>&emsp;&emsp;<strong>两天就这样很快就过去了，平平淡淡，带有些许的孤独。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;big&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;2021年01月31日 星期天 天气 晴 平均温度 20°&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt;这个周末刚好双休，下星期要连续上9天班，然后就是春节假期了，因此这个周末放假就没</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="日记" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://blog.molipre.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IC谷星X24Q显示器使用体验</title>
+    <link href="https://blog.molipre.com/posts/51476da.html"/>
+    <id>https://blog.molipre.com/posts/51476da.html</id>
+    <published>2021-01-29T03:40:54.000Z</published>
+    <updated>2021-01-29T03:40:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><strong>购买需求：最近写代码和文章的量一直在上涨，原本在用的4K显示器就竖着使用，但是需要看其他窗口就挺麻烦，因此打算增购一台显示器竖屏使用。</strong></li><li><strong>至于为啥不再买一个4K显示器，是因为我目前使用的主机是Deskmini H310，没有独立显卡，如果核显输出两台4K显示器，我估计可能会掉帧，因此购买一台2K显示器是最佳选择。</strong></li></ul><h1 id="参数与外观"><a href="#参数与外观" class="headerlink" title="参数与外观"></a>参数与外观</h1><h2 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h2><ul><li><strong>先简单说一下X24Q这款显示器的参数：<code>23.8寸</code> 、<code>75Hz刷新率</code> 、<code>4ms响应时间</code> 、<code>2K分辨率</code> 、<code>IPS面板</code> 、<code>300尼特亮度</code> 、<code>支持FreeSync</code> 、<code>支持HDR(聊胜于无)</code> 、<code>99%sRGB色域</code> 、<code>8bit色深(不知道是不是6抖8，大概率是的)</code> 、<code>支持壁挂</code> ，接口：<code>HDMI</code> 、<code>DP</code> 、<code>Audio(音频输出)</code> 、<code>USB 2.0(仅充电)</code></strong></li></ul><h2 id="外观"><a href="#外观" class="headerlink" title="外观"></a>外观</h2><ul><li><p><strong>直接看图片吧，不用过多介绍。</strong></p><p><img src="https://p.molipre.com/img/xianshiqibaozhuang.jpg" alt="显示器包装"><br><img src="https://p.molipre.com/img/xianshiqiwaiguan.jpg" alt="显示器外观"><br><img src="https://p.molipre.com/img/xianshibiankuangf.jpeg" alt="显示器边框"><br><img src="https://p.molipre.com/img/xianshichicun.png" alt="显示器尺寸"><br><img src="https://p.molipre.com/img/xianshiqjiekou1.jpg" alt="显示器接口"></p></li><li><p><strong>上面几个图可以看出包装都是不对应显示器的，应该是为了节省成本多款显示器用一种外包装，显示器三边窄边框，整体做工颇为粗糙，毕竟是个山寨小品牌，用的是公模外形，我之前选显示器就发现很多家显示器外观差不多的，底座是金属的，挺稳定，不过我直接壁挂</strong>（注意：壁挂接口75mm × 75mm）<strong>，整体不算厚但是最薄处才1.4cm也不算超薄，当然，使用过程是不会太在意这个尺寸的，边框够窄</strong>（窄的三边是4.5mm、厚的一边是20mm）<strong>就可以了，整体黑色，没有多余的logo，除了底座是金属的，其他都是塑料外壳</strong>（廉价感的由来）<strong>，关于外观基本就是这样子了。</strong></p></li></ul><h1 id="使用感受"><a href="#使用感受" class="headerlink" title="使用感受"></a>使用感受</h1><ul><li><strong>针对我个人情况来说，用于竖屏写代码、写文章、浏览网页非常合适，颜色和我的4K显示器相比有偏差，漏光情况尚好，不影响，300尼特的亮度虽然够用，但是我要用开灯用就是了，然后不要用来修图，剪辑调色等对色彩要求搞得操作，显示器只能达到能用的水平。</strong></li><li><strong>使用感受都是很主观的，毕竟是根据自己的用途来决定好不好，反正我用于信息流的编辑与浏览就很好，大概就这样。</strong></li></ul><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ol><li><strong>用于信息流的使用，例如写代码，写文章，看网页，值得购买，毕竟才 <code>700元</code> 不到的 <code>2K分辨率</code> 和 <code>99%sRGB色域</code> 的显示器；</strong></li><li><strong>不要痴心妄想用于修图、剪辑调色等需要专业显示色彩的情况下，贪图便宜买这个玩意，反正出图眼瞎；</strong></li><li><strong>玩游戏的话，没试过，不过我使用过144Hz的高刷显示器，建议游戏还是买高刷的电竞显示器，虽然这个显示器能到达75Hz，但也就那样，高刷才是王道。</strong></li><li><strong>使用macOS（指的是白苹果）的不建议购买，因为没法使用macOS的 <code>HIDPI</code>，黑苹果倒是可以通过命令和设置开启。</strong></li></ol><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">原本使用的是27寸4K显示器，虽然也可以排列多个窗口，但是最近写代码、文章的量上涨，因此购买了一个显示器作为竖屏使用。</summary>
+    
+    
+    
+    <category term="产品体验" scheme="https://blog.molipre.com/categories/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/"/>
+    
+    <category term="显示器" scheme="https://blog.molipre.com/categories/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/%E6%98%BE%E7%A4%BA%E5%99%A8/"/>
+    
+    
+    <category term="产品体验" scheme="https://blog.molipre.com/tags/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/"/>
+    
+    <category term="谷星X24Q显示器" scheme="https://blog.molipre.com/tags/%E8%B0%B7%E6%98%9FX24Q%E6%98%BE%E7%A4%BA%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Centos 7 + Samba配置实例</title>
+    <link href="https://blog.molipre.com/posts/d6bbfdfc.html"/>
+    <id>https://blog.molipre.com/posts/d6bbfdfc.html</id>
+    <published>2021-01-25T01:44:58.000Z</published>
+    <updated>2021-01-25T01:44:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li><strong>本篇文章直接使用实例讲解，所以不会过多讲述概念性的知识，基本上都是 <code>Samba</code> 的一些基础配置，内容主要包括 <code>Samba</code> 的安装以及用户权限的配置，接下来我开始本次教程吧。</strong></li></ul><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><h2 id="实例项目背景（需求）"><a href="#实例项目背景（需求）" class="headerlink" title="实例项目背景（需求）"></a>实例项目背景（需求）</h2><ul><li><strong>某公司需要在内网搭建一个存储服务器，以供企业 <code>行政部</code> 、<code>财务部</code> 、<code>技术部</code> 、<code>商务部</code> 四个部门的员工使用，使用需求如下：</strong><br><strong>一共有 <code>行政部</code> 、<code>财务部</code> 、<code>技术部</code> 、<code>商务部</code> 、<code>共享软件</code> 五个文件夹，五个文件夹的要求如下：</strong><ol><li><strong><code>行政部</code> 、<code>财务部</code> 、<code>技术部</code> 、<code>商务部</code> 四个部门的员工账号，互相独立，只能访问自己部门的文件夹，且拥有 <code>读</code> 、<code>写</code> 、<code>执行</code> 权限。</strong></li><li><strong>四个部门所有员工都能访问 <code>共享软件</code> 文件夹，但是只有 <code>读</code> 、<code>执行</code> 权限。</strong></li><li><strong><code>技术部</code> 文件夹下分别有 <code>1组</code> 、<code>2组</code> 、<code>3组</code> 三个文件夹分别给三个组的员工使用，要求每个组的员工只能访问自己组的文件夹，但是技术部的主管可以访问所有租的文件夹。</strong></li><li><strong>所有文件夹都使用垃圾站回收，防止用户误删文件。</strong></li><li><strong>管理员对 <code>共享软件</code> 文件夹有 <code>读</code> 、<code>写</code> 、<code>执行</code> 权限。</strong></li></ol></li></ul><h2 id="用户划分"><a href="#用户划分" class="headerlink" title="用户划分"></a>用户划分</h2><ul><li><strong>根据上述的需求可以发现不同的部门员工有着不同的权限，就算同一个部门也会有不同的权限，因此可以可视化表格如下：</strong><table><thead><tr><th>用户名</th><th>身份</th><th>所属组</th><th>授权目录</th></tr></thead><tbody><tr><td>xingzheng1</td><td>行政部员工</td><td>xingzheng1,xingzheng</td><td>行政部、共享软件</td></tr><tr><td>caiwu1</td><td>财务部员工</td><td>caiwu1,caiwu</td><td>财务部、共享软件</td></tr><tr><td>jishu1</td><td>技术部员工</td><td>jishu1,jishu</td><td>技术部、1组、共享软件</td></tr><tr><td>jishu2</td><td>技术部员工</td><td>jishu2,jishu</td><td>技术部、2组、共享软件</td></tr><tr><td>jishu3</td><td>技术部员工</td><td>jishu3,jishu</td><td>技术部、3组、共享软件</td></tr><tr><td>jishuzhuguan</td><td>行政部主管</td><td>jishuzhuguan,jishu</td><td>技术部、1组、2组、3组、共享软件</td></tr><tr><td>shangwu1</td><td>商务部员工</td><td>shangwu1,shangwu</td><td>商务部、共享软件</td></tr><tr><td>admin</td><td>管理员</td><td>admin</td><td>共享软件</td></tr></tbody></table></li></ul><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><ul><li><strong>本次教程的服务器是一台安装 <code>Centos7.6</code> 的Linux服务器。</strong></li></ul><ol><li><p><strong>安装Samba服务</strong><br><strong>SSH登录服务器后输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yum -y install samba samba-client</span><br><span class="line">yum -y install vim</span><br><span class="line"><span class="comment"># 安装vim软件，方便后续修改文件</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/samba2.png" alt="安装"></p></li><li><p><strong>关闭 <code>Selinux</code></strong><br><strong>输入如下命令打开配置文件：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim /etc/selinux/config</span><br></pre></td></tr></table></figure><p><strong>找到 <code>SELINUX=enforcing</code> 并修改为 <code>SELINUX=disabled</code> ，修改完成，按 <code>esc</code> 键，再按 <code>:</code> 键，输入 <code>wq</code> 按回车键保存并退出，然后输入 <code>reboot</code> 重启系统，生效Selinux设置。</strong><br><img src="https://p.molipre.com/img/samba3.png" alt="修改Selinux"></p></li><li><p><strong>按需求创建目录</strong></p><ul><li><strong>在根目录 <code>/</code> 下创建一个 <code>samba_data</code> 目录，然后把所有部门的目录都创建在 <code>samba_data</code> 下。</strong><br><strong>输入如下命令创建：</strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /</span><br><span class="line"><span class="comment"># 切换到根目录</span></span><br><span class="line">mkdir /samba_data</span><br><span class="line"><span class="comment"># 在根目录下创建samba_data目录</span></span><br><span class="line"><span class="built_in">cd</span> /samba_data</span><br><span class="line"><span class="comment"># 切换到samba_data目录</span></span><br><span class="line">mkdir xingzhengbu caiwubu jishubu shangwubu soft</span><br><span class="line"><span class="comment"># 在samba_data目录下创建xingzhengbu、caiwubu、jishubu、shangwubu、soft五个目录</span></span><br><span class="line"><span class="built_in">cd</span> jishubu</span><br><span class="line"><span class="comment"># 切换到jishubu目录</span></span><br><span class="line">mkdir group1 group2 group3</span><br><span class="line"><span class="comment"># 在jishubu目录下创建 group1、group2、group3三个目录</span></span><br></pre></td></tr></table></figure><img src="https://p.molipre.com/img/samba4.png" alt="创建目录"><br><img src="https://p.molipre.com/img/samba6.png" alt="目录"></li><li><strong>创建回收站目录，用于存放samba中被删除的文件，防止用户误删除导致找不到文件。</strong><br><strong>输入如下命令：</strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /</span><br><span class="line"><span class="comment"># 切换到根目录</span></span><br><span class="line">mkdir /data_trash</span><br><span class="line"><span class="comment"># 在根目录下创建data_trash目录</span></span><br><span class="line">chmod 777 /data_trash</span><br><span class="line"><span class="comment"># 更改data_trash目录权限为777</span></span><br></pre></td></tr></table></figure><img src="https://p.molipre.com/img/samba5.png" alt="创建回收站"></li></ul></li><li><p><strong>按需求创建用户和用户组</strong></p><ul><li><strong>输入如下命令创建用户和用户组：</strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">useradd -s /sbin/nologin xingzheng1</span><br><span class="line">useradd -s /sbin/nologin caiwu1</span><br><span class="line">useradd -s /sbin/nologin jishu1</span><br><span class="line">useradd -s /sbin/nologin jishu2</span><br><span class="line">useradd -s /sbin/nologin jishu3</span><br><span class="line">useradd -s /sbin/nologin jishuzhuguan</span><br><span class="line">useradd -s /sbin/nologin shangwu1</span><br><span class="line">useradd -s /sbin/nologin admin</span><br><span class="line"><span class="comment"># 创建各个用户，其中 -s /sbin/nologin 是为了防止这些用户通过samba账号登录服务器</span></span><br><span class="line">groupadd xingzheng</span><br><span class="line">groupadd caiwu</span><br><span class="line">groupadd jishu</span><br><span class="line">groupadd shangwu</span><br><span class="line">groupadd group1</span><br><span class="line">groupadd group2</span><br><span class="line">groupadd group3</span><br><span class="line"><span class="comment"># 创建对应文件夹的用户组</span></span><br></pre></td></tr></table></figure><img src="https://p.molipre.com/img/samba7.png" alt="创建用户和用户组"></li><li><strong>为每个创建的Samba用户设置密码，命令如下：</strong><br><strong>教程以测试为主，所有samba用户密码均设置弱密码：<code>123456</code></strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">smbpasswd -a xingzheng1</span><br><span class="line">smbpasswd -a caiwu1</span><br><span class="line">smbpasswd -a jishu1</span><br><span class="line">smbpasswd -a jishu2</span><br><span class="line">smbpasswd -a jishu3</span><br><span class="line">smbpasswd -a jishuzhuguan</span><br><span class="line">smbpasswd -a shangwu1</span><br><span class="line">smbpasswd -a admin</span><br><span class="line"><span class="comment"># 每个命令输入后都会要求输入密码</span></span><br></pre></td></tr></table></figure><img src="https://p.molipre.com/img/samba8.png" alt="设置samba用户密码"></li></ul></li><li><p><strong>修改各个目录所属组</strong><br><strong>目前各个目录所属组还是 <code>root</code> ，需要修改为各个部门所属组。</strong><br><img src="https://p.molipre.com/img/samba9.png" alt="目录所属组"><br><strong>输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /samba_data</span><br><span class="line"><span class="comment"># 切换到根目录下的samba_data目录</span></span><br><span class="line">chown root.xingzheng xingzhengbu</span><br><span class="line">chown root.caiwu caiwubu</span><br><span class="line">chown root.jishu jishubu</span><br><span class="line">chown root.shangwu shangwubu</span><br><span class="line"><span class="comment"># 修改各个部门对应的目录所属组为对应的部门</span></span><br><span class="line"><span class="built_in">cd</span> jishubu</span><br><span class="line"><span class="comment"># 切换到samba_data目录下的jishubu目录</span></span><br><span class="line">chown root.group1 group1</span><br><span class="line">chown root.group2 group2</span><br><span class="line">chown root.group3 group3</span><br><span class="line"><span class="comment"># 修改jishubu目录下三个组的目录对应的所属组</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/samba10.png" alt="修改所属组"><br><img src="https://p.molipre.com/img/samba11.png" alt="所属组修改成功"></p></li><li><p><strong>修改目录权限</strong><br><strong>输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">chmod 777 /samba_data/soft</span><br><span class="line"><span class="comment">#修改共享软件（soft）目录的权限为 777</span></span><br><span class="line">chmod 770 /samba_data/jishubu/group1</span><br><span class="line">chmod 770 /samba_data/jishubu/group2</span><br><span class="line">chmod 770 /samba_data/jishubu/group3</span><br><span class="line"><span class="comment"># 修改技术部各组的目录权限为 770</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/samba12.png" alt="修改权限"></p></li><li><p><strong>配置Samba主配置文件</strong><br><strong>输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/samba</span><br><span class="line"><span class="comment"># 切换到samba目录</span></span><br><span class="line">cp smb.conf smb.conf.bak</span><br><span class="line"><span class="comment"># 复制smb.conf文件并另存为smb.conf.bak文件</span></span><br><span class="line">vim smb.conf</span><br><span class="line"><span class="comment"># 编辑smb.conf文件</span></span><br></pre></td></tr></table></figure><p><strong>修改如下图所示：</strong><br><img src="https://p.molipre.com/img/samba13.png" alt="samba配置设置1"></p><p><strong>在 <code>cups options = raw</code> 后添加如下图所示内容开启全局垃圾站回收：</strong><br><img src="https://p.molipre.com/img/samba15.png" alt="垃圾站回收设置"></p><p><strong>在 <code>recycle:exclude = *.tmp|*.TMP</code> 后添加如下图所示内容设置各个文件目录：</strong><br><img src="https://p.molipre.com/img/samba14.png" alt="samba配置设置2"></p><p><strong>完成上述步骤后，按 <code>esc</code> 键，再按 <code>:</code> 键，输入 <code>wq</code> 按回车键保存并退出。</strong></p></li><li><p><strong>启动Samba服务并设置Samba服务器的自启动。</strong><br><strong>输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">systemctl start smb.service</span><br><span class="line"><span class="comment"># 启动Samba服务</span></span><br><span class="line">systemctl <span class="built_in">enable</span> smb.service</span><br><span class="line"><span class="comment"># 设置Samba服务开机自启动</span></span><br></pre></td></tr></table></figure></li><li><p><strong>防火墙设置方通Samba服务</strong><br><strong>输入如下命令：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">firewall-cmd --permanent --zone=public --add-service=samba</span><br><span class="line"><span class="comment"># 放行Samba服务</span></span><br><span class="line">firewall-cmd --reload</span><br><span class="line"><span class="comment"># 设重启防火墙</span></span><br></pre></td></tr></table></figure></li></ol><h2 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h2><ol><li><p><strong>用户 <code>admin</code> 只能进入 <code>共享软件(soft)</code> 目录，且能写文件进去；其它目录均不能访问.</strong><br><strong>访问财务部被拒绝，其他行政部、技术部、商务部也是被拒绝。</strong><br><img src="https://p.molipre.com/img/yanzheng.png" alt="验证1"></p><p><strong><code>共享软件(soft)</code> 目录能够访问，并且能够存放和删除文件。</strong><br><img src="https://p.molipre.com/img/yanzheng3.png" alt="验证2"><br><img src="https://p.molipre.com/img/yanzheng2.png" alt="验证3"><br><img src="https://p.molipre.com/img/yanzheng1.png" alt="验证4"></p><p><strong>删除的文件也成功放到回收站。</strong><br><img src="https://p.molipre.com/img/yanzheng4.png" alt="验证5"></p></li><li><p><strong>用户 <code>jishu1</code> 能进入技术部的 <code>group1</code> 文件夹对文件 <code>读、写、执行</code> ，但是不能进入 <code>group2</code> 和 <code>group3</code> 还有 <code>行政部、商务部</code> 文件夹，能够访问 <code>共享软件(soft)</code> 文件夹读取执行里面的文件，但是不能删除文件。</strong><br><strong>先给用户 <code>jishu1</code> 授权进入 <code>group1</code> ，命令如下：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">usermod -a -G jishu jishu1</span><br><span class="line"><span class="comment"># 添加用户jishu1到组jishu里</span></span><br><span class="line">usermod -a -G group1 jishu1</span><br><span class="line"><span class="comment"># 添加用户jishu1到组group1里</span></span><br><span class="line">systemctl restart smb</span><br><span class="line"><span class="comment"># 重启smb服务</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/yanzheng5.png" alt="验证6"><br><img src="https://p.molipre.com/img/yanzheng6.png" alt="验证7"><br><img src="https://p.molipre.com/img/yanzheng7.png" alt="验证8"><br><img src="https://p.molipre.com/img/yanzheng9.png" alt="验证9"></p></li><li><p><strong>用户 <code>jishuzhuguan</code> 能进入技术部所有的文件夹，并且对技术部的所有减价都能进行管理，拥有 <code>读、写、执行</code> 权限。</strong><br><strong>先给用户 <code>jishuzhuguan</code> 授权，命令如下：</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">usermod -a -G jishu jishuzhuguan</span><br><span class="line"><span class="comment"># 添加用户jishuzhuguan到组jishu里</span></span><br><span class="line">usermod -a -G group1 jishuzhuguan</span><br><span class="line"><span class="comment"># 添加用户jishuzhuguan到组group1里</span></span><br><span class="line">usermod -a -G group2 jishuzhuguan</span><br><span class="line"><span class="comment"># 添加用户jishuzhuguan到组group2里</span></span><br><span class="line">usermod -a -G group3 jishuzhuguan</span><br><span class="line"><span class="comment"># 添加用户jishuzhuguan到组group3里</span></span><br><span class="line">systemctl restart smb</span><br><span class="line"><span class="comment"># 重启smb服务</span></span><br></pre></td></tr></table></figure><p><img src="https://p.molipre.com/img/yanzheng8.png" alt="验证10"><br><img src="https://p.molipre.com/img/yanzheng10.png" alt="验证11"><br><img src="https://p.molipre.com/img/yanzheng11.png" alt="验证12"><br><img src="https://p.molipre.com/img/yanzheng12.png" alt="验证13"><br><strong>同样，用户 <code>jishuzhuguan</code> 有权限能进入 <code>共享软件(soft)</code> 并且有 <code>读、执行</code> 权限，但没有 <code>写</code> 权限，不能放入或者删除文件夹里的文件。</strong></p></li></ol><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol><li><strong>配置Samba，需要提前确认需求，例如需要什么目录以及各个用户权限如何。</strong></li><li><strong>一般遇到Samba无法访问的时候，很多时候不会是Samba配置错误，而是Linux本身的权限限制，例如Selinux是否关闭，防火墙是否开启、放通对应的策略和端口等等。</strong></li><li><strong>关于验证权限是否设置成功，建议给所有权限，然后逐个测试，再进一步针对需求进行限制。</strong></li></ol><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><ul><li><strong>关于如何在 Centos7 上配置Samba以及如何对用户权限设置就到这里了，总体还是要根据实际情况来搞。</strong></li><li><strong>祝大家配置成功，并且学习到了如何设置，再见👋。</strong></li></ul><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">网络存储很多人都应该知道，那么企业应该如何实现呢？本文说的就是通过Centos 7 + Samba搭建网络共享，基础的部分，包含samba的安装，用户权限的配置。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Samba" scheme="https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/Samba/"/>
+    
+    
+    <category term="centos" scheme="https://blog.molipre.com/tags/centos/"/>
+    
+    <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
+    
+    <category term="Samba" scheme="https://blog.molipre.com/tags/Samba/"/>
+    
+    <category term="运维" scheme="https://blog.molipre.com/tags/%E8%BF%90%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阅读《北上》</title>
+    <link href="https://blog.molipre.com/posts/d106ffd.html"/>
+    <id>https://blog.molipre.com/posts/d106ffd.html</id>
+    <published>2021-01-21T00:31:25.000Z</published>
+    <updated>2021-01-21T00:31:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/beishang.png" alt="北上"></p><p><big>&emsp;&emsp;<strong>这是一段横跨100年的故事，从八国联军侵华到义和团扶清灭洋，再到日本侵华战争和新中国成立后发生的文化大革命，以及最后2014大年运河申遗成功这一年，发生在这条运河上关于时间，关于爱情，关于亲情，关于水，关于…的故事。</strong></p><p>&emsp;&emsp;<strong>整本小说分为两条时间线，一条时间线是1900年代，意大利人马福德参加八国联军作战与家人失联，后来他哥哥小波罗到中国寻找马福德。故事由此展开，通过大运河他们跟一些中国人产生了交集；另一条时间线是2014年，几个人为了搞《大河谭》，聚在了一起。虽然前几代人的背景都已经模糊，但是他们还是通过大运河聚到了一起，一起去完成这部大作。</strong></p><p>&emsp;&emsp;<strong>小说中有两个篇幅是让我觉得描写得很不错，“鸬鹚与罗盘”中关于邵常来的后人结婚的事情把船民们与大运河的难舍难离的深沉情结可近了书里，以及“小博物馆之歌”中关于大运河之中老物件或者古董的情怀以及闪烁着的人性和历史的光辉让人赞叹。</strong></p><p>&emsp;&emsp;<strong>小说中关于现代的篇幅让我觉得比较出戏的就是谢平遥的后人谢望和孙过程的后人孙宴临的故事发展，像是在写网络爽文小说似的，谢望的油腔滑调、孙宴临的装逼高冷范像是化学反应一样，两者一相遇，快速到不可思议的突然逆转，孙宴临就已经为了爱情不顾一切，抛弃事业，变卖作画支持谢望，看起来十分美好。</strong></p><p>&emsp;&emsp;<strong>整本小说看下来，可以看见作者徐则臣想要表达对历史的思考以及自己的态度，不过细节上有点造假的感觉，虽然是一本小说，但是关于外国人的家书和对于大运河的想法写得感觉像是中国人写得，而那个时候两个意大利人来中国没多久，应该思想上不会如此。</strong></p><p>&emsp;&emsp;<strong>总而言之，小说挺好看的，但总体上没有多大值得思考的地方，我个人观点是觉得是一部好看的小说！</strong><br></big></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+    <summary type="html">横跨百年的故事，几个家族的先祖百年前因大运河而一起共事，此后100年，又因大运河而从新接上彼此间的羁绊。</summary>
+    
+    
+    
+    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="阅读" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
+    
+    
+    <category term="阅读" scheme="https://blog.molipre.com/tags/%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
