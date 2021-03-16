@@ -6,7 +6,7 @@
   <link href="https://blog.molipre.com/atom.xml" rel="self"/>
   
   <link href="https://blog.molipre.com/"/>
-  <updated>2021-03-17T02:31:27.000Z</updated>
+  <updated>2021-03-17T09:48:20.000Z</updated>
   <id>https://blog.molipre.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>玩转虚拟机之为PC安装ESXI</title>
+    <link href="https://blog.molipre.com/posts/d4a7aac.html"/>
+    <id>https://blog.molipre.com/posts/d4a7aac.html</id>
+    <published>2021-03-17T09:48:20.000Z</published>
+    <updated>2021-03-17T09:48:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;big&gt;&lt;strong&gt;&lt;center&gt;如有问题请点击&lt;a href=&quot;mailto:819591739@qq.com&quot;&gt;邮件&lt;/a&gt;或在底下评论与我联系&lt;/center&gt;&lt;/strong&gt;&lt;/big&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="硬件相关" scheme="https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/"/>
+    
+    <category term="ESXI" scheme="https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/ESXI/"/>
+    
+    
+    <category term="ESXI" scheme="https://blog.molipre.com/tags/ESXI/"/>
+    
+  </entry>
   
   <entry>
     <title>iPad Pro 2020(11 inch) + Apple Pencil 入手体验</title>
@@ -48,7 +75,7 @@
     <published>2021-03-15T02:28:07.000Z</published>
     <updated>2021-03-16T09:45:07.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;<strong>或许有些有些朋友看到realme会觉得是个小牌子的手机，但事实上realme是绿厂新力军，对标的就是小米家族的Redmi，就目前的市场份额来说，realme推出的v系列、q系列、x系列的几款手机，都有着不错的口碑，不管是外观还是性能，都有着不俗的表现。</strong></p><p>&emsp;&emsp;<strong>在购买这台手机之前，我的备用机从 <code>荣耀x10</code> 换成了 <code>小米10</code> ，经过一段时间的使用，个人觉得小米10这台水桶机不适合用作备用机，小米10无疑是一台优秀的手机，不管是系统体验还是游戏性能都让我满意，但是平常携带一主一备两台手机的我，最不满意的就是小米10的重量，将近半斤重，非常瓷实，甚至有些坠手，因此我把小米10给了我爸之后，便开始寻找一台较为轻薄且性能尚可的手机。</strong></p><p>&emsp;&emsp;<strong>我把价格定在1500块钱内后，选择一下子就在Redmi和realme两者之间出现了，我个人看中了Redmi note 9 Pro、Redmi 10X、realme真我Q2 Pro、realme真我Q2，对标过手机重量以及充电速度后，果断选择了realme。</strong></p><p>&emsp;&emsp;<strong>在正式说体验之前，大家需要明确realme真我Q2 Pro这款手机的定位，是千元档的性价比机型，因此我们很多在旗舰机型上要有的功能需求不一定被全部满足，肯定是一款充满妥协的产品，当然对得起它的价位即可。</strong></p><h1 id="开箱"><a href="#开箱" class="headerlink" title="开箱"></a>开箱</h1><p>&emsp;&emsp;<strong>开箱之前先说一下realme真我Q2 Pro的一些数据吧，<code>天玑800U处理器、8G运存、128G存储空间、4300mAh电池、175g重、厚度8.1mm、三星AMOLED打孔直屏、屏下指纹、支持双5G、4800万四摄、65W快充、素皮后盖</code> ，我从拼多多百亿补贴入手，价格为 <code>1429</code> 元，在写这篇文章的时候价格为 <code>1399</code> 元。</strong><br><img src="https://p.molipre.com/img/realmeQ2pro-1.png" alt="realme真我Q2 Pro"></p><h2 id="包装展示"><a href="#包装展示" class="headerlink" title="包装展示"></a>包装展示</h2><p>&emsp;&emsp;<strong>黄色的包装盒略显骚气，正面除了印着Q2 Pro以及realme外再无其他东西，侧边也是非常简约的只印了一些字，整体的包装显得非常简单，略为廉价，虽然价格定位在千元档，但是这么廉价的包装，同价位我只在荣耀的手机见过。</strong></p><p><img src="https://p.molipre.com/img/realmeq2pro.jpg" alt="realme真我Q2 Pro"></p><h2 id="机器以及配件展示"><a href="#机器以及配件展示" class="headerlink" title="机器以及配件展示"></a>机器以及配件展示</h2><p>&emsp;&emsp;<strong>打开盒子，映入眼帘的还是黄色的小盒子，里面装着硅胶套、使用手册等等，小盒子正面印着 <code>和全球4000万年轻人一起敢越级</code> ，逼格满满，把这个小盒子拿开就看到手机本体了，再下来就是充电头和数据线。</strong></p><p>&emsp;&emsp;<strong>可以看到充电头略大，可能是因为最高支持65W的快充，功率高所以做的大一点，充电功率仅支持 <code>5V/2A</code> 和 <code>10V/6.5A</code> ，前者通吃大部分设备，后者将仅支持自家能用闪充的设备，也就是说其他品牌的手机是没法使用65W快充的，数据线略粗，考虑到是大电压大电流的快充，线粗也是很正常的，就是比较硬，用了一个月还是要硬掰才行。</strong></p><p><img src="https://p.molipre.com/img/realmeQ2pro-25.jpg" alt="充电器和线材"></p><p>&emsp;&emsp;<strong>手机拿上手的第一感觉是很轻，虽然看数据也知道是175g的重量，但是上手的感觉相当明显，大概是我这几年用的安卓手机基本都是超过200g的，少了这二三十克的重量感觉使用很舒爽，我买的版本是素皮灰，当然这个素皮后盖还是和 <code>华为mate30pro</code> 以及 <code>oppofindx2</code> 的素皮有相当大的差距的，仅仅是有些许皮质手感的塑料，硬中略为带有一丝软，不过手感比我在这一年中摸的一众千元机中能排上前三。</strong></p><p><img src="https://p.molipre.com/img/realmeQ2pro-17.jpg" alt="手机背部"></p><p>&emsp;&emsp;<strong>后置四摄，分别是4800万主摄 ，800万像素的超广角镜头， 200万像素超级微距镜头，200万像素黑白人像镜头，主摄采用f/1.8大光圈，拥有1/2英寸4800万像素感光元件，等效焦段25mm，超广角镜头有119°的取景范围，超级微距镜头单位面积1.65μm，对焦距离最近可近至4cm，个人对于摄像头模组无感，因为对我来说就是个扫码的，好不好只不影响扫码即可。</strong></p><p>&emsp;&emsp;<strong>外观的话也没啥好讲的，都是萝卜白菜各有所爱，realme真我Q2 Pro三边基本上等宽，都是窄边框，但是下巴比较宽，能停航母，还有realme真我Q2 Pro是左打孔屏，个人对于前置摄像头是否打孔无所谓，只要孔径够小不明显就OK，这款手机前置摄像头1600万像素，孔径是4mm，中规中矩，不算很小，但是平时使用也不会很注意这个前置摄像头。</strong></p><p><img src="https://p.molipre.com/img/realmeQ2pro-20.jpg" alt="摄像头模组"></p><p><big><strong>关于开箱就写到这里了，大家也可以看看我的拍的开箱视频。</strong></big></p><h1 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h1><p>&emsp;&emsp;<strong>关于使用体验，我将从 <code>屏幕，充电与续航，系统，游戏</code> 四个方面讲一下这一个月以来的感受，但这个是非常主观的感受，具体情况如何还是要自己用过才知道。</strong></p><ol><li><p><strong>屏幕</strong><br>由上述的的数据参数也知道，realme真我Q2 Pro的屏幕是一块AMOLED屏幕，据说是三星的，不过色彩艳丽，很讨眼睛喜欢是真的，我个人觉得看其来很舒适，虽然没有高刷，按照我的使用习惯，60Hz的刷新率也OK，不知道是我用惯了苹果的LCD屏幕还是上一台小米10的OLED屏幕看起来太涩的缘故，总感觉realme真我Q2 Pro的屏幕比我现在用的iPhone Xs和之前用的小米10都更好。</p><p><img src="https://p.molipre.com/img/realmeQ2pro-14.jpg" alt="屏幕"></p></li><li><p><strong>充电与续航</strong><br>充电过分给力，官方宣称从0%充到100%用时33分钟，我平时使用的话不会用到0%才充电，所以也不知道这个速度是不是真的，但是充电速度确实很快，我5%至充满电大概半个小时左右（粗略计算），当然也有可能是因为电池容量只有4300mAh的缘故，续航的话，按照我的使用习惯，如果平常只用来信息浏览，例如看小说、浏览酷安这类社区软件以及看看视频，大概是两条一充，如果还要玩几把游戏，那就是一天一充。</p><p><img src="https://p.molipre.com/img/realmeQ2pro-8.jpg" alt="电池与续航"></p></li><li><p><strong>系统</strong><br>目前的系统是 <code>realme UI 1.0 A_28 for Android 10</code> ，使用这么多天，感觉这些国产的UI都是大同小异，我个人从MIUI换到realme UI，完全感觉不到不习惯，因为平常使用的东西都有，各种快捷功能，例如快递、快捷二维码、计步、负一屏等等，也有可能我需求的功能都是比较基础的，MIUI功能和细节上会更加丰富一些吧，甚至于这个相对简洁一点的系统让我更加喜欢。</p><p><img src="https://p.molipre.com/img/realmeQ2pro-6.jpg" alt="reamle UI"></p></li><li><p><strong>游戏</strong><br>目前只用来玩过 <code>王者荣耀</code> 和 <code>和平精英</code> 这两个游戏，直接说结论就算是发热适中，不烫手，游戏运行流畅，简单点说就是能玩、不卡。<br><code>王者荣耀</code> 按照系统默认设置，一局排位赛下来，背部温度最高38度，帧率基本稳定在60帧左右，没啥波动，具体情况如下图：</p><p><img src="https://p.molipre.com/img/realmeQ2pro-2.png" alt="王者荣耀"><br><code>和平精英</code> 设置为流畅超高，玩了三局排位赛，用时大概1个小时，帧率基本维持在40帧左右，波动范围在1帧左右，温度的话相对来说高一点，40度左右，基本流畅运行。</p></li></ol><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>&emsp;&emsp;<strong>这是一款千元档位的 <code>水桶机</code> ，也是目前最便宜的5G手机之一，虽然没有120Hz的高刷，但是65W的快充以及超长的续航管理，还有着不错的AMOLED屏幕，都弥补了没有高刷带来的不足，天玑800U的加持，在游戏上也有不俗的表现，能够满足我们日常使用，同时也能够满足部分人不时的游戏需求。</strong></p><p>&emsp;&emsp;<strong>如果是追求极致的游戏性能和超高的摄影摄像效果，这台手机并不是好的选择，千元的价格必定会在一些地方作出取舍，因此按需购买即可。</strong></p><p>&emsp;&emsp;<strong>最后祝大家都能买到自己心仪的手机，！！再见👋。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;<strong>或许有些有些朋友看到realme会觉得是个小牌子的手机，但事实上realme是绿厂新力军，对标的就是小米家族的Redmi，就目前的市场份额来说，realme推出的v系列、q系列、x系列的几款手机，都有着不错的口碑，不管是外观还是性能，都有着不俗的表现。</strong></p><p>&emsp;&emsp;<strong>在购买这台手机之前，我的备用机从 <code>荣耀x10</code> 换成了 <code>小米10</code> ，经过一段时间的使用，个人觉得小米10这台水桶机不适合用作备用机，小米10无疑是一台优秀的手机，不管是系统体验还是游戏性能都让我满意，但是平常携带一主一备两台手机的我，最不满意的就是小米10的重量，将近半斤重，非常瓷实，甚至有些坠手，因此我把小米10给了我爸之后，便开始寻找一台较为轻薄且性能尚可的手机。</strong></p><p>&emsp;&emsp;<strong>我把价格定在1500块钱内后，选择一下子就在Redmi和realme两者之间出现了，我个人看中了Redmi note 9 Pro、Redmi 10X、realme真我Q2 Pro、realme真我Q2，对标过手机重量以及充电速度后，果断选择了realme。</strong></p><p>&emsp;&emsp;<strong>在正式说体验之前，大家需要明确realme真我Q2 Pro这款手机的定位，是千元档的性价比机型，因此我们很多在旗舰机型上要有的功能需求不一定被全部满足，肯定是一款充满妥协的产品，当然对得起它的价位即可。</strong></p><h1 id="开箱"><a href="#开箱" class="headerlink" title="开箱"></a>开箱</h1><p>&emsp;&emsp;<strong>开箱之前先说一下realme真我Q2 Pro的一些数据吧，<code>天玑800U处理器、8G运存、128G存储空间、4300mAh电池、175g重、厚度8.1mm、三星AMOLED打孔直屏、屏下指纹、支持双5G、4800万四摄、65W快充、素皮后盖</code> ，我从拼多多百亿补贴入手，价格为 <code>1429</code> 元，在写这篇文章的时候价格为 <code>1399</code> 元。</strong><br><img src="https://p.molipre.com/img/realmeQ2pro-1.png" alt="realme真我Q2 Pro"></p><h2 id="包装展示"><a href="#包装展示" class="headerlink" title="包装展示"></a>包装展示</h2><p>&emsp;&emsp;<strong>黄色的包装盒略显骚气，正面除了印着Q2 Pro以及realme外再无其他东西，侧边也是非常简约的只印了一些字，整体的包装显得非常简单，略为廉价，虽然价格定位在千元档，但是这么廉价的包装，同价位我只在荣耀的手机见过。</strong></p><p><img src="https://p.molipre.com/img/realmeq2pro.jpg" alt="realme真我Q2 Pro"></p><h2 id="机器以及配件展示"><a href="#机器以及配件展示" class="headerlink" title="机器以及配件展示"></a>机器以及配件展示</h2><p>&emsp;&emsp;<strong>打开盒子，映入眼帘的还是黄色的小盒子，里面装着硅胶套、使用手册等等，小盒子正面印着 <code>和全球4000万年轻人一起敢越级</code> ，逼格满满，把这个小盒子拿开就看到手机本体了，再下来就是充电头和数据线。</strong></p><p><img src="https://p.molipre.com/img/realmeQ2pro-26-1.jpg" alt="盒子"></p><p>&emsp;&emsp;<strong>可以看到充电头略大，可能是因为最高支持65W的快充，功率高所以做的大一点，充电功率仅支持 <code>5V/2A</code> 和 <code>10V/6.5A</code> ，前者通吃大部分设备，后者将仅支持自家能用闪充的设备，也就是说其他品牌的手机是没法使用65W快充的，数据线略粗，考虑到是大电压大电流的快充，线粗也是很正常的，就是比较硬，用了一个月还是要硬掰才行。</strong></p><p><img src="https://p.molipre.com/img/realmeQ2pro-25.jpg" alt="充电器和线材"></p><p>&emsp;&emsp;<strong>手机拿上手的第一感觉是很轻，虽然看数据也知道是175g的重量，但是上手的感觉相当明显，大概是我这几年用的安卓手机基本都是超过200g的，少了这二三十克的重量感觉使用很舒爽，我买的版本是素皮灰，当然这个素皮后盖还是和 <code>华为mate30pro</code> 以及 <code>oppofindx2</code> 的素皮有相当大的差距的，仅仅是有些许皮质手感的塑料，硬中略为带有一丝软，不过手感比我在这一年中摸的一众千元机中能排上前三。</strong></p><p><img src="https://p.molipre.com/img/realmeQ2pro-17.jpg" alt="手机背部"></p><p>&emsp;&emsp;<strong>后置四摄，分别是4800万主摄 ，800万像素的超广角镜头， 200万像素超级微距镜头，200万像素黑白人像镜头，主摄采用f/1.8大光圈，拥有1/2英寸4800万像素感光元件，等效焦段25mm，超广角镜头有119°的取景范围，超级微距镜头单位面积1.65μm，对焦距离最近可近至4cm，个人对于摄像头模组无感，因为对我来说就是个扫码的，好不好只不影响扫码即可。</strong></p><p>&emsp;&emsp;<strong>外观的话也没啥好讲的，都是萝卜白菜各有所爱，realme真我Q2 Pro三边基本上等宽，都是窄边框，但是下巴比较宽，能停航母，还有realme真我Q2 Pro是左打孔屏，个人对于前置摄像头是否打孔无所谓，只要孔径够小不明显就OK，这款手机前置摄像头1600万像素，孔径是4mm，中规中矩，不算很小，但是平时使用也不会很注意这个前置摄像头。</strong></p><p><img src="https://p.molipre.com/img/realmeQ2pro-20.jpg" alt="摄像头模组"></p><p><big><strong>关于开箱就写到这里了，大家也可以看看我的拍的开箱视频。</strong></big></p><h1 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h1><p>&emsp;&emsp;<strong>关于使用体验，我将从 <code>屏幕，充电与续航，系统，游戏</code> 四个方面讲一下这一个月以来的感受，但这个是非常主观的感受，具体情况如何还是要自己用过才知道。</strong></p><ol><li><p><strong>屏幕</strong><br>由上述的的数据参数也知道，realme真我Q2 Pro的屏幕是一块AMOLED屏幕，据说是三星的，不过色彩艳丽，很讨眼睛喜欢是真的，我个人觉得看其来很舒适，虽然没有高刷，按照我的使用习惯，60Hz的刷新率也OK，不知道是我用惯了苹果的LCD屏幕还是上一台小米10的OLED屏幕看起来太涩的缘故，总感觉realme真我Q2 Pro的屏幕比我现在用的iPhone Xs和之前用的小米10都更好。</p><p><img src="https://p.molipre.com/img/realmeQ2pro-14.jpg" alt="屏幕"></p></li><li><p><strong>充电与续航</strong><br>充电过分给力，官方宣称从0%充到100%用时33分钟，我平时使用的话不会用到0%才充电，所以也不知道这个速度是不是真的，但是充电速度确实很快，我5%至充满电大概半个小时左右（粗略计算），当然也有可能是因为电池容量只有4300mAh的缘故，续航的话，按照我的使用习惯，如果平常只用来信息浏览，例如看小说、浏览酷安这类社区软件以及看看视频，大概是两条一充，如果还要玩几把游戏，那就是一天一充。</p><p><img src="https://p.molipre.com/img/realmeQ2pro-8.jpg" alt="电池与续航"></p></li><li><p><strong>系统</strong><br>目前的系统是 <code>realme UI 1.0 A_28 for Android 10</code> ，使用这么多天，感觉这些国产的UI都是大同小异，我个人从MIUI换到realme UI，完全感觉不到不习惯，因为平常使用的东西都有，各种快捷功能，例如快递、快捷二维码、计步、负一屏等等，也有可能我需求的功能都是比较基础的，MIUI功能和细节上会更加丰富一些吧，甚至于这个相对简洁一点的系统让我更加喜欢。</p><p><img src="https://p.molipre.com/img/realmeQ2pro-6.jpg" alt="reamle UI"></p></li><li><p><strong>游戏</strong><br>目前只用来玩过 <code>王者荣耀</code> 和 <code>和平精英</code> 这两个游戏，直接说结论就算是发热适中，不烫手，游戏运行流畅，简单点说就是能玩、不卡。<br><code>王者荣耀</code> 按照系统默认设置，一局排位赛下来，背部温度最高38度，帧率基本稳定在60帧左右，没啥波动，具体情况如下图：</p><p><img src="https://p.molipre.com/img/realmeQ2pro-2.png" alt="王者荣耀"><br><code>和平精英</code> 设置为流畅超高，玩了三局排位赛，用时大概1个小时，帧率基本维持在40帧左右，波动范围在1帧左右，温度的话相对来说高一点，40度左右，基本流畅运行。</p></li></ol><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>&emsp;&emsp;<strong>这是一款千元档位的 <code>水桶机</code> ，也是目前最便宜的5G手机之一，虽然没有120Hz的高刷，但是65W的快充以及超长的续航管理，还有着不错的AMOLED屏幕，都弥补了没有高刷带来的不足，天玑800U的加持，在游戏上也有不俗的表现，能够满足我们日常使用，同时也能够满足部分人不时的游戏需求。</strong></p><p>&emsp;&emsp;<strong>如果是追求极致的游戏性能和超高的摄影摄像效果，这台手机并不是好的选择，千元的价格必定会在一些地方作出取舍，因此按需购买即可。</strong></p><p>&emsp;&emsp;<strong>最后祝大家都能买到自己心仪的手机，！！再见👋。</strong></p><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
     
     
     <summary type="html">我向来都是iPhone主力机+安卓备用机的搭配，去年用过一段时间的小米10用作备用机，性能配置都不错，就是半斤的重量用久了手酸，因此打算换一台轻点的安卓机使用。</summary>
@@ -507,29 +534,6 @@
     <category term="Linux" scheme="https://blog.molipre.com/tags/Linux/"/>
     
     <category term="VMware" scheme="https://blog.molipre.com/tags/VMware/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>阅读《菊与刀》</title>
-    <link href="https://blog.molipre.com/posts/32bc6abe.html"/>
-    <id>https://blog.molipre.com/posts/32bc6abe.html</id>
-    <published>2021-02-01T03:15:45.000Z</published>
-    <updated>2021-02-01T03:15:45.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://p.molipre.com/img/juyudao.png" alt="菊与刀"></p><p><big>&emsp;&emsp;<strong>《菊与刀》从人类学的角度，分析了当年第二次世界大战时和战败后日本人或者说日本这个民族的民族特质，文化等等，虽然这本书写作至今已经要70年了，时间流逝，如今的日本和当年的日本，表面上的东西早就变得面目全非了，但是读完《菊与刀》这本书，你会发现，书中提到的关于日本民族的文化、特质，似乎依旧如此。</strong></p><p>&emsp;&emsp;<strong>《菊与刀》这本书在提到了解日本的时候，一定会被推荐的，但是我读完这本书想说的是，这是一本美国人类学家对日本的深刻解读，虽然在此后说是被日本人认可的作品，但是作者在书的开头也说了，她本身不懂日语，从未去过日本，也没研究过日本，所有的资料都是从一些传到美国并翻译为英语的日本文献，以及采访一些生活在美国的二三代日本人所得，而且她写下这本书的动机本身是美国军方给出的一个任务。</strong></p><p>&emsp;&emsp;<strong>说到这里，你可能会好奇，一个从未了解过日本的美国专家是如何写出一本关于日本的国民特性、文化的作品的，看到书本的开头，我也非常好奇，因为我是看到很多推荐才去看这本书的，因此我也是耐心地看完了，看完你会发现，对于作者的专业性你会持怀疑态度，毕竟关于一个人的性格，是极具私人化和个人感受的，从未在这生活过的怎么可能感受得到，也不奇怪很多读完本书去日本生活的人或者去过日本生活过的人再读此书，都会觉得很多对日本的描述过于夸张和实为谣言。</strong></p><p>&emsp;&emsp;<strong>因此本书虽然值得一读，但不要当做是一本合格的经得起调查的学术著作，你应当看作是一份美国思维方式和研究方法所得到的关于日本名族文化特性等的研究报告，甚至这份报告是带有种族色彩，毕竟想像式的研究，只有诡辩和幻想。</strong></p></big><p><big><strong><center>如有问题请点击<a href="mailto:819591739@qq.com">邮件</a>或在底下评论与我联系</center></strong></big></p>]]></content>
-    
-    
-    <summary type="html">一个美国人类学家在第二次世界大战对日本文化或者说日本整个民族的矛盾性格的揭示，虽然至今已过几十年，可能大部分的认识随着时间的流逝已然过时，但从中还是能够窥视处日本这个国家或者说日本整个民族文化的根本。</summary>
-    
-    
-    
-    <category term="生活" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="阅读" scheme="https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
-    
-    
-    <category term="阅读" scheme="https://blog.molipre.com/tags/%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   

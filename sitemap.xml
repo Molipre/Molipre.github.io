@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.molipre.com/posts/d4a7aac.html</loc>
+    
+    <lastmod>2021-03-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/posts/d9ebab63.html</loc>
     
     <lastmod>2021-03-17</lastmod>
@@ -620,6 +627,13 @@
   </url>
   
   <url>
+    <loc>https://blog.molipre.com/tags/ESXI/</loc>
+    <lastmod>2021-03-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/tags/Markdown/</loc>
     <lastmod>2021-03-16</lastmod>
     <changefreq>daily</changefreq>
@@ -965,7 +979,7 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/ESXI/</loc>
     <lastmod>2021-03-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -979,6 +993,13 @@
   </url>
   
   <url>
+    <loc>https://blog.molipre.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2021-03-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E6%96%90%E8%AE%AFN1/</loc>
     <lastmod>2021-03-16</lastmod>
     <changefreq>daily</changefreq>
@@ -986,14 +1007,14 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%8E%A8%E8%8D%90%F0%9F%92%BB/</loc>
     <lastmod>2021-03-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%8E%A8%E8%8D%90%F0%9F%92%BB/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2021-03-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1028,7 +1049,7 @@
   </url>
   
   <url>
-    <loc>https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2021-03-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1036,13 +1057,6 @@
   
   <url>
     <loc>https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/EDC/</loc>
-    <lastmod>2021-03-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2021-03-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1064,6 +1078,13 @@
   
   <url>
     <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-03-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.molipre.com/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2021-03-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -1140,6 +1161,13 @@
   </url>
   
   <url>
+    <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/Hexo/</loc>
+    <lastmod>2021-03-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/VMware/</loc>
     <lastmod>2021-03-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1148,13 +1176,6 @@
   
   <url>
     <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/Samba/</loc>
-    <lastmod>2021-03-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.molipre.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/Hexo/</loc>
     <lastmod>2021-03-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
