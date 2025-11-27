@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HomeLab on 一川·MOLIPRE·BLOG</title><link>https://Molipre.github.io/tags/homelab/</link><description>Recent content in HomeLab on 一川·MOLIPRE·BLOG</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>molipre@foxmail.com (一川)</managingEditor><webMaster>molipre@foxmail.com (一川)</webMaster><copyright>Copyright © 2020-2026, 一川</copyright><lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://Molipre.github.io/tags/homelab/index.xml" rel="self" type="application/rss+xml"/><item><title>全能型HomeLab终极配置手册</title><link>https://Molipre.github.io/posts/my-homelab/</link><pubDate>Tue, 25 Nov 2025 00:00:00 +0800</pubDate><author>molipre@foxmail.com (一川)</author><guid>https://Molipre.github.io/posts/my-homelab/</guid><description>&lt;h2 id="系统架构总览"&gt;系统架构总览&lt;/h2&gt;
+&lt;h3 id="-设计理念"&gt;🎯 设计理念&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;企业级全栈技术演练平台&amp;rdquo;&lt;/strong&gt; - 融合多架构计算、高性能网络、自动化运维和跨平台协同的终极实验室。&lt;/p&gt;
+&lt;h2 id="-设备配置汇总表"&gt;📊 设备配置汇总表&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;组件类别&lt;/th&gt;
+ &lt;th&gt;设备/系统&lt;/th&gt;
+ &lt;th&gt;核心配置&lt;/th&gt;
+ &lt;th&gt;主要职责&lt;/th&gt;
+ &lt;th&gt;网络规划&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🌐 网络层&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;8口 L3 10G 光口交换机&lt;/td&gt;
+ &lt;td&gt;支持VLAN&lt;/td&gt;
+ &lt;td&gt;核心骨干，VLAN路由&lt;/td&gt;
+ &lt;td&gt;各VLAN SVI网关&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;8口 2.5G/千兆交换机&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;接入层&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;2.5G 路由器&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;主网关，DHCP，Wi-Fi&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;192.168.1.1&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;💻 计算核心&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;i9-9900T PVE 主机&lt;/td&gt;
+ &lt;td&gt;64GB RAM&lt;/td&gt;
+ &lt;td&gt;虚拟化核心，K8s Master&lt;/td&gt;
+ &lt;td&gt;管理: &lt;code&gt;192.168.1.10&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;数据: &lt;code&gt;192.168.20.10&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;N305 NAS (飞牛OS)&lt;/td&gt;
+ &lt;td&gt;6×4TB RAID 10&lt;/td&gt;
+ &lt;td&gt;统一存储，媒体中心&lt;/td&gt;
+ &lt;td&gt;存储: &lt;code&gt;192.168.10.10&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;管理: &lt;code&gt;192.168.1.20&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;⚙️ 工作节点&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;i5-13600K 工作站&lt;/td&gt;
+ &lt;td&gt;i5-13600K, A770 16G&lt;!-- raw HTML omitted --&gt;2.5TB M.2 SSD&lt;/td&gt;
+ &lt;td&gt;AI/媒体处理，远程工作站&lt;/td&gt;
+ &lt;td&gt;数据: &lt;code&gt;192.168.20.5&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;管理: &lt;code&gt;192.168.1.5&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;铭凡 MS-01&lt;/td&gt;
+ &lt;td&gt;Win11 Pro, 万兆&lt;/td&gt;
+ &lt;td&gt;Windows生态，Hyper-V&lt;/td&gt;
+ &lt;td&gt;数据: &lt;code&gt;192.168.20.30&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;管理: &lt;code&gt;192.168.1.30&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;Mac mini (M4)&lt;/td&gt;
+ &lt;td&gt;Apple M4&lt;/td&gt;
+ &lt;td&gt;iOS构建，ARM64节点&lt;/td&gt;
+ &lt;td&gt;数据: &lt;code&gt;192.168.20.40&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;管理: &lt;code&gt;192.168.1.40&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🖧 边缘节点&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;斐讯N1 (×2)&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;旁路由，监控探测&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;192.168.1.1xx&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;树莓派 3B&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;智能家居网关&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;192.168.1.5x&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🛡️ 数据安全&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;3×2TB HDD&lt;/td&gt;
+ &lt;td&gt;轮流冷备份&lt;/td&gt;
+ &lt;td&gt;版本化备份，异地容灾&lt;/td&gt;
+ &lt;td&gt;离线/USB连接&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;⚡ 电力保障&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;UPS&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;全线设备电力保护&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="-网络架构详述"&gt;🌐 网络架构详述&lt;/h2&gt;
+&lt;h3 id="vlan-规划表"&gt;VLAN 规划表&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;VLAN ID&lt;/th&gt;
+ &lt;th&gt;网段&lt;/th&gt;
+ &lt;th&gt;名称&lt;/th&gt;
+ &lt;th&gt;主要用途&lt;/th&gt;
+ &lt;th&gt;接入设备&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;VLAN 1&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;192.168.1.0/24&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;管理网络&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;设备管理，远程访问，家庭上网&lt;/td&gt;
+ &lt;td&gt;所有设备的管理口&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;VLAN 10&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;192.168.10.0/24&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;存储网络&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;高速存储访问&lt;/td&gt;
+ &lt;td&gt;NAS万兆口，服务器&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;VLAN 20&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;192.168.20.0/24&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;数据网络&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;服务器间数据交换&lt;/td&gt;
+ &lt;td&gt;所有服务器的数据口&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="物理连接拓扑"&gt;物理连接拓扑&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;```text
+互联网
+ │
+ ↓
+光猫 (ONT)
+ │
+ ↓
+2.5G 路由器 (主网关 192.168.1.1)
+ │ (LAN口)
+ ↓
+8口 2.5G/千兆交换机 (接入层)
+ ├─────────────────────────────────────────────────┐
+ │ │
+ ↓ ↓
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;10G L3 核心交换机 ←─── 8口 2.5G 交换机 (管理网络 VLAN 1)
+├─────────────────┐ │
+│ │ │
+↓ ↓ │
+存储网络 数据网络 │
+(VLAN 10) (VLAN 20) │
+│ ├── i5工作站数据口 (192.168.20.5) │
+↓ ├── PVE主机数据口 (192.168.20.10) │
+NAS万兆口 ├── MS-01数据口 (192.168.20.30) │
+(192.168.10.10) └── Mac mini数据口 (192.168.20.40) │
+│
+↓
+┌─── i5工作站管理口 (192.168.1.5)
+├─── PVE主机管理口 (192.168.1.10)
+├─── NAS管理口 (192.168.1.20)
+├─── MS-01管理口 (192.168.1.30)
+├─── Mac mini管理口 (192.168.1.40)
+├─── 斐讯N1 (192.168.1.1xx)
+└─── 树莓派3B (192.168.1.5x)
+```text&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;network-topology&amp;quot;&amp;gt;
+&amp;lt;table border=&amp;quot;1&amp;quot; style=&amp;quot;border-collapse: collapse; width: 100%;&amp;quot;&amp;gt;
+ &amp;lt;tr style=&amp;quot;background: #e3f2fd;&amp;quot;&amp;gt;
+ &amp;lt;td align=&amp;quot;center&amp;quot; colspan=&amp;quot;3&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;互联网&amp;lt;/strong&amp;gt;&amp;lt;/td&amp;gt;
+ &amp;lt;/tr&amp;gt;
+ &amp;lt;tr&amp;gt;&amp;lt;td align=&amp;quot;center&amp;quot; colspan=&amp;quot;3&amp;quot;&amp;gt;↓&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+ &amp;lt;tr style=&amp;quot;background: #f3e5f5;&amp;quot;&amp;gt;
+ &amp;lt;td align=&amp;quot;center&amp;quot; colspan=&amp;quot;3&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;光猫 (ONT)&amp;lt;/strong&amp;gt;&amp;lt;/td&amp;gt;
+ &amp;lt;/tr&amp;gt;
+ &amp;lt;tr&amp;gt;&amp;lt;td align=&amp;quot;center&amp;quot; colspan=&amp;quot;3&amp;quot;&amp;gt;↓&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+ &amp;lt;tr style=&amp;quot;background: #f3e5f5;&amp;quot;&amp;gt;
+ &amp;lt;td align=&amp;quot;center&amp;quot; colspan=&amp;quot;3&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;2.5G 路由器 (主网关 192.168.1.1)&amp;lt;/strong&amp;gt;&amp;lt;/td&amp;gt;
+ &amp;lt;/tr&amp;gt;
+ &amp;lt;tr&amp;gt;&amp;lt;td align=&amp;quot;center&amp;quot; colspan=&amp;quot;3&amp;quot;&amp;gt;↓ (LAN口)&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+ &amp;lt;tr style=&amp;quot;background: #f3e5f5;&amp;quot;&amp;gt;
+ &amp;lt;td align=&amp;quot;center&amp;quot; colspan=&amp;quot;3&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;8口 2.5G/千兆交换机 (接入层)&amp;lt;/strong&amp;gt;&amp;lt;/td&amp;gt;
+ &amp;lt;/tr&amp;gt;
+ &amp;lt;tr&amp;gt;
+ &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;↙&amp;lt;/td&amp;gt;
+ &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;&amp;lt;/td&amp;gt;
+ &amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;↘&amp;lt;/td&amp;gt;
+ &amp;lt;/tr&amp;gt;
+ &amp;lt;tr&amp;gt;
+ &amp;lt;td style=&amp;quot;background: #e8f5e8; vertical-align: top;&amp;quot;&amp;gt;
+ &amp;lt;strong&amp;gt;10G L3 核心交换机&amp;lt;/strong&amp;gt;&amp;lt;br/&amp;gt;
+ ↙&amp;lt;br/&amp;gt;
+ &amp;lt;strong&amp;gt;存储网络 (VLAN 10)&amp;lt;/strong&amp;gt;&amp;lt;br/&amp;gt;
+ ↓&amp;lt;br/&amp;gt;
+ &amp;lt;strong&amp;gt;NAS万兆口&amp;lt;/strong&amp;gt;&amp;lt;br/&amp;gt;
+ 192.168.10.10
+ &amp;lt;/td&amp;gt;
+ &amp;lt;td style=&amp;quot;background: #f3e5f5; vertical-align: top;&amp;quot;&amp;gt;
+ &amp;lt;strong&amp;gt;8口 2.5G 交换机&amp;lt;/strong&amp;gt;&amp;lt;br/&amp;gt;
+ &amp;lt;strong&amp;gt;管理网络 VLAN 1&amp;lt;/strong&amp;gt;&amp;lt;br/&amp;gt;
+ ↓&amp;lt;br/&amp;gt;
+ &amp;lt;strong&amp;gt;设备管理口&amp;lt;/strong&amp;gt;&amp;lt;br/&amp;gt;
+ 192.168.1.5/10/20/30/40&amp;lt;br/&amp;gt;
+ 192.168.1.1xx/5x
+ &amp;lt;/td&amp;gt;
+ &amp;lt;td style=&amp;quot;background: #e8f5e8; vertical-align: top;&amp;quot;&amp;gt;
+ &amp;lt;strong&amp;gt;数据网络 (VLAN 20)&amp;lt;/strong&amp;gt;&amp;lt;br/&amp;gt;
+ ├ i5工作站 192.168.20.5&amp;lt;br/&amp;gt;
+ ├ PVE主机 192.168.20.10&amp;lt;br/&amp;gt;
+ ├ MS-01 192.168.20.30&amp;lt;br/&amp;gt;
+ └ Mac mini 192.168.20.40
+ &amp;lt;/td&amp;gt;
+ &amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="-存储架构"&gt;💾 存储架构&lt;/h2&gt;
+&lt;h3 id="三级存储体系"&gt;三级存储体系&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;极速层&lt;/strong&gt; (i5工作站)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2.5TB M.2 NVMe SSD&lt;/li&gt;
+&lt;li&gt;用途：操作系统、当前活跃项目、AI模型缓存、视频编辑暂存&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;安全层&lt;/strong&gt; (NAS)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;6×4TB HDD RAID 10 (12TB可用)&lt;/li&gt;
+&lt;li&gt;用途：共享存储、媒体库、虚拟机镜像、代码仓库、备份仓库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;归档层&lt;/strong&gt; (冷备份)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3×2TB HDD 轮流备份策略&lt;/li&gt;
+&lt;li&gt;用途：版本化冷备份，黄金数据保护，异地容灾&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="存储服务协议"&gt;存储服务协议&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NFS&lt;/strong&gt;: 虚拟机存储、K8s持久化卷&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SMB/CIFS&lt;/strong&gt;: Windows文件共享、家庭媒体访问&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;iSCSI&lt;/strong&gt;: 高性能数据库存储（可选）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-技术栈全景"&gt;🔧 技术栈全景&lt;/h2&gt;
+&lt;h3 id="物理连接拓扑-1"&gt;物理连接拓扑&lt;/h3&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id="虚拟化与编排层"&gt;虚拟化与编排层&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Proxmox VE:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - KVM虚拟化
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - LXC容器
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - 软件定义存储
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - 集群管理
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Hyper-V:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - Windows虚拟化
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - 嵌套虚拟化
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - 虚拟交换机
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Kubernetes (K3s):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - 轻量级K8s发行版
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - 混合架构支持 (x86/ARM64)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - GitOps就绪
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Docker &amp;amp; Docker Compose:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - 应用容器化
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - 服务编排
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - 开发环境标准化
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
